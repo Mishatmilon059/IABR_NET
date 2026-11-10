@@ -1,0 +1,8 @@
+resumed at step 3000
+step 3050/3300 loss 1.2396 (heat 0.5424 imp 1.39e-02) |g| 0.45 lr 1.47e-05 | monitor orig 0.4683/4.4e-03 M1 0.5394 M2 0.4863 M3 0.5447/3.9e-02 M6 0.6105 | 1.74 s/step, ETA 7 min
+step 3100/3300 loss 1.2557 (heat 0.5549 imp 1.40e-02) |g| 0.45 lr 1.30e-05 | monitor orig 0.4683/4.4e-03 M1 0.5394 M2 0.4863 M3 0.5443/3.9e-02 M6 0.6100 | 1.29 s/step, ETA 4 min
+step 3150/3300 loss 1.2568 (heat 0.5633 imp 1.39e-02) |g| 0.43 lr 1.17e-05 | monitor orig 0.4685/4.4e-03 M1 0.5395 M2 0.4860 M3 0.5441/3.9e-02 M6 0.6104 | 1.03 s/step, ETA 3 min
+step 3200/3300 loss 1.2349 (heat 0.5634 imp 1.34e-02) |g| 0.42 lr 1.08e-05 | monitor orig 0.4683/4.4e-03 M1 0.5397 M2 0.4858 M3 0.5443/3.9e-02 M6 0.6101 | 1.23 s/step, ETA 2 min
+step 3250/3300 loss 1.2546 (heat 0.5624 imp 1.38e-02) |g| 0.47 lr 1.02e-05 | monitor orig 0.4683/4.4e-03 M1 0.5397 M2 0.4859 M3 0.5441/3.9e-02 M6 0.6101 | 1.24 s/step, ETA 1 min
+step 3300/3300 loss 1.2055 (heat 0.5396 imp 1.33e-02) |g| 0.44 lr 1.00e-05 | monitor orig 0.4682/4.4e-03 M1 0.5393 M2 0.4859 M3 0.5438/3.9e-02 M6 0.6098 | 1.23 s/step, ETA 0 min
+done: 3300 steps, 61.7 min total -> D:\ai_ml_project\paper\evidence\deep_research\finetune\imp/cache/imp_ft.pt

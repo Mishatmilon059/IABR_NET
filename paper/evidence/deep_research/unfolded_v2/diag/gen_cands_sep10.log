@@ -1,0 +1,4 @@
+sep10 chunk     0: 400 scenes x 61 candidates, 45.9s (total 46s); Pd nomp 0.3675 oracle-of-legal 0.4446
+sep10 chunk   400: 400 scenes x 61 candidates, 53.9s (total 100s); Pd nomp 0.6642 oracle-of-legal 0.7062
+sep10 chunk   800: 200 scenes x 61 candidates, 23.8s (total 124s); Pd nomp 0.8058 oracle-of-legal 0.8308
+done sep10

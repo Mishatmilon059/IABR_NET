@@ -1,0 +1,19 @@
+device cpu steps 1500 batch 128
+params 4803 steps 1500 batch 64
+  step 150/1500 loss(avg last 50) 2.8849 lam 0.977  164s
+  step 300/1500 loss(avg last 50) 2.9449 lam 0.998  348s
+  step 450/1500 loss(avg last 50) 2.9932 lam 0.979  534s
+  step 600/1500 loss(avg last 50) 2.8256 lam 0.983  713s
+  step 750/1500 loss(avg last 50) 2.7443 lam 1.013  936s
+  step 900/1500 loss(avg last 50) 2.8370 lam 1.018  1141s
+  step 1050/1500 loss(avg last 50) 2.8357 lam 1.020  1344s
+  step 1200/1500 loss(avg last 50) 2.7904 lam 1.017  1556s
+  step 1350/1500 loss(avg last 50) 2.8403 lam 1.023  1802s
+  step 1500/1500 loss(avg last 50) 2.8409 lam 1.023  1948s
+
+                                               official                T2_d5        gain_g4_snr15   oodphase_d15_snr15
+classical newton+cyclic                           0.742                0.734                0.886                0.856
+classical newton+cyclic+selfcal                   0.745                0.739                0.910                0.868
+learned_no_sc                                     0.744                0.734                0.883                0.855
+learned_with_sc                                   0.747                0.739                0.910                0.868
+done

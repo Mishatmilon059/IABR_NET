@@ -1,0 +1,110 @@
+device cpu steps 1500 batch 128
+  b1_snr15 chunk 0: done (142s since bank start)
+  b1_snr15 chunk 200: done (298s since bank start)
+  b1_snr15 chunk 400: done (450s since bank start)
+  b1_snr15 chunk 600: done (588s since bank start)
+  b1_snr15 chunk 800: done (735s since bank start)
+=== b1_snr15 (n=1000, kappa 1.0) best classical (incl. ML) = ML (all starts) 0.5402; best of ADC-stage classical set = consistent NOMP 0.2373
+   NOMP                               Pd 0.1910 [0.1805,0.2010]   minus FT network only -0.2280 [-0.2408,-0.2152]*
+   consistent NOMP                    Pd 0.2373 [0.2267,0.2485]   minus FT network only -0.1817 [-0.1950,-0.1678]*
+   consistent parabolic               Pd 0.2135 [0.2028,0.2240]   minus FT network only -0.2055 [-0.2188,-0.1920]*
+   FFT parabolic os16                 Pd 0.1820 [0.1720,0.1913]   minus FT network only -0.2370 [-0.2500,-0.2240]*
+   ML (all starts)                    Pd 0.5402 [0.5247,0.5555]   minus FT network only +0.1212 [+0.1058,+0.1373]*
+   ML from consistent NOMP            Pd 0.5277 [0.5125,0.5428]   minus FT network only +0.1087 [+0.0933,+0.1247]*
+   EM + ML                            Pd 0.5295 [0.5143,0.5442]   minus FT network only +0.1105 [+0.0952,+0.1265]*
+   ML snr+5                           Pd 0.4892 [0.4742,0.5038]   minus FT network only +0.0702 [+0.0545,+0.0855]*
+   ML snr-5                           Pd 0.4913 [0.4768,0.5057]   minus FT network only +0.0723 [+0.0578,+0.0872]*
+   FT network only                    Pd 0.4190 [0.4055,0.4327]
+   orig network only                  Pd 0.1927 [0.1822,0.2025]   minus FT network only -0.2263 [-0.2395,-0.2133]*
+   FT dual+SC                         Pd 0.1903 [0.1803,0.2002]   minus FT network only -0.2287 [-0.2415,-0.2157]*
+   FT-CNN + adapted learned decoder   Pd 0.2732 [0.2615,0.2848]   minus FT network only -0.1458 [-0.1583,-0.1343]*
+   ML from FT network seeds           Pd 0.5720 [0.5573,0.5865]   minus FT network only +0.1530 [+0.1385,+0.1672]*
+   ML from truth                      Pd 0.6255 [0.6122,0.6383]   minus FT network only +0.2065 [+0.1910,+0.2218]*
+   FT-CNN + adapted learned decoder - ML (all starts)           -0.2670 [-0.2840,-0.2507]*
+   FT-CNN + adapted learned decoder - consistent NOMP           +0.0358 [+0.0247,+0.0458]*
+   ML from FT network seeds - ML (all starts)                   +0.0318 [+0.0222,+0.0415]*
+   ML (all starts) - consistent NOMP                            +0.3028 [+0.2872,+0.3187]*
+   ML start chosen (counts): {'consistent NOMP': 257, 'NOMP': 195, 'consistent parabolic': 90, 'fft(0, 1, 2)': 85, 'fft(0, 1, 3)': 72, 'fft(0, 1, 4)': 77, 'fft(0, 2, 3)': 18, 'fft(0, 2, 4)': 4, 'fft(0, 3, 4)': 11, 'fft(1, 2, 3)': 1, 'fft(1, 2, 4)': 0, 'fft(1, 3, 4)': 1, 'fft(2, 3, 4)': 1, 'EM': 188}
+   sec/scene (6 threads, batch 200): {'NOMP': 0.002, 'FFT parabolic os16': 0.004, 'consistent NOMP': 0.049, 'FT network only': 0.002, 'ML (all starts) + 2 extra starts': 0.567}
+  b2_snr15 chunk 0: done (143s since bank start)
+  b2_snr15 chunk 200: done (267s since bank start)
+  b2_snr15 chunk 400: done (371s since bank start)
+  b2_snr15 chunk 600: done (485s since bank start)
+  b2_snr15 chunk 800: done (592s since bank start)
+=== b2_snr15 (n=1000, kappa 1.0) best classical (incl. ML) = ML (all starts) 0.6818; best of ADC-stage classical set = consistent NOMP 0.4512
+   NOMP                               Pd 0.2893 [0.2772,0.3012]   minus FT network only -0.3032 [-0.3168,-0.2893]*
+   consistent NOMP                    Pd 0.4512 [0.4370,0.4650]   minus FT network only -0.1413 [-0.1545,-0.1273]*
+   consistent parabolic               Pd 0.4253 [0.4105,0.4392]   minus FT network only -0.1672 [-0.1807,-0.1538]*
+   FFT parabolic os16                 Pd 0.2827 [0.2708,0.2947]   minus FT network only -0.3098 [-0.3233,-0.2955]*
+   ML (all starts)                    Pd 0.6818 [0.6678,0.6958]   minus FT network only +0.0893 [+0.0758,+0.1033]*
+   ML from consistent NOMP            Pd 0.6755 [0.6615,0.6898]   minus FT network only +0.0830 [+0.0695,+0.0975]*
+   EM + ML                            Pd 0.6788 [0.6648,0.6932]   minus FT network only +0.0863 [+0.0728,+0.1003]*
+   ML snr+5                           Pd 0.6153 [0.6015,0.6293]   minus FT network only +0.0228 [+0.0085,+0.0372]*
+   ML snr-5                           Pd 0.6057 [0.5912,0.6197]   minus FT network only +0.0132 [+0.0003,+0.0265]*
+   FT network only                    Pd 0.5925 [0.5777,0.6068]
+   orig network only                  Pd 0.2673 [0.2555,0.2788]   minus FT network only -0.3252 [-0.3390,-0.3105]*
+   FT dual+SC                         Pd 0.2940 [0.2813,0.3060]   minus FT network only -0.2985 [-0.3125,-0.2845]*
+   FT-CNN + adapted learned decoder   Pd 0.3600 [0.3468,0.3728]   minus FT network only -0.2325 [-0.2458,-0.2185]*
+   ML from FT network seeds           Pd 0.6872 [0.6733,0.7010]   minus FT network only +0.0947 [+0.0820,+0.1073]*
+   ML from truth                      Pd 0.7188 [0.7060,0.7318]   minus FT network only +0.1263 [+0.1127,+0.1407]*
+   FT-CNN + adapted learned decoder - ML (all starts)           -0.3218 [-0.3380,-0.3065]*
+   FT-CNN + adapted learned decoder - consistent NOMP           -0.0912 [-0.1040,-0.0787]*
+   ML from FT network seeds - ML (all starts)                   +0.0053 [-0.0002,+0.0113]
+   ML (all starts) - consistent NOMP                            +0.2307 [+0.2157,+0.2455]*
+   ML start chosen (counts): {'consistent NOMP': 329, 'NOMP': 180, 'consistent parabolic': 98, 'fft(0, 1, 2)': 114, 'fft(0, 1, 3)': 44, 'fft(0, 1, 4)': 33, 'fft(0, 2, 3)': 6, 'fft(0, 2, 4)': 3, 'fft(0, 3, 4)': 0, 'fft(1, 2, 3)': 3, 'fft(1, 2, 4)': 7, 'fft(1, 3, 4)': 2, 'fft(2, 3, 4)': 2, 'EM': 179}
+   sec/scene (6 threads, batch 200): {'NOMP': 0.002, 'FFT parabolic os16': 0.004, 'consistent NOMP': 0.041, 'FT network only': 0.003, 'ML (all starts) + 2 extra starts': 0.453}
+  b1_snr0 chunk 0: done (112s since bank start)
+  b1_snr0 chunk 200: done (233s since bank start)
+  b1_snr0 chunk 400: done (344s since bank start)
+  b1_snr0 chunk 600: done (470s since bank start)
+  b1_snr0 chunk 800: done (604s since bank start)
+=== b1_snr0 (n=1000, kappa 1.0) best classical (incl. ML) = ML (all starts) 0.2747; best of ADC-stage classical set = consistent NOMP 0.2262
+   NOMP                               Pd 0.1628 [0.1532,0.1733]   minus FT network only -0.0763 [-0.0872,-0.0657]*
+   consistent NOMP                    Pd 0.2262 [0.2147,0.2382]   minus FT network only -0.0130 [-0.0237,-0.0023]*
+   consistent parabolic               Pd 0.2227 [0.2113,0.2345]   minus FT network only -0.0165 [-0.0270,-0.0053]*
+   FFT parabolic os16                 Pd 0.1630 [0.1538,0.1733]   minus FT network only -0.0762 [-0.0875,-0.0648]*
+   ML (all starts)                    Pd 0.2747 [0.2618,0.2878]   minus FT network only +0.0355 [+0.0252,+0.0455]*
+   ML from consistent NOMP            Pd 0.2658 [0.2528,0.2788]   minus FT network only +0.0267 [+0.0160,+0.0372]*
+   EM + ML                            Pd 0.2657 [0.2527,0.2788]   minus FT network only +0.0265 [+0.0158,+0.0370]*
+   ML snr+5                           Pd 0.2513 [0.2392,0.2633]   minus FT network only +0.0122 [+0.0012,+0.0232]*
+   ML snr-5                           Pd 0.2362 [0.2243,0.2487]   minus FT network only -0.0030 [-0.0128,+0.0075]
+   FT network only                    Pd 0.2392 [0.2268,0.2515]
+   orig network only                  Pd 0.1528 [0.1435,0.1628]   minus FT network only -0.0863 [-0.0977,-0.0753]*
+   FT dual+SC                         Pd 0.1635 [0.1540,0.1740]   minus FT network only -0.0757 [-0.0868,-0.0650]*
+   FT-CNN + adapted learned decoder   Pd 0.2075 [0.1957,0.2195]   minus FT network only -0.0317 [-0.0408,-0.0228]*
+   ML from FT network seeds           Pd 0.2737 [0.2607,0.2868]   minus FT network only +0.0345 [+0.0255,+0.0437]*
+   ML from truth                      Pd 0.4387 [0.4247,0.4522]   minus FT network only +0.1995 [+0.1860,+0.2127]*
+   FT-CNN + adapted learned decoder - ML (all starts)           -0.0672 [-0.0785,-0.0555]*
+   FT-CNN + adapted learned decoder - consistent NOMP           -0.0187 [-0.0293,-0.0085]*
+   ML from FT network seeds - ML (all starts)                   -0.0010 [-0.0082,+0.0062]
+   ML (all starts) - consistent NOMP                            +0.0485 [+0.0382,+0.0590]*
+   ML start chosen (counts): {'consistent NOMP': 273, 'NOMP': 78, 'consistent parabolic': 83, 'fft(0, 1, 2)': 42, 'fft(0, 1, 3)': 139, 'fft(0, 1, 4)': 145, 'fft(0, 2, 3)': 66, 'fft(0, 2, 4)': 40, 'fft(0, 3, 4)': 30, 'fft(1, 2, 3)': 6, 'fft(1, 2, 4)': 11, 'fft(1, 3, 4)': 6, 'fft(2, 3, 4)': 0, 'EM': 81}
+   sec/scene (6 threads, batch 200): {'NOMP': 0.002, 'FFT parabolic os16': 0.004, 'consistent NOMP': 0.048, 'FT network only': 0.003, 'ML (all starts) + 2 extra starts': 0.457}
+  b2_snr0 chunk 0: done (134s since bank start)
+  b2_snr0 chunk 200: done (264s since bank start)
+  b2_snr0 chunk 400: done (395s since bank start)
+  b2_snr0 chunk 600: done (524s since bank start)
+  b2_snr0 chunk 800: done (650s since bank start)
+=== b2_snr0 (n=1000, kappa 1.0) best classical (incl. ML) = ML (all starts) 0.4755; best of ADC-stage classical set = consistent NOMP 0.4220
+   NOMP                               Pd 0.3733 [0.3582,0.3875]   minus FT network only -0.0645 [-0.0790,-0.0503]*
+   consistent NOMP                    Pd 0.4220 [0.4087,0.4360]   minus FT network only -0.0158 [-0.0277,-0.0042]*
+   consistent parabolic               Pd 0.4162 [0.4022,0.4302]   minus FT network only -0.0217 [-0.0332,-0.0100]*
+   FFT parabolic os16                 Pd 0.3680 [0.3530,0.3825]   minus FT network only -0.0698 [-0.0842,-0.0555]*
+   ML (all starts)                    Pd 0.4755 [0.4605,0.4907]   minus FT network only +0.0377 [+0.0258,+0.0487]*
+   ML from consistent NOMP            Pd 0.4698 [0.4553,0.4842]   minus FT network only +0.0320 [+0.0200,+0.0435]*
+   EM + ML                            Pd 0.4703 [0.4558,0.4848]   minus FT network only +0.0325 [+0.0205,+0.0440]*
+   ML snr+5                           Pd 0.4438 [0.4297,0.4567]   minus FT network only +0.0060 [-0.0052,+0.0170]
+   ML snr-5                           Pd 0.4160 [0.4012,0.4307]   minus FT network only -0.0218 [-0.0352,-0.0085]*
+   FT network only                    Pd 0.4378 [0.4238,0.4517]
+   orig network only                  Pd 0.3650 [0.3505,0.3787]   minus FT network only -0.0728 [-0.0868,-0.0600]*
+   FT dual+SC                         Pd 0.3737 [0.3582,0.3882]   minus FT network only -0.0642 [-0.0788,-0.0500]*
+   FT-CNN + adapted learned decoder   Pd 0.3935 [0.3785,0.4078]   minus FT network only -0.0443 [-0.0573,-0.0315]*
+   ML from FT network seeds           Pd 0.4712 [0.4562,0.4863]   minus FT network only +0.0333 [+0.0218,+0.0445]*
+   ML from truth                      Pd 0.5403 [0.5262,0.5543]   minus FT network only +0.1025 [+0.0893,+0.1150]*
+   FT-CNN + adapted learned decoder - ML (all starts)           -0.0820 [-0.0933,-0.0707]*
+   FT-CNN + adapted learned decoder - consistent NOMP           -0.0285 [-0.0427,-0.0145]*
+   ML from FT network seeds - ML (all starts)                   -0.0043 [-0.0097,+0.0013]
+   ML (all starts) - consistent NOMP                            +0.0535 [+0.0422,+0.0648]*
+   ML start chosen (counts): {'consistent NOMP': 467, 'NOMP': 117, 'consistent parabolic': 72, 'fft(0, 1, 2)': 66, 'fft(0, 1, 3)': 103, 'fft(0, 1, 4)': 59, 'fft(0, 2, 3)': 9, 'fft(0, 2, 4)': 9, 'fft(0, 3, 4)': 4, 'fft(1, 2, 3)': 1, 'fft(1, 2, 4)': 1, 'fft(1, 3, 4)': 1, 'fft(2, 3, 4)': 0, 'EM': 91}
+   sec/scene (6 threads, batch 200): {'NOMP': 0.002, 'FFT parabolic os16': 0.004, 'consistent NOMP': 0.042, 'FT network only': 0.002, 'ML (all starts) + 2 extra starts': 0.504}
+done

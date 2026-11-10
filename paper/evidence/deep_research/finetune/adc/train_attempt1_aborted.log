@@ -1,0 +1,2 @@
+step 0 monitor: orig heat 0.4699 imp 4.15e-03 | adc heat 0.9461 imp 5.14e-03
+step 50/1600 loss 0.9863 (heat 0.7458 imp 4.81e-03) lr 1.50e-04 | monitor orig heat 0.4904 imp 4.16e-03, adc heat 0.8929 imp 5.09e-03 | 11.17 s/step, ETA 289 min

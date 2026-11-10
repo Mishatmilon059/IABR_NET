@@ -1,0 +1,74 @@
+{
+ "calls_sc_True": {
+  "ref": 48,
+  "ref_rows": 480,
+  "cal": 2
+ },
+ "calls_sc_False": {
+  "ref": 24,
+  "ref_rows": 288,
+  "cal": 0
+ },
+ "probe_vs_hessian_diag": {
+  "0.02": {
+   "pearson": 0.9999986347059617,
+   "median_rel_err": 0.003282700665295124
+  },
+  "0.08": {
+   "pearson": 0.999660039590441,
+   "median_rel_err": 0.051145389676094055
+  }
+ },
+ "mlp_step_vs_newton": {
+  "frac_newton_ok": 0.9876666666666667,
+  "du": {
+   "pearson_all": 0.9190295557312054,
+   "pearson_newton_ok": 0.9249769337897633,
+   "sign_agree_newton_ok": 0.9419507256159299,
+   "sign_agree_with_gradient": 0.9773333333333334,
+   "median_abs_diff_over_clip": 0.4636442959308624
+  },
+  "dv": {
+   "pearson_all": 0.8996054868370709,
+   "pearson_newton_ok": 0.9063620145387525,
+   "sign_agree_newton_ok": 0.9382382720215997,
+   "sign_agree_with_gradient": 0.9866666666666667,
+   "median_abs_diff_over_clip": 0.4314350485801697
+  }
+ },
+ "ablation_official": {
+  "newton_in_structure": 0.7503125,
+  "learned_AN_sc": 0.7507708333333334,
+  "classical_heat": 0.7503125,
+  "learned_AN_sc-newton_in_structure": [
+   0.00045833333333333837,
+   -0.00022916666666661367,
+   0.0011250000000000455
+  ],
+  "newton_in_structure-classical_heat": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "learned_AN_sc-classical_heat": [
+   0.00045833333333333837,
+   -0.00022916666666661367,
+   0.0011250000000000455
+  ]
+ },
+ "train_test_overlap_Linf_deg": {
+  "n_train": 96000,
+  "official": {
+   "min": 2.183497584491093,
+   "median": 9.4158853909661,
+   "frac_lt_0p01deg": 0.0,
+   "frac_lt_0p1deg": 0.0
+  },
+  "control_fresh_draws_seed880001": {
+   "min": 2.1422992930390166,
+   "median": 9.409351605450635,
+   "frac_lt_0p01deg": 0.0,
+   "frac_lt_0p1deg": 0.0
+  }
+ }
+}

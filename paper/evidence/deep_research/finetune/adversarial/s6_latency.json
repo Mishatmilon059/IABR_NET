@@ -1,0 +1,7 @@
+{
+ "NOMP": 5.756150001616334,
+ "consistent NOMP": 76.92614999905345,
+ "ML from consistent NOMP (1 start)": 93.7786499998765,
+ "ML (all starts: 13 + EM)": 482.42469999968307,
+ "FT network only (CNN + parabolic)": 6.207100002939114
+}

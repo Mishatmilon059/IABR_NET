@@ -1,0 +1,6 @@
+check network-only recipe on official vs cache: n identical True, max |diff| 4.44e-16 rad (1s)
+check heat-seeded recipe on sep_5deg_snr15 vs new_results/preds_heat: n identical True, max |diff| 0.00e+00 rad
+check heat-seeded recipe on gain_g4_snr15 vs new_results/preds_heat: n identical True, max |diff| 0.00e+00 rad
+sep_2deg_snr15: network-only and heat-seeded predictions written
+phase_d0_snr0: network-only and heat-seeded predictions written
+phase_d0_snr15: network-only and heat-seeded predictions written

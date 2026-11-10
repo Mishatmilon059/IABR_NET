@@ -1,0 +1,556 @@
+{
+ "clean_snr15": {
+  "snr": 15,
+  "bits": null,
+  "pd_nomp": 0.929,
+  "det_rate_by_rank": [
+   0.906,
+   0.876,
+   0.798
+  ],
+  "n_detected_hist": [
+   12,
+   35,
+   104,
+   349
+  ],
+  "first_within1deg_strongest": 0.896,
+  "first_within1deg_any": 0.904,
+  "first_cell_dist_quantiles": [
+   0.00553940272347268,
+   0.009027055739086541,
+   0.0163302602896144,
+   0.03209035718842804
+  ],
+  "n_bad_estimates": 210,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.9476190476190476,
+   "c0p25_1": 0.014285714285714285,
+   "c1_2": 0.009523809523809525,
+   "ge2": 0.02857142857142857
+  },
+  "frac_scenes_with_duplicate_estimates": 0.004,
+  "pd_oracle": 0.9383333333333334,
+  "frac_oracle_lower_residual": 0.24,
+  "pd_oracle_if_lower_residual": 0.9346666666666666,
+  "rel_residual_median_nomp_oracle": [
+   0.03424746339684641,
+   0.03424746339684646
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   1.0,
+   0.699636871678385,
+   0.3897653591011603
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.9153333333333333,
+  "frac_truth_paths_in_top6_localmax": 0.9346666666666666,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.006666666666666667,
+  "n_localmax_median": 142.0
+ },
+ "b4_snr15": {
+  "snr": 15,
+  "bits": 4,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 3.66205343881779e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.7733333333333333,
+  "det_rate_by_rank": [
+   0.698,
+   0.656,
+   0.46
+  ],
+  "n_detected_hist": [
+   45,
+   141,
+   176,
+   138
+  ],
+  "first_within1deg_strongest": 0.702,
+  "first_within1deg_any": 0.742,
+  "first_cell_dist_quantiles": [
+   0.02512409299429792,
+   0.041214361906532326,
+   0.05743314542755976,
+   0.07298003109343788
+  ],
+  "n_bad_estimates": 593,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.9258010118043845,
+   "c0p25_1": 0.016863406408094434,
+   "c1_2": 0.0016863406408094434,
+   "ge2": 0.05564924114671164
+  },
+  "frac_scenes_with_duplicate_estimates": 0.0,
+  "pd_oracle": 0.789,
+  "frac_oracle_lower_residual": 0.154,
+  "pd_oracle_if_lower_residual": 0.7756666666666666,
+  "rel_residual_median_nomp_oracle": [
+   0.32502676509230466,
+   0.32502705132347887
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   1.0,
+   0.7232940072281944,
+   0.4295787146584727
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.9146666666666666,
+  "frac_truth_paths_in_top6_localmax": 0.9513333333333334,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.007333333333333333,
+  "n_localmax_median": 136.0
+ },
+ "b3_snr15": {
+  "snr": 15,
+  "bits": 3,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 3.580361673049448e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.5036666666666667,
+  "det_rate_by_rank": [
+   0.308,
+   0.286,
+   0.202
+  ],
+  "n_detected_hist": [
+   222,
+   171,
+   94,
+   13
+  ],
+  "first_within1deg_strongest": 0.298,
+  "first_within1deg_any": 0.352,
+  "first_cell_dist_quantiles": [
+   0.07610949267388736,
+   0.11238145825899232,
+   0.14533320749809847,
+   0.1775016517976646
+  ],
+  "n_bad_estimates": 1102,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.8838475499092558,
+   "c0p25_1": 0.05807622504537205,
+   "c1_2": 0.006352087114337568,
+   "ge2": 0.05172413793103448
+  },
+  "frac_scenes_with_duplicate_estimates": 0.002,
+  "pd_oracle": 0.5383333333333333,
+  "frac_oracle_lower_residual": 0.082,
+  "pd_oracle_if_lower_residual": 0.5033333333333333,
+  "rel_residual_median_nomp_oracle": [
+   0.6155240092726755,
+   0.6163341524852415
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   0.9659866610694614,
+   0.7231021503530671,
+   0.4680895076757513
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.914,
+  "frac_truth_paths_in_top6_localmax": 0.946,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.006,
+  "n_localmax_median": 136.0
+ },
+ "b2_snr15": {
+  "snr": 15,
+  "bits": 2,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 3.552713678800501e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.263,
+  "det_rate_by_rank": [
+   0.062,
+   0.076,
+   0.054
+  ],
+  "n_detected_hist": [
+   411,
+   82,
+   7,
+   0
+  ],
+  "first_within1deg_strongest": 0.052,
+  "first_within1deg_any": 0.096,
+  "first_cell_dist_quantiles": [
+   0.1429850223788642,
+   0.20857207075455844,
+   0.255549938054115,
+   0.29403052233790483
+  ],
+  "n_bad_estimates": 1404,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.5918803418803419,
+   "c0p25_1": 0.3269230769230769,
+   "c1_2": 0.017094017094017096,
+   "ge2": 0.0641025641025641
+  },
+  "frac_scenes_with_duplicate_estimates": 0.002,
+  "pd_oracle": 0.38133333333333336,
+  "frac_oracle_lower_residual": 0.034,
+  "pd_oracle_if_lower_residual": 0.2633333333333333,
+  "rel_residual_median_nomp_oracle": [
+   0.7818933711952065,
+   0.789035559096029
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   0.8394646297976419,
+   0.6989547019445914,
+   0.4996531890492403
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.8573333333333333,
+  "frac_truth_paths_in_top6_localmax": 0.926,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.0033333333333333335,
+  "n_localmax_median": 137.0
+ },
+ "b1_snr15": {
+  "snr": 15,
+  "bits": 1,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 2.5121479338940403e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.17866666666666667,
+  "det_rate_by_rank": [
+   0.028,
+   0.036,
+   0.034
+  ],
+  "n_detected_hist": [
+   452,
+   47,
+   1,
+   0
+  ],
+  "first_within1deg_strongest": 0.02,
+  "first_within1deg_any": 0.068,
+  "first_cell_dist_quantiles": [
+   0.1858210319714093,
+   0.2597418134766012,
+   0.32173532543504646,
+   0.3665691419596238
+  ],
+  "n_bad_estimates": 1451,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.2929014472777395,
+   "c0p25_1": 0.5851137146795313,
+   "c1_2": 0.022742935906271536,
+   "ge2": 0.09924190213645762
+  },
+  "frac_scenes_with_duplicate_estimates": 0.002,
+  "pd_oracle": 0.5746666666666667,
+  "frac_oracle_lower_residual": 0.004,
+  "pd_oracle_if_lower_residual": 0.17833333333333334,
+  "rel_residual_median_nomp_oracle": [
+   0.8293697603373652,
+   0.8760449609466759
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   0.6391165044650442,
+   0.6003994413571614,
+   0.49654819610692
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.7553333333333333,
+  "frac_truth_paths_in_top6_localmax": 0.8493333333333334,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.006,
+  "n_localmax_median": 137.0
+ },
+ "clean_snr0": {
+  "snr": 0,
+  "bits": null,
+  "pd_nomp": 0.6896666666666667,
+  "det_rate_by_rank": [
+   0.686,
+   0.57,
+   0.312
+  ],
+  "n_detected_hist": [
+   63,
+   174,
+   179,
+   84
+  ],
+  "first_within1deg_strongest": 0.666,
+  "first_within1deg_any": 0.706,
+  "first_cell_dist_quantiles": [
+   0.022815680615480043,
+   0.03794559824142864,
+   0.05833868716245926,
+   0.08639268274503854
+  ],
+  "n_bad_estimates": 716,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.7723463687150838,
+   "c0p25_1": 0.046089385474860335,
+   "c1_2": 0.025139664804469275,
+   "ge2": 0.1564245810055866
+  },
+  "frac_scenes_with_duplicate_estimates": 0.002,
+  "pd_oracle": 0.744,
+  "frac_oracle_lower_residual": 0.112,
+  "pd_oracle_if_lower_residual": 0.6903333333333334,
+  "rel_residual_median_nomp_oracle": [
+   0.5106323963938217,
+   0.5140266750729963
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   1.0,
+   0.7072178882794824,
+   0.38964530617193227
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.8733333333333333,
+  "frac_truth_paths_in_top6_localmax": 0.9166666666666666,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.018,
+  "n_localmax_median": 111.0
+ },
+ "b4_snr0": {
+  "snr": 0,
+  "bits": 4,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 3.972054645195637e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.663,
+  "det_rate_by_rank": [
+   0.652,
+   0.536,
+   0.304
+  ],
+  "n_detected_hist": [
+   68,
+   185,
+   180,
+   67
+  ],
+  "first_within1deg_strongest": 0.642,
+  "first_within1deg_any": 0.684,
+  "first_cell_dist_quantiles": [
+   0.02519814065344691,
+   0.041506624475329136,
+   0.06662276704781625,
+   0.09782254093263569
+  ],
+  "n_bad_estimates": 754,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.7586206896551724,
+   "c0p25_1": 0.05570291777188329,
+   "c1_2": 0.022546419098143235,
+   "ge2": 0.16312997347480107
+  },
+  "frac_scenes_with_duplicate_estimates": 0.006,
+  "pd_oracle": 0.726,
+  "frac_oracle_lower_residual": 0.096,
+  "pd_oracle_if_lower_residual": 0.664,
+  "rel_residual_median_nomp_oracle": [
+   0.5713255526266234,
+   0.5716661913571953
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   1.0,
+   0.7199006607442711,
+   0.39585689679383457
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.866,
+  "frac_truth_paths_in_top6_localmax": 0.9126666666666666,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.02266666666666667,
+  "n_localmax_median": 113.0
+ },
+ "b3_snr0": {
+  "snr": 0,
+  "bits": 3,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 3.66205343881779e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.588,
+  "det_rate_by_rank": [
+   0.562,
+   0.45,
+   0.212
+  ],
+  "n_detected_hist": [
+   107,
+   210,
+   147,
+   36
+  ],
+  "first_within1deg_strongest": 0.546,
+  "first_within1deg_any": 0.594,
+  "first_cell_dist_quantiles": [
+   0.038754458425945174,
+   0.05972473241057978,
+   0.08498451440509779,
+   0.11963134454708281
+  ],
+  "n_bad_estimates": 888,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.7105855855855856,
+   "c0p25_1": 0.06756756756756757,
+   "c1_2": 0.02927927927927928,
+   "ge2": 0.19256756756756757
+  },
+  "frac_scenes_with_duplicate_estimates": 0.0,
+  "pd_oracle": 0.672,
+  "frac_oracle_lower_residual": 0.068,
+  "pd_oracle_if_lower_residual": 0.5893333333333334,
+  "rel_residual_median_nomp_oracle": [
+   0.7252875250685784,
+   0.7281889504944172
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   1.0,
+   0.737611248453034,
+   0.4232769829760865
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.85,
+  "frac_truth_paths_in_top6_localmax": 0.8933333333333333,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.023333333333333334,
+  "n_localmax_median": 121.0
+ },
+ "b2_snr0": {
+  "snr": 0,
+  "bits": 2,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 2.5121479338940403e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.35633333333333334,
+  "det_rate_by_rank": [
+   0.234,
+   0.198,
+   0.07
+  ],
+  "n_detected_hist": [
+   292,
+   166,
+   41,
+   1
+  ],
+  "first_within1deg_strongest": 0.226,
+  "first_within1deg_any": 0.302,
+  "first_cell_dist_quantiles": [
+   0.07806599321322343,
+   0.12207645847108904,
+   0.17634755888486142,
+   0.23024253643331435
+  ],
+  "n_bad_estimates": 1249,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.6076861489191353,
+   "c0p25_1": 0.08726981585268215,
+   "c1_2": 0.03282626100880705,
+   "ge2": 0.2722177742193755
+  },
+  "frac_scenes_with_duplicate_estimates": 0.002,
+  "pd_oracle": 0.5133333333333333,
+  "frac_oracle_lower_residual": 0.026,
+  "pd_oracle_if_lower_residual": 0.358,
+  "rel_residual_median_nomp_oracle": [
+   0.8741889524640899,
+   0.8796659534468845
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   0.9510707471625037,
+   0.7323147118506326,
+   0.47393288387434324
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   2.0,
+   5.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.754,
+  "frac_truth_paths_in_top6_localmax": 0.814,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.025333333333333333,
+  "n_localmax_median": 124.0
+ },
+ "b1_snr0": {
+  "snr": 0,
+  "bits": 1,
+  "nomp_vs_stress_cache_maxdiff_rad": 0.0,
+  "adc_vs_independent_adc_maxdiff": 2.5121479338940403e-15,
+  "Y_equals_adc_of_clean": true,
+  "pd_nomp": 0.16866666666666666,
+  "det_rate_by_rank": [
+   0.072,
+   0.056,
+   0.04
+  ],
+  "n_detected_hist": [
+   422,
+   72,
+   6,
+   0
+  ],
+  "first_within1deg_strongest": 0.062,
+  "first_within1deg_any": 0.114,
+  "first_cell_dist_quantiles": [
+   0.15921658708893607,
+   0.23166101863151367,
+   0.31678336145132446,
+   3.39141231092176
+  ],
+  "n_bad_estimates": 1416,
+  "bad_est_dist_frac": {
+   "lt0p25": 0.2846045197740113,
+   "c0p25_1": 0.22175141242937854,
+   "c1_2": 0.057203389830508475,
+   "ge2": 0.4364406779661017
+  },
+  "frac_scenes_with_duplicate_estimates": 0.0,
+  "pd_oracle": 0.5116666666666667,
+  "frac_oracle_lower_residual": 0.012,
+  "pd_oracle_if_lower_residual": 0.17233333333333334,
+  "rel_residual_median_nomp_oracle": [
+   0.9216028156813862,
+   0.9373866376010144
+  ],
+  "fft_rel_value_at_truth_by_rank_median": [
+   0.7779375500846526,
+   0.6795157316517151,
+   0.5434927522620783
+  ],
+  "localmax_rank_of_truth_by_path_median": [
+   1.0,
+   3.0,
+   11.0
+  ],
+  "frac_truth_paths_in_top3_localmax": 0.5286666666666666,
+  "frac_truth_paths_in_top6_localmax": 0.6206666666666667,
+  "frac_truth_paths_no_localmax_within_half_cell": 0.043333333333333335,
+  "n_localmax_median": 124.5
+ }
+}

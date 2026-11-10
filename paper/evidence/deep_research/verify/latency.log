@@ -1,0 +1,9 @@
+IABRv2 params 191,702; CPU forward vs cached (256 scenes): max |heat diff| 2.81e-04, max |Hc diff| 3.34e-06, max|Hc| 9.96
+(a) NOMP greedy, mine                      batch   1: median      8.53 ms/call (p10 5.01, p90 12.68, 60 runs) -> 8.530 ms/scene
+(a) NOMP greedy, mine                      batch 256: median    379.33 ms/call (p10 308.73, p90 457.23, 60 runs) -> 1.482 ms/scene
+(a) NOMP greedy, notebook nomp_greedy      batch   1: median     11.69 ms/call (p10 7.08, p90 19.57, 60 runs) -> 11.694 ms/scene
+(a) NOMP greedy, notebook nomp_greedy      batch 256: median    814.92 ms/call (p10 671.34, p90 1093.70, 60 runs) -> 3.183 ms/scene
+(c) CNN forward only                       batch   1: median     17.63 ms/call (p10 15.41, p90 23.25, 60 runs) -> 17.631 ms/scene
+(c) CNN forward only                       batch 256: median   1111.35 ms/call (p10 996.29, p90 1304.87, 60 runs) -> 4.341 ms/scene
+(b) CNN forward + heat-seeded decode       batch   1: median     24.71 ms/call (p10 17.93, p90 33.02, 60 runs) -> 24.707 ms/scene
+(b) CNN forward + heat-seeded decode       batch 256: median   2334.13 ms/call (p10 1757.48, p90 2803.03, 60 runs) -> 9.118 ms/scene

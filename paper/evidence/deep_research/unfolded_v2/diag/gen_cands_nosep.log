@@ -1,0 +1,4 @@
+nosep chunk     0: 400 scenes x 61 candidates, 50.7s (total 51s); Pd nomp 0.3587 oracle-of-legal 0.4429
+nosep chunk   400: 400 scenes x 61 candidates, 54.5s (total 105s); Pd nomp 0.6596 oracle-of-legal 0.7046
+nosep chunk   800: 200 scenes x 61 candidates, 22.7s (total 128s); Pd nomp 0.8067 oracle-of-legal 0.8400
+done nosep

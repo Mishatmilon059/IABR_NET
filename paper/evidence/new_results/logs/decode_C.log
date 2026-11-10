@@ -1,0 +1,13 @@
+T2_d5                  N=8000 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 128s
+L5_snr0                N=500 L=[5] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 18s
+L5_snr15               N=500 L=[5] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 20s
+L6_snr0                N=500 L=[6] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 26s
+L6_snr15               N=500 L=[6] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 33s
+phase_d0_snr0          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 8s
+phase_d0_snr15         N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 9s
+phase_d1_snr0          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 12s
+phase_d1_snr15         N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 9s
+phase_d2_snr0          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 8s
+phase_d2_snr15         N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 9s
+phase_d5_snr0          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 8s
+phase_d5_snr15         N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 10s

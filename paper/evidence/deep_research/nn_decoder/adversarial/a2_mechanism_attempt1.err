@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\nn_decoder\adversarial\a2_mechanism.py", line 102, in <module>
+    U, V = abl(torch.from_numpy(Hc[s:s + 250].astype(np.complex64)), torch.tensor(Ua, dtype=torch.float32), torch.tensor(Va, dtype=torch.float32))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project/paper/evidence/learned_decoder\exp3.py", line 51, in forward
+    def forward(self, H, U, V): return self.forward_all(H, U, V)[-1]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project/paper/evidence/learned_decoder\exp5.py", line 56, in forward_all
+    outs = super().forward_all(H, U0, V0); U, V = outs[-1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project/paper/evidence/learned_decoder\exp3.py", line 41, in forward_all
+    x, A = ls_gains_t(H, U, V)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project/paper/evidence/learned_decoder\exp.py", line 36, in ls_gains_t
+    x = torch.linalg.solve(AH @ A + reg, AH @ H.reshape(len(H), -1, 1)).squeeze(-1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: torch.linalg.solve: (Batch element 237): The solver failed because the input matrix is singular.

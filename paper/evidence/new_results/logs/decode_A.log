@@ -1,0 +1,12 @@
+official               N=8000 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 124s
+sep_1deg_snr15         N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 4s
+sep_2deg_snr15         N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 3s
+sep_3deg_snr15         N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 3s
+sep_5deg_snr15         N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 3s
+sep_10deg_snr15        N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 3s
+sep_20deg_snr15        N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 4s
+sep_30deg_snr15        N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 4s
+tail_snr-25            N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 7s
+tail_snr-20            N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 7s
+tail_snr30             N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 6s
+tail_snr35             N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 7s

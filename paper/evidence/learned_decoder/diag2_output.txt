@@ -1,0 +1,27 @@
+samples 2000
+overall sample success (all 6 comps within 1 deg): heat-init 0.407 | truth-init 0.433
+
+FAILED samples (heat-init): 1186
+  estimate fits data BETTER than the truth (dE<=0):        1143  96%  -> pure noise/objective error, no optimiser can fix
+  fits slightly worse, inside chi2(6) 99% band (dE<=16.8):   13  1%  -> statistically indistinguishable from truth
+  fits clearly worse than the truth (dE>16.8):               30  3%  -> true optimiser/initialiser miss
+  failed with heat-init but fine with truth-init: 53  (their median dE = -8.8)
+
+per SNR   sample-success: heat-init  truth-init   | failures that are true optimiser misses (dE>16.8)
+   -10        0.000       0.048                0.0% of all samples
+    -5        0.052       0.120                0.0% of all samples
+     0        0.164       0.192                0.8% of all samples
+     5        0.364       0.400                0.4% of all samples
+    10        0.520       0.540                2.8% of all samples
+    15        0.612       0.616                2.0% of all samples
+    20        0.728       0.732                2.8% of all samples
+    25        0.816       0.820                3.2% of all samples
+
+HIGH-SNR samples (>=10 dB): 1000
+  has an end-fire path (|cos|>0.995)     n= 352  success 0.369
+  no end-fire path                       n= 648  success 0.832
+  no end-fire, closest pair   0- 10 deg  n=   0  success nan
+  no end-fire, closest pair  10- 20 deg  n=   0  success nan
+  no end-fire, closest pair  20- 40 deg  n= 118  success 0.847
+  no end-fire, closest pair  40-400 deg  n= 530  success 0.828
+  => clean case (no end-fire, pairs >=20 deg apart): success 0.832   (n=648)

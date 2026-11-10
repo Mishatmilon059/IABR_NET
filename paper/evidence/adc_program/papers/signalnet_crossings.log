@@ -1,0 +1,64 @@
+== frequency, 1-bit (TSP Fig. 5)
+   network m=1: vs paper thr -18.06 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -22.83 dB -> better from SNR -12 dB (value at -20 dB: -21.37)
+   network m=2: vs paper thr -16.44 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.67 dB -> better from SNR -7 dB (value at -20 dB: -17.12)
+   network m=3: vs paper thr -16.01 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.21 dB -> better from SNR -9 dB (value at -20 dB: -18.35)
+   network m=4: vs paper thr -15.81 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.06 dB -> better from SNR -13 dB (value at -20 dB: -19.47)
+   network m=5: vs paper thr -15.69 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.01 dB -> better than threshold at every SNR (-20..19 dB)
+   periodogram m=1: vs re-computed thr -> better from SNR -5 dB (value at -20 dB: -9.81)
+   periodogram m=2: vs re-computed thr -> better from SNR +0 dB (value at -20 dB: -8.61)
+   periodogram m=3: vs re-computed thr -> better from SNR +2 dB (value at -20 dB: -8.89)
+   periodogram m=4: vs re-computed thr -> better from SNR +4 dB (value at -20 dB: -9.05)
+   periodogram m=5: vs re-computed thr -> better from SNR +7 dB (value at -20 dB: -9.20)
+== frequency, 3-bit (TSP Fig. 5)
+   network m=1: vs paper thr -18.06 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -22.83 dB -> better from SNR -13 dB (value at -20 dB: -21.47)
+   network m=2: vs paper thr -16.44 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.67 dB -> better from SNR -8 dB (value at -20 dB: -17.29)
+   network m=3: vs paper thr -16.01 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.21 dB -> better from SNR -9 dB (value at -20 dB: -18.24)
+   network m=4: vs paper thr -15.81 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.06 dB -> better from SNR -9 dB (value at -20 dB: -16.25)
+   network m=5: vs paper thr -15.69 dB -> better than threshold at every SNR (-20..19 dB) | vs re-computed thr -20.01 dB -> better from SNR -10 dB (value at -20 dB: -15.92)
+   periodogram m=1: vs re-computed thr -> better from SNR -6 dB (value at -20 dB: -9.82)
+   periodogram m=2: vs re-computed thr -> better from SNR -2 dB (value at -20 dB: -8.60)
+   periodogram m=3: vs re-computed thr -> better from SNR -1 dB (value at -20 dB: -8.81)
+   periodogram m=4: vs re-computed thr -> better from SNR +1 dB (value at -20 dB: -9.05)
+   periodogram m=5: vs re-computed thr -> better from SNR +2 dB (value at -20 dB: -9.16)
+== amplitude, 1-bit (TSP Fig. 6)
+   network m=1: range -11.05..-10.81 dB, spread over SNR 0.24 dB; vs -11.71 dB -> never better than threshold (min -11.05 vs -11.71)
+   network m=2: range -13.56..-11.17 dB, spread over SNR 2.39 dB; vs -11.71 dB -> better from SNR -20 dB (not monotone: re-crosses) (value at -20 dB: -11.97)
+   network m=3: range -17.04..-15.77 dB, spread over SNR 1.27 dB; vs -11.71 dB -> better than threshold at every SNR (-20..19 dB)
+   network m=4: range -20.28..-19.08 dB, spread over SNR 1.20 dB; vs -11.71 dB -> better than threshold at every SNR (-20..19 dB)
+   network m=5: range -22.47..-21.74 dB, spread over SNR 0.73 dB; vs -11.71 dB -> better than threshold at every SNR (-20..19 dB)
+== amplitude, 3-bit (TSP Fig. 6)
+   network m=1: range -24.61..-4.84 dB, spread over SNR 19.77 dB; vs -11.71 dB -> better from SNR -5 dB (value at -20 dB: -4.86)
+   network m=2: range -18.50..6.99 dB, spread over SNR 25.49 dB; vs -11.71 dB -> better from SNR -2 dB (value at -20 dB: 6.99)
+   network m=3: range -23.28..8.10 dB, spread over SNR 31.38 dB; vs -11.71 dB -> better from SNR -5 dB (value at -20 dB: 8.10)
+   network m=4: range -24.71..3.74 dB, spread over SNR 28.45 dB; vs -11.71 dB -> better from SNR -5 dB (value at -20 dB: 3.74)
+   network m=5: range -26.12..2.31 dB, spread over SNR 28.43 dB; vs -11.71 dB -> better from SNR -6 dB (value at -20 dB: 2.31)
+== phase, 1-bit (TSP Fig. 7), threshold pi^2/3 = 3.29
+   network m=1: better than threshold at every SNR (-20..19 dB); value at 19 dB 0.09
+   network m=2: better from SNR -9 dB (value at -20 dB: 3.75); value at 19 dB 1.31
+   network m=3: better from SNR -5 dB (value at -20 dB: 3.95); value at 19 dB 1.87
+   network m=4: better from SNR -3 dB (value at -20 dB: 3.85); value at 19 dB 2.44
+   network m=5: better from SNR -4 dB (value at -20 dB: 3.72); value at 19 dB 2.77
+== phase, 3-bit (TSP Fig. 7), threshold pi^2/3 = 3.29
+   network m=1: better than threshold at every SNR (-20..19 dB); value at 19 dB 0.09
+   network m=2: better from SNR -8 dB (value at -20 dB: 3.94); value at 19 dB 0.61
+   network m=3: better from SNR -5 dB (value at -20 dB: 4.25); value at 19 dB 1.14
+   network m=4: better from SNR -3 dB (value at -20 dB: 4.49); value at 19 dB 1.87
+   network m=5: better from SNR -2 dB (value at -20 dB: 5.19); value at 19 dB 2.26
+== detection (TSP Fig. 4 = arXiv Fig. 6), loss (11); thresholds: paper 1.67 (continuous), integer-output 1.744; legend labels as printed in arXiv Fig. 6
+   "1 bit Detection Mod"                      vs 1.67 -> never better than threshold (min 1.73 vs 1.67) | vs 1.744 -> better from SNR +18 dB (not monotone: re-crosses) (value at -20 dB: 8.55)
+   "2 bit Detection Mod" (text: three-bit)    vs 1.67 -> better from SNR -4 dB (value at -20 dB: 14.80) | vs 1.744 -> better from SNR -4 dB (value at -20 dB: 14.80)
+   "1 bit AIC"                                vs 1.67 -> better from SNR +18 dB (not monotone: re-crosses) (value at -20 dB: 46.68) | vs 1.744 -> better from SNR +18 dB (not monotone: re-crosses) (value at -20 dB: 46.68)
+   "3 bit AIC"                                vs 1.67 -> better from SNR +7 dB (value at -20 dB: 45.87) | vs 1.744 -> better from SNR +7 dB (value at -20 dB: 45.87)
+   "2 bit MDL"                                vs 1.67 -> never better than threshold (min 33.43 vs 1.67) | vs 1.744 -> never better than threshold (min 33.43 vs 1.74)
+   "6 bit MDL"                                vs 1.67 -> never better than threshold (min 11.37 vs 1.67) | vs 1.744 -> never better than threshold (min 11.37 vs 1.74)
+   "1 bit EM-VAMP"                            vs 1.67 -> never better than threshold (min 2.67 vs 1.67) | vs 1.744 -> never better than threshold (min 2.67 vs 1.74)
+   "3 bit EM-VAMP"                            vs 1.67 -> never better than threshold (min 2.79 vs 1.67) | vs 1.744 -> never better than threshold (min 2.79 vs 1.74)
+== detection MSE (arXiv Fig. 7 / TSP suppl. Fig. 12); blind MSE threshold Var(m) = 2.0 (not drawn in the paper)
+   "1 bit Detection Mod"                      vs 2.0 -> better from SNR -1 dB (value at -20 dB: 5.00); value at 19 dB 1.18
+   "3 bit Detection Mod"                      vs 2.0 -> better from SNR -6 dB (value at -20 dB: 5.54); value at 19 dB 0.29
+   "2 bit AIC"                                vs 2.0 -> better from SNR +8 dB (value at -20 dB: 11.13); value at 19 dB 1.19
+   "3 bit AIC"                                vs 2.0 -> better from SNR +5 dB (value at -20 dB: 10.89); value at 19 dB 0.51
+   "2 bit MDL"                                vs 2.0 -> never better than threshold (min 7.30 vs 2.00); value at 19 dB 7.37
+   "3 bit MDL"                                vs 2.0 -> never better than threshold (min 2.37 vs 2.00); value at 19 dB 2.37
+   "1 bit EM-VAMP"                            vs 2.0 -> never better than threshold (min 2.28 vs 2.00); value at 19 dB 4.13
+   "3 bit EM-VAMP"                            vs 2.0 -> better from SNR +0 dB (not monotone: re-crosses) (value at -20 dB: 5.41); value at 19 dB 2.07

@@ -1,0 +1,12 @@
+(1) SeedSequence aliasing: default_rng(8900) == default_rng([8900,0]) ? True
+    training/validation seed keys 7251, test seed keys (8900-8907 orig, 9300-9307 mine) 48, intersection 0
+    identical first-draw streams between the sets: 0
+(2) to_ident (estimate) vs ident_vec / S.project_impairment (target) max|d| = 2.61e-07; idempotent on targets: 3.89e-16
+(3) noiseless 30 deg / 6 dB, residual non-identifiable-free part after apply_corr (max over scenes): row phase deg, col phase deg, row gain dB
+    none            ['42.2', '38.4', '8.6']
+    true target     ['1.69e-06', '1.68e-06', '2.82e-07']
+    Tx phase flipped ['1.69e-06', '76.8', '2.82e-07']
+    Rx phase flipped ['84.4', '1.68e-06', '2.82e-07']
+(4) v2a: RMS phase err deg none 10.72 | as used 5.68 | Tx sign flipped 14.04 | Rx sign flipped 14.10
+(4) v2b: RMS phase err deg none 10.72 | as used 0.99 | Tx sign flipped 15.05 | Rx sign flipped 15.12
+DONE

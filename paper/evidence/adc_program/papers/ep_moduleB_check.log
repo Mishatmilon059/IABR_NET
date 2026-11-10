@@ -1,0 +1,9 @@
+p=+0.30 v=1.00 s2=0.10 cell=[0.0,inf) kept=245282  mean closed +0.89606 MC +0.89669 (se 0.00140)  var closed 0.48216 MC 0.48213
+p=+0.30 v=1.00 s2=0.10 cell=[-inf,0.0) kept=155099  mean closed -0.64245 MC -0.64022 (se 0.00154)  var closed 0.36881 MC 0.36715
+p=-0.20 v=0.50 s2=0.05 cell=[-0.25,0.0) kept= 53265  mean closed -0.13246 MC -0.13324 (se 0.00096)  var closed 0.04974 MC 0.04896
+p=+1.50 v=0.20 s2=0.30 cell=[0.5,1.0) kept= 64447  mean closed +1.21218 MC +1.21248 (se 0.00138)  var closed 0.12319 MC 0.12267
+p=+0.00 v=10.00 s2=0.05 cell=[0.0,inf) kept=199575  mean closed +2.51685 MC +2.51238 (se 0.00429)  var closed 3.66547 MC 3.67223
+p=+2.00 v=1.00 s2=0.50 cell=[-inf,-1.0) kept=  2796  mean closed -0.26723 MC -0.25906 (se 0.01173)  var closed 0.39412 MC 0.38459
+max |closed - MC| / se(mean) = 1.45  (expect < ~4)
+narrow cells, flat prior: y~ = [ 0.125+0.125j  0.375+0.375j -0.375-0.375j]  sigma~^2 = [0.01142 0.01142 0.01142]  (cell width^2/12*2 = 0.01042 )
+1-bit cells, informative prior: y~ = [ 0.531+0.531j -0.493-0.492j  0.722+0.633j]  sigma~^2 = [0.32  0.274 0.337]  (per-sample variances differ = heteroscedastic pseudo-noise)

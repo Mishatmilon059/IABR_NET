@@ -1,0 +1,27 @@
+4dB ch 0 nML_radius1 step 0.001: recomputed BER 0.00687 (logged 0.00687); nonfinite rows 0/2048
+4dB ch 0 GD_from_0 step 0.001: recomputed BER 0.00674 (logged 0.00674); nonfinite rows 0/2048
+4dB ch 1 nML_radius1 step 0.001: recomputed BER 0.00522 (logged 0.00522); nonfinite rows 0/2048
+4dB ch 1 GD_from_0 step 0.001: recomputed BER 0.00516 (logged 0.00516); nonfinite rows 0/2048
+4dB ch 2 nML_radius1 step 0.001: recomputed BER 0.00705 (logged 0.00705); nonfinite rows 0/2048
+4dB ch 2 GD_from_0 step 0.001: recomputed BER 0.00735 (logged 0.00735); nonfinite rows 0/2048
+4dB ch 3 nML_radius1 step 0.001: recomputed BER 0.00604 (logged 0.00604); nonfinite rows 0/2048
+4dB ch 3 GD_from_0 step 0.001: recomputed BER 0.00629 (logged 0.00629); nonfinite rows 0/2048
+4dB ch 4 nML_radius1 step 0.001: recomputed BER 0.00665 (logged 0.00665); nonfinite rows 0/2048
+4dB ch 4 GD_from_0 step 0.001: recomputed BER 0.00656 (logged 0.00656); nonfinite rows 0/2048
+4dB ch 5 nML_radius1 step 0.003: recomputed BER 0.00562 (logged 0.00562); nonfinite rows 0/2048
+4dB ch 5 GD_from_0 step 0.001: recomputed BER 0.00546 (logged 0.00546); nonfinite rows 0/2048
+4dB {"nonfinite_rows_total": {"nML_radius1": 0, "GD_from_0": 0}, "BER_all_bits": {"nML_radius1": 0.0062408447265625, "GD_from_0": 0.006261189778645833}, "BER_finite_rows_only": {"nML_radius1": 0.0062408447265625, "GD_from_0": 0.006261189778645833}}
+8dB ch 0 nML_radius1 step 0.001: recomputed BER 0.00082 (logged 0.00082); nonfinite rows 0/2048
+8dB ch 0 GD_from_0 step 0.001: recomputed BER 0.00073 (logged 0.00073); nonfinite rows 0/2048
+8dB ch 1 nML_radius1 step 0.0003: recomputed BER 0.00067 (logged 0.00067); nonfinite rows 0/2048
+8dB ch 1 GD_from_0 step 0.0003: recomputed BER 0.00067 (logged 0.00067); nonfinite rows 0/2048
+8dB ch 2 nML_radius1 step 0.0003: recomputed BER 0.00082 (logged 0.00082); nonfinite rows 0/2048
+8dB ch 2 GD_from_0 step 0.0003: recomputed BER 0.00089 (logged 0.00089); nonfinite rows 0/2048
+8dB ch 3 nML_radius1 step 0.003: recomputed BER 0.00095 (logged 0.00095); nonfinite rows 0/2048
+8dB ch 3 GD_from_0 step 0.001: recomputed BER 0.00092 (logged 0.00092); nonfinite rows 0/2048
+8dB ch 4 nML_radius1 step 0.001: recomputed BER 0.00052 (logged 0.00052); nonfinite rows 0/2048
+8dB ch 4 GD_from_0 step 0.0003: recomputed BER 0.00040 (logged 0.00040); nonfinite rows 0/2048
+8dB ch 5 nML_radius1 step 0.0003: recomputed BER 0.00070 (logged 0.00070); nonfinite rows 0/2048
+8dB ch 5 GD_from_0 step 0.0003: recomputed BER 0.00055 (logged 0.00055); nonfinite rows 0/2048
+8dB {"nonfinite_rows_total": {"nML_radius1": 0, "GD_from_0": 0}, "BER_all_bits": {"nML_radius1": 0.0007476806640625, "GD_from_0": 0.0006917317708333334}, "BER_finite_rows_only": {"nML_radius1": 0.0007476806640625, "GD_from_0": 0.0006917317708333334}}
+done

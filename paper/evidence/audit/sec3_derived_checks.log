@@ -1,0 +1,29 @@
+== 1. ramp of iid U(-d,d) phases (LS slope over n-7.5), N=16 ==
+sum (n-7.5)^2 = 340.0
+d= 1 deg: slope sd formula 0.00055 rad/antenna, MC 0.00055; AoA bias sd at psi=90: 0.010 deg, psi=10: 0.057 deg, psi=5: 0.114 deg
+d= 2 deg: slope sd formula 0.00109 rad/antenna, MC 0.00109; AoA bias sd at psi=90: 0.020 deg, psi=10: 0.115 deg, psi=5: 0.229 deg
+d= 5 deg: slope sd formula 0.00273 rad/antenna, MC 0.00273; AoA bias sd at psi=90: 0.050 deg, psi=10: 0.287 deg, psi=5: 0.572 deg
+d= 8 deg: slope sd formula 0.00437 rad/antenna, MC 0.00438; AoA bias sd at psi=90: 0.080 deg, psi=10: 0.459 deg, psi=5: 0.915 deg
+d=15 deg: slope sd formula 0.00820 rad/antenna, MC 0.00821; AoA bias sd at psi=90: 0.150 deg, psi=10: 0.861 deg, psi=5: 1.715 deg
+== 2. gain-error mean power factor per side E[g^2]=sinh(x)/x, x=gamma ln10/10; both sides squared ==
+gamma_max=1 dB: per side 1.0089, both sides 1.0178 = +0.08 dB
+gamma_max=2 dB: per side 1.0357, both sides 1.0727 = +0.30 dB
+gamma_max=3 dB: per side 1.0814, both sides 1.1695 = +0.68 dB
+gamma_max=4 dB: per side 1.1475, both sides 1.3168 = +1.20 dB
+== 3. realised per-scene signal power ||H||_F^2/256 (ideal hardware, L=3), 4000 scenes ==
+mean power 0.999; dB: mean -0.75, sd 2.70, 5th -5.45, 95th 3.28
+== 4. sub-cell frequency separation, L=3, 40000 scenes; circular distance max(|du|,|dv|) in (u,v) ==
+share of scenes with a pair closer than one cell: 0.0396; closer than half a cell: 0.0110
+== 5. end-fire aliasing: circular distance in u between psi and pi-psi, and 1-degree tolerance in u ==
+psi=1 deg: circular |u(psi)-u(pi-psi)| = 0.00096 rad
+psi=2 deg: circular |u(psi)-u(pi-psi)| = 0.00383 rad
+psi=3 deg: circular |u(psi)-u(pi-psi)| = 0.00861 rad
+psi=5 deg: circular |u(psi)-u(pi-psi)| = 0.02391 rad
+1-degree tolerance in u at psi=0 (one-sided): pi(1-cos 1deg) = 0.00047847977778732985
+1-degree tolerance in u at broadside: pi*pi/180 = 0.05483113556160754  cell 0.39269908169872414  ratio 0.13962634015954636
+single-path sd of u at 15 dB (spec 6.6 formula) not recomputed here
+== 6. DFT codebooks with P=Q=2N=32 (N=16): tight frame, scaled left inverse, noise variance ==
+max|W W^H - (P/N) I| = 2.4143732312248273e-15
+max|scaled inverse - H| = 7.095011382261188e-15
+var of scaled noise entry 0.24999192269797077  expected sigma^2 N^2/(PQ) = 0.25 (for sigma^2=1)
+off-diagonal correlation of scaled noise (max |E z_i conj z_j|, i!=j, sample): 0.01792944704821823

@@ -1,0 +1,10 @@
+== A. official bank, L=3, 8000 scenes ==
+close pair (circular, both du and dv < 2pi/N): 309 of 8000 = 0.0386; below half cell: 90 of 8000 = 0.0112; binomial sd 0.0022
+end-fire zone (|u|>=pi-2pi/N) share of psi: 0.3257
+end-fire zone (|u|>=pi-2pi/N) share of phi: 0.3242
+end-fire core (|cos|>0.995) share, all 6 angle sets pooled: 0.0660; analytic 2*arccos(0.995)/pi = 0.0637; analytic zone 0.3217
+== B. generator L=9, first vs last placed, zone |u|>=pi-2pi/N and 10-deg zone, 20000 scenes ==
+zone share first 0.3198 last 0.3538 (binomial sd 0.0023); analytic uniform 0.3222
+10-deg zone share first 0.1073 last 0.1411 (uniform 0.1111)
+== C. angle-difference metric (get_ang_difference: angle(exp(ja)exp(-jb))) on radians in [0,pi] ==
+0.5 vs 179.5 deg -> 179.0 deg

@@ -1,0 +1,16 @@
+== unit checks
+  h_B(mu=0, 1 bit) * s^2 = 0.636620 (expected 2/pi = 0.636620)  OK
+  1-D Jacobian max |analytic - numeric| = 9.01e-09  OK
+  Rao T vs |c|^2/S+ (equal h, zero D): max diff 3.55e-15  OK
+  2-D beamspace atoms vs mlq.Model.mu: max diff 3.20e-15  OK
+  2-D Jacobian max |analytic - numeric| = 1.30e-08  OK
+== reproduction: paper Sec. V-C example (1-D, N = 128, B = 1, P_FA = 0.01)
+  tau_th(N=128, P_FA=0.01) = 18.9044  -> 20 log10 = 25.53 dB (paper: 25.5 dB)
+  trials 300, GNOMP-CFAR time 20.2 s total (67.5 ms/trial, 2 threads, batched)
+  K_hat distribution (paper: 2 detections then stop): {1: 61, 2: 237, 3: 2}
+  fraction K_hat == 2: 0.790
+  trials with 2+ detections: 239; both true tones found within 0.2 rad: 0.996
+  median |omega_hat - omega| for the 2.2 / 2.4 tones: 0.0012 / 0.0044 rad (paper example: 0.002 / 0.001)
+  first Rao statistic 20 log10 T (zeta = 0): 10/50/90 % = 40.8 / 41.8 / 42.7 dB (paper example, one realisation: 41.4 dB; its threshold 25.5 dB)
+  fraction of trials whose first test exceeds the threshold: 1.000
+done

@@ -1,0 +1,21 @@
+  check vs notebook decode() on 200 scenes: heat max|d| 0.0e+00 rad, dual max|d| 0.0e+00 rad
+clean  ph  0 g 0 | RMS phase deg before 0.00 iabc 0.44 sc_t0_i4 13.43 oracle 14.15 | gain dB before 0.00 iabc 0.19 sc_t0_i4 1.39 oracle 1.48
+        Pd NOMP 0.751 | IABC+NOMP 0.741 | IABR-Net heat 0.743 | IABR-v2 dual 0.747 | NOMP+SC default 0.750 | NOMP+SC tuned 0.749 | NOMP+SC tau0 i2 0.730 | NOMP+SC tau0 i4 0.725 | IABC+NOMP+SC tuned 0.747 | gate open def 0.50 tun 0.60 | net 7s decode 41s total 121s [121s]
+c8_3   ph  8 g 3 | RMS phase deg before 4.31 iabc 4.03 sc_t0_i4 13.66 oracle 14.19 | gain dB before 1.66 iabc 1.12 sc_t0_i4 1.45 oracle 1.48
+        Pd NOMP 0.713 | IABC+NOMP 0.721 | IABR-Net heat 0.727 | IABR-v2 dual 0.730 | NOMP+SC default 0.725 | NOMP+SC tuned 0.727 | NOMP+SC tau0 i2 0.700 | NOMP+SC tau0 i4 0.696 | IABC+NOMP+SC tuned 0.733 | gate open def 0.45 tun 0.58 | net 10s decode 53s total 118s [238s]
+ph8    ph  8 g 0 | RMS phase deg before 4.31 iabc 4.08 sc_t0_i4 13.72 oracle 14.34 | gain dB before 0.00 iabc 0.17 sc_t0_i4 1.42 oracle 1.48
+        Pd NOMP 0.734 | IABC+NOMP 0.729 | IABR-Net heat 0.731 | IABR-v2 dual 0.736 | NOMP+SC default 0.737 | NOMP+SC tuned 0.738 | NOMP+SC tau0 i2 0.719 | NOMP+SC tau0 i4 0.713 | IABC+NOMP+SC tuned 0.737 | gate open def 0.49 tun 0.59 | net 12s decode 67s total 144s [382s]
+g3     ph  0 g 3 | RMS phase deg before 0.00 iabc 0.54 sc_t0_i4 13.78 oracle 14.42 | gain dB before 1.66 iabc 1.10 sc_t0_i4 1.42 oracle 1.50
+        Pd NOMP 0.731 | IABC+NOMP 0.733 | IABR-Net heat 0.739 | IABR-v2 dual 0.743 | NOMP+SC default 0.742 | NOMP+SC tuned 0.744 | NOMP+SC tau0 i2 0.718 | NOMP+SC tau0 i4 0.712 | IABC+NOMP+SC tuned 0.746 | gate open def 0.46 tun 0.58 | net 15s decode 83s total 167s [549s]
+c30_6  ph 30 g 6 | RMS phase deg before 16.15 iabc 15.68 sc_t0_i4 15.10 oracle 14.46 | gain dB before 3.33 iabc 2.69 sc_t0_i4 1.65 oracle 1.53
+        Pd NOMP 0.570 | IABC+NOMP 0.592 | IABR-Net heat 0.592 | IABR-v2 dual 0.592 | NOMP+SC default 0.570 | NOMP+SC tuned 0.579 | NOMP+SC tau0 i2 0.563 | NOMP+SC tau0 i4 0.561 | IABC+NOMP+SC tuned 0.609 | gate open def 0.00 tun 0.21 | net 20s decode 85s total 160s [709s]
+ph20   ph 20 g 0 | RMS phase deg before 10.76 iabc 10.58 sc_t0_i4 13.86 oracle 14.31 | gain dB before 0.00 iabc 0.14 sc_t0_i4 1.42 oracle 1.47
+        Pd NOMP 0.676 | IABC+NOMP 0.674 | IABR-Net heat 0.683 | IABR-v2 dual 0.685 | NOMP+SC default 0.684 | NOMP+SC tuned 0.688 | NOMP+SC tau0 i2 0.671 | NOMP+SC tau0 i4 0.666 | IABC+NOMP+SC tuned 0.688 | gate open def 0.44 tun 0.57 | net 12s decode 70s total 164s [873s]
+g6     ph  0 g 6 | RMS phase deg before 0.00 iabc 0.76 sc_t0_i4 14.16 oracle 14.21 | gain dB before 3.33 iabc 2.59 sc_t0_i4 1.55 oracle 1.51
+        Pd NOMP 0.695 | IABC+NOMP 0.717 | IABR-Net heat 0.732 | IABR-v2 dual 0.731 | NOMP+SC default 0.695 | NOMP+SC tuned 0.717 | NOMP+SC tau0 i2 0.675 | NOMP+SC tau0 i4 0.665 | IABC+NOMP+SC tuned 0.732 | gate open def 0.01 tun 0.52 | net 16s decode 78s total 143s [1016s]
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\iabc\s2_sweep.py", line 53, in <module>
+    Ug, Vg = C.nomp_greedy(Ht, L, 4, 3)                                    # NOMP-only
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 53, in nomp_greedy
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 50.0 MiB for an array with shape (1600, 64, 64) and data type float64

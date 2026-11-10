@@ -1,0 +1,19 @@
+greedy, pooled: failing 1120, energy<=truth 1100, band 6, miss(corrected) 14
+SNR  n  failing  fail%  energy<=truth(n, %%of failing)  band  miss(corrected)  miss%%ofall
+ -10  250   250  100.0    250  100.0     0    0    0.0
+  -5  250   235   94.0    235  100.0     0    0    0.0
+   0  250   208   83.2    208  100.0     0    0    0.0
+   5  250   160   64.0    160  100.0     0    0    0.0
+  10  250   108   43.2    103   95.4     4    1    0.4
+  15  250    86   34.4     84   97.7     0    2    0.8
+  20  250    45   18.0     40   88.9     1    4    1.6
+  25  250    28   11.2     20   71.4     1    7    2.8
+SNR>=15 pooled: failing 159, energy<=truth 144 (90.6%), band 2, miss 13
+SNR>=10 pooled: failing 267, energy<=truth 247 (92.5%), band 6, miss 14
+
+end-fire share among failing scenes, and among failing scenes with energy<=truth (objective-limited):
+SNR >=-10: scenes with end-fire path 697 of 2000 (34.9%); failing 1120, of which end-fire 526 (47.0%); objective-limited 1100, of which end-fire 509 (46.3%)
+SNR >=10: scenes with end-fire path 352 of 1000 (35.2%); failing 267, of which end-fire 189 (70.8%); objective-limited 247, of which end-fire 172 (69.6%)
+SNR >=15: scenes with end-fire path 269 of 750 (35.9%); failing 159, of which end-fire 126 (79.2%); objective-limited 144, of which end-fire 113 (78.5%)
+SNR =20: scenes with end-fire path 90 of 250 (36.0%); failing 45, of which end-fire 34 (75.6%); objective-limited 40, of which end-fire 30 (75.0%)
+SNR =25: scenes with end-fire path 80 of 250 (32.0%); failing 28, of which end-fire 25 (89.3%); objective-limited 20, of which end-fire 18 (90.0%)

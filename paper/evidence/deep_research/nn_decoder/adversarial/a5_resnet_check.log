@@ -1,0 +1,4 @@
+resnet Pd paper 0.7103 strict 0.6728 dropped 481
+AN Pd paper 0.7508 strict 0.7508 dropped 0
+AN - resnet paper +0.0404 [+0.0369, +0.0439]
+AN - resnet strict +0.0780 [+0.0737, +0.0821]

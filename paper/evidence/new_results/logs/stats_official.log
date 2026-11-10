@@ -1,0 +1,1 @@
+official               N=8000 | U-Net 0.7366 | hybrid 0.7551 | NOMP 0.7581 | NOMP+selfcal 0.7576 | NOMP - U-Net +0.0215 [+0.0181,+0.0248] | hybrid - NOMP -0.0030 [-0.0043,-0.0016] | NOMP+selfcal - hybrid +0.0025 [+0.0014,+0.0036] | NOMP+selfcal - NOMP -0.0005 [-0.0014,+0.0005] | 522s

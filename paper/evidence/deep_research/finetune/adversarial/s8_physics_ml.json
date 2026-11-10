@@ -1,0 +1,434 @@
+{
+ "M6_30_snr15": {
+  "pd": {
+   "NOMP": 0.7645,
+   "NOMP os8 rc6": 0.7678333333333334,
+   "NOMP+SC tuned": 0.7468333333333333,
+   "FFT-peak seeds+SC": 0.7435,
+   "multi-start K6": 0.7636666666666667,
+   "FT seeds on Ht+SC": 0.8098333333333333,
+   "PN-ML all starts": 0.8353333333333334,
+   "PN-ML from NOMP": 0.813,
+   "PN-ML from learned seeds": 0.872,
+   "PN-ML all starts + learned seeds": 0.8801666666666667,
+   "PN-ML all starts (level x0.5)": 0.8298333333333333
+  },
+  "ci": {
+   "NOMP": [
+    0.7508333333333334,
+    0.7781666666666667
+   ],
+   "NOMP os8 rc6": [
+    0.7546625,
+    0.781
+   ],
+   "NOMP+SC tuned": [
+    0.7329958333333333,
+    0.7606666666666667
+   ],
+   "FFT-peak seeds+SC": [
+    0.7294958333333333,
+    0.7581666666666667
+   ],
+   "multi-start K6": [
+    0.75,
+    0.7773333333333333
+   ],
+   "FT seeds on Ht+SC": [
+    0.7976666666666666,
+    0.8218333333333333
+   ],
+   "PN-ML all starts": [
+    0.8221666666666667,
+    0.8471666666666666
+   ],
+   "PN-ML from NOMP": [
+    0.8001666666666667,
+    0.8258333333333333
+   ],
+   "PN-ML from learned seeds": [
+    0.8613333333333333,
+    0.883
+   ],
+   "PN-ML all starts + learned seeds": [
+    0.8701666666666666,
+    0.8903333333333333
+   ],
+   "PN-ML all starts (level x0.5)": [
+    0.8175,
+    0.8416666666666667
+   ]
+  },
+  "diffs": {
+   "FT seeds on Ht+SC - PN-ML all starts": [
+    -0.025500000000000078,
+    -0.037337499999999996,
+    -0.012995833333333368
+   ],
+   "FT seeds on Ht+SC - NOMP os8 rc6": [
+    0.041999999999999926,
+    0.03149999999999997,
+    0.05283333333333329
+   ],
+   "PN-ML all starts - NOMP os8 rc6": [
+    0.0675,
+    0.057829166666666626,
+    0.07716666666666672
+   ],
+   "PN-ML all starts (level x0.5) - NOMP os8 rc6": [
+    0.061999999999999944,
+    0.053166666666666695,
+    0.07117083333333324
+   ],
+   "FT seeds on Ht+SC - PN-ML all starts (level x0.5)": [
+    -0.020000000000000018,
+    -0.03166666666666662,
+    -0.008166666666666655
+   ],
+   "PN-ML from learned seeds - PN-ML all starts": [
+    0.036666666666666625,
+    0.02833333333333332,
+    0.04499999999999993
+   ],
+   "PN-ML all starts + learned seeds - PN-ML all starts": [
+    0.04483333333333328,
+    0.038329166666666664,
+    0.052166666666666583
+   ],
+   "PN-ML all starts + learned seeds - FT seeds on Ht+SC": [
+    0.07033333333333336,
+    0.0601666666666667,
+    0.08050000000000002
+   ]
+  },
+  "best_classical": "PN-ML all starts",
+  "best_classical_without_physics": "NOMP os8 rc6",
+  "seed": 9415,
+  "n": 1000,
+  "physics_sec_per_scene_all_starts_6thr": 0.044645403861999514
+ },
+ "M2_0.2_snr15": {
+  "pd": {
+   "NOMP": 0.6158333333333333,
+   "NOMP os8 rc6": 0.6151666666666666,
+   "NOMP+SC tuned": 0.6123333333333333,
+   "FFT-peak seeds+SC": 0.5796666666666667,
+   "multi-start K6": 0.6153333333333333,
+   "FT seeds on Ht+SC": 0.6596666666666666,
+   "POS-MAP all starts": 0.6041666666666666,
+   "POS-MAP from NOMP": 0.6048333333333333,
+   "POS-MAP from learned seeds": 0.6421666666666667,
+   "POS-MAP all starts + learned seeds": 0.6333333333333333,
+   "POS-MAP full d (with ramp) all starts": 0.6028333333333333,
+   "POS-MAP all starts (level x0.5)": 0.6043333333333333
+  },
+  "ci": {
+   "NOMP": [
+    0.6008291666666666,
+    0.6305041666666666
+   ],
+   "NOMP os8 rc6": [
+    0.6001666666666666,
+    0.6298333333333334
+   ],
+   "NOMP+SC tuned": [
+    0.5973333333333334,
+    0.6271666666666667
+   ],
+   "FFT-peak seeds+SC": [
+    0.5643291666666667,
+    0.5946708333333334
+   ],
+   "multi-start K6": [
+    0.6001666666666666,
+    0.63
+   ],
+   "FT seeds on Ht+SC": [
+    0.6443333333333333,
+    0.673
+   ],
+   "POS-MAP all starts": [
+    0.5888291666666666,
+    0.6191666666666666
+   ],
+   "POS-MAP from NOMP": [
+    0.5896666666666667,
+    0.62
+   ],
+   "POS-MAP from learned seeds": [
+    0.6266666666666667,
+    0.6565
+   ],
+   "POS-MAP all starts + learned seeds": [
+    0.6174958333333334,
+    0.6481666666666667
+   ],
+   "POS-MAP full d (with ramp) all starts": [
+    0.5876666666666667,
+    0.6175041666666667
+   ],
+   "POS-MAP all starts (level x0.5)": [
+    0.5885,
+    0.6196708333333334
+   ]
+  },
+  "diffs": {
+   "FT seeds on Ht+SC - NOMP": [
+    0.04383333333333328,
+    0.035666666666666735,
+    0.05217083333333334
+   ],
+   "POS-MAP all starts - NOMP": [
+    -0.011666666666666714,
+    -0.020000000000000018,
+    -0.003500000000000056
+   ],
+   "POS-MAP all starts (level x0.5) - NOMP": [
+    -0.011500000000000066,
+    -0.01967083333333328,
+    -0.0033333333333332993
+   ],
+   "FT seeds on Ht+SC - POS-MAP all starts (level x0.5)": [
+    0.055333333333333345,
+    0.04466666666666663,
+    0.0663375
+   ],
+   "POS-MAP from learned seeds - POS-MAP all starts": [
+    0.038000000000000034,
+    0.030329166666666657,
+    0.045499999999999985
+   ],
+   "POS-MAP all starts + learned seeds - POS-MAP all starts": [
+    0.029166666666666674,
+    0.02316666666666667,
+    0.03533749999999997
+   ],
+   "POS-MAP all starts + learned seeds - FT seeds on Ht+SC": [
+    -0.02633333333333332,
+    -0.03616666666666668,
+    -0.01616250000000002
+   ]
+  },
+  "best_classical": "NOMP",
+  "best_classical_without_physics": "NOMP",
+  "seed": 9415,
+  "n": 1000,
+  "physics_sec_per_scene_all_starts_6thr": 0.2394336702823639
+ },
+ "M6_20_snr15": {
+  "pd": {
+   "NOMP": 0.8678333333333333,
+   "NOMP os8 rc6": 0.8698333333333333,
+   "NOMP+SC tuned": 0.857,
+   "FFT-peak seeds+SC": 0.8193333333333334,
+   "multi-start K6": 0.8678333333333333,
+   "FT seeds on Ht+SC": 0.8866666666666667,
+   "PN-ML all starts": 0.8936666666666667,
+   "PN-ML from NOMP": 0.8876666666666667,
+   "PN-ML from learned seeds": 0.914,
+   "PN-ML all starts + learned seeds": 0.923,
+   "PN-ML all starts (level x0.5)": 0.8911666666666667
+  },
+  "ci": {
+   "NOMP": [
+    0.8563333333333333,
+    0.8783333333333333
+   ],
+   "NOMP os8 rc6": [
+    0.8585,
+    0.8800041666666667
+   ],
+   "NOMP+SC tuned": [
+    0.8453333333333334,
+    0.868
+   ],
+   "FFT-peak seeds+SC": [
+    0.8058333333333333,
+    0.8326666666666667
+   ],
+   "multi-start K6": [
+    0.8563333333333333,
+    0.8783333333333333
+   ],
+   "FT seeds on Ht+SC": [
+    0.876,
+    0.897
+   ],
+   "PN-ML all starts": [
+    0.8838291666666667,
+    0.9038333333333334
+   ],
+   "PN-ML from NOMP": [
+    0.8775,
+    0.898
+   ],
+   "PN-ML from learned seeds": [
+    0.9051666666666667,
+    0.9233375
+   ],
+   "PN-ML all starts + learned seeds": [
+    0.9148333333333334,
+    0.9311666666666667
+   ],
+   "PN-ML all starts (level x0.5)": [
+    0.881,
+    0.9013333333333333
+   ]
+  },
+  "diffs": {
+   "FT seeds on Ht+SC - PN-ML all starts": [
+    -0.007000000000000006,
+    -0.016999999999999908,
+    0.002666666666666595
+   ],
+   "FT seeds on Ht+SC - NOMP os8 rc6": [
+    0.016833333333333367,
+    0.008333333333333304,
+    0.02567083333333337
+   ],
+   "PN-ML all starts - NOMP os8 rc6": [
+    0.023833333333333373,
+    0.017000000000000015,
+    0.031170833333333318
+   ],
+   "PN-ML all starts (level x0.5) - NOMP os8 rc6": [
+    0.021333333333333315,
+    0.014833333333333365,
+    0.028004166666666667
+   ],
+   "FT seeds on Ht+SC - PN-ML all starts (level x0.5)": [
+    -0.0044999999999999485,
+    -0.014170833333333435,
+    0.0048375
+   ],
+   "PN-ML from learned seeds - PN-ML all starts": [
+    0.020333333333333314,
+    0.012995833333333238,
+    0.02749999999999997
+   ],
+   "PN-ML all starts + learned seeds - PN-ML all starts": [
+    0.029333333333333322,
+    0.023666666666666614,
+    0.03533333333333333
+   ],
+   "PN-ML all starts + learned seeds - FT seeds on Ht+SC": [
+    0.03633333333333333,
+    0.028833333333333374,
+    0.044499999999999984
+   ]
+  },
+  "best_classical": "PN-ML all starts",
+  "best_classical_without_physics": "NOMP os8 rc6",
+  "seed": 9415,
+  "n": 1000,
+  "physics_sec_per_scene_all_starts_6thr": 0.051585299253463744
+ },
+ "M6_30_snr0": {
+  "pd": {
+   "NOMP": 0.5895,
+   "NOMP os8 rc6": 0.5908333333333333,
+   "NOMP+SC tuned": 0.5915,
+   "FFT-peak seeds+SC": 0.5878333333333333,
+   "multi-start K6": 0.5893333333333334,
+   "FT seeds on Ht+SC": 0.6066666666666667,
+   "PN-ML all starts": 0.6175,
+   "PN-ML from NOMP": 0.6053333333333333,
+   "PN-ML from learned seeds": 0.6266666666666667,
+   "PN-ML all starts + learned seeds": 0.6296666666666667,
+   "PN-ML all starts (level x0.5)": 0.6213333333333333
+  },
+  "ci": {
+   "NOMP": [
+    0.574,
+    0.6036708333333334
+   ],
+   "NOMP os8 rc6": [
+    0.5756625,
+    0.6050041666666667
+   ],
+   "NOMP+SC tuned": [
+    0.5765,
+    0.6058375
+   ],
+   "FFT-peak seeds+SC": [
+    0.5735,
+    0.6015
+   ],
+   "multi-start K6": [
+    0.574,
+    0.6036666666666667
+   ],
+   "FT seeds on Ht+SC": [
+    0.5911666666666666,
+    0.6205
+   ],
+   "PN-ML all starts": [
+    0.6028291666666666,
+    0.6318375
+   ],
+   "PN-ML from NOMP": [
+    0.5909958333333333,
+    0.6198375
+   ],
+   "PN-ML from learned seeds": [
+    0.6123291666666666,
+    0.6408375000000001
+   ],
+   "PN-ML all starts + learned seeds": [
+    0.6156625,
+    0.6436666666666667
+   ],
+   "PN-ML all starts (level x0.5)": [
+    0.6068291666666666,
+    0.6351708333333334
+   ]
+  },
+  "diffs": {
+   "FT seeds on Ht+SC - PN-ML all starts": [
+    -0.010833333333333361,
+    -0.020500000000000074,
+    -0.0014958333333333024
+   ],
+   "FT seeds on Ht+SC - NOMP+SC tuned": [
+    0.015166666666666662,
+    0.00850000000000006,
+    0.022333333333333316
+   ],
+   "PN-ML all starts - NOMP+SC tuned": [
+    0.026000000000000023,
+    0.017000000000000015,
+    0.035170833333333325
+   ],
+   "PN-ML all starts (level x0.5) - NOMP+SC tuned": [
+    0.029833333333333267,
+    0.02232916666666665,
+    0.037666666666666626
+   ],
+   "FT seeds on Ht+SC - PN-ML all starts (level x0.5)": [
+    -0.014666666666666606,
+    -0.02300000000000002,
+    -0.005995833333333362
+   ],
+   "PN-ML from learned seeds - PN-ML all starts": [
+    0.009166666666666656,
+    0.0034958333333332844,
+    0.015000000000000013
+   ],
+   "PN-ML all starts + learned seeds - PN-ML all starts": [
+    0.012166666666666659,
+    0.007833333333333359,
+    0.016333333333333314
+   ],
+   "PN-ML all starts + learned seeds - FT seeds on Ht+SC": [
+    0.02300000000000002,
+    0.014333333333333309,
+    0.03183750000000002
+   ]
+  },
+  "best_classical": "PN-ML all starts",
+  "best_classical_without_physics": "NOMP+SC tuned",
+  "seed": 9425,
+  "n": 1000,
+  "physics_sec_per_scene_all_starts_6thr": 0.06135674285888672
+ }
+}

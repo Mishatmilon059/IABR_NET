@@ -1,0 +1,9 @@
+20:56:34 run s3_adc_test
+21:39:49 s3_adc_test exit 0
+21:39:49 run s4_imp
+21:51:24 s4_imp exit 0
+21:51:24 run s5_official
+22:00:51 s5_official exit 0
+22:00:51 run s6_latency
+22:01:17 s6_latency exit 0
+ALL DONE

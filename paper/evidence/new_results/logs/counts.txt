@@ -1,0 +1,24 @@
+51 banks
+pd_paper NOMP - U-Net interval>0: 39 interval<0: 0 contains 0: 12
+pd_paper hybrid - NOMP interval>0: 1 interval<0: 17 contains 0: 33
+   <0: ['L2_snr15', 'L5_snr15', 'L7_snr15', 'official', 'phase_d0_snr15', 'phase_d1_snr15', 'phase_d2_snr15', 'phase_d5_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15', 'T2_d1', 'T2_d2', 'T2_d5', 'tail_snr30', 'tail_snr35']
+   >0: ['gain_g4_snr15']
+pd_paper NOMP+selfcal - hybrid interval>0: 19 interval<0: 1 contains 0: 31
+   <0: ['gain_g4_snr15']
+   >0: ['gain_g0.5_snr15', 'gain_g2_snr15', 'L4_snr15', 'L5_snr15', 'L6_snr15', 'L7_snr15', 'official', 'oodphase_d15_snr15', 'phase_d0_snr15', 'phase_d5_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15', 'T2_d1', 'T2_d2', 'T2_d5', 'tail_snr30', 'tail_snr35']
+pd_paper NOMP+selfcal - NOMP interval>0: 8 interval<0: 1 contains 0: 42
+   <0: ['phase_d5_snr0']
+   >0: ['gain_g2_snr15', 'gain_g4_snr15', 'L4_snr0', 'oodphase_d15_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15']
+pd_strict NOMP - U-Net interval>0: 48 interval<0: 0 contains 0: 3
+pd_strict hybrid - NOMP interval>0: 1 interval<0: 17 contains 0: 33
+   <0: ['L2_snr15', 'L5_snr15', 'L7_snr15', 'official', 'phase_d0_snr15', 'phase_d1_snr15', 'phase_d2_snr15', 'phase_d5_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15', 'T2_d1', 'T2_d2', 'T2_d5', 'tail_snr30', 'tail_snr35']
+   >0: ['gain_g4_snr15']
+pd_strict NOMP+selfcal - hybrid interval>0: 19 interval<0: 1 contains 0: 31
+   <0: ['gain_g4_snr15']
+   >0: ['gain_g0.5_snr15', 'gain_g2_snr15', 'L4_snr15', 'L5_snr15', 'L6_snr15', 'L7_snr15', 'official', 'oodphase_d15_snr15', 'phase_d0_snr15', 'phase_d5_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15', 'T2_d1', 'T2_d2', 'T2_d5', 'tail_snr30', 'tail_snr35']
+pd_strict NOMP+selfcal - NOMP interval>0: 8 interval<0: 1 contains 0: 42
+   <0: ['phase_d5_snr0']
+   >0: ['gain_g2_snr15', 'gain_g4_snr15', 'L4_snr0', 'oodphase_d15_snr15', 'sep_1deg_snr15', 'sep_2deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15']
+{'NOMP - U-Net': [0.0641, 0.0602, 0.068], 'hybrid - NOMP': [-0.003, -0.0043, -0.0016], 'NOMP+selfcal - hybrid': [0.0025, 0.0014, 0.0036], 'NOMP+selfcal - NOMP': [-0.0005, -0.0014, 0.0005]}
+{'NOMP - U-Net': [-0.0334, -0.0373, -0.0297], 'hybrid - NOMP': [0.006, 0.0041, 0.0079], 'NOMP+selfcal - hybrid': [-0.0049, -0.0064, -0.0032], 'NOMP+selfcal - NOMP': [0.0012, -0.0002, 0.0027]}
+{'U-Net': 0.3611, 'hybrid': 0.3337, 'NOMP': 0.3277, 'NOMP+selfcal': 0.3288}

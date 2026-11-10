@@ -1,0 +1,7 @@
+L. scale confounding of the slope b in eq. (39) (a = 1)
+  b=1.00: data term (b, x, eps) = 8.6781770674   (1, b x, b eps) = 8.6781770674   |diff| = 0.0e+00   prior(x) = 5.6952  prior(b x) = 5.6952
+  b=0.50: data term (b, x, eps) = 12.1807149749   (1, b x, b eps) = 12.1807149749   |diff| = 0.0e+00   prior(x) = 5.6952  prior(b x) = 2.9071
+  b=0.19: data term (b, x, eps) = 18.2878269652   (1, b x, b eps) = 18.2878269652   |diff| = 0.0e+00   prior(x) = 5.6952  prior(b x) = 1.1785
+  -> identical data terms: a learned b only fixes the scale of x (and eps) relative to the prior / the network weights;
+     reading b = 0.19 as a noise level requires x to stay in the noise-normalised units x/sigma of eq. (35).
+done

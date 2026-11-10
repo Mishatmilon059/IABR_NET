@@ -1,0 +1,34 @@
+(a) searched 1341 text files under D:/ai_ml_project (excluding this folder)
+   training seed 31337      : 5 files: ['paper\\evidence\\deep_research\\finetune\\adc\\REPORT.md', 'paper\\evidence\\deep_research\\finetune\\adc\\results.json', 'paper\\evidence\\deep_research\\finetune\\adc\\train_ft.py', 'paper\\evidence\\deep_research\\finetune\\adc\\train_hist.json', 'paper\\evidence\\deep_research\\finetune\\adc\\write_report.py']
+   training seed 31338      : 5 files: ['paper\\evidence\\deep_research\\finetune\\adc\\REPORT.md', 'paper\\evidence\\deep_research\\finetune\\adc\\results.json', 'paper\\evidence\\deep_research\\finetune\\adc\\train_ft.py', 'paper\\evidence\\deep_research\\finetune\\adc\\train_hist.json', 'paper\\evidence\\deep_research\\finetune\\adc\\write_report.py']
+   training seed 61000000   : 5 files: ['paper\\evidence\\deep_research\\nn_decoder_adapt\\ld_adapt_adc_run.json', 'paper\\evidence\\deep_research\\nn_decoder_adapt\\ld_adapt_adc_smoke.json', 'paper\\evidence\\deep_research\\nn_decoder_adapt\\ld_adapt_adc_smoke_attempt1.json', 'paper\\evidence\\deep_research\\nn_decoder_adapt\\make_report.py', 'paper\\evidence\\deep_research\\nn_decoder_adapt\\REPORT.md']
+   training seed 61_000_000 : 2 files: ['paper\\evidence\\deep_research\\nn_decoder_adapt\\ld_adapt_adc.py', 'paper\\evidence\\deep_research\\nn_decoder_adapt\\ld_adapt_adc_v1.py']
+   training seed 71000000   : 5 files: ['paper\\evidence\\deep_research\\finetune\\imp\\icom.py', 'paper\\evidence\\deep_research\\finetune\\imp\\REPORT.md', 'paper\\evidence\\deep_research\\finetune\\imp\\results.json', 'paper\\evidence\\deep_research\\finetune\\imp\\train_hist.json', 'paper\\evidence\\deep_research\\finetune\\imp\\train_imp.py']
+   training seed 71000001   : 5 files: ['paper\\evidence\\deep_research\\finetune\\imp\\icom.py', 'paper\\evidence\\deep_research\\finetune\\imp\\REPORT.md', 'paper\\evidence\\deep_research\\finetune\\imp\\results.json', 'paper\\evidence\\deep_research\\finetune\\imp\\train_hist.json', 'paper\\evidence\\deep_research\\finetune\\imp\\train_imp.py']
+   training seed 71000002   : 3 files: ['paper\\evidence\\deep_research\\finetune\\imp\\icom.py', 'paper\\evidence\\deep_research\\finetune\\imp\\train_imp.py', 'paper\\evidence\\deep_research\\finetune\\imp\\unit_gen.py']
+   new seed 8700: 2 files ['IABR_v2_extracted\\IABR_v2\\IABR_v2_Train_Eval_executed.ipynb', 'IABR_v2_extracted\\IABR_v2\\outputs\\checkpoints\\IABRv2\\history.json']
+   new seed 8715: 0 files []
+   new seed 8730: 0 files []
+   new seed 8745: 0 files []
+   new seed 8760: 0 files []
+   new seed 8775: 0 files []
+   new seed 8780: 0 files []
+   new seed 8781: 0 files []
+   new seed 8782: 1 files ['notebooks\\IABR_v2_Dataset_Flow\\IABR_v2_Dataset_Flow.ipynb']
+   new seed 8783: 0 files []
+   new seed 8784: 0 files []
+   new seed 8785: 0 files []
+   new seed 8786: 0 files []
+   new seed 8787: 1 files ['IABR_Net_TestSuite\\_gpu_run_extracted\\IABR_Net_TestSuite\\notebooks\\full_run.ipynb']
+   SeedSequence check: default_rng([31337, s]) vs default_rng(5000/5015/8300/8315/8400/8415/87xx) first draws differ: True
+(b) checkpoints
+   final   md5 667d6402f763da2ba9fa232dd61e2de7  mtime Fri Sep 25 08:52:16 2026  tensors 194  params 192982
+   lurd    md5 6c9db37b94d29b853fde0a9db2f6b472  mtime Fri Oct  2 01:57:16 2026  tensors 7  params 4803
+   adc_ft  md5 338829b2c9f1c012e02f3d62f6e6f002  mtime Thu Oct 15 14:54:41 2026  tensors 194  params 192982
+   imp_ft  md5 e2eee0e1bd41c0bb675f846560c82740  mtime Thu Oct 15 17:33:40 2026  tensors 194  params 192982
+   ld_adc  md5 19885e81827b85ce227d91c1db6014ce  mtime Thu Oct 15 16:10:04 2026  tensors 7  params 4803
+   adc_ft vs final: same keys True, max |diff| 5.635e+00, relative L2 change 0.1437
+   imp_ft vs final: same keys True, max |diff| 4.000e+00, relative L2 change 0.0765
+   adc_ft vs imp_ft: same keys True, max |diff| 5.345e+00, relative L2 change 0.1446
+   ld_adc vs lurd: same keys True, max |diff| 2.211e-01, relative L2 change 0.3047
+(c) train_ft.batch applies stress_sim.adc(Y, b, "peak") (finetune/adc/train_ft.py line 31); the test banks use stress_sim.generate(base, "M5", b) which calls the same adc(Y, sev, "peak") (stress_sim.py); equality of adc(generate clean) and generate(M5) checked numerically in t0_unit.log (2).

@@ -1,0 +1,18 @@
+D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\adversarial\a1_crb_check.py:32: RuntimeWarning: overflow encountered in exp
+  D_t = np.exp(Bg @ xc) * np.exp(1j * (Bp @ xd))
+D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\adversarial\a1_crb_check.py:33: RuntimeWarning: invalid value encountered in multiply
+  return np.conj(D_r)[:, None] * H * D_t[None, :]
+D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\adversarial\a1_crb_check.py:37: RuntimeWarning: invalid value encountered in subtract
+  return np.stack([(mu2(th + h * e, L) - mu2(th - h * e, L)).ravel() / (2 * h) for e in np.eye(len(th))], 1)
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\adversarial\a1_crb_check.py", line 130, in <module>
+    main()
+  File "D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\adversarial\a1_crb_check.py", line 106, in main
+    th = th + np.linalg.lstsq(Jr, rr, rcond=None)[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\linalg\_linalg.py", line 2564, in lstsq
+    x, resids, rank, s = _umath_linalg.lstsq(a, b, rcond,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\linalg\_linalg.py", line 175, in _raise_linalgerror_lstsq
+    raise LinAlgError("SVD did not converge in Linear Least Squares")
+numpy.linalg.LinAlgError: SVD did not converge in Linear Least Squares

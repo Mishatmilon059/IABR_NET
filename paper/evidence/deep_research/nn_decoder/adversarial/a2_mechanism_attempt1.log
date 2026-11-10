@@ -1,0 +1,8 @@
+device cpu steps 1500 batch 128
+official eval_bank stored seed: 42
+1. use_sc=True: sequential MLP calls per forward 48, self-calibration (ALS) calls 2
+1. use_sc=False: sequential MLP calls per forward 24, self-calibration (ALS) calls 0
+2. probe d=0.02: (f(+d)+f(-d)-2f)/(d^2 f) vs analytic Hessian diagonal/f: Pearson 1.00000, median rel. error 0.0033
+2. probe d=0.08: (f(+d)+f(-d)-2f)/(d^2 f) vs analytic Hessian diagonal/f: Pearson 0.99966, median rel. error 0.0511
+3. MLP step vs clipped Newton step at the seeds: {"frac_newton_ok": 0.9876666666666667, "du": {"pearson_all": 0.9190295557312054, "pearson_newton_ok": 0.9249769337897633, "sign_agree_newton_ok": 0.9419507256159299, "sign_agree_with_gradient": 0.9773333333333334, "median_abs_diff_over_clip": 0.4636442959308624}, "dv": {"pearson_all": 0.8996054868370709, "pearson_newton_ok": 0.9063620145387525, "sign_agree_newton_ok": 0.9382382720215997, "sign_agree_with_gradient": 0.9866666666666667, "median_abs_diff_over_clip": 0.4314350485801697}}
+4. ablation decoder learnable params: 1 (lam only, fixed to 1.0)

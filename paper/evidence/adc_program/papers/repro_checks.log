@@ -1,0 +1,14 @@
+(1) CFAR thresholds, PFA = 0.01
+  N=  128: tau_th= 18.904  10log10=12.77 dB  20log10=25.53 dB  approx eq.(41)= 18.914
+  N=  256: tau_th= 20.291  10log10=13.07 dB  20log10=26.15 dB  approx eq.(41)= 20.301
+  N=  512: tau_th= 21.677  10log10=13.36 dB  20log10=26.72 dB  approx eq.(41)= 21.687
+  N= 1024: tau_th= 23.063  10log10=13.63 dB  20log10=27.26 dB  approx eq.(41)= 23.073
+  paper example statistics (dB read as 20log10): 41.4 dB -> 117.49 ; 28.8 dB -> 27.54 ; 24 dB -> 15.85
+(2) unquantised Pd = 0.5 point, N = 1024, PFA = 0.01
+  on-grid (beta = 1)              : Pd = 0.5 at integrated SNR 10.42 dB (paper: 12.4 dB, target frequency not stated)
+  uniform random offset, mean Pd  : Pd = 0.5 at integrated SNR 11.58 dB (paper: 12.4 dB, target frequency not stated)
+  half-bin offset                 : Pd = 0.5 at integrated SNR 14.35 dB (paper: 12.4 dB, target frequency not stated)
+(3) run-time ratio sigma^2 unknown / known (paper numbers)
+  Sec. V-I (time-varying thresholds): 3.60x (PFA 0.01), 3.55x (PFA 0.05)
+  Sec. V-K (AWR1642 data): 5.67x (B=2), 7.50x (B=3)
+  integrated SNR of one of L=3 equal-power paths in our scenes = SNR + 10log10(256/3) = SNR + 19.31 dB

@@ -1,0 +1,112 @@
+{
+ "b1_snr15": {
+  "pd": {
+   "FT network only": 0.41233333333333333,
+   "consistent NOMP": 0.23233333333333334,
+   "ML (all starts)": 0.5248333333333334,
+   "ML from FT network seeds": 0.553,
+   "ML all starts + FT seeds": 0.5608333333333333
+  },
+  "ci": {
+   "FT network only": [
+    0.39916666666666667,
+    0.4258375
+   ],
+   "consistent NOMP": [
+    0.22166666666666668,
+    0.24316666666666667
+   ],
+   "ML (all starts)": [
+    0.5094958333333333,
+    0.5400041666666667
+   ],
+   "ML from FT network seeds": [
+    0.538,
+    0.567
+   ],
+   "ML all starts + FT seeds": [
+    0.5453291666666666,
+    0.5746666666666667
+   ]
+  },
+  "diffs": {
+   "ML (all starts) - FT network only": [
+    0.11250000000000004,
+    0.09683333333333333,
+    0.12766666666666665
+   ],
+   "ML from FT network seeds - ML (all starts)": [
+    0.028166666666666673,
+    0.018329166666666646,
+    0.037666666666666626
+   ],
+   "ML all starts + FT seeds - ML (all starts)": [
+    0.03599999999999992,
+    0.027829166666666603,
+    0.044333333333333336
+   ],
+   "FT network only - consistent NOMP": [
+    0.18,
+    0.1656625,
+    0.19433333333333333
+   ]
+  },
+  "seed": 9515,
+  "n": 1000
+ },
+ "b2_snr15": {
+  "pd": {
+   "FT network only": 0.5736666666666667,
+   "consistent NOMP": 0.4385,
+   "ML (all starts)": 0.6653333333333333,
+   "ML from FT network seeds": 0.6688333333333333,
+   "ML all starts + FT seeds": 0.6765
+  },
+  "ci": {
+   "FT network only": [
+    0.5586625,
+    0.5875
+   ],
+   "consistent NOMP": [
+    0.4246666666666667,
+    0.4525
+   ],
+   "ML (all starts)": [
+    0.651,
+    0.6791708333333334
+   ],
+   "ML from FT network seeds": [
+    0.6548291666666667,
+    0.6828333333333333
+   ],
+   "ML all starts + FT seeds": [
+    0.6625,
+    0.69
+   ]
+  },
+  "diffs": {
+   "ML (all starts) - FT network only": [
+    0.09166666666666667,
+    0.07799583333333329,
+    0.10599999999999998
+   ],
+   "ML from FT network seeds - ML (all starts)": [
+    0.0034999999999999476,
+    -0.0024999999999999467,
+    0.010004166666666653
+   ],
+   "ML all starts + FT seeds - ML (all starts)": [
+    0.011166666666666658,
+    0.006666666666666599,
+    0.01633333333333331
+   ],
+   "FT network only - consistent NOMP": [
+    0.13516666666666666,
+    0.12133333333333335,
+    0.14800000000000002
+   ]
+  },
+  "seed": 9515,
+  "n": 1000
+ }
+}

@@ -1,0 +1,5 @@
+W unitary err 2.2514774938931273e-15  F unitary err 2.4017836921726404e-15
+G=1: A is 256x256; receive beams touched per grid atom: min 1 max 1; singular values min 1.0000 max 1.0000 (nonzero count 256)
+   G=1: max|A^H A - I| = 4.12e-15 ; nonzeros per column of A: 1
+G=2: A is 256x1024; receive beams touched per grid atom: min 1 max 16; singular values min 2.0000 max 2.0000 (nonzero count 256)
+G=4: A is 256x4096; receive beams touched per grid atom: min 1 max 16; singular values min 4.0000 max 4.0000 (nonzero count 256)

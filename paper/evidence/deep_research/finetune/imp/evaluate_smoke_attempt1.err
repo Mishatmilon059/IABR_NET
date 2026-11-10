@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\finetune\imp\evaluate.py", line 190, in <module>
+    evaluate_bank(name, b, Y, tag)
+  File "D:\ai_ml_project\paper\evidence\deep_research\finetune\imp\evaluate.py", line 141, in evaluate_bank
+    Pc = run(bc, Y[sl])
+         ^^^^^^^^^^^^^^
+  File "D:\ai_ml_project\paper\evidence\deep_research\finetune\imp\evaluate.py", line 70, in run
+    hf_ = heat_ref(H, A.fft_heat(H, 4), L); cd = dual(H, hf_, g)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project\paper\evidence\deep_research\finetune\imp\evaluate.py", line 42, in heat_ref
+    Uh, Vh = C.heat_peaks(heat, L)
+             ^^^^^^^^^^^^
+AttributeError: module 'common' has no attribute 'heat_peaks'

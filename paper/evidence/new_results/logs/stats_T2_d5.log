@@ -1,0 +1,1 @@
+T2_d5                  N=8000 | U-Net 0.7277 | hybrid 0.7452 | NOMP 0.7468 | NOMP+selfcal 0.7476 | NOMP - U-Net +0.0191 [+0.0158,+0.0223] | hybrid - NOMP -0.0017 [-0.0031,-0.0003] | NOMP+selfcal - hybrid +0.0025 [+0.0013,+0.0036] | NOMP+selfcal - NOMP +0.0008 [-0.0002,+0.0018] | 522s

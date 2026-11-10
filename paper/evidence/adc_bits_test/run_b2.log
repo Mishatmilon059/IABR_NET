@@ -1,0 +1,15 @@
+b2 snr0 chunk 0: 42s (total 42s)
+b2 snr0 chunk 50: 42s (total 84s)
+b2 snr0 chunk 100: 49s (total 133s)
+=== b2 snr0 (N=150) Pd paper: NOMP 0.387, consistent NOMP 0.422, CNN read-out 0.451, ML known sigma 0.478, ML snr+5 0.440, ML snr-5 0.428, ML nominal 10dB 0.356, ML joint sigma 0.441, hybrid known sigma 0.482, hybrid snr+5 0.443, hybrid snr-5 0.427, hybrid nominal 10dB 0.361, hybrid joint sigma 0.429
+b2 snr10 chunk 0: 57s (total 191s)
+b2 snr10 chunk 50: 41s (total 231s)
+b2 snr10 chunk 100: 43s (total 274s)
+=== b2 snr10 (N=150) Pd paper: NOMP 0.343, consistent NOMP 0.529, CNN read-out 0.583, ML known sigma 0.661, ML snr+5 0.578, ML snr-5 0.586, ML nominal 10dB 0.661, ML joint sigma 0.618, hybrid known sigma 0.649, hybrid snr+5 0.574, hybrid snr-5 0.582, hybrid nominal 10dB 0.649, hybrid joint sigma 0.621
+b2 snr20 chunk 0: 59s (total 333s)
+b2 snr20 chunk 50: 51s (total 384s)
+b2 snr20 chunk 100: 51s (total 435s)
+=== b2 snr20 (N=150) Pd paper: NOMP 0.258, consistent NOMP 0.362, CNN read-out 0.550, ML known sigma 0.711, ML snr+5 0.633, ML snr-5 0.638, ML nominal 10dB 0.507, ML joint sigma 0.652, hybrid known sigma 0.713, hybrid snr+5 0.643, hybrid snr-5 0.661, hybrid nominal 10dB 0.532, hybrid joint sigma 0.677
+b2 cells done in 435s
+latency (s/scene, 1 thread, 12 scenes): {'NOMP': 0.0020545323689778647, 'consistent NOMP': 0.03883282343546549, 'CNN read-out': 0.004016101360321045, 'ML starts only (13, no EM)': 0.08600451548894246, 'ML starts only (13 + EM)': 0.14302436510721842, 'ML known sigma LM only': 0.16172313690185547, 'ML wrong/fixed sigma LM only (13 starts)': 0.13435792922973633, 'hybrid LM only (CNN seeds)': 0.015202005704243978, 'ML known sigma TOTAL': 0.30474750200907386, 'ML wrong/fixed sigma TOTAL': 0.22036244471867877, 'hybrid TOTAL (CNN + one LM)': 0.019218107064565025}
+ALL DONE

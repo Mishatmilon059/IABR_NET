@@ -1,0 +1,4 @@
+hybrid - U-Net pd_paper  +0.0186 [+0.0152, +0.0220]
+hybrid - U-Net pd_strict +0.0611 [+0.0572, +0.0650]
+hybrid - U-Net pd_source +0.0647 [+0.0603, +0.0695]
+hybrid - U-Net rmse      -0.0274 [-0.0312, -0.0237]

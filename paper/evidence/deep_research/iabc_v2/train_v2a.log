@@ -1,0 +1,142 @@
+IABC-v2a {'d': 128, 'layers': 4, 'heads': 4, 'ff': 256}: 597,250 params; steps 7000, batch 256
+step 50 train 0.04293 lr 8.33e-05 0.82s/step
+step 100 train 0.03698 lr 1.67e-04 1.05s/step
+step 150 train 0.03482 lr 2.50e-04 0.88s/step
+step 200 train 0.03365 lr 3.33e-04 0.91s/step
+step 250 train 0.03271 lr 4.17e-04 0.90s/step
+step 300 train 0.03224 lr 5.00e-04 0.86s/step
+step 350 train 0.03121 lr 5.00e-04 0.81s/step
+step 400 train 0.03112 lr 5.00e-04 0.83s/step
+step 450 train 0.03062 lr 4.99e-04 0.84s/step
+{"step": 500, "train": 0.030062512196600437, "lr": 0.0004989341962334797, "s_per_step": 0.7937079906463623, "val": 0.029563551768660545, "rem_ph_all": 14.134449005126953, "rem_g_all": 53.684173583984375, "rms_ph_deg_all": 11.671968460083008, "rms_g_db_all": 1.15321639412849, "rem_ph_snr>=5_imp": 24.198596954345703, "rem_g_snr>=5_imp": 78.40859985351562, "rms_ph_deg_snr>=5_imp": 12.81764030456543, "rms_g_db_snr>=5_imp": 0.9081932139833577, "rem_ph_snr<0": 2.7696549892425537, "rem_g_snr<0": 15.339624404907227, "rms_ph_deg_snr<0": 12.430231094360352, "rms_g_db_snr<0": 1.513440352100377, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 2.4792723655700684, "rms_g_db_clean": 0.3379856785187312}
+step 550 train 0.02976 lr 4.98e-04 0.85s/step
+step 600 train 0.03015 lr 4.98e-04 0.81s/step
+step 650 train 0.02975 lr 4.97e-04 0.74s/step
+step 700 train 0.02939 lr 4.96e-04 0.72s/step
+step 750 train 0.02908 lr 4.95e-04 0.64s/step
+step 800 train 0.02904 lr 4.93e-04 0.66s/step
+step 850 train 0.02822 lr 4.92e-04 0.74s/step
+step 900 train 0.02843 lr 4.90e-04 0.68s/step
+step 950 train 0.02819 lr 4.89e-04 0.72s/step
+{"step": 1000, "train": 0.02774622030556202, "lr": 0.00048695784788505003, "s_per_step": 0.6333685493469239, "val": 0.027514930814504623, "rem_ph_all": 21.898258209228516, "rem_g_all": 54.590476989746094, "rms_ph_deg_all": 11.131789207458496, "rms_g_db_all": 1.141877692854353, "rem_ph_snr>=5_imp": 36.05787658691406, "rem_g_snr>=5_imp": 79.3885498046875, "rms_ph_deg_snr>=5_imp": 11.772346496582031, "rms_g_db_snr>=5_imp": 0.8873442668074909, "rem_ph_snr<0": 4.044103622436523, "rem_g_snr<0": 15.979504585266113, "rms_ph_deg_snr<0": 12.348498344421387, "rms_g_db_snr<0": 1.5077101047228316, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.8123621940612793, "rms_g_db_clean": 0.28690133790876654}
+step 1050 train 0.02784 lr 4.85e-04 0.77s/step
+step 1100 train 0.02826 lr 4.83e-04 0.86s/step
+step 1150 train 0.02771 lr 4.81e-04 0.69s/step
+step 1200 train 0.02715 lr 4.79e-04 0.67s/step
+step 1250 train 0.02736 lr 4.76e-04 0.76s/step
+step 1300 train 0.02714 lr 4.74e-04 0.74s/step
+step 1350 train 0.02665 lr 4.71e-04 0.71s/step
+step 1400 train 0.02730 lr 4.68e-04 0.69s/step
+step 1450 train 0.02668 lr 4.65e-04 0.71s/step
+{"step": 1500, "train": 0.026758875995874405, "lr": 0.00046229011392613255, "s_per_step": 0.6305912923812866, "val": 0.026091035455465317, "rem_ph_all": 26.757930755615234, "rem_g_all": 55.901763916015625, "rms_ph_deg_all": 10.779905319213867, "rms_g_db_all": 1.1252699027283226, "rem_ph_snr>=5_imp": 43.84297180175781, "rem_g_snr>=5_imp": 81.56061553955078, "rms_ph_deg_snr>=5_imp": 11.032439231872559, "rms_g_db_snr>=5_imp": 0.8392880020568844, "rem_ph_snr<0": 5.1667633056640625, "rem_g_snr<0": 16.107458114624023, "rms_ph_deg_snr<0": 12.27604866027832, "rms_g_db_snr<0": 1.506561673738237, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.966915249824524, "rms_g_db_clean": 0.31493047026280113}
+step 1550 train 0.02623 lr 4.59e-04 0.67s/step
+step 1600 train 0.02703 lr 4.56e-04 0.63s/step
+step 1650 train 0.02635 lr 4.53e-04 0.69s/step
+step 1700 train 0.02633 lr 4.49e-04 0.63s/step
+step 1750 train 0.02633 lr 4.46e-04 0.63s/step
+step 1800 train 0.02576 lr 4.42e-04 0.62s/step
+step 1850 train 0.02549 lr 4.38e-04 0.67s/step
+step 1900 train 0.02545 lr 4.34e-04 0.67s/step
+step 1950 train 0.02572 lr 4.30e-04 0.68s/step
+{"step": 2000, "train": 0.025598056726157666, "lr": 0.00042628066942340003, "s_per_step": 0.6666752481460572, "val": 0.02499507926404476, "rem_ph_all": 30.765491485595703, "rem_g_all": 56.57184600830078, "rms_ph_deg_all": 10.480836868286133, "rms_g_db_all": 1.1166877982207695, "rem_ph_snr>=5_imp": 50.56276321411133, "rem_g_snr>=5_imp": 82.46316528320312, "rms_ph_deg_snr>=5_imp": 10.351339340209961, "rms_g_db_snr>=5_imp": 0.8184901149535323, "rem_ph_snr<0": 5.984926223754883, "rem_g_snr<0": 16.467714309692383, "rms_ph_deg_snr<0": 12.222978591918945, "rms_g_db_snr<0": 1.5033234685310268, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 2.701334238052368, "rms_g_db_clean": 0.3148118478129667}
+step 2050 train 0.02518 lr 4.22e-04 0.74s/step
+step 2100 train 0.02560 lr 4.18e-04 0.72s/step
+step 2150 train 0.02519 lr 4.14e-04 0.67s/step
+step 2200 train 0.02503 lr 4.09e-04 0.78s/step
+step 2250 train 0.02506 lr 4.05e-04 0.69s/step
+step 2300 train 0.02520 lr 4.00e-04 0.66s/step
+step 2350 train 0.02479 lr 3.95e-04 0.66s/step
+step 2400 train 0.02492 lr 3.91e-04 0.68s/step
+step 2450 train 0.02476 lr 3.86e-04 0.71s/step
+{"step": 2500, "train": 0.024895282424986363, "lr": 0.00038089974194177687, "s_per_step": 0.6834224319458008, "val": 0.02401827834546566, "rem_ph_all": 34.91274642944336, "rem_g_all": 56.43836212158203, "rms_ph_deg_all": 10.162079811096191, "rms_g_db_all": 1.1184027436220856, "rem_ph_snr>=5_imp": 56.73944854736328, "rem_g_snr>=5_imp": 82.23270416259766, "rms_ph_deg_snr>=5_imp": 9.683124542236328, "rms_g_db_snr>=5_imp": 0.8238508401332847, "rem_ph_snr<0": 6.008392333984375, "rem_g_snr<0": 16.60520362854004, "rms_ph_deg_snr<0": 12.221452713012695, "rms_g_db_snr<0": 1.502085730955722, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.8017687797546387, "rms_g_db_clean": 0.3342131222104393}
+step 2550 train 0.02486 lr 3.76e-04 0.70s/step
+step 2600 train 0.02471 lr 3.71e-04 0.64s/step
+step 2650 train 0.02450 lr 3.66e-04 0.64s/step
+step 2700 train 0.02417 lr 3.61e-04 0.69s/step
+step 2750 train 0.02449 lr 3.55e-04 0.65s/step
+step 2800 train 0.02389 lr 3.50e-04 0.66s/step
+step 2850 train 0.02433 lr 3.45e-04 0.66s/step
+step 2900 train 0.02408 lr 3.40e-04 0.73s/step
+step 2950 train 0.02392 lr 3.34e-04 0.67s/step
+{"step": 3000, "train": 0.02403045419603586, "lr": 0.0003286303121403881, "s_per_step": 0.6610637092590332, "val": 0.02331545203924179, "rem_ph_all": 37.38595962524414, "rem_g_all": 56.991004943847656, "rms_ph_deg_all": 9.967138290405273, "rms_g_db_all": 1.1112857849215438, "rem_ph_snr>=5_imp": 60.532928466796875, "rem_g_snr>=5_imp": 83.2100830078125, "rms_ph_deg_snr>=5_imp": 9.248832702636719, "rms_g_db_snr>=5_imp": 0.800870248181042, "rem_ph_snr<0": 6.597793102264404, "rem_g_snr<0": 16.303253173828125, "rms_ph_deg_snr<0": 12.183073043823242, "rms_g_db_snr<0": 1.504802592760932, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 2.3667190074920654, "rms_g_db_clean": 0.33291403489021204}
+step 3050 train 0.02438 lr 3.23e-04 0.66s/step
+step 3100 train 0.02416 lr 3.18e-04 0.72s/step
+step 3150 train 0.02366 lr 3.12e-04 0.70s/step
+step 3200 train 0.02379 lr 3.06e-04 0.68s/step
+step 3250 train 0.02381 lr 3.01e-04 0.75s/step
+step 3300 train 0.02329 lr 2.95e-04 0.68s/step
+step 3350 train 0.02394 lr 2.89e-04 0.73s/step
+step 3400 train 0.02334 lr 2.84e-04 0.66s/step
+step 3450 train 0.02320 lr 2.78e-04 0.71s/step
+{"step": 3500, "train": 0.023492964170873164, "lr": 0.00027233225949862297, "s_per_step": 0.7495361614227295, "val": 0.02252412959933281, "rem_ph_all": 40.07231521606445, "rem_g_all": 57.738006591796875, "rms_ph_deg_all": 9.750982284545898, "rms_g_db_all": 1.101592913513304, "rem_ph_snr>=5_imp": 63.881343841552734, "rem_g_snr>=5_imp": 83.94072723388672, "rms_ph_deg_snr>=5_imp": 8.847800254821777, "rms_g_db_snr>=5_imp": 0.7832507696980767, "rem_ph_snr<0": 7.622283935546875, "rem_g_snr<0": 16.827959060668945, "rms_ph_deg_snr<0": 12.116073608398438, "rms_g_db_snr<0": 1.50007827411237, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.8371269702911377, "rms_g_db_clean": 0.2627019536742847}
+step 3550 train 0.02308 lr 2.67e-04 0.73s/step
+step 3600 train 0.02315 lr 2.61e-04 0.66s/step
+step 3650 train 0.02327 lr 2.55e-04 0.64s/step
+step 3700 train 0.02293 lr 2.49e-04 0.67s/step
+step 3750 train 0.02299 lr 2.44e-04 0.73s/step
+step 3800 train 0.02295 lr 2.38e-04 0.66s/step
+step 3850 train 0.02272 lr 2.32e-04 0.65s/step
+step 3900 train 0.02280 lr 2.26e-04 0.65s/step
+step 3950 train 0.02266 lr 2.21e-04 0.69s/step
+{"step": 4000, "train": 0.022703033313155173, "lr": 0.0002150858863287804, "s_per_step": 0.7967120742797852, "val": 0.022074978798627853, "rem_ph_all": 41.610015869140625, "rem_g_all": 58.14556884765625, "rms_ph_deg_all": 9.625067710876465, "rms_g_db_all": 1.0962682992593604, "rem_ph_snr>=5_imp": 66.2557144165039, "rem_g_snr>=5_imp": 84.66511535644531, "rms_ph_deg_snr>=5_imp": 8.552037239074707, "rms_g_db_snr>=5_imp": 0.7653818151954104, "rem_ph_snr<0": 7.803398132324219, "rem_g_snr<0": 16.62327003479004, "rms_ph_deg_snr<0": 12.104190826416016, "rms_g_db_snr<0": 1.5019230376448198, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.6408202648162842, "rms_g_db_clean": 0.283711604177239}
+step 4050 train 0.02314 lr 2.09e-04 0.70s/step
+step 4100 train 0.02282 lr 2.04e-04 0.67s/step
+step 4150 train 0.02296 lr 1.98e-04 0.71s/step
+step 4200 train 0.02294 lr 1.93e-04 0.66s/step
+step 4250 train 0.02241 lr 1.87e-04 0.68s/step
+step 4300 train 0.02248 lr 1.82e-04 0.72s/step
+step 4350 train 0.02248 lr 1.76e-04 0.68s/step
+step 4400 train 0.02229 lr 1.71e-04 0.70s/step
+step 4450 train 0.02271 lr 1.65e-04 0.64s/step
+{"step": 4500, "train": 0.022624327763915063, "lr": 0.0001600233815320973, "s_per_step": 0.6748395729064941, "val": 0.02172602340579033, "rem_ph_all": 42.92691421508789, "rem_g_all": 58.307003021240234, "rms_ph_deg_all": 9.515909194946289, "rms_g_db_all": 1.0941519919192153, "rem_ph_snr>=5_imp": 68.15906524658203, "rem_g_snr>=5_imp": 84.9495620727539, "rms_ph_deg_snr>=5_imp": 8.307348251342773, "rms_g_db_snr>=5_imp": 0.7582500367780043, "rem_ph_snr<0": 8.176082611083984, "rem_g_snr<0": 16.777212142944336, "rms_ph_deg_snr<0": 12.07970142364502, "rms_g_db_snr<0": 1.500535808602457, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.833415150642395, "rms_g_db_clean": 0.2750444642637488}
+step 4550 train 0.02267 lr 1.55e-04 0.71s/step
+step 4600 train 0.02237 lr 1.50e-04 0.77s/step
+step 4650 train 0.02314 lr 1.44e-04 0.72s/step
+step 4700 train 0.02247 lr 1.39e-04 0.71s/step
+step 4750 train 0.02227 lr 1.34e-04 0.68s/step
+step 4800 train 0.02229 lr 1.29e-04 0.71s/step
+step 4850 train 0.02246 lr 1.24e-04 0.72s/step
+step 4900 train 0.02201 lr 1.20e-04 0.70s/step
+step 4950 train 0.02215 lr 1.15e-04 0.71s/step
+{"step": 5000, "train": 0.022697514109313487, "lr": 0.00011015744542212516, "s_per_step": 0.7636612367630005, "val": 0.02148430049419403, "rem_ph_all": 43.712520599365234, "rem_g_all": 58.579612731933594, "rms_ph_deg_all": 9.450189590454102, "rms_g_db_all": 1.090569115043801, "rem_ph_snr>=5_imp": 68.96299743652344, "rem_g_snr>=5_imp": 85.21675872802734, "rms_ph_deg_snr>=5_imp": 8.201804161071777, "rms_g_db_snr>=5_imp": 0.7514890101418865, "rem_ph_snr<0": 8.711963653564453, "rem_g_snr<0": 17.032367706298828, "rms_ph_deg_snr<0": 12.044402122497559, "rms_g_db_snr<0": 1.4982338988694448, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.473557710647583, "rms_g_db_clean": 0.23800266285531918}
+step 5050 train 0.02206 lr 1.06e-04 0.73s/step
+step 5100 train 0.02202 lr 1.01e-04 0.67s/step
+step 5150 train 0.02202 lr 9.66e-05 0.64s/step
+step 5200 train 0.02225 lr 9.23e-05 0.69s/step
+step 5250 train 0.02218 lr 8.80e-05 0.65s/step
+step 5300 train 0.02209 lr 8.39e-05 0.66s/step
+step 5350 train 0.02214 lr 7.98e-05 0.65s/step
+step 5400 train 0.02241 lr 7.59e-05 0.72s/step
+step 5450 train 0.02242 lr 7.20e-05 0.74s/step
+{"step": 5500, "train": 0.02182905226945877, "lr": 6.821645226931885e-05, "s_per_step": 0.6508264207839966, "val": 0.021272696554660797, "rem_ph_all": 44.49656677246094, "rem_g_all": 58.69594955444336, "rms_ph_deg_all": 9.38414192199707, "rms_g_db_all": 1.0890365362893115, "rem_ph_snr>=5_imp": 70.10680389404297, "rem_g_snr>=5_imp": 85.43560791015625, "rms_ph_deg_snr>=5_imp": 8.049254417419434, "rms_g_db_snr>=5_imp": 0.7459058597793294, "rem_ph_snr<0": 8.798408508300781, "rem_g_snr<0": 16.938817977905273, "rms_ph_deg_snr<0": 12.038698196411133, "rms_g_db_snr<0": 1.499078169726259, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.5754408836364746, "rms_g_db_clean": 0.266303500804351}
+step 5550 train 0.02200 lr 6.46e-05 0.72s/step
+step 5600 train 0.02226 lr 6.10e-05 0.77s/step
+step 5650 train 0.02215 lr 5.75e-05 0.68s/step
+step 5700 train 0.02210 lr 5.42e-05 0.63s/step
+step 5750 train 0.02184 lr 5.10e-05 0.73s/step
+step 5800 train 0.02208 lr 4.78e-05 0.75s/step
+step 5850 train 0.02221 lr 4.48e-05 0.70s/step
+step 5900 train 0.02186 lr 4.19e-05 0.67s/step
+step 5950 train 0.02228 lr 3.92e-05 0.68s/step
+{"step": 6000, "train": 0.02183408718556166, "lr": 3.649516951458354e-05, "s_per_step": 0.7157736444473266, "val": 0.021162288263440132, "rem_ph_all": 44.85935974121094, "rem_g_all": 58.8154296875, "rms_ph_deg_all": 9.353422164916992, "rms_g_db_all": 1.0874602102483584, "rem_ph_snr>=5_imp": 70.66521453857422, "rem_g_snr>=5_imp": 85.5952377319336, "rms_ph_deg_snr>=5_imp": 7.973719596862793, "rms_g_db_snr>=5_imp": 0.7418070108403418, "rem_ph_snr<0": 8.886617660522461, "rem_g_snr<0": 16.941707611083984, "rms_ph_deg_snr<0": 12.03287410736084, "rms_g_db_snr<0": 1.4990521543280957, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.6173503398895264, "rms_g_db_clean": 0.2787378742238969}
+step 6050 train 0.02173 lr 3.40e-05 0.77s/step
+step 6100 train 0.02181 lr 3.15e-05 0.66s/step
+step 6150 train 0.02172 lr 2.92e-05 0.66s/step
+step 6200 train 0.02209 lr 2.71e-05 0.67s/step
+step 6250 train 0.02228 lr 2.50e-05 0.68s/step
+step 6300 train 0.02189 lr 2.31e-05 0.72s/step
+step 6350 train 0.02169 lr 2.13e-05 0.67s/step
+step 6400 train 0.02202 lr 1.97e-05 0.66s/step
+step 6450 train 0.02232 lr 1.81e-05 0.69s/step
+{"step": 6500, "train": 0.02197888568043709, "lr": 1.6729201428998693e-05, "s_per_step": 0.6588352966308594, "val": 0.021106749773025513, "rem_ph_all": 45.05783462524414, "rem_g_all": 58.8552360534668, "rms_ph_deg_all": 9.336573600769043, "rms_g_db_all": 1.086934595661585, "rem_ph_snr>=5_imp": 70.961181640625, "rem_g_snr>=5_imp": 85.60697174072266, "rms_ph_deg_snr>=5_imp": 7.933392524719238, "rms_g_db_snr>=5_imp": 0.7415047274452646, "rem_ph_snr<0": 8.99532413482666, "rem_g_snr<0": 17.06272315979004, "rms_ph_deg_snr<0": 12.025693893432617, "rms_g_db_snr<0": 1.4979597664649176, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.61968195438385, "rms_g_db_clean": 0.26648732353689586}
+step 6550 train 0.02169 lr 1.55e-05 0.74s/step
+step 6600 train 0.02195 lr 1.43e-05 0.70s/step
+step 6650 train 0.02221 lr 1.33e-05 0.81s/step
+step 6700 train 0.02203 lr 1.24e-05 0.69s/step
+step 6750 train 0.02205 lr 1.17e-05 0.69s/step
+step 6800 train 0.02171 lr 1.11e-05 0.67s/step
+step 6850 train 0.02203 lr 1.06e-05 0.72s/step
+step 6900 train 0.02157 lr 1.03e-05 0.65s/step
+step 6950 train 0.02175 lr 1.01e-05 0.64s/step
+{"step": 7000, "train": 0.022520037665963173, "lr": 1.0000026933092383e-05, "s_per_step": 0.631476035118103, "val": 0.021072927862405777, "rem_ph_all": 45.160926818847656, "rem_g_all": 58.902061462402344, "rms_ph_deg_all": 9.32780933380127, "rms_g_db_all": 1.086315921018695, "rem_ph_snr>=5_imp": 71.01771545410156, "rem_g_snr>=5_imp": 85.63419342041016, "rms_ph_deg_snr>=5_imp": 7.925665855407715, "rms_g_db_snr>=5_imp": 0.7408031529888242, "rem_ph_snr<0": 9.102117538452148, "rem_g_snr<0": 17.1330623626709, "rms_ph_deg_snr<0": 12.018635749816895, "rms_g_db_snr<0": 1.4973242659426185, "rem_ph_clean": null, "rem_g_clean": null, "rms_ph_deg_clean": 1.5544235706329346, "rms_g_db_clean": 0.26132202123924253}
+DONE

@@ -1,0 +1,5 @@
+NOMP                                       5.8 ms/scene (median of 30, 1 thread, batch 1)
+consistent NOMP                           76.9 ms/scene (median of 30, 1 thread, batch 1)
+ML from consistent NOMP (1 start)         93.8 ms/scene (median of 30, 1 thread, batch 1)
+ML (all starts: 13 + EM)                 482.4 ms/scene (median of 30, 1 thread, batch 1)
+FT network only (CNN + parabolic)          6.2 ms/scene (median of 30, 1 thread, batch 1)

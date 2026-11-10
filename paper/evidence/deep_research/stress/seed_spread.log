@@ -1,0 +1,6 @@
+SNR 15 NOMP          : 20 seeds x 500: mean 0.9378, sd 0.0055, min 0.9237, max 0.9470; existing phase_d0 0.9497 (rank 20/20 below), stress clean 0.9290 (rank 1/20 below)
+SNR 15 IABR-Net heat : 20 seeds x 500: mean 0.9249, sd 0.0068, min 0.9063, max 0.9353; existing phase_d0 0.9370 (rank 20/20 below), stress clean 0.9183 (rank 2/20 below)
+SNR 15 pooled 10,000 scenes: NOMP 0.9378, IABR-Net heat 0.9249, heat - NOMP -0.0129
+SNR  0 NOMP          : 20 seeds x 500: mean 0.6944, sd 0.0122, min 0.6663, max 0.7213; existing phase_d0 0.6817 (rank 2/20 below), stress clean 0.6897 (rank 6/20 below)
+SNR  0 IABR-Net heat : 20 seeds x 500: mean 0.6893, sd 0.0117, min 0.6650, max 0.7167; existing phase_d0 0.6803 (rank 4/20 below), stress clean 0.6847 (rank 6/20 below)
+SNR  0 pooled 10,000 scenes: NOMP 0.6944, IABR-Net heat 0.6893, heat - NOMP -0.0051

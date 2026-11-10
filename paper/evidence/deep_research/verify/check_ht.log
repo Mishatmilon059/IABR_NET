@@ -1,0 +1,4 @@
+scenes 200: max |to_ant(Y) - Ht| = 2.181e-06, max |Ht| = 10.446, max per-scene relative Frobenius error = 1.494e-07, median 1.316e-07
+codebook unitarity: max |W^H W - I| = 2.25e-15, max |F^H F - I| = 2.40e-15
+Ht is stored as complex64 (float32 CNN front end); a relative error of order 1e-7 is float32 rounding.
+PASS

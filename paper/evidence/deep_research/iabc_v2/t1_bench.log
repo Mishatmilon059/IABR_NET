@@ -1,0 +1,4 @@
+{'d': 128, 'layers': 6, 'heads': 4, 'ff': 384} params 1059586 1098 ms/step (B=256)
+{'d': 192, 'layers': 6, 'heads': 6, 'ff': 512} params 2215682 1755 ms/step (B=256)
+{'d': 128, 'layers': 4, 'heads': 4, 'ff': 256} params 597250 620 ms/step (B=256)
+batch gen 126 ms

@@ -1,0 +1,88 @@
+=== A. eq.(41) formula vs finite differences ===
+a=1.0  b=1.0   max|f''_FD - f''_eq41| = 1.65e-07
+a=0.5  b=1.7   max|f''_FD - f''_eq41| = 4.97e-07
+a=3.0  b=1.0   max|f''_FD - f''_eq41| = 3.14e-07
+a=1.0  b=0.19  max|f''_FD - f''_eq41| = 7.16e-08
+
+=== B. printed bound a b^2/(a+1)^2 vs true max of f'' (= b^2/4 at s = ln(a)/b) ===
+b=0.19 a=0.5   max f''=0.00902  b^2/4=0.00903  printed bound=0.00802  ratio max/bound=1.125  VIOLATED
+b=0.19 a=1.0   max f''=0.00903  b^2/4=0.00903  printed bound=0.00903  ratio max/bound=1.000  OK (bound valid)
+b=0.19 a=1.7   max f''=0.00902  b^2/4=0.00903  printed bound=0.00842  ratio max/bound=1.072  VIOLATED
+b=0.19 a=3.0   max f''=0.00902  b^2/4=0.00903  printed bound=0.00677  ratio max/bound=1.333  VIOLATED
+b=0.19 a=7.0   max f''=0.00902  b^2/4=0.00903  printed bound=0.00395  ratio max/bound=2.286  VIOLATED
+b=1.0  a=0.5   max f''=0.25000  b^2/4=0.25000  printed bound=0.22222  ratio max/bound=1.125  VIOLATED
+b=1.0  a=1.0   max f''=0.25000  b^2/4=0.25000  printed bound=0.25000  ratio max/bound=1.000  OK (bound valid)
+b=1.0  a=1.7   max f''=0.25000  b^2/4=0.25000  printed bound=0.23320  ratio max/bound=1.072  VIOLATED
+b=1.0  a=3.0   max f''=0.25000  b^2/4=0.25000  printed bound=0.18750  ratio max/bound=1.333  VIOLATED
+b=1.0  a=7.0   max f''=0.25000  b^2/4=0.25000  printed bound=0.10938  ratio max/bound=2.286  VIOLATED
+b=1.7  a=0.5   max f''=0.72250  b^2/4=0.72250  printed bound=0.64222  ratio max/bound=1.125  VIOLATED
+b=1.7  a=1.0   max f''=0.72250  b^2/4=0.72250  printed bound=0.72250  ratio max/bound=1.000  OK (bound valid)
+b=1.7  a=1.7   max f''=0.72250  b^2/4=0.72250  printed bound=0.67394  ratio max/bound=1.072  VIOLATED
+b=1.7  a=3.0   max f''=0.72250  b^2/4=0.72250  printed bound=0.54187  ratio max/bound=1.333  VIOLATED
+b=1.7  a=7.0   max f''=0.72250  b^2/4=0.72250  printed bound=0.31609  ratio max/bound=2.286  VIOLATED
+
+=== C. is the eq.(42) quadratic a majoriser of f?  min over s, s_k of Q(s;s_k) - f(s) (must be >= 0) ===
+a=1.0  b=1.0   min gap = -8.8818e-16  at s_k=-7.40, s=-7.40  -> majoriser
+a=1.0  b=0.19  min gap = -4.4409e-16  at s_k=-9.90, s=-9.90  -> majoriser
+a=0.5  b=1.7   min gap = -3.0533e-02  at s_k= 0.00, s=-1.26  -> NOT a majoriser
+a=0.5  b=1.0   min gap = -3.0534e-02  at s_k= 0.00, s=-2.15  -> NOT a majoriser
+a=3.0  b=1.0   min gap = -1.7749e-01  at s_k= 0.00, s= 3.59  -> NOT a majoriser
+a=7.0  b=1.0   min gap = -1.4229e+00  at s_k= 0.00, s= 7.98  -> NOT a majoriser
+
+=== D. eq.(33) identity and normalisation ===
+a=1.0  b=1.0   max|1-sig(y) - sig(-y)| = 0.0000   sig(y)+sig(-y) in [1.0000, 1.0000]
+a=0.5  b=1.7   max|1-sig(y) - sig(-y)| = 0.3333   sig(y)+sig(-y) in [1.0003, 1.3333]
+a=3.0  b=1.0   max|1-sig(y) - sig(-y)| = 0.5000   sig(y)+sig(-y) in [0.5000, 0.9824]
+
+=== E. logistic slope that best fits the Gaussian CDF (a=1), sup-norm over x in [-10,10] ===
+best b = 1.702, sup error = 0.0095
+  b=0.19: sup|Phi - logistic| = 0.3837
+  b=0.5 : sup|Phi - logistic| = 0.2553
+  b=1.0 : sup|Phi - logistic| = 0.1174
+  b=1.5 : sup|Phi - logistic| = 0.0285
+  b=1.7 : sup|Phi - logistic| = 0.0096
+  b=2.0 : sup|Phi - logistic| = 0.0442
+  logistic(b x) equals Phi(x / c) best when c = 1.7/b, i.e. b=0.19 behaves like a Gaussian likelihood with noise std about 8.9 x the nominal (noise-normalised) one
+
+=== F. eq.(38)-(39): objective with free noise offsets eps (no prior on eps in (38)) ===
+a=1.0, b=1.0: at (x = true/sigma, eps = 0): likelihood term 10.340, prior term 13.488, total 23.828
+      at (x = 0, eps =  0.0 * ybar): likelihood term 2.495e+01, prior term 7.6527, total 32.6060
+      at (x = 0, eps =  1.0 * ybar): likelihood term 1.128e+01, prior term 7.6527, total 18.9301
+      at (x = 0, eps =  5.0 * ybar): likelihood term 2.418e-01, prior term 7.6527, total 7.8945
+      at (x = 0, eps = 20.0 * ybar): likelihood term 7.420e-08, prior term 7.6527, total 7.6527
+      at (x = 0, eps = 50.0 * ybar): likelihood term 6.943e-21, prior term 7.6527, total 7.6527
+a=0.5, b=1.7: at (x = true/sigma, eps = 0): likelihood term 5.365, prior term 13.488, total 18.853
+      at (x = 0, eps =  0.0 * ybar): likelihood term 1.460e+01, prior term 7.6527, total 22.2495
+      at (x = 0, eps =  1.0 * ybar): likelihood term 3.147e+00, prior term 7.6527, total 10.7994
+      at (x = 0, eps =  5.0 * ybar): likelihood term 3.662e-03, prior term 7.6527, total 7.6564
+      at (x = 0, eps = 20.0 * ybar): likelihood term 3.085e-14, prior term 7.6527, total 7.6527
+      at (x = 0, eps = 50.0 * ybar): likelihood term 2.189e-36, prior term 7.6527, total 7.6527
+  lower bound of the objective = prior at x=0 = (gamma/alpha) N eta^(alpha/2) = 7.6527; the likelihood term is >= 0 and -> 0 as t grows, so x = 0 (no source) is the infimum of (39) as written.
+
+=== G. project 1-bit ADC (stress_sim.adc source) vs (A/2) csgn ===
+max |adc(Y,1) - (A/2) csgn(Y)| = 0.0
+
+=== H. FLOP formulas of Sec. IV-E / Table I evaluated at the paper's array sizes (N inferred from the stated grids) ===
+on-grid, 1 deg grid on [-60,60] (N=121), M=18
+   SBRI_on_iter=1.708e+06, SBRI_off_iter=2.562e+06, SBRINet_on_layer=1.601e+06, SBRINet_off_layer=1.794e+06, SBRIXNet_on_layer=1.610e+06, SBRIXNet_off_layer=1.803e+06
+   on-grid: one SBRI-Net layer / one SBRI iteration = 0.937;  off-grid: one SBRI-X-Net layer / one off-grid SBRI iteration = 0.704
+off-grid, 2 deg grid (N=61), M=18
+   SBRI_on_iter=2.853e+05, SBRI_off_iter=4.279e+05, SBRINet_on_layer=8.072e+05, SBRINet_off_layer=8.606e+05, SBRIXNet_on_layer=8.115e+05, SBRIXNet_off_layer=8.650e+05
+   on-grid: one SBRI-Net layer / one SBRI iteration = 2.83;  off-grid: one SBRI-X-Net layer / one off-grid SBRI iteration = 2.02
+off-grid, 2 deg grid (N=61), M=10
+   SBRI_on_iter=2.257e+05, SBRI_off_iter=3.386e+05, SBRINet_on_layer=8.032e+05, SBRINet_off_layer=8.528e+05, SBRIXNet_on_layer=8.057e+05, SBRIXNet_off_layer=8.552e+05
+   on-grid: one SBRI-Net layer / one SBRI iteration = 3.56;  off-grid: one SBRI-X-Net layer / one off-grid SBRI iteration = 2.53
+OUR 2-D case if gridded 64x64 (N=4096), M=256
+   SBRI_on_iter=5.440e+10, SBRI_off_iter=8.160e+10, SBRINet_on_layer=6.200e+07, SBRINet_off_layer=2.717e+08, SBRIXNet_on_layer=6.619e+07, SBRIXNet_off_layer=2.759e+08
+   on-grid: one SBRI-Net layer / one SBRI iteration = 0.00114;  off-grid: one SBRI-X-Net layer / one off-grid SBRI iteration = 0.00338
+
+=== I. SBRI pseudo-measurement (eqs. 14, 17) = mean of a truncated normal (EM E-step for one-bit data)? ===
+max |v_eq17 - E[z | sign(z) = ybar]| over mu in [-6,6], ybar = +-1 : 1.51e-14
+
+=== J. how far is the paper's DOA dictionary from the RIP assumption (Theorems 1-2 need delta_2s < 1)? ===
+grid step 1.0 deg, 18-element SLA: max adjacent-atom coherence 0.9865; delta_4 >= 2.861 (complex x), >= 2.509 (real x) -> assumption delta_4 < 1 VIOLATED
+grid step 2.0 deg, 18-element SLA: max adjacent-atom coherence 0.9452; delta_4 >= 2.453 (complex x), >= 1.471 (real x) -> assumption delta_4 < 1 VIOLATED
+
+=== K. our beamspace model in the paper's form: vec(Y) = (F^T kron W^H) vec(H); matched filter A^H vec(Y) = a_r(u)^H (W Y F^H) a_t(v) ===
+|lhs - rhs| = 1.11e-15  (atom equals vec(W^H a_r a_t^H F): 1.12e-16)
+done

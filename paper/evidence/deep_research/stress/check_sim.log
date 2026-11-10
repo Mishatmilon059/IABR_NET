@@ -1,0 +1,33 @@
+1. reproduction of stored v1 banks (seed, L=3, n=500)
+   phase_d0_snr0    seed 1000: max|Y - stored| = 9.45e-07 (max|Y| 22.3); max|psi diff| 1.2e-07, max|phi diff| 1.2e-07
+   phase_d0_snr15   seed 1015: max|Y - stored| = 9.45e-07 (max|Y| 23.1); max|psi diff| 1.2e-07, max|phi diff| 1.2e-07
+   phase_d5_snr0    seed 1050: max|Y - stored| = 8.79e-07 (max|Y| 23.6); max|psi diff| 1.2e-07, max|phi diff| 1.2e-07
+   gain_g4_snr15    seed 2055: max|Y - stored| = 1.12e-06 (max|Y| 27.4); max|psi diff| 1.2e-07, max|phi diff| 1.2e-07
+2. bit-identity with iabr2_sim.simulate (same rng)
+   clean None: max|diff| = 0.0e+00, identical: True
+   M3 (30.0, 4.0): max|diff| = 0.0e+00, identical: True
+3. zero-severity limits (base seed 5, n=64, SNR 15)
+   M4 sev=4: max|Y - Y_clean| = 0.00e+00  (exactly identical)
+   M1 sev=0.0: max|Y - Y_clean| = 0.00e+00  (exactly identical)
+   M2 sev=0.0: max|Y - Y_clean| = 0.00e+00  (exactly identical)
+   M6 sev=0.0: max|Y - Y_clean| = 0.00e+00  (exactly identical)
+   M8 sev=1000000000.0: max|Y - Y_clean| = 2.73e-09
+   M5 sev=20: max|Y - Y_clean| = 2.25e-05
+   M5c sev=20: max|Y - Y_clean| = 1.60e+01
+4. quantised codebooks
+   b=4: W row n=1 phase index (x 2pi/16): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]; rank W 16, rank F 16; ||Wq - W||_F/||W||_F = 0.000; max distinct-column count W 16
+   b=3: W row n=1 phase index (x 2pi/16): [0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 0]; rank W 16, rank F 16; ||Wq - W||_F/||W||_F = 0.195; max distinct-column count W 16
+   b=2: W row n=1 phase index (x 2pi/16): [0, 0, 4, 4, 4, 4, 8, 8, 8, 8, 12, 12, 12, 12, 0, 0]; rank W 16, rank F 16; ||Wq - W||_F/||W||_F = 0.430; max distinct-column count W 16
+   b=1: W row n=1 phase index (x 2pi/16): [0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0]; rank W 12, rank F 12; ||Wq - W||_F/||W||_F = 0.834; max distinct-column count W 16
+5. CFAR threshold on noise-only scenes (rule (a) of M7)
+   tau / sigma^2 = -ln(1 - (1-Pfa)^(1/N)) = 10.1453  (N=256, Pfa=1e-2)
+   SNR  0: noise var in Hant 0.9990 (sigma^2 1.0000); realised Pfa 16x16 grid 0.0104, 4x oversampled grid 0.0741  (20000 noise-only scenes)
+   SNR 15: noise var in Hant 0.0316 (sigma^2 0.0316); realised Pfa 16x16 grid 0.0105, 4x oversampled grid 0.0723  (20000 noise-only scenes)
+6. timing, one 500-scene bank (L=3, SNR 15, clean) through all six methods
+   8.0 s
+   NOMP            Pd 0.9430 strict 0.9430 rmse 0.2165
+   NOMP+selfcal    Pd 0.9457 strict 0.9457 rmse 0.2227
+   IABR-Net heat   Pd 0.9307 strict 0.9307 rmse 0.2224
+   IABR-v2 dual    Pd 0.9400 strict 0.9400 rmse 0.2252
+   network only    Pd 0.4483 strict 0.4483 rmse 0.5806
+   oracle-seeded   Pd 0.9547 strict 0.9547 rmse 0.2115

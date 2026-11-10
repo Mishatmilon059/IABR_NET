@@ -1,0 +1,12 @@
+clean: done 82s | check Hc==Ht*exp(-imp) 3.0e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+ph8: done 83s | check Hc==Ht*exp(-imp) 3.4e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+g3: done 54s | check Hc==Ht*exp(-imp) 2.3e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+g6: done 48s | check Hc==Ht*exp(-imp) 2.5e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+c8_3: done 48s | check Hc==Ht*exp(-imp) 2.4e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+c20_4: done 53s | check Hc==Ht*exp(-imp) 2.3e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+c30_6: done 44s | check Hc==Ht*exp(-imp) 2.4e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+ph45: done 54s | check Hc==Ht*exp(-imp) 3.3e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+g3_L1: done 6s | check Hc==Ht*exp(-imp) 2.3e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+g3_L6: done 71s | check Hc==Ht*exp(-imp) 1.9e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+official: done 72s | max rel |fresh Hc - cached Hc| = 4.8e-07
+all done 615s

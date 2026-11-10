@@ -1,0 +1,14 @@
+T1 classical-equivalent core vs notebook NOMP os4 rc3 on 200 official scenes: max |du| 2.66e-15 |dv| 1.33e-15 rad; Pd NOMP 0.7683 core 0.7683; time numpy 0.6s torch 1.4s
+T1b classical core + LM polish + heat hypothesis (lowest NLL): Pd 0.7667 (H2 picked 0.28)
+T2 grad front.cnn    norm 3.562e+03 all-params-have-grad True
+T2 grad front.film   norm 1.210e+03 all-params-have-grad True
+T2 grad front.scene  norm 3.081e+04 all-params-have-grad True
+T2 grad hyper        norm 9.769e+04 all-params-have-grad True
+T2 grad fusion       norm 1.379e+06 all-params-have-grad True
+T2 grad step         norm 4.662e+03 all-params-have-grad True
+T2 grad stop         norm 6.799e+02 all-params-have-grad True
+T2 grad selector     norm 3.343e+03 all-params-have-grad True
+T3 identical outputs: True
+T4 untrained A (sigma_hat from untrained scene head) Pd 0.7786 vs NOMP 0.9167; finite True
+params A 910515 B 506800
+unit tests done

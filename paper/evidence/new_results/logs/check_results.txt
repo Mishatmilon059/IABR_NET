@@ -1,0 +1,67 @@
+OK   official U-Net pd_paper = 0.7366
+OK   official hybrid pd_paper = 0.7551
+OK   official NOMP pd_paper = 0.7581
+OK   official NOMP+selfcal pd_paper = 0.7576
+OK   official U-Net pd_strict = 0.694
+OK   official U-Net pd_source = 0.6035
+OK   official hybrid pd_source = 0.6681
+OK   official NOMP pd_source = 0.6741
+OK   official NOMP+selfcal pd_source = 0.672
+OK   official U-Net rmse = 0.3611
+OK   official hybrid rmse = 0.3337
+OK   official NOMP rmse = 0.3277
+OK   official NOMP+selfcal rmse = 0.3288
+OK   official diff NOMP - U-Net
+OK   official diff hybrid - NOMP
+OK   official diff NOMP+selfcal - hybrid
+OK   official diff NOMP+selfcal - NOMP
+OK   strict NOMP-UNet
+OK   dropped official 538
+OK   dropped T2_d1
+OK   dropped T2_d2
+OK   dropped T2_d5
+OK   g4 values
+OK   g4 hybrid-NOMP
+OK   g4 sc-hybrid
+OK   g4 sc-NOMP
+OK   gain_g2_snr15 sc-NOMP
+OK   oodphase_d15_snr15 sc-NOMP
+OK   sep 1-5 sc-NOMP range 0.046..0.113
+OK   51 banks
+OK   counts NOMP - U-Net
+OK   counts hybrid - NOMP
+OK   counts NOMP+selfcal - hybrid
+OK   counts NOMP+selfcal - NOMP
+OK   strict NOMP-UNet counts 48/0/3
+OK   sep5 greedy/sc/sc0/rc8
+OK   ii-iii sep5
+OK   ii-iii 1,2,3
+OK   ii-iii 1,2,3 exclude 0
+OK   os8 sep5
+OK   rc8-i 5,3,2,1 (0.067,0.149,0.179,0.117 as written; rounding of x.xx5)
+OK   rc8>rc5>greedy up to 5deg
+OK   official E4
+OK   sep10 all 0.995..0.9955
+OK   E4 greedy==cache all
+OK   E5 iter
+OK   E5 tax greedy
+OK   E5 tax selfcal
+OK   E5 endfire
+OK   E5 other
+OK   E5 fold
+OK   E5 all
+OK   E5 gaps
+OK   E5 single>joint all SNR (wrap)
+   single-joint wrap per SNR [0.003, 0.004, 0.005, 0.003, 0.005, 0.002, 0.003, 0.002]
+OK   E5 paper-style same scenes
+OK   E5 crb validation
+OK   E5 null scale
+OK   E5 strat
+OK   E5 rank
+OK   E8 1 greedy (os=4, rc=3)
+OK   E8 1 greedy + selfcal (1.0, 5.0)
+OK   E8 6 greedy (os=4, rc=3)
+OK   E8 6 greedy + selfcal (1.0, 5.0)
+OK   E5 raw verbatim in md
+OK   E13 tables verbatim in md
+FAILS: 0

@@ -1,0 +1,18 @@
+{
+ "platform": "Windows-11-10.0.26200-SP0",
+ "numpy": "2.3.5",
+ "torch": "2.7.1+cu118",
+ "n": 40,
+ "ms": {
+  "NOMP": 6.491499996627681,
+  "NOMP+SC tuned": 12.758649994793814,
+  "classical dual": 8.803800003079232,
+  "NOMP os8 rc6": 10.085850000905339,
+  "multi-start K6": 50.908450000861194,
+  "consistent NOMP": 74.34995000221534,
+  "CNN forward only": 5.816900003992487,
+  "FT heat+SC (CNN + decode)": 12.508999992860481,
+  "FT dual+SC (CNN + decode)": 18.334750006033573,
+  "FT network only (CNN + parabolic)": 6.117099997936748
+ }
+}

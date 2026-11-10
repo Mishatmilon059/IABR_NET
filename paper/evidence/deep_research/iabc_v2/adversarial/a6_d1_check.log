@@ -1,0 +1,11 @@
+A (8 deg / 3 dB, 25 dB): | L | phase IABC % | phase slope | phase feature=est % | gain IABC % | gain slope | gain feature=est % |
+| 1 | 43.9 | 0.25 | 83.7 | 95.0 | 0.82 | 98.5 |
+| 3 | 24.4 | 0.15 | -652.9 | 80.9 | 0.67 | 66.4 |
+| 9 | 7.7 | 0.05 | -2933.4 | 62.6 | 0.49 | 55.5 |
+C (L=3, 25 dB, 600 scenes, seed 9370): | cell | phase slope / % | gain slope / % |
+| ph8 | 0.13 / 22.3 | - |
+| ph20 | 0.03 / 5.7 | - |
+| ph45 | 0.01 / 1.5 | - |
+| g3 | - | 0.73 / 82.8 |
+| g6 | - | 0.33 / 51.4 |
+DONE

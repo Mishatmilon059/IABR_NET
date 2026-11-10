@@ -1,0 +1,96 @@
+{
+ "written": "2026-10-15T06:30:18",
+ "note": "written BEFORE any test-seed (8900+) evaluation of IABC-v2 was run",
+ "primary_pipeline": "IABC-v2b + NOMP + SC tuned (fallback if v2b is not built: IABC-v2a + NOMP + SC tuned); the corrector estimate for (i) is IABC-v2b (fallback v2a)",
+ "i": "For every impaired test cell with phase >= 8 deg or gain >= 3 dB (ph8, ph20, ph30, ph45, g3, g6, c8_3, c20_4, c30_6) and each impaired component: RMS of the identifiable residual, pooled over all scenes with SNR 5..25 dB, <= 0.5 x RMS before (i.e. >= 75% of the pooled MSE removed). A cell/component counts as INFEASIBLE (not a failure) if the approximate Bayesian bound from d2_crb (crb.json, below) itself removes < 50% of the RMS.",
+ "ii": "Paper Pd (mean over the 8 SNRs, true L) of the primary pipeline minus NOMP + SC tuned: paired bootstrap (2000, within SNR, seed 0) 95% CI entirely above 0 in at least 5 of the 10 impaired cells (ph5, ph8, ph20, ph30, ph45, g3, g6, c8_3, c20_4, c30_6) AND in no impaired cell entirely below 0.",
+ "iii": "Official bank (8000, ideal hardware): primary pipeline minus NOMP-only paper Pd, 95% CI upper bound >= 0 (no significant loss). Also reported vs NOMP + SC tuned.",
+ "decision": "KEEP/REPLACE with IABC-v2 if (i), (ii), (iii) all pass; otherwise recommend dropping IABC from the claims or keeping it as an optional module, with the failing criterion named.",
+ "approx_bayes_bound_snr_ge5": {
+  "ph5": {
+   "phase": {
+    "prior_rms": 2.700308624336609,
+    "bound_rms_snr_ge5": 1.6918642708309364,
+    "bound_rms_removed_pct": 37.34552207910751
+   }
+  },
+  "ph8": {
+   "phase": {
+    "prior_rms": 4.320493798938573,
+    "bound_rms_snr_ge5": 2.2083097819963986,
+    "bound_rms_removed_pct": 48.88756043258482
+   }
+  },
+  "ph20": {
+   "phase": {
+    "prior_rms": 10.801234497346435,
+    "bound_rms_snr_ge5": 3.1258190324082635,
+    "bound_rms_removed_pct": 71.06053911544842
+   }
+  },
+  "ph30": {
+   "phase": {
+    "prior_rms": 16.20185174601965,
+    "bound_rms_snr_ge5": 3.3979091634327228,
+    "bound_rms_removed_pct": 79.02764932861767
+   }
+  },
+  "ph45": {
+   "phase": {
+    "prior_rms": 24.302777619029477,
+    "bound_rms_snr_ge5": 3.575779284387469,
+    "bound_rms_removed_pct": 85.28654073850565
+   }
+  },
+  "g3": {
+   "gain": {
+    "prior_rms": 1.6770509831248424,
+    "bound_rms_snr_ge5": 0.49091988668480563,
+    "bound_rms_removed_pct": 70.7271936497675
+   }
+  },
+  "g6": {
+   "gain": {
+    "prior_rms": 3.3541019662496847,
+    "bound_rms_snr_ge5": 0.5570491986619059,
+    "bound_rms_removed_pct": 83.39200166640258
+   }
+  },
+  "c8_3": {
+   "phase": {
+    "prior_rms": 4.320493798938573,
+    "bound_rms_snr_ge5": 2.2133196197070477,
+    "bound_rms_removed_pct": 48.771605221356886
+   },
+   "gain": {
+    "prior_rms": 1.6770509831248424,
+    "bound_rms_snr_ge5": 0.4919164119783087,
+    "bound_rms_removed_pct": 70.66777236183226
+   }
+  },
+  "c20_4": {
+   "phase": {
+    "prior_rms": 10.801234497346435,
+    "bound_rms_snr_ge5": 3.140695527206848,
+    "bound_rms_removed_pct": 70.9228095364615
+   },
+   "gain": {
+    "prior_rms": 2.23606797749979,
+    "bound_rms_snr_ge5": 0.5263188098821633,
+    "bound_rms_removed_pct": 76.46230726533389
+   }
+  },
+  "c30_6": {
+   "phase": {
+    "prior_rms": 16.20185174601965,
+    "bound_rms_snr_ge5": 3.423295563605116,
+    "bound_rms_removed_pct": 78.87096106501453
+   },
+   "gain": {
+    "prior_rms": 3.3541019662496847,
+    "bound_rms_snr_ge5": 0.5615375984002433,
+    "bound_rms_removed_pct": 83.25818344073438
+   }
+  }
+ }
+}

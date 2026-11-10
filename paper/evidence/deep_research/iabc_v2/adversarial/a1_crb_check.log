@@ -1,0 +1,16 @@
+1) noise per entry: var(to_ant(noise)) at 7 dB = 0.19956  vs 10^(-0.7) = 0.19953  (signal power E|H|^2 for L=3 scenes checked below)
+   signal power mean |H|^2 (40 scenes) = 0.942 (CRB assumes alpha ~ CN(0,1/L): E|H|^2 = 1)
+2) independent FD-Jacobian CRB / d2_crb analytic CRB over 40 fresh scenes (seed 9331, L=3, 30 deg/6 dB point):
+   ph_unk: ratio mean 1.000000 min 1.000000 max 1.000000
+   g_unk: ratio mean 1.000000 min 1.000000 max 1.000000
+   ph_kn: ratio mean 1.000000 min 1.000000 max 1.000000
+   g_kn: ratio mean 1.000000 min 1.000000 max 1.000000
+   impairment-block Jacobian max rel diff (independent FD vs analytic): 6.11e-09
+3) Monte-Carlo ML efficiency, 300 scenes (seed 9332), 30 deg / 6 dB, L=3, Gauss-Newton from truth (8 it, FD Jacobian):
+| SNR | ML phase MSE / CRB | ML gain MSE / CRB | ML RMS phase deg (CRB) | ML RMS gain dB (CRB) | oracle ALS 4 it phase/gain MSE / known-angle CRB | oracle ALS 20 it |
+|---|---|---|---|---|---|---|
+| 15 | 1.017 [0.960,1.077] | 0.982 [0.935,1.031] | 2.145 (2.127) | 0.3347 (0.3378) | 1.211/1.130 | 1.207/1.126 |
+| 25 | 0.992 [0.932,1.058] | 0.991 [0.945,1.038] | 0.670 (0.673) | 0.1063 (0.1068) | 2.238/2.384 | 1.241/1.415 |
+| 35 | 1.020 [0.968,1.073] | 0.985 [0.943,1.026] | 0.215 (0.213) | 0.0335 (0.0338) | 13.098/13.649 | 2.463/2.745 |
+   CRB RMS at 0 dB on these fresh scenes (30/6 point, unknown angles): phase 11.96 deg, gain 1.900 dB; known angles: 11.57 deg / 1.857 dB
+DONE

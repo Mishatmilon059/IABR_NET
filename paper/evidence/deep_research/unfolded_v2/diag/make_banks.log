@@ -1,0 +1,2 @@
+train 4000 scenes; residual at truth / ((256-6) sigma2) mean 1.0112
+val 2000 scenes; residual at truth / ((256-6) sigma2) mean 1.0123

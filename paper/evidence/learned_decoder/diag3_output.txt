@@ -1,0 +1,21 @@
+samples 2000
+Component success (within 1 deg) vs the Cramer-Rao-limit prediction (ideal estimator at the noise limit)
+SNR   observed   CRB-limit(wrap at +-pi)   CRB-limit(clamp at +-pi)
+ -10   0.253        0.418                    0.424
+  -5   0.496        0.593                    0.598
+   0   0.699        0.749                    0.754
+   5   0.823        0.846                    0.852
+  10   0.869        0.905                    0.911
+  15   0.915        0.940                    0.946
+  20   0.933        0.967                    0.971
+  25   0.947        0.983                    0.988
+all    0.742        0.800                    0.806
+
+Split by whether the true angle is within ~6 deg of end-fire (0/180):
+  end-fire comps n=  819  observed 0.282 | CRB-wrap 0.327 | CRB-clamp 0.406
+  other comps    n=11181  observed 0.775 | CRB-wrap 0.835 | CRB-clamp 0.835
+
+Weak paths: component success vs the true path power rank (weakest path of the 3):
+  weakest path: observed 0.631 | CRB-clamp 0.710 | median path SNR -5.0 dB
+  middle  path: observed 0.758 | CRB-clamp 0.821 | median path SNR 0.2 dB
+  strongest path: observed 0.837 | CRB-clamp 0.886 | median path SNR 4.6 dB

@@ -1,0 +1,130 @@
+tune lam 0.5 tau 0.0 iters 2: mean Pd over 4 tuning banks 0.7016
+tune lam 0.5 tau 0.0 iters 4: mean Pd over 4 tuning banks 0.7023
+tune lam 0.5 tau 1.0 iters 2: mean Pd over 4 tuning banks 0.7062
+tune lam 0.5 tau 1.0 iters 4: mean Pd over 4 tuning banks 0.7068
+tune lam 0.5 tau 2.0 iters 2: mean Pd over 4 tuning banks 0.7074
+tune lam 0.5 tau 2.0 iters 4: mean Pd over 4 tuning banks 0.7078
+tune lam 0.5 tau 5.0 iters 2: mean Pd over 4 tuning banks 0.6945
+tune lam 0.5 tau 5.0 iters 4: mean Pd over 4 tuning banks 0.6939
+tune lam 1.0 tau 0.0 iters 2: mean Pd over 4 tuning banks 0.6833
+tune lam 1.0 tau 0.0 iters 4: mean Pd over 4 tuning banks 0.6785
+tune lam 1.0 tau 1.0 iters 2: mean Pd over 4 tuning banks 0.7137
+tune lam 1.0 tau 1.0 iters 4: mean Pd over 4 tuning banks 0.7138
+tune lam 1.0 tau 2.0 iters 2: mean Pd over 4 tuning banks 0.7140
+tune lam 1.0 tau 2.0 iters 4: mean Pd over 4 tuning banks 0.7150
+tune lam 1.0 tau 5.0 iters 2: mean Pd over 4 tuning banks 0.6945
+tune lam 1.0 tau 5.0 iters 4: mean Pd over 4 tuning banks 0.6940
+tuned self-calibration: lam 1.0, tau 2.0, iters 4 (default (1,5,2): 0.6945) [81s]
+clean clean    SNR 15 | NOMP 0.938 NOMP+selfcal 0.933 NOMP+selfcal tau0 0.933 NOMP+selfcal tuned 0.932 IABR-Net heat 0.924 IABR-v2 dual 0.926 NOMP on Hc 0.926 | gate open (tau 5) Hant 0.99 Hc 0.99 | 42s
+      NOMP-clean +0.000 [+0.000,+0.000] (orig +0.000) | heat-NOMP -0.014 [-0.019,-0.010] (orig -0.011) | dual-NOMP -0.012 [-0.016,-0.008] (orig -0.004)
+      heat-SC -0.009 [-0.013,-0.005] (orig -0.012) | dual-SC -0.006 [-0.010,-0.003] (orig -0.006) | heat-SCtau0 -0.009 [-0.013,-0.006] | dual-SCtau0 -0.007 [-0.010,-0.004] | heat-SCtuned -0.008 [-0.012,-0.004] | dual-SCtuned -0.005 [-0.009,-0.002]
+      NOMPonHc-NOMP -0.012 [-0.016,-0.008] | NOMPonHc-SCtuned -0.005 [-0.009,-0.002] | SCtau0-NOMP -0.005 [-0.009,-0.002] | SCtuned-NOMP -0.007 [-0.011,-0.003] | heat-clean heat +0.000 [+0.000,+0.000] (orig +0.000)
+M3    ph0_g6   SNR 15 | NOMP 0.823 NOMP+selfcal 0.825 NOMP+selfcal tau0 0.860 NOMP+selfcal tuned 0.863 IABR-Net heat 0.891 IABR-v2 dual 0.882 NOMP on Hc 0.882 | gate open (tau 5) Hant 0.02 Hc 0.80 | 42s
+      NOMP-clean -0.115 [-0.125,-0.104] (orig -0.116) | heat-NOMP +0.068 [+0.059,+0.077] (orig +0.071) | dual-NOMP +0.059 [+0.050,+0.068] (orig +0.064)
+      heat-SC +0.067 [+0.057,+0.076] (orig +0.069) | dual-SC +0.058 [+0.049,+0.066] (orig +0.062) | heat-SCtau0 +0.031 [+0.024,+0.039] | dual-SCtau0 +0.022 [+0.016,+0.029] | heat-SCtuned +0.028 [+0.020,+0.036] | dual-SCtuned +0.019 [+0.012,+0.027]
+      NOMPonHc-NOMP +0.058 [+0.049,+0.067] | NOMPonHc-SCtuned +0.018 [+0.011,+0.026] | SCtau0-NOMP +0.037 [+0.030,+0.044] | SCtuned-NOMP +0.040 [+0.033,+0.048] | heat-clean heat -0.032 [-0.039,-0.026] (orig -0.035)
+M3    ph30_g4  SNR 15 | NOMP 0.703 NOMP+selfcal 0.704 NOMP+selfcal tau0 0.735 NOMP+selfcal tuned 0.734 IABR-Net heat 0.730 IABR-v2 dual 0.728 NOMP on Hc 0.728 | gate open (tau 5) Hant 0.00 Hc 0.13 | 45s
+      NOMP-clean -0.235 [-0.249,-0.221] (orig -0.228) | heat-NOMP +0.027 [+0.018,+0.037] (orig +0.020) | dual-NOMP +0.025 [+0.017,+0.033] (orig +0.024)
+      heat-SC +0.027 [+0.018,+0.036] (orig +0.021) | dual-SC +0.024 [+0.017,+0.033] (orig +0.025) | heat-SCtau0 -0.004 [-0.014,+0.006] | dual-SCtau0 -0.007 [-0.015,+0.002] | heat-SCtuned -0.004 [-0.014,+0.007] | dual-SCtuned -0.006 [-0.015,+0.002]
+      NOMPonHc-NOMP +0.025 [+0.017,+0.033] | NOMPonHc-SCtuned -0.006 [-0.014,+0.003] | SCtau0-NOMP +0.031 [+0.023,+0.040] | SCtuned-NOMP +0.031 [+0.023,+0.039] | heat-clean heat -0.194 [-0.206,-0.181] (orig -0.197)
+M3    ph20_g0  SNR 15 | NOMP 0.818 NOMP+selfcal 0.833 NOMP+selfcal tau0 0.833 NOMP+selfcal tuned 0.836 IABR-Net heat 0.836 IABR-v2 dual 0.833 NOMP on Hc 0.832 | gate open (tau 5) Hant 0.96 Hc 0.96 | 37s
+      NOMP-clean -0.121 [-0.131,-0.111] (orig -0.101) | heat-NOMP +0.018 [+0.011,+0.026] (orig +0.016) | dual-NOMP +0.015 [+0.009,+0.021] (orig +0.014)
+      heat-SC +0.003 [-0.001,+0.007] (orig +0.002) | dual-SC -0.000 [-0.003,+0.002] (orig -0.001) | heat-SCtau0 +0.003 [-0.001,+0.007] | dual-SCtau0 -0.001 [-0.004,+0.002] | heat-SCtuned +0.001 [-0.004,+0.005] | dual-SCtuned -0.003 [-0.006,+0.000]
+      NOMPonHc-NOMP +0.015 [+0.008,+0.021] | NOMPonHc-SCtuned -0.003 [-0.006,-0.000] | SCtau0-NOMP +0.016 [+0.010,+0.022] | SCtuned-NOMP +0.018 [+0.012,+0.024] | heat-clean heat -0.088 [-0.097,-0.078] (orig -0.074)
+M3    ph45_g0  SNR 15 | NOMP 0.599 NOMP+selfcal 0.599 NOMP+selfcal tau0 0.630 NOMP+selfcal tuned 0.617 IABR-Net heat 0.583 IABR-v2 dual 0.599 NOMP on Hc 0.599 | gate open (tau 5) Hant 0.00 Hc 0.00 | 38s
+      NOMP-clean -0.340 [-0.355,-0.324] (orig -0.324) | heat-NOMP -0.016 [-0.025,-0.007] (orig -0.019) | dual-NOMP +0.000 [-0.003,+0.004] (orig -0.000)
+      heat-SC -0.016 [-0.025,-0.007] (orig -0.019) | dual-SC +0.001 [-0.002,+0.004] (orig -0.001) | heat-SCtau0 -0.047 [-0.058,-0.036] | dual-SCtau0 -0.031 [-0.038,-0.023] | heat-SCtuned -0.034 [-0.044,-0.024] | dual-SCtuned -0.018 [-0.024,-0.011]
+      NOMPonHc-NOMP +0.000 [-0.003,+0.003] | NOMPonHc-SCtuned -0.018 [-0.024,-0.011] | SCtau0-NOMP +0.031 [+0.023,+0.039] | SCtuned-NOMP +0.018 [+0.012,+0.024] | heat-clean heat -0.341 [-0.357,-0.327] (orig -0.332)
+M4    2        SNR 15 | NOMP 0.745 NOMP+selfcal 0.743 NOMP+selfcal tau0 0.740 NOMP+selfcal tuned 0.741 IABR-Net heat 0.654 IABR-v2 dual 0.753 NOMP on Hc 0.753 | gate open (tau 5) Hant 0.17 Hc 0.21 | 33s
+      NOMP-clean -0.194 [-0.206,-0.181] (orig -0.174) | heat-NOMP -0.091 [-0.105,-0.077] (orig -0.104) | dual-NOMP +0.008 [+0.002,+0.015] (orig +0.015)
+      heat-SC -0.089 [-0.102,-0.075] (orig -0.107) | dual-SC +0.010 [+0.005,+0.016] (orig +0.012) | heat-SCtau0 -0.086 [-0.100,-0.072] | dual-SCtau0 +0.013 [+0.005,+0.020] | heat-SCtuned -0.087 [-0.100,-0.072] | dual-SCtuned +0.012 [+0.005,+0.020]
+      NOMPonHc-NOMP +0.009 [+0.002,+0.015] | NOMPonHc-SCtuned +0.013 [+0.005,+0.021] | SCtau0-NOMP -0.005 [-0.012,+0.002] | SCtuned-NOMP -0.004 [-0.012,+0.003] | heat-clean heat -0.270 [-0.283,-0.256] (orig -0.268)
+M4    1        SNR 15 | NOMP 0.285 NOMP+selfcal 0.285 NOMP+selfcal tau0 0.214 NOMP+selfcal tuned 0.284 IABR-Net heat 0.243 IABR-v2 dual 0.287 NOMP on Hc 0.287 | gate open (tau 5) Hant 0.02 Hc 0.02 | 28s
+      NOMP-clean -0.653 [-0.664,-0.642] (orig -0.634) | heat-NOMP -0.043 [-0.053,-0.031] (orig -0.041) | dual-NOMP +0.002 [-0.004,+0.007] (orig -0.002)
+      heat-SC -0.043 [-0.054,-0.032] (orig -0.041) | dual-SC +0.002 [-0.004,+0.007] (orig -0.002) | heat-SCtau0 +0.029 [+0.016,+0.042] | dual-SCtau0 +0.074 [+0.064,+0.084] | heat-SCtuned -0.041 [-0.052,-0.030] | dual-SCtuned +0.003 [-0.002,+0.009]
+      NOMPonHc-NOMP +0.002 [-0.004,+0.007] | NOMPonHc-SCtuned +0.003 [-0.003,+0.008] | SCtau0-NOMP -0.072 [-0.081,-0.062] | SCtuned-NOMP -0.001 [-0.004,+0.002] | heat-clean heat -0.681 [-0.693,-0.670] (orig -0.665)
+M2    0.05     SNR 15 | NOMP 0.872 NOMP+selfcal 0.873 NOMP+selfcal tau0 0.873 NOMP+selfcal tuned 0.873 IABR-Net heat 0.873 IABR-v2 dual 0.875 NOMP on Hc 0.875 | gate open (tau 5) Hant 0.98 Hc 0.98 | 31s
+      NOMP-clean -0.066 [-0.074,-0.058] (orig -0.058) | heat-NOMP +0.001 [-0.005,+0.006] (orig -0.009) | dual-NOMP +0.002 [-0.003,+0.007] (orig -0.006)
+      heat-SC +0.000 [-0.003,+0.004] (orig -0.007) | dual-SC +0.002 [-0.001,+0.004] (orig -0.004) | heat-SCtau0 +0.000 [-0.003,+0.004] | dual-SCtau0 +0.002 [-0.001,+0.004] | heat-SCtuned +0.000 [-0.003,+0.004] | dual-SCtuned +0.002 [-0.001,+0.004]
+      NOMPonHc-NOMP +0.002 [-0.003,+0.007] | NOMPonHc-SCtuned +0.002 [-0.001,+0.004] | SCtau0-NOMP +0.001 [-0.004,+0.005] | SCtuned-NOMP +0.001 [-0.004,+0.005] | heat-clean heat -0.051 [-0.058,-0.043] (orig -0.057)
+M2    0.2      SNR 15 | NOMP 0.613 NOMP+selfcal 0.613 NOMP+selfcal tau0 0.598 NOMP+selfcal tuned 0.607 IABR-Net heat 0.600 IABR-v2 dual 0.614 NOMP on Hc 0.614 | gate open (tau 5) Hant 0.08 Hc 0.08 | 27s
+      NOMP-clean -0.325 [-0.340,-0.310] (orig -0.302) | heat-NOMP -0.013 [-0.023,-0.004] (orig -0.015) | dual-NOMP +0.001 [-0.002,+0.004] (orig +0.000)
+      heat-SC -0.013 [-0.023,-0.004] (orig -0.014) | dual-SC +0.001 [-0.002,+0.004] (orig +0.001) | heat-SCtau0 +0.002 [-0.010,+0.014] | dual-SCtau0 +0.016 [+0.009,+0.024] | heat-SCtuned -0.007 [-0.018,+0.003] | dual-SCtuned +0.007 [+0.002,+0.012]
+      NOMPonHc-NOMP +0.001 [-0.002,+0.004] | NOMPonHc-SCtuned +0.007 [+0.002,+0.012] | SCtau0-NOMP -0.015 [-0.023,-0.008] | SCtuned-NOMP -0.006 [-0.011,-0.001] | heat-clean heat -0.324 [-0.339,-0.309] (orig -0.306)
+M1    0.3      SNR 15 | NOMP 0.881 NOMP+selfcal 0.883 NOMP+selfcal tau0 0.882 NOMP+selfcal tuned 0.883 IABR-Net heat 0.884 IABR-v2 dual 0.881 NOMP on Hc 0.881 | gate open (tau 5) Hant 0.95 Hc 0.95 | 29s
+      NOMP-clean -0.057 [-0.066,-0.048] (orig -0.062) | heat-NOMP +0.003 [-0.003,+0.010] (orig +0.017) | dual-NOMP +0.000 [-0.006,+0.006] (orig +0.013)
+      heat-SC +0.001 [-0.004,+0.006] (orig +0.007) | dual-SC -0.002 [-0.006,+0.002] (orig +0.003) | heat-SCtau0 +0.002 [-0.004,+0.007] | dual-SCtau0 -0.001 [-0.006,+0.003] | heat-SCtuned +0.001 [-0.005,+0.006] | dual-SCtuned -0.002 [-0.007,+0.002]
+      NOMPonHc-NOMP +0.000 [-0.006,+0.006] | NOMPonHc-SCtuned -0.002 [-0.007,+0.002] | SCtau0-NOMP +0.001 [-0.004,+0.007] | SCtuned-NOMP +0.002 [-0.003,+0.008] | heat-clean heat -0.039 [-0.047,-0.032] (orig -0.035)
+M5    4        SNR 15 | NOMP 0.771 NOMP+selfcal 0.771 NOMP+selfcal tau0 0.770 NOMP+selfcal tuned 0.769 IABR-Net heat 0.766 IABR-v2 dual 0.771 NOMP on Hc 0.771 | gate open (tau 5) Hant 0.04 Hc 0.04 | 29s
+      NOMP-clean -0.167 [-0.179,-0.155] (orig -0.156) | heat-NOMP -0.004 [-0.009,-0.000] (orig -0.004) | dual-NOMP +0.000 [-0.004,+0.004] (orig +0.002)
+      heat-SC -0.005 [-0.009,-0.001] (orig -0.005) | dual-SC -0.000 [-0.004,+0.004] (orig +0.001) | heat-SCtau0 -0.004 [-0.010,+0.003] | dual-SCtau0 +0.001 [-0.005,+0.007] | heat-SCtuned -0.003 [-0.008,+0.002] | dual-SCtuned +0.001 [-0.004,+0.006]
+      NOMPonHc-NOMP +0.000 [-0.004,+0.004] | NOMPonHc-SCtuned +0.001 [-0.004,+0.006] | SCtau0-NOMP -0.001 [-0.008,+0.006] | SCtuned-NOMP -0.001 [-0.006,+0.004] | heat-clean heat -0.157 [-0.169,-0.146] (orig -0.149)
+M5    1        SNR 15 | NOMP 0.182 NOMP+selfcal 0.180 NOMP+selfcal tau0 0.174 NOMP+selfcal tuned 0.179 IABR-Net heat 0.183 IABR-v2 dual 0.184 NOMP on Hc 0.184 | gate open (tau 5) Hant 0.00 Hc 0.00 | 29s
+      NOMP-clean -0.756 [-0.768,-0.744] (orig -0.750) | heat-NOMP +0.001 [-0.004,+0.007] (orig -0.001) | dual-NOMP +0.002 [-0.002,+0.006] (orig +0.001)
+      heat-SC +0.004 [-0.002,+0.010] (orig -0.001) | dual-SC +0.005 [+0.001,+0.008] (orig +0.001) | heat-SCtau0 +0.009 [-0.001,+0.019] | dual-SCtau0 +0.010 [+0.000,+0.019] | heat-SCtuned +0.004 [-0.001,+0.010] | dual-SCtuned +0.005 [+0.001,+0.009]
+      NOMPonHc-NOMP +0.002 [-0.002,+0.006] | NOMPonHc-SCtuned +0.005 [+0.002,+0.009] | SCtau0-NOMP -0.008 [-0.017,+0.002] | SCtuned-NOMP -0.003 [-0.006,-0.001] | heat-clean heat -0.740 [-0.753,-0.728] (orig -0.741)
+M6    30       SNR 15 | NOMP 0.765 NOMP+selfcal 0.755 NOMP+selfcal tau0 0.746 NOMP+selfcal tuned 0.743 IABR-Net heat 0.759 IABR-v2 dual 0.764 NOMP on Hc 0.764 | gate open (tau 5) Hant 0.73 Hc 0.77 | 30s
+      NOMP-clean -0.173 [-0.185,-0.160] (orig -0.172) | heat-NOMP -0.006 [-0.018,+0.006] (orig -0.016) | dual-NOMP -0.001 [-0.009,+0.007] (orig -0.001)
+      heat-SC +0.003 [-0.008,+0.015] (orig -0.005) | dual-SC +0.009 [+0.003,+0.015] (orig +0.010) | heat-SCtau0 +0.013 [+0.001,+0.024] | dual-SCtau0 +0.018 [+0.012,+0.025] | heat-SCtuned +0.016 [+0.004,+0.028] | dual-SCtuned +0.022 [+0.014,+0.029]
+      NOMPonHc-NOMP -0.001 [-0.009,+0.006] | NOMPonHc-SCtuned +0.021 [+0.014,+0.028] | SCtau0-NOMP -0.019 [-0.026,-0.013] | SCtuned-NOMP -0.022 [-0.030,-0.015] | heat-clean heat -0.165 [-0.177,-0.152] (orig -0.177)
+M8    0.5      SNR 15 | NOMP 0.880 NOMP+selfcal 0.882 NOMP+selfcal tau0 0.881 NOMP+selfcal tuned 0.880 IABR-Net heat 0.818 IABR-v2 dual 0.880 NOMP on Hc 0.880 | gate open (tau 5) Hant 0.92 Hc 0.93 | 28s
+      NOMP-clean -0.058 [-0.067,-0.050] (orig -0.067) | heat-NOMP -0.061 [-0.075,-0.049] (orig -0.071) | dual-NOMP +0.000 [-0.005,+0.006] (orig +0.006)
+      heat-SC -0.064 [-0.076,-0.051] (orig -0.076) | dual-SC -0.002 [-0.005,+0.001] (orig +0.000) | heat-SCtau0 -0.063 [-0.076,-0.051] | dual-SCtau0 -0.001 [-0.005,+0.002] | heat-SCtuned -0.062 [-0.075,-0.050] | dual-SCtuned -0.000 [-0.004,+0.003]
+      NOMPonHc-NOMP +0.000 [-0.005,+0.006] | NOMPonHc-SCtuned -0.000 [-0.004,+0.003] | SCtau0-NOMP +0.002 [-0.003,+0.007] | SCtuned-NOMP +0.001 [-0.005,+0.006] | heat-clean heat -0.106 [-0.117,-0.094] (orig -0.127)
+clean clean    SNR  0 | NOMP 0.697 NOMP+selfcal 0.697 NOMP+selfcal tau0 0.658 NOMP+selfcal tuned 0.696 IABR-Net heat 0.691 IABR-v2 dual 0.695 NOMP on Hc 0.696 | gate open (tau 5) Hant 0.00 Hc 0.00 | 30s
+      NOMP-clean +0.000 [+0.000,+0.000] (orig +0.000) | heat-NOMP -0.006 [-0.010,-0.002] (orig -0.005) | dual-NOMP -0.001 [-0.005,+0.002] (orig +0.000)
+      heat-SC -0.006 [-0.011,-0.002] (orig -0.005) | dual-SC -0.002 [-0.005,+0.001] (orig +0.000) | heat-SCtau0 +0.033 [+0.024,+0.042] | dual-SCtau0 +0.038 [+0.029,+0.046] | heat-SCtuned -0.005 [-0.009,-0.000] | dual-SCtuned -0.000 [-0.003,+0.003]
+      NOMPonHc-NOMP -0.001 [-0.004,+0.002] | NOMPonHc-SCtuned +0.000 [-0.003,+0.003] | SCtau0-NOMP -0.039 [-0.047,-0.030] | SCtuned-NOMP -0.001 [-0.003,+0.001] | heat-clean heat +0.000 [+0.000,+0.000] (orig +0.000)
+M3    ph0_g6   SNR  0 | NOMP 0.678 NOMP+selfcal 0.678 NOMP+selfcal tau0 0.586 NOMP+selfcal tuned 0.678 IABR-Net heat 0.684 IABR-v2 dual 0.688 NOMP on Hc 0.688 | gate open (tau 5) Hant 0.00 Hc 0.00 | 28s
+      NOMP-clean -0.019 [-0.029,-0.009] (orig -0.012) | heat-NOMP +0.006 [-0.001,+0.014] (orig +0.000) | dual-NOMP +0.010 [+0.003,+0.017] (orig +0.005)
+      heat-SC +0.006 [-0.002,+0.014] (orig -0.001) | dual-SC +0.009 [+0.002,+0.016] (orig +0.004) | heat-SCtau0 +0.099 [+0.087,+0.110] | dual-SCtau0 +0.102 [+0.090,+0.113] | heat-SCtuned +0.006 [-0.002,+0.013] | dual-SCtuned +0.009 [+0.002,+0.016]
+      NOMPonHc-NOMP +0.010 [+0.003,+0.017] | NOMPonHc-SCtuned +0.009 [+0.003,+0.017] | SCtau0-NOMP -0.092 [-0.104,-0.081] | SCtuned-NOMP +0.000 [-0.001,+0.002] | heat-clean heat -0.006 [-0.016,+0.003] (orig -0.007)
+M3    ph30_g4  SNR  0 | NOMP 0.588 NOMP+selfcal 0.588 NOMP+selfcal tau0 0.558 NOMP+selfcal tuned 0.588 IABR-Net heat 0.593 IABR-v2 dual 0.595 NOMP on Hc 0.594 | gate open (tau 5) Hant 0.00 Hc 0.00 | 36s
+      NOMP-clean -0.109 [-0.121,-0.097] (orig -0.109) | heat-NOMP +0.006 [-0.001,+0.012] (orig +0.002) | dual-NOMP +0.008 [+0.002,+0.013] (orig +0.009)
+      heat-SC +0.005 [-0.002,+0.012] (orig +0.002) | dual-SC +0.007 [+0.001,+0.013] (orig +0.009) | heat-SCtau0 +0.035 [+0.024,+0.046] | dual-SCtau0 +0.037 [+0.026,+0.048] | heat-SCtuned +0.005 [-0.002,+0.012] | dual-SCtuned +0.007 [+0.001,+0.013]
+      NOMPonHc-NOMP +0.007 [+0.001,+0.013] | NOMPonHc-SCtuned +0.006 [+0.000,+0.012] | SCtau0-NOMP -0.029 [-0.040,-0.019] | SCtuned-NOMP +0.001 [-0.000,+0.002] | heat-clean heat -0.097 [-0.109,-0.085] (orig -0.102)
+M3    ph20_g0  SNR  0 | NOMP 0.653 NOMP+selfcal 0.652 NOMP+selfcal tau0 0.629 NOMP+selfcal tuned 0.651 IABR-Net heat 0.649 IABR-v2 dual 0.652 NOMP on Hc 0.652 | gate open (tau 5) Hant 0.00 Hc 0.00 | 32s
+      NOMP-clean -0.044 [-0.053,-0.035] (orig -0.047) | heat-NOMP -0.003 [-0.008,+0.001] (orig -0.012) | dual-NOMP -0.000 [-0.003,+0.003] (orig +0.000)
+      heat-SC -0.003 [-0.007,+0.002] (orig -0.011) | dual-SC +0.000 [-0.002,+0.003] (orig +0.001) | heat-SCtau0 +0.020 [+0.011,+0.030] | dual-SCtau0 +0.023 [+0.014,+0.032] | heat-SCtuned -0.002 [-0.006,+0.003] | dual-SCtuned +0.001 [-0.002,+0.005]
+      NOMPonHc-NOMP -0.001 [-0.004,+0.002] | NOMPonHc-SCtuned +0.001 [-0.003,+0.004] | SCtau0-NOMP -0.024 [-0.033,-0.015] | SCtuned-NOMP -0.001 [-0.003,+0.000] | heat-clean heat -0.041 [-0.050,-0.032] (orig -0.054)
+M3    ph45_g0  SNR  0 | NOMP 0.500 NOMP+selfcal 0.500 NOMP+selfcal tau0 0.507 NOMP+selfcal tuned 0.500 IABR-Net heat 0.494 IABR-v2 dual 0.502 NOMP on Hc 0.503 | gate open (tau 5) Hant 0.00 Hc 0.00 | 37s
+      NOMP-clean -0.196 [-0.209,-0.184] (orig -0.207) | heat-NOMP -0.007 [-0.013,-0.001] (orig -0.007) | dual-NOMP +0.002 [-0.001,+0.005] (orig +0.002)
+      heat-SC -0.007 [-0.012,-0.000] (orig -0.007) | dual-SC +0.002 [-0.001,+0.005] (orig +0.002) | heat-SCtau0 -0.014 [-0.024,-0.002] | dual-SCtau0 -0.005 [-0.015,+0.005] | heat-SCtuned -0.007 [-0.012,-0.000] | dual-SCtuned +0.002 [-0.001,+0.005]
+      NOMPonHc-NOMP +0.002 [-0.001,+0.005] | NOMPonHc-SCtuned +0.003 [-0.000,+0.006] | SCtau0-NOMP +0.007 [-0.004,+0.017] | SCtuned-NOMP -0.000 [-0.001,+0.000] | heat-clean heat -0.197 [-0.211,-0.182] (orig -0.209)
+M4    2        SNR  0 | NOMP 0.582 NOMP+selfcal 0.582 NOMP+selfcal tau0 0.532 NOMP+selfcal tuned 0.582 IABR-Net heat 0.564 IABR-v2 dual 0.588 NOMP on Hc 0.587 | gate open (tau 5) Hant 0.00 Hc 0.00 | 28s
+      NOMP-clean -0.115 [-0.126,-0.104] (orig -0.115) | heat-NOMP -0.017 [-0.024,-0.011] (orig -0.030) | dual-NOMP +0.006 [+0.002,+0.009] (orig +0.006)
+      heat-SC -0.017 [-0.025,-0.011] (orig -0.030) | dual-SC +0.006 [+0.002,+0.009] (orig +0.006) | heat-SCtau0 +0.032 [+0.021,+0.044] | dual-SCtau0 +0.055 [+0.045,+0.066] | heat-SCtuned -0.017 [-0.024,-0.010] | dual-SCtuned +0.006 [+0.002,+0.009]
+      NOMPonHc-NOMP +0.006 [+0.002,+0.009] | NOMPonHc-SCtuned +0.006 [+0.002,+0.009] | SCtau0-NOMP -0.050 [-0.060,-0.039] | SCtuned-NOMP -0.000 [-0.001,+0.001] | heat-clean heat -0.126 [-0.137,-0.115] (orig -0.141)
+M4    1        SNR  0 | NOMP 0.199 NOMP+selfcal 0.200 NOMP+selfcal tau0 0.144 NOMP+selfcal tuned 0.200 IABR-Net heat 0.189 IABR-v2 dual 0.202 NOMP on Hc 0.201 | gate open (tau 5) Hant 0.00 Hc 0.00 | 27s
+      NOMP-clean -0.497 [-0.513,-0.482] (orig -0.499) | heat-NOMP -0.011 [-0.018,-0.003] (orig -0.003) | dual-NOMP +0.003 [-0.001,+0.006] (orig -0.002)
+      heat-SC -0.011 [-0.019,-0.003] (orig -0.004) | dual-SC +0.002 [-0.002,+0.006] (orig -0.002) | heat-SCtau0 +0.045 [+0.035,+0.055] | dual-SCtau0 +0.058 [+0.049,+0.067] | heat-SCtuned -0.011 [-0.019,-0.004] | dual-SCtuned +0.002 [-0.002,+0.006]
+      NOMPonHc-NOMP +0.002 [-0.002,+0.005] | NOMPonHc-SCtuned +0.001 [-0.002,+0.004] | SCtau0-NOMP -0.055 [-0.065,-0.047] | SCtuned-NOMP +0.001 [+0.000,+0.002] | heat-clean heat -0.502 [-0.519,-0.485] (orig -0.497)
+M2    0.05     SNR  0 | NOMP 0.685 NOMP+selfcal 0.685 NOMP+selfcal tau0 0.646 NOMP+selfcal tuned 0.683 IABR-Net heat 0.681 IABR-v2 dual 0.684 NOMP on Hc 0.684 | gate open (tau 5) Hant 0.00 Hc 0.00 | 27s
+      NOMP-clean -0.012 [-0.019,-0.005] (orig -0.018) | heat-NOMP -0.003 [-0.008,+0.001] (orig -0.012) | dual-NOMP -0.001 [-0.004,+0.003] (orig -0.005)
+      heat-SC -0.004 [-0.008,+0.000] (orig -0.012) | dual-SC -0.001 [-0.004,+0.002] (orig -0.004) | heat-SCtau0 +0.035 [+0.027,+0.044] | dual-SCtau0 +0.038 [+0.029,+0.046] | heat-SCtuned -0.002 [-0.007,+0.002] | dual-SCtuned +0.000 [-0.003,+0.004]
+      NOMPonHc-NOMP -0.000 [-0.004,+0.003] | NOMPonHc-SCtuned +0.001 [-0.003,+0.004] | SCtau0-NOMP -0.039 [-0.047,-0.030] | SCtuned-NOMP -0.001 [-0.003,+0.000] | heat-clean heat -0.009 [-0.016,-0.003] (orig -0.025)
+M2    0.2      SNR  0 | NOMP 0.514 NOMP+selfcal 0.514 NOMP+selfcal tau0 0.487 NOMP+selfcal tuned 0.514 IABR-Net heat 0.510 IABR-v2 dual 0.516 NOMP on Hc 0.517 | gate open (tau 5) Hant 0.00 Hc 0.00 | 35s
+      NOMP-clean -0.182 [-0.195,-0.170] (orig -0.171) | heat-NOMP -0.004 [-0.010,+0.002] (orig -0.010) | dual-NOMP +0.002 [-0.001,+0.005] (orig -0.001)
+      heat-SC -0.004 [-0.010,+0.002] (orig -0.010) | dual-SC +0.002 [-0.001,+0.005] (orig -0.001) | heat-SCtau0 +0.023 [+0.012,+0.035] | dual-SCtau0 +0.029 [+0.019,+0.039] | heat-SCtuned -0.004 [-0.010,+0.002] | dual-SCtuned +0.002 [-0.001,+0.005]
+      NOMPonHc-NOMP +0.003 [+0.000,+0.006] | NOMPonHc-SCtuned +0.003 [+0.000,+0.006] | SCtau0-NOMP -0.027 [-0.037,-0.017] | SCtuned-NOMP +0.000 [-0.000,+0.001] | heat-clean heat -0.180 [-0.194,-0.167] (orig -0.177)
+M1    0.3      SNR  0 | NOMP 0.667 NOMP+selfcal 0.667 NOMP+selfcal tau0 0.629 NOMP+selfcal tuned 0.662 IABR-Net heat 0.661 IABR-v2 dual 0.664 NOMP on Hc 0.664 | gate open (tau 5) Hant 0.03 Hc 0.03 | 52s
+      NOMP-clean -0.029 [-0.042,-0.016] (orig -0.024) | heat-NOMP -0.007 [-0.012,-0.001] (orig -0.006) | dual-NOMP -0.003 [-0.008,+0.001] (orig -0.004)
+      heat-SC -0.006 [-0.012,-0.001] (orig -0.005) | dual-SC -0.003 [-0.007,+0.001] (orig -0.003) | heat-SCtau0 +0.031 [+0.022,+0.041] | dual-SCtau0 +0.035 [+0.025,+0.044] | heat-SCtuned -0.001 [-0.007,+0.005] | dual-SCtuned +0.002 [-0.003,+0.007]
+      NOMPonHc-NOMP -0.003 [-0.007,+0.001] | NOMPonHc-SCtuned +0.002 [-0.003,+0.007] | SCtau0-NOMP -0.038 [-0.047,-0.028] | SCtuned-NOMP -0.005 [-0.009,-0.002] | heat-clean heat -0.030 [-0.042,-0.017] (orig -0.025)
+M5    4        SNR  0 | NOMP 0.670 NOMP+selfcal 0.671 NOMP+selfcal tau0 0.631 NOMP+selfcal tuned 0.671 IABR-Net heat 0.666 IABR-v2 dual 0.670 NOMP on Hc 0.671 | gate open (tau 5) Hant 0.00 Hc 0.00 | 38s
+      NOMP-clean -0.026 [-0.035,-0.018] (orig -0.027) | heat-NOMP -0.004 [-0.008,+0.000] (orig -0.011) | dual-NOMP +0.000 [-0.003,+0.003] (orig -0.003)
+      heat-SC -0.005 [-0.009,-0.000] (orig -0.010) | dual-SC -0.000 [-0.004,+0.003] (orig -0.002) | heat-SCtau0 +0.035 [+0.026,+0.045] | dual-SCtau0 +0.039 [+0.030,+0.049] | heat-SCtuned -0.005 [-0.009,-0.000] | dual-SCtuned -0.000 [-0.004,+0.003]
+      NOMPonHc-NOMP +0.001 [-0.002,+0.004] | NOMPonHc-SCtuned +0.000 [-0.003,+0.003] | SCtau0-NOMP -0.039 [-0.048,-0.030] | SCtuned-NOMP +0.001 [-0.001,+0.002] | heat-clean heat -0.024 [-0.033,-0.016] (orig -0.032)
+M5    1        SNR  0 | NOMP 0.160 NOMP+selfcal 0.160 NOMP+selfcal tau0 0.133 NOMP+selfcal tuned 0.160 IABR-Net heat 0.156 IABR-v2 dual 0.160 NOMP on Hc 0.161 | gate open (tau 5) Hant 0.00 Hc 0.00 | 35s
+      NOMP-clean -0.537 [-0.552,-0.521] (orig -0.521) | heat-NOMP -0.003 [-0.008,+0.001] (orig -0.009) | dual-NOMP +0.001 [-0.001,+0.002] (orig +0.001)
+      heat-SC -0.003 [-0.008,+0.001] (orig -0.010) | dual-SC +0.001 [-0.001,+0.003] (orig +0.001) | heat-SCtau0 +0.023 [+0.014,+0.032] | dual-SCtau0 +0.027 [+0.018,+0.037] | heat-SCtuned -0.003 [-0.008,+0.001] | dual-SCtuned +0.001 [-0.001,+0.003]
+      NOMPonHc-NOMP +0.001 [-0.001,+0.002] | NOMPonHc-SCtuned +0.001 [-0.001,+0.003] | SCtau0-NOMP -0.027 [-0.036,-0.017] | SCtuned-NOMP -0.000 [-0.001,+0.000] | heat-clean heat -0.534 [-0.550,-0.518] (orig -0.525)
+M6    30       SNR  0 | NOMP 0.600 NOMP+selfcal 0.600 NOMP+selfcal tau0 0.549 NOMP+selfcal tuned 0.600 IABR-Net heat 0.603 IABR-v2 dual 0.600 NOMP on Hc 0.600 | gate open (tau 5) Hant 0.00 Hc 0.00 | 31s
+      NOMP-clean -0.097 [-0.108,-0.084] (orig -0.109) | heat-NOMP +0.003 [-0.003,+0.009] (orig +0.004) | dual-NOMP +0.000 [-0.004,+0.004] (orig +0.001)
+      heat-SC +0.003 [-0.003,+0.010] (orig +0.006) | dual-SC +0.001 [-0.003,+0.005] (orig +0.002) | heat-SCtau0 +0.054 [+0.043,+0.065] | dual-SCtau0 +0.051 [+0.041,+0.062] | heat-SCtuned +0.003 [-0.004,+0.010] | dual-SCtuned +0.001 [-0.003,+0.005]
+      NOMPonHc-NOMP +0.000 [-0.004,+0.004] | NOMPonHc-SCtuned +0.000 [-0.004,+0.004] | SCtau0-NOMP -0.051 [-0.061,-0.041] | SCtuned-NOMP -0.000 [-0.003,+0.003] | heat-clean heat -0.087 [-0.099,-0.075] (orig -0.100)
+M8    0.5      SNR  0 | NOMP 0.673 NOMP+selfcal 0.672 NOMP+selfcal tau0 0.643 NOMP+selfcal tuned 0.673 IABR-Net heat 0.677 IABR-v2 dual 0.674 NOMP on Hc 0.674 | gate open (tau 5) Hant 0.00 Hc 0.00 | 35s
+      NOMP-clean -0.024 [-0.032,-0.016] (orig -0.027) | heat-NOMP +0.005 [-0.001,+0.010] (orig -0.006) | dual-NOMP +0.001 [-0.002,+0.004] (orig -0.003)
+      heat-SC +0.005 [-0.001,+0.010] (orig -0.005) | dual-SC +0.002 [-0.002,+0.005] (orig -0.002) | heat-SCtau0 +0.034 [+0.024,+0.044] | dual-SCtau0 +0.031 [+0.021,+0.040] | heat-SCtuned +0.004 [-0.002,+0.010] | dual-SCtuned +0.001 [-0.003,+0.004]
+      NOMPonHc-NOMP +0.001 [-0.002,+0.004] | NOMPonHc-SCtuned +0.001 [-0.003,+0.004] | SCtau0-NOMP -0.029 [-0.039,-0.020] | SCtuned-NOMP +0.001 [-0.001,+0.003] | heat-clean heat -0.013 [-0.020,-0.006] (orig -0.027)
+total 1019s

@@ -1,0 +1,35 @@
+clean (0 deg, 0 dB) 131s [131s total]
+   pooled RMS SNR>=5 (deg/dB): none 0.00/0.00 | SC tuned 2.94/0.45 | SC tuned 10it 2.97/0.46 | SC open 3.90/0.59 | SC redetect 2.97/0.44 | v2b 0.38/0.08 | v2b+SC tuned 2.97/0.46 | EB-ML 1.56/0.24 | EB-ML-g5 0.85/0.12 | EB-ML-g10 0.31/0.05 | EB-ML-g5+SC tuned 3.00/0.46
+   blind SNR estimate median per SNR: -10:-7.2 -5:-4.6 0:-0.4 5:4.2 10:9.3 15:14.8 20:19.8 25:24.5
+   Pd NOMP 0.7515 | NOMP+SC tuned 0.7504 | NOMP+SC tuned 10it 0.7491 | NOMP+SC redetect 0.7502 | v2b+NOMP 0.7513 | v2b+NOMP+SC tuned 0.7502 | EB-ML+NOMP 0.7421 | EB-ML-g5+NOMP 0.7509 | EB-ML-g10+NOMP 0.7510 | EB-ML-g5+NOMP+SC tuned 0.7501 | CEILING 0.7515
+ph8 (8 deg, 0 dB) 121s [252s total]
+   pooled RMS SNR>=5 (deg/dB): none 4.31/0.00 | SC tuned 3.12/0.45 | SC tuned 10it 3.16/0.45 | SC open 3.90/0.59 | SC redetect 3.15/0.44 | v2b 2.46/0.13 | v2b+SC tuned 3.15/0.46 | EB-ML 2.74/0.24 | EB-ML-g5 2.55/0.12 | EB-ML-g10 2.77/0.05 | EB-ML-g5+SC tuned 3.18/0.45
+   blind SNR estimate median per SNR: -10:-7.2 -5:-4.7 0:-0.4 5:4.2 10:9.3 15:14.8 20:19.8 25:24.6
+   Pd NOMP 0.7341 | NOMP+SC tuned 0.7348 | NOMP+SC tuned 10it 0.7349 | NOMP+SC redetect 0.7347 | v2b+NOMP 0.7373 | v2b+NOMP+SC tuned 0.7356 | EB-ML+NOMP 0.7279 | EB-ML-g5+NOMP 0.7373 | EB-ML-g10+NOMP 0.7372 | EB-ML-g5+NOMP+SC tuned 0.7355 | CEILING 0.7385
+g3 (0 deg, 3 dB) 121s [372s total]
+   pooled RMS SNR>=5 (deg/dB): none 0.00/1.69 | SC tuned 2.89/0.65 | SC tuned 10it 2.97/0.66 | SC open 4.04/0.62 | SC redetect 3.09/0.67 | v2b 0.98/0.53 | v2b+SC tuned 3.03/0.56 | EB-ML 1.62/0.56 | EB-ML-g5 1.02/0.70 | EB-ML-g10 0.42/0.96 | EB-ML-g5+SC tuned 3.05/0.67
+   blind SNR estimate median per SNR: -10:-7.0 -5:-4.2 0:0.4 5:4.9 10:10.1 15:15.3 20:20.5 25:25.0
+   Pd NOMP 0.7336 | NOMP+SC tuned 0.7426 | NOMP+SC tuned 10it 0.7418 | NOMP+SC redetect 0.7465 | v2b+NOMP 0.7454 | v2b+NOMP+SC tuned 0.7446 | EB-ML+NOMP 0.7368 | EB-ML-g5+NOMP 0.7512 | EB-ML-g10+NOMP 0.7507 | EB-ML-g5+NOMP+SC tuned 0.7495 | CEILING 0.7415
+c30_6 (30 deg, 6 dB) 120s [493s total]
+   pooled RMS SNR>=5 (deg/dB): none 16.14/3.38 | SC tuned 14.27/2.98 | SC tuned 10it 14.28/2.98 | SC open 5.65/0.84 | SC redetect 14.22/2.97 | v2b 4.31/0.66 | v2b+SC tuned 4.46/0.68 | EB-ML 4.42/0.71 | EB-ML-g5 5.40/1.00 | EB-ML-g10 8.16/1.68 | EB-ML-g5+SC tuned 5.80/1.04
+   blind SNR estimate median per SNR: -10:-6.6 -5:-2.6 0:2.1 5:6.7 10:11.8 15:17.0 20:22.1 25:26.7
+   Pd NOMP 0.5732 | NOMP+SC tuned 0.5807 | NOMP+SC tuned 10it 0.5814 | NOMP+SC redetect 0.5894 | v2b+NOMP 0.6305 | v2b+NOMP+SC tuned 0.6302 | EB-ML+NOMP 0.6264 | EB-ML-g5+NOMP 0.6396 | EB-ML-g10+NOMP 0.6298 | EB-ML-g5+NOMP+SC tuned 0.6395 | CEILING 0.6219
+ph45 (45 deg, 0 dB) 123s [616s total]
+   pooled RMS SNR>=5 (deg/dB): none 24.22/0.00 | SC tuned 18.36/0.30 | SC tuned 10it 18.33/0.26 | SC open 5.08/0.70 | SC redetect 18.32/0.25 | v2b 4.02/0.19 | v2b+SC tuned 3.96/0.49 | EB-ML 5.21/0.31 | EB-ML-g5 9.84/0.19 | EB-ML-g10 14.36/0.11 | EB-ML-g5+SC tuned 9.74/0.42
+   blind SNR estimate median per SNR: -10:-7.3 -5:-4.6 0:-0.2 5:4.2 10:9.3 15:14.8 20:19.7 25:24.4
+   Pd NOMP 0.5057 | NOMP+SC tuned 0.5151 | NOMP+SC tuned 10it 0.5150 | NOMP+SC redetect 0.5247 | v2b+NOMP 0.5723 | v2b+NOMP+SC tuned 0.5717 | EB-ML+NOMP 0.5641 | EB-ML-g5+NOMP 0.5514 | EB-ML-g10+NOMP 0.5401 | EB-ML-g5+NOMP+SC tuned 0.5503 | CEILING 0.5962
+c8_3 (8 deg, 3 dB) 129s [745s total]
+   pooled RMS SNR>=5 (deg/dB): none 4.31/1.69 | SC tuned 3.12/0.66 | SC tuned 10it 3.19/0.67 | SC open 3.98/0.62 | SC redetect 3.29/0.67 | v2b 2.43/0.53 | v2b+SC tuned 3.23/0.57 | EB-ML 2.76/0.56 | EB-ML-g5 2.59/0.70 | EB-ML-g10 2.71/0.96 | EB-ML-g5+SC tuned 3.27/0.68
+   blind SNR estimate median per SNR: -10:-7.1 -5:-4.2 0:0.4 5:4.9 10:10.1 15:15.3 20:20.5 25:25.0
+   Pd NOMP 0.7233 | NOMP+SC tuned 0.7301 | NOMP+SC tuned 10it 0.7293 | NOMP+SC redetect 0.7354 | v2b+NOMP 0.7311 | v2b+NOMP+SC tuned 0.7327 | EB-ML+NOMP 0.7243 | EB-ML-g5+NOMP 0.7386 | EB-ML-g10+NOMP 0.7372 | EB-ML-g5+NOMP+SC tuned 0.7384 | CEILING 0.7283
+g6 (0 deg, 6 dB) 104s [849s total]
+   pooled RMS SNR>=5 (deg/dB): none 0.00/3.38 | SC tuned 2.89/1.55 | SC tuned 10it 3.20/1.55 | SC open 5.32/0.75 | SC redetect 3.20/1.56 | v2b 1.17/0.63 | v2b+SC tuned 3.15/0.66 | EB-ML 1.97/0.68 | EB-ML-g5 1.59/0.96 | EB-ML-g10 0.85/1.66 | EB-ML-g5+SC tuned 3.39/1.00
+   blind SNR estimate median per SNR: -10:-6.4 -5:-2.6 0:2.1 5:6.7 10:11.8 15:17.0 20:22.2 25:26.7
+   Pd NOMP 0.6977 | NOMP+SC tuned 0.7207 | NOMP+SC tuned 10it 0.7211 | NOMP+SC redetect 0.7374 | v2b+NOMP 0.7285 | v2b+NOMP+SC tuned 0.7288 | EB-ML+NOMP 0.7201 | EB-ML-g5+NOMP 0.7443 | EB-ML-g10+NOMP 0.7430 | EB-ML-g5+NOMP+SC tuned 0.7425 | CEILING 0.7038
+ph20 (20 deg, 0 dB) 104s [953s total]
+   pooled RMS SNR>=5 (deg/dB): none 10.76/0.00 | SC tuned 4.31/0.42 | SC tuned 10it 4.32/0.43 | SC open 3.94/0.60 | SC redetect 4.32/0.41 | v2b 3.30/0.15 | v2b+SC tuned 3.53/0.47 | EB-ML 3.55/0.18 | EB-ML-g5 4.68/0.10 | EB-ML-g10 6.38/0.07 | EB-ML-g5+SC tuned 4.31/0.42
+   blind SNR estimate median per SNR: -10:-7.3 -5:-4.6 0:-0.2 5:4.2 10:9.4 15:14.8 20:19.7 25:24.6
+   Pd NOMP 0.6777 | NOMP+SC tuned 0.6866 | NOMP+SC tuned 10it 0.6866 | NOMP+SC redetect 0.6901 | v2b+NOMP 0.6917 | v2b+NOMP+SC tuned 0.6922 | EB-ML+NOMP 0.6847 | EB-ML-g5+NOMP 0.6897 | EB-ML-g10+NOMP 0.6872 | EB-ML-g5+NOMP+SC tuned 0.6916 | CEILING 0.7042
+   bank L=3 (8000 scenes) done [1464s total]
+official bank paper Pd: NOMP 0.7581 | NOMP+SC tuned 0.7565 | NOMP+SC tuned 10it 0.7560 | NOMP+SC redetect 0.7558 | v2b+NOMP 0.7576 | v2b+NOMP+SC tuned 0.7559 | EB-ML+NOMP 0.7433 | EB-ML-g5+NOMP 0.7577 | EB-ML-g10+NOMP 0.7580 | EB-ML-g5+NOMP+SC tuned 0.7560
+DONE 1468s

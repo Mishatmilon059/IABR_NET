@@ -1,0 +1,1 @@
+gain_g4_snr0,gain_g0.5_snr15,gain_g1_snr15,gain_g2_snr15,gain_g4_snr15,oodphase_d10_snr0,oodphase_d15_snr0,oodphase_d10_snr15,oodphase_d15_snr15,L1_snr0,L2_snr0,L4_snr0,L5_snr0,L6_snr0,L7_snr0,L8_snr0,L10_snr0,L1_snr15,L2_snr15,L4_snr15,L5_snr15,L6_snr15,L7_snr15,L8_snr15,L10_snr15,sep_30deg_snr15,tail_snr-25,tail_snr-20,tail_snr30,tail_snr35

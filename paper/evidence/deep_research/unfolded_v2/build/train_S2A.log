@@ -1,0 +1,91 @@
+init from S2B: _IncompatibleKeys(missing_keys=['step_gate', 'step.net.0.weight', 'step.net.0.bias', 'step.net.2.weight', 'step.net.2.bias', 'step.net.4.weight', 'step.net.4.bias', 'step.net.6.weight', 'step.net.6.bias', 'selector.inp.weight', 'selector.inp.bias', 'selector.enc.layers.0.self_attn.in_proj_weight', 'selector.enc.layers.0.self_attn.in_proj_bias', 'selector.enc.layers.0.self_attn.out_proj.weight', 'selector.enc.layers.0.self_attn.out_proj.bias', 'selector.enc.layers.0.linear1.weight', 'selector.enc.layers.0.linear1.bias', 'selector.enc.layers.0.linear2.weight', 'selector.enc.layers.0.linear2.bias', 'selector.enc.layers.0.norm1.weight', 'selector.enc.layers.0.norm1.bias', 'selector.enc.layers.0.norm2.weight', 'selector.enc.layers.0.norm2.bias', 'selector.enc.layers.1.self_attn.in_proj_weight', 'selector.enc.layers.1.self_attn.in_proj_bias', 'selector.enc.layers.1.self_attn.out_proj.weight', 'selector.enc.layers.1.self_attn.out_proj.bias', 'selector.enc.layers.1.linear1.weight', 'selector.enc.layers.1.linear1.bias', 'selector.enc.layers.1.linear2.weight', 'selector.enc.layers.1.linear2.bias', 'selector.enc.layers.1.norm1.weight', 'selector.enc.layers.1.norm1.bias', 'selector.enc.layers.1.norm2.weight', 'selector.enc.layers.1.norm2.bias', 'selector.out.weight', 'selector.out.bias'], unexpected_keys=[])
+step 0 val mean 0.6851 ideal:0.773 adc_b1_15:0.531 adc_b2_15:0.622 adc_b3_15:0.764 adc_b4_15:0.856 adc_b1_0:0.281 adc_b2_0:0.472 adc_b3_0:0.569 adc_b4_0:0.606 M2_15:0.642 M6_15:0.783 M6_0:0.603 M3_0:0.522 M3_15:0.750 M1_15:0.881 geom_L1:0.938 geom_L2:0.863 geom_L4:0.778 geom_L5:0.725 geom_L6:0.746
+step 25/2000 hit:0.7547 hits_final:0.6281 sel:1.7078 stop:0.6955 det:9.1658 L:3.2400 loss:2.7338 gn:14107.4994 | 4.75 s/step ETA 156 min
+step 50/2000 hit:0.7481 hits_final:0.6319 sel:1.7017 stop:0.6799 det:9.3833 L:3.1600 loss:2.7412 gn:0.6364 | 4.13 s/step ETA 134 min
+step 75/2000 hit:0.8167 hits_final:0.5760 sel:1.7191 stop:0.6512 det:9.2456 L:3.0800 loss:2.7961 gn:5.6971 | 3.10 s/step ETA 99 min
+step 100/2000 hit:0.7354 hits_final:0.6425 sel:1.6857 stop:0.6077 det:9.0295 L:3.1600 loss:2.6635 gn:1.4185 | 4.21 s/step ETA 133 min
+step 125/2000 hit:0.7141 hits_final:0.6651 sel:1.7294 stop:0.5529 det:8.9586 L:3.2000 loss:2.6405 gn:0.5354 | 4.43 s/step ETA 139 min
+step 150/2000 hit:0.6923 hits_final:0.6756 sel:1.6795 stop:0.5053 det:8.6780 L:2.9200 loss:2.5514 gn:0.6020 | 3.27 s/step ETA 101 min
+step 175/2000 hit:0.7424 hits_final:0.6419 sel:1.7002 stop:0.4651 det:8.9882 L:2.8800 loss:2.6309 gn:0.3098 | 2.33 s/step ETA 71 min
+step 200/2000 hit:0.7058 hits_final:0.6684 sel:1.6826 stop:0.4175 det:8.9456 L:3.0000 loss:2.5670 gn:0.2217 | 2.26 s/step ETA 68 min
+step 225/2000 hit:0.7276 hits_final:0.6316 sel:1.7276 stop:0.3758 det:9.0755 L:3.3200 loss:2.6116 gn:3.0955 | 3.52 s/step ETA 104 min
+step 250/2000 hit:0.7684 hits_final:0.6119 sel:1.6956 stop:0.3427 det:9.2603 L:3.2800 loss:2.6450 gn:0.2821 | 2.51 s/step ETA 73 min
+VAL step 250 mean 0.6815 ideal:0.774 adc_b1_15:0.492 adc_b2_15:0.622 adc_b3_15:0.747 adc_b4_15:0.853 adc_b1_0:0.269 adc_b2_0:0.450 adc_b3_0:0.564 adc_b4_0:0.606 M2_15:0.639 M6_15:0.797 M6_0:0.606 M3_0:0.531 M3_15:0.753 M1_15:0.878 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.752
+step 275/2000 hit:0.7750 hits_final:0.6045 sel:1.6961 stop:0.3215 det:9.3397 L:3.2000 loss:2.6534 gn:1.0783 | 4.93 s/step ETA 142 min
+step 300/2000 hit:0.7092 hits_final:0.6573 sel:1.6796 stop:0.2637 det:9.1207 L:3.0800 loss:2.5402 gn:0.1937 | 2.26 s/step ETA 64 min
+step 325/2000 hit:0.7598 hits_final:0.6094 sel:1.6870 stop:0.2657 det:9.4708 L:3.1600 loss:2.6301 gn:205.6772 | 2.45 s/step ETA 68 min
+step 350/2000 hit:0.7965 hits_final:0.5810 sel:1.7148 stop:0.2639 det:9.4322 L:3.0400 loss:2.6763 gn:0.4039 | 2.99 s/step ETA 82 min
+step 375/2000 hit:0.7484 hits_final:0.6196 sel:1.6869 stop:0.2329 det:9.5321 L:3.0000 loss:2.6150 gn:0.6290 | 2.74 s/step ETA 74 min
+step 400/2000 hit:0.7090 hits_final:0.6589 sel:1.6855 stop:0.2158 det:9.1781 L:3.3200 loss:2.5342 gn:0.3237 | 2.60 s/step ETA 69 min
+step 425/2000 hit:0.7654 hits_final:0.6032 sel:1.7205 stop:0.2306 det:9.2495 L:3.0400 loss:2.6198 gn:0.3689 | 2.30 s/step ETA 60 min
+step 450/2000 hit:0.7408 hits_final:0.6378 sel:1.6883 stop:0.2130 det:8.9667 L:2.8400 loss:2.5455 gn:0.5557 | 1.95 s/step ETA 50 min
+step 475/2000 hit:0.7422 hits_final:0.6267 sel:1.6983 stop:0.2234 det:9.5003 L:3.3200 loss:2.6084 gn:69361.4448 | 2.47 s/step ETA 63 min
+step 500/2000 hit:0.7326 hits_final:0.6388 sel:1.6702 stop:0.2123 det:9.0209 L:2.9200 loss:2.5334 gn:0.4175 | 2.02 s/step ETA 50 min
+VAL step 500 mean 0.6796 ideal:0.773 adc_b1_15:0.494 adc_b2_15:0.608 adc_b3_15:0.744 adc_b4_15:0.844 adc_b1_0:0.272 adc_b2_0:0.461 adc_b3_0:0.567 adc_b4_0:0.608 M2_15:0.642 M6_15:0.783 M6_0:0.606 M3_0:0.528 M3_15:0.744 M1_15:0.872 geom_L1:0.938 geom_L2:0.863 geom_L4:0.772 geom_L5:0.720 geom_L6:0.752
+step 525/2000 hit:0.7236 hits_final:0.6286 sel:1.6929 stop:0.1888 det:8.8438 L:2.8800 loss:2.5111 gn:498.5123 | 3.83 s/step ETA 94 min
+step 550/2000 hit:0.7390 hits_final:0.6090 sel:1.6844 stop:0.2011 det:8.9720 L:3.1600 loss:2.5387 gn:0.3678 | 2.14 s/step ETA 52 min
+step 575/2000 hit:0.7395 hits_final:0.6065 sel:1.6974 stop:0.2033 det:9.4813 L:3.2000 loss:2.5974 gn:0.9917 | 2.09 s/step ETA 50 min
+step 600/2000 hit:0.7061 hits_final:0.6323 sel:1.6984 stop:0.1970 det:8.9086 L:3.2000 loss:2.5052 gn:0.2981 | 2.26 s/step ETA 53 min
+step 625/2000 hit:0.7160 hits_final:0.6433 sel:1.7091 stop:0.2106 det:9.0470 L:3.1600 loss:2.5384 gn:0.4269 | 2.25 s/step ETA 52 min
+step 650/2000 hit:0.6787 hits_final:0.6457 sel:1.7047 stop:0.1727 det:9.0185 L:3.1200 loss:2.4846 gn:4.8632 | 2.22 s/step ETA 50 min
+step 675/2000 hit:0.6737 hits_final:0.6619 sel:1.6872 stop:0.1891 det:8.9640 L:3.0800 loss:2.4704 gn:0.6521 | 2.11 s/step ETA 47 min
+step 700/2000 hit:0.7723 hits_final:0.5900 sel:1.7048 stop:0.1847 det:9.5162 L:2.9600 loss:2.6317 gn:0.7287 | 1.94 s/step ETA 42 min
+step 725/2000 hit:0.7049 hits_final:0.6282 sel:1.6864 stop:0.1786 det:9.3496 L:3.1600 loss:2.5366 gn:42.8100 | 2.15 s/step ETA 46 min
+step 750/2000 hit:0.7030 hits_final:0.6326 sel:1.7046 stop:0.1759 det:8.9274 L:3.0800 loss:2.5008 gn:62002765.7159 | 2.10 s/step ETA 44 min
+VAL step 750 mean 0.6816 ideal:0.771 adc_b1_15:0.506 adc_b2_15:0.631 adc_b3_15:0.753 adc_b4_15:0.853 adc_b1_0:0.275 adc_b2_0:0.439 adc_b3_0:0.558 adc_b4_0:0.606 M2_15:0.639 M6_15:0.800 M6_0:0.606 M3_0:0.525 M3_15:0.750 M1_15:0.875 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.718 geom_L6:0.752
+step 775/2000 hit:0.6965 hits_final:0.6361 sel:1.6880 stop:0.1957 det:9.2202 L:3.0400 loss:2.5212 gn:0.4780 | 4.09 s/step ETA 83 min
+step 800/2000 hit:0.6942 hits_final:0.6352 sel:1.7039 stop:0.1727 det:9.1811 L:3.1600 loss:2.5161 gn:0.3160 | 2.13 s/step ETA 43 min
+step 825/2000 hit:0.6686 hits_final:0.6522 sel:1.6999 stop:0.1734 det:8.7919 L:3.0000 loss:2.4498 gn:0.4129 | 2.07 s/step ETA 41 min
+step 850/2000 hit:0.7311 hits_final:0.6183 sel:1.7003 stop:0.1708 det:9.2898 L:2.9200 loss:2.5615 gn:4.9131 | 1.96 s/step ETA 38 min
+step 875/2000 hit:0.7301 hits_final:0.6056 sel:1.7033 stop:0.2046 det:9.5061 L:3.2400 loss:2.5938 gn:60.8340 | 2.32 s/step ETA 44 min
+step 900/2000 hit:0.6727 hits_final:0.6606 sel:1.6680 stop:0.1674 det:9.0794 L:2.9200 loss:2.4648 gn:0.5098 | 1.96 s/step ETA 36 min
+step 925/2000 hit:0.6645 hits_final:0.6697 sel:1.6383 stop:0.2019 det:8.6338 L:2.9200 loss:2.4076 gn:66.2083 | 2.07 s/step ETA 37 min
+step 950/2000 hit:0.6815 hits_final:0.6418 sel:1.6963 stop:0.1659 det:9.1640 L:3.0800 loss:2.4958 gn:3.5994 | 2.15 s/step ETA 38 min
+step 975/2000 hit:0.6711 hits_final:0.6510 sel:1.6974 stop:0.1615 det:9.1980 L:3.1200 loss:2.4880 gn:0.3661 | 2.23 s/step ETA 38 min
+step 1000/2000 hit:0.6923 hits_final:0.6286 sel:1.6775 stop:0.1572 det:8.9897 L:2.9600 loss:2.4772 gn:118.2282 | 2.19 s/step ETA 36 min
+VAL step 1000 mean 0.6806 ideal:0.772 adc_b1_15:0.492 adc_b2_15:0.611 adc_b3_15:0.744 adc_b4_15:0.842 adc_b1_0:0.258 adc_b2_0:0.472 adc_b3_0:0.567 adc_b4_0:0.608 M2_15:0.642 M6_15:0.794 M6_0:0.606 M3_0:0.528 M3_15:0.753 M1_15:0.878 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.748
+step 1025/2000 hit:0.7016 hits_final:0.6157 sel:1.6942 stop:0.1775 det:9.1782 L:3.1200 loss:2.5197 gn:0.3130 | 4.15 s/step ETA 67 min
+step 1050/2000 hit:0.7104 hits_final:0.6139 sel:1.7114 stop:0.2051 det:9.0616 L:3.2000 loss:2.5338 gn:3.1445 | 2.30 s/step ETA 36 min
+step 1075/2000 hit:0.6182 hits_final:0.6794 sel:1.6761 stop:0.1964 det:8.7977 L:2.8400 loss:2.3950 gn:0.4151 | 1.97 s/step ETA 30 min
+step 1100/2000 hit:0.6263 hits_final:0.6752 sel:1.6799 stop:0.1840 det:8.7366 L:2.9200 loss:2.3951 gn:0.2981 | 2.11 s/step ETA 32 min
+step 1125/2000 hit:0.6010 hits_final:0.6981 sel:1.6497 stop:0.1311 det:8.6773 L:2.9600 loss:2.3329 gn:0.3733 | 1.98 s/step ETA 29 min
+step 1150/2000 hit:0.7084 hits_final:0.6235 sel:1.6550 stop:0.1855 det:9.1320 L:2.9600 loss:2.5048 gn:0.4208 | 1.95 s/step ETA 28 min
+step 1175/2000 hit:0.6181 hits_final:0.6624 sel:1.7006 stop:0.1814 det:8.9770 L:3.3600 loss:2.4205 gn:5.0925 | 2.47 s/step ETA 34 min
+step 1200/2000 hit:0.7164 hits_final:0.6044 sel:1.7308 stop:0.2029 det:9.2155 L:3.2400 loss:2.5642 gn:11.0605 | 2.21 s/step ETA 29 min
+step 1225/2000 hit:0.7144 hits_final:0.5959 sel:1.7193 stop:0.1988 det:9.4647 L:3.4000 loss:2.5801 gn:0.5088 | 2.39 s/step ETA 31 min
+step 1250/2000 hit:0.7083 hits_final:0.6060 sel:1.7229 stop:0.1607 det:9.3311 L:3.1600 loss:2.5511 gn:0.5938 | 2.16 s/step ETA 27 min
+VAL step 1250 mean 0.6805 ideal:0.770 adc_b1_15:0.486 adc_b2_15:0.617 adc_b3_15:0.747 adc_b4_15:0.844 adc_b1_0:0.253 adc_b2_0:0.458 adc_b3_0:0.572 adc_b4_0:0.608 M2_15:0.642 M6_15:0.794 M6_0:0.606 M3_0:0.525 M3_15:0.761 M1_15:0.878 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.750
+step 1275/2000 hit:0.6732 hits_final:0.6256 sel:1.6950 stop:0.2016 det:9.0530 L:3.0400 loss:2.4865 gn:12.9860 | 4.07 s/step ETA 49 min
+step 1300/2000 hit:0.7090 hits_final:0.5978 sel:1.6915 stop:0.1761 det:9.3222 L:3.1600 loss:2.5398 gn:1.0575 | 2.70 s/step ETA 32 min
+step 1325/2000 hit:0.6440 hits_final:0.6421 sel:1.7043 stop:0.1746 det:8.8066 L:3.1600 loss:2.4292 gn:0.2883 | 2.41 s/step ETA 27 min
+step 1350/2000 hit:0.6751 hits_final:0.6178 sel:1.7198 stop:0.1743 det:8.9167 L:3.0000 loss:2.4790 gn:3.5142 | 2.52 s/step ETA 27 min
+step 1375/2000 hit:0.5938 hits_final:0.6887 sel:1.6758 stop:0.1433 det:8.7631 L:3.0000 loss:2.3510 gn:0.2267 | 2.68 s/step ETA 28 min
+step 1400/2000 hit:0.7323 hits_final:0.5917 sel:1.7094 stop:0.1978 det:9.5414 L:3.1600 loss:2.6004 gn:0.6154 | 2.48 s/step ETA 25 min
+step 1425/2000 hit:0.6681 hits_final:0.6383 sel:1.6911 stop:0.1793 det:9.1150 L:3.0400 loss:2.4789 gn:0.4133 | 3.30 s/step ETA 32 min
+step 1450/2000 hit:0.6834 hits_final:0.6126 sel:1.7023 stop:0.1888 det:9.2374 L:3.0800 loss:2.5149 gn:0.7510 | 2.57 s/step ETA 24 min
+step 1475/2000 hit:0.6913 hits_final:0.6264 sel:1.6795 stop:0.2316 det:8.9000 L:3.1200 loss:2.4905 gn:0.3910 | 2.55 s/step ETA 22 min
+step 1500/2000 hit:0.6871 hits_final:0.5983 sel:1.7288 stop:0.1650 det:9.4676 L:3.1200 loss:2.5478 gn:0.3356 | 4.15 s/step ETA 35 min
+VAL step 1500 mean 0.6795 ideal:0.770 adc_b1_15:0.483 adc_b2_15:0.617 adc_b3_15:0.739 adc_b4_15:0.836 adc_b1_0:0.247 adc_b2_0:0.447 adc_b3_0:0.583 adc_b4_0:0.625 M2_15:0.642 M6_15:0.794 M6_0:0.603 M3_0:0.522 M3_15:0.756 M1_15:0.881 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.748
+step 1525/2000 hit:0.6641 hits_final:0.6310 sel:1.6826 stop:0.1681 det:9.0076 L:3.1200 loss:2.4566 gn:0.3380 | 5.80 s/step ETA 46 min
+step 1550/2000 hit:0.7233 hits_final:0.5912 sel:1.6926 stop:0.1841 det:9.4657 L:3.2000 loss:2.5714 gn:0.3698 | 2.62 s/step ETA 20 min
+step 1575/2000 hit:0.6499 hits_final:0.6283 sel:1.6980 stop:0.1490 det:8.7811 L:3.0800 loss:2.4217 gn:1.0088 | 2.50 s/step ETA 18 min
+step 1600/2000 hit:0.7074 hits_final:0.5936 sel:1.6823 stop:0.1680 det:9.2243 L:3.1200 loss:2.5213 gn:1.0156 | 2.87 s/step ETA 19 min
+step 1625/2000 hit:0.6505 hits_final:0.6299 sel:1.6998 stop:0.2072 det:9.1608 L:3.2000 loss:2.4787 gn:96.8890 | 3.11 s/step ETA 19 min
+step 1650/2000 hit:0.6304 hits_final:0.6576 sel:1.6812 stop:0.2237 det:8.8432 L:2.8400 loss:2.4225 gn:5.3812 | 2.73 s/step ETA 16 min
+step 1675/2000 hit:0.6460 hits_final:0.6303 sel:1.6895 stop:0.1514 det:9.0736 L:3.1200 loss:2.4436 gn:0.2889 | 2.45 s/step ETA 13 min
+step 1700/2000 hit:0.6102 hits_final:0.6618 sel:1.6753 stop:0.1353 det:8.6348 L:3.0400 loss:2.3520 gn:0.1828 | 2.13 s/step ETA 11 min
+step 1725/2000 hit:0.6720 hits_final:0.6261 sel:1.6978 stop:0.1780 det:9.0085 L:2.9200 loss:2.4751 gn:155.9633 | 2.32 s/step ETA 11 min
+step 1750/2000 hit:0.5912 hits_final:0.6689 sel:1.7217 stop:0.1553 det:8.9185 L:2.9200 loss:2.3905 gn:1.0571 | 2.05 s/step ETA 9 min
+VAL step 1750 mean 0.6839 ideal:0.771 adc_b1_15:0.533 adc_b2_15:0.625 adc_b3_15:0.772 adc_b4_15:0.856 adc_b1_0:0.275 adc_b2_0:0.439 adc_b3_0:0.553 adc_b4_0:0.606 M2_15:0.636 M6_15:0.792 M6_0:0.603 M3_0:0.531 M3_15:0.756 M1_15:0.883 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.750
+step 1775/2000 hit:0.6589 hits_final:0.6417 sel:1.6713 stop:0.1664 det:8.8242 L:2.8800 loss:2.4269 gn:28.2181 | 5.18 s/step ETA 19 min
+step 1800/2000 hit:0.6797 hits_final:0.6180 sel:1.7136 stop:0.1742 det:9.3208 L:3.0400 loss:2.5209 gn:1.1223 | 2.96 s/step ETA 10 min
+step 1825/2000 hit:0.6574 hits_final:0.6374 sel:1.6920 stop:0.1732 det:9.6133 L:3.2000 loss:2.5167 gn:0.6241 | 2.85 s/step ETA 8 min
+step 1850/2000 hit:0.6592 hits_final:0.6422 sel:1.6644 stop:0.1756 det:8.9647 L:2.9600 loss:2.4406 gn:0.3474 | 2.63 s/step ETA 7 min
+step 1875/2000 hit:0.6028 hits_final:0.6583 sel:1.6976 stop:0.1730 det:9.1352 L:3.2400 loss:2.4170 gn:11.6786 | 3.90 s/step ETA 8 min
+step 1900/2000 hit:0.6284 hits_final:0.6515 sel:1.6889 stop:0.1428 det:9.1041 L:3.0800 loss:2.4261 gn:0.2958 | 3.37 s/step ETA 6 min
+step 1925/2000 hit:0.7096 hits_final:0.5986 sel:1.7079 stop:0.1805 det:9.4660 L:3.2400 loss:2.5644 gn:0.3935 | 4.30 s/step ETA 5 min
+step 1950/2000 hit:0.6699 hits_final:0.6286 sel:1.6908 stop:0.1995 det:8.9429 L:3.0000 loss:2.4694 gn:11116483120012984.0000 | 3.98 s/step ETA 3 min
+step 1975/2000 hit:0.6731 hits_final:0.6200 sel:1.6618 stop:0.2199 det:8.7732 L:3.0400 loss:2.4473 gn:93.7852 | 2.95 s/step ETA 1 min
+step 2000/2000 hit:0.6705 hits_final:0.6313 sel:1.6724 stop:0.1936 det:9.0990 L:3.0800 loss:2.4747 gn:350604.4373 | 3.20 s/step ETA 0 min
+VAL step 2000 mean 0.6841 ideal:0.771 adc_b1_15:0.506 adc_b2_15:0.617 adc_b3_15:0.761 adc_b4_15:0.861 adc_b1_0:0.281 adc_b2_0:0.450 adc_b3_0:0.578 adc_b4_0:0.603 M2_15:0.642 M6_15:0.794 M6_0:0.608 M3_0:0.528 M3_15:0.753 M1_15:0.883 geom_L1:0.938 geom_L2:0.869 geom_L4:0.772 geom_L5:0.720 geom_L6:0.750
+done S2A: 2000 steps, best val mean 0.6851 -> D:\ai_ml_project\paper\evidence\deep_research\unfolded_v2\build/best_S2A.pt

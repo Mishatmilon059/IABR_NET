@@ -1,0 +1,23 @@
+L7_snr0                N=500 L=[7] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 46s
+L7_snr15               N=500 L=[7] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 42s
+L8_snr0                N=500 L=[8] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 52s
+L8_snr15               N=500 L=[8] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 53s
+L10_snr0               N=500 L=[10] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 104s
+L10_snr15              N=500 L=[10] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 99s
+gain_g0.5_snr0         N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 10s
+gain_g0.5_snr15        N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 15s
+gain_g1_snr0           N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 12s
+gain_g1_snr15          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 11s
+gain_g2_snr0           N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 13s
+gain_g2_snr15          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 14s
+gain_g4_snr0           N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 2.22e-16 rad) | 9s
+gain_g4_snr15          N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 12s
+oodphase_d10_snr0      N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 13s
+oodphase_d10_snr15     N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 11s
+oodphase_d15_snr0      N=500 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 10s
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\new_results\e13_decode.py", line 15, in <module>
+    U, V = nomp_greedy(H, L, CFG['nomp_os'], CFG['nomp_rc']); a = uv_to_angles(U, V); psi_g[jj, :L], phi_g[jj, :L] = a
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 53, in nomp_greedy
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 15.6 MiB for an array with shape (500, 64, 64) and data type float64

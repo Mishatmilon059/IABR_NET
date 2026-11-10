@@ -1,0 +1,14 @@
+clean: cached, skip
+ph8: cached, skip
+g3: cached, skip
+g6: cached, skip
+g1: done 53s | check Hc==Ht*exp(-imp) 3.0e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+g2: done 64s | check Hc==Ht*exp(-imp) 2.8e-07 | selfcal_ret vs notebook selfcal max|dU| 0.0e+00
+c8_3: cached, skip
+c20_4: cached, skip
+c30_6: cached, skip
+ph45: cached, skip
+g3_L1: cached, skip
+g3_L6: cached, skip
+official: cached, skip
+all done 117s

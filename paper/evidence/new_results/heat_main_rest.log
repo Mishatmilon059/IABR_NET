@@ -1,0 +1,11 @@
+L10_snr0               N=  500 IABR-Net pd_paper 0.4477 strict 0.4477 | U-Net 0.4210 strict 0.1743 | diff +0.0267 [+0.0106,+0.0429] | 21s
+L10_snr15              N=  500 IABR-Net pd_paper 0.8022 strict 0.8022 | U-Net 0.7941 strict 0.6099 | diff +0.0081 [-0.0031,+0.0190] | 16s
+L1_snr0                N=  500 IABR-Net pd_paper 0.8330 strict 0.8330 | U-Net 0.8020 strict 0.8020 | diff +0.0310 [+0.0150,+0.0470] | 1s
+L1_snr15               N=  500 IABR-Net pd_paper 0.9640 strict 0.9640 | U-Net 0.9550 strict 0.9550 | diff +0.0090 [-0.0030,+0.0200] | 1s
+L2_snr0                N=  500 IABR-Net pd_paper 0.7490 strict 0.7490 | U-Net 0.7361 strict 0.6890 | diff +0.0129 [-0.0042,+0.0309] | 1s
+L2_snr15               N=  500 IABR-Net pd_paper 0.9510 strict 0.9510 | U-Net 0.9479 strict 0.9365 | diff +0.0031 [-0.0072,+0.0129] | 2s
+L4_snr0                N=  500 IABR-Net pd_paper 0.6422 strict 0.6422 | U-Net 0.6250 strict 0.5275 | diff +0.0172 [+0.0010,+0.0333] | 4s
+L4_snr15               N=  500 IABR-Net pd_paper 0.9165 strict 0.9165 | U-Net 0.9106 strict 0.8632 | diff +0.0059 [-0.0040,+0.0163] | 4s
+L5_snr0                N=  500 IABR-Net pd_paper 0.6026 strict 0.6026 | U-Net 0.5841 strict 0.4848 | diff +0.0185 [+0.0041,+0.0325] | 5s
+L5_snr15               N=  500 IABR-Net pd_paper 0.9000 strict 0.9000 | U-Net 0.8937 strict 0.8258 | diff +0.0063 [-0.0057,+0.0176] | 6s
+L6_snr0                N=  500 IABR-Net pd_paper 0.5583 strict 0.5583 | U-Net 0.5459 strict 0.4258 | diff +0.0124 [-0.0025,+0.0271] | 14s

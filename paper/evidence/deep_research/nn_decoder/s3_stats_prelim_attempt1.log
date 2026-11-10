@@ -1,0 +1,1 @@
+official               N= 8000 L=[3] AN-SC 0.7508 AN-noSC 0.7457 | IABR-Net 0.7503 | IABR-v2 0.7551 | NOMP-only 0.7581 | U-Net 0.7366 | network 0.4507 | d[U-Net] +0.0142 [+0.0108, +0.0176] | d[NOMP-only] -0.0073 [-0.0091, -0.0056] | d[IABR-Net] +0.0005 [-0.0002, +0.0011]

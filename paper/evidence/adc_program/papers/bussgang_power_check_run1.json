@@ -1,0 +1,253 @@
+{
+ "A1": {
+  "A": 0.7976495168168245,
+  "A_imag": -0.0011406600622655262,
+  "sqrt_2_over_pi": 0.7978845608028654,
+  "corr_q_y": 2.0500353931012769e-16,
+  "Eq2": 0.3631954933938393,
+  "one_minus_2_over_pi": 0.3633802276324186,
+  "Eq2_given_abs_y_lt_0p3": 0.7432080769571181,
+  "Eq2_given_abs_y_gt_1p5": 0.5059014995467767,
+  "SDR_inf_snr": 1.7518005161302028,
+  "SDR_formula": 1.7519383938841089
+ },
+ "A2": {
+  "-20": {
+   "mc_db": -0.10938886557881927,
+   "formula_db": -0.10766215623054375
+  },
+  "-10": {
+   "mc_db": -0.8663731318137412,
+   "formula_db": -0.8718902263035276
+  },
+  "0": {
+   "mc_db": -3.0994405753693597,
+   "formula_db": -3.091802406581908
+  },
+  "10": {
+   "mc_db": -4.195703894999286,
+   "formula_db": -4.214667534470343
+  },
+  "20": {
+   "mc_db": -4.383508973797711,
+   "formula_db": -4.377454406827769
+  },
+  "40": {
+   "mc_db": -4.41146881442755,
+   "formula_db": -4.396196868256348
+  }
+ },
+ "A3": {
+  "-20": {
+   "BLMMSE (arcsine law)": -0.49951600125020457,
+   "additive quantiser noise [28]": -0.49951590363435927,
+   "rel_err_arcsine_vs_empirical_Cr": 0.564107984760561
+  },
+  "-10": {
+   "BLMMSE (arcsine law)": -3.2475660118793326,
+   "additive quantiser noise [28]": -3.247562513269784,
+   "rel_err_arcsine_vs_empirical_Cr": 0.5293420568657411
+  },
+  "0": {
+   "BLMMSE (arcsine law)": -7.224079832626217,
+   "additive quantiser noise [28]": -7.20363357651368,
+   "rel_err_arcsine_vs_empirical_Cr": 0.38351131614806133
+  },
+  "10": {
+   "BLMMSE (arcsine law)": -7.950955760625339,
+   "additive quantiser noise [28]": -7.862910541314745,
+   "rel_err_arcsine_vs_empirical_Cr": 0.33310874298190885
+  },
+  "20": {
+   "BLMMSE (arcsine law)": -7.943792995859429,
+   "additive quantiser noise [28]": -7.849917105540851,
+   "rel_err_arcsine_vs_empirical_Cr": 0.3272202227500127
+  }
+ },
+ "B1": {
+  "0": {
+   "diag_mean": 1.0042744560830577,
+   "diag_min": 0.37137767429389196,
+   "diag_max": 12.516850252404444,
+   "offdiag_energy_fraction": 0.036800445250594685,
+   "mean_abs_over_rms": 0.03699139049143859
+  },
+  "15": {
+   "diag_mean": 1.0042744560830577,
+   "diag_min": 0.37137767429389196,
+   "diag_max": 12.516850252404444,
+   "offdiag_energy_fraction": 0.036800445250594685,
+   "mean_abs_over_rms": 0.03699139049143858
+  }
+ },
+ "B1_checks": {
+  "0dB": {
+   "rel_err_arcsine_Cr_vs_empirical": 0.19286818649339435,
+   "rel_err_bussgang_Cgr_vs_empirical": 1.1865126621319888
+  },
+  "15dB": {
+   "rel_err_arcsine_Cr_vs_empirical": 0.4682054166358628,
+   "rel_err_bussgang_Cgr_vs_empirical": 1.1556308638613293
+  }
+ },
+ "B2": {
+  "1bit_0dB": {
+   "nmse_db": {
+    "empirical LMMSE": -0.20431028534338275,
+    "Bussgang LMMSE (analytic)": 0.20216029922327944,
+    "Bussgang LMMSE, diagonal distortion": 0.20216459594047603,
+    "raw (scalar LMMSE)": -0.1893230717015818
+   },
+   "nomp_ms_per_scene": 1.9437201023101807,
+   "pd": {
+    "NOMP on raw quantised data": 0.16133333333333333,
+    "empirical LMMSE + NOMP": 0.05333333333333334,
+    "Bussgang LMMSE (analytic) + NOMP": 0.0735,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.0735
+   },
+   "pd_strict": {
+    "NOMP on raw quantised data": 0.16133333333333333,
+    "empirical LMMSE + NOMP": 0.05333333333333334,
+    "Bussgang LMMSE (analytic) + NOMP": 0.0735,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.0735
+   },
+   "diff_vs_nomp": {
+    "empirical LMMSE + NOMP": [
+     -0.10799999999999998,
+     -0.11883333333333332,
+     -0.09749583333333336
+    ],
+    "Bussgang LMMSE (analytic) + NOMP": [
+     -0.08783333333333333,
+     -0.09866666666666667,
+     -0.07716666666666668
+    ],
+    "Bussgang LMMSE, diagonal distortion + NOMP": [
+     -0.08783333333333333,
+     -0.09866666666666667,
+     -0.07716666666666668
+    ]
+   },
+   "identical_predictions": {
+    "empirical LMMSE + NOMP": 0.0,
+    "Bussgang LMMSE (analytic) + NOMP": 0.0,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.0
+   }
+  },
+  "2bit_0dB": {
+   "nmse_db": {
+    "empirical LMMSE": -0.6467582105390081,
+    "raw (scalar LMMSE)": -0.47240676480354993
+   },
+   "nomp_ms_per_scene": 3.594653844833374,
+   "pd": {
+    "NOMP on raw quantised data": 0.37283333333333335,
+    "empirical LMMSE + NOMP": 0.12116666666666667
+   },
+   "pd_strict": {
+    "NOMP on raw quantised data": 0.37283333333333335,
+    "empirical LMMSE + NOMP": 0.12116666666666667
+   },
+   "diff_vs_nomp": {
+    "empirical LMMSE + NOMP": [
+     -0.2516666666666667,
+     -0.26716666666666666,
+     -0.23633333333333334
+    ]
+   },
+   "identical_predictions": {
+    "empirical LMMSE + NOMP": 0.0
+   }
+  },
+  "1bit_15dB": {
+   "nmse_db": {
+    "empirical LMMSE": -0.4310999264815508,
+    "Bussgang LMMSE (analytic)": 0.42014177043121637,
+    "Bussgang LMMSE, diagonal distortion": 0.42014838765856954,
+    "raw (scalar LMMSE)": -0.37230340070989804
+   },
+   "nomp_ms_per_scene": 3.009647846221924,
+   "pd": {
+    "NOMP on raw quantised data": 0.18833333333333332,
+    "empirical LMMSE + NOMP": 0.09916666666666667,
+    "Bussgang LMMSE (analytic) + NOMP": 0.14083333333333334,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.14083333333333334
+   },
+   "pd_strict": {
+    "NOMP on raw quantised data": 0.18833333333333332,
+    "empirical LMMSE + NOMP": 0.09916666666666667,
+    "Bussgang LMMSE (analytic) + NOMP": 0.14083333333333334,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.14083333333333334
+   },
+   "diff_vs_nomp": {
+    "empirical LMMSE + NOMP": [
+     -0.08916666666666666,
+     -0.09950416666666667,
+     -0.07933333333333334
+    ],
+    "Bussgang LMMSE (analytic) + NOMP": [
+     -0.04749999999999999,
+     -0.057499999999999996,
+     -0.037666666666666654
+    ],
+    "Bussgang LMMSE, diagonal distortion + NOMP": [
+     -0.04749999999999999,
+     -0.057499999999999996,
+     -0.037666666666666654
+    ]
+   },
+   "identical_predictions": {
+    "empirical LMMSE + NOMP": 0.0,
+    "Bussgang LMMSE (analytic) + NOMP": 0.0,
+    "Bussgang LMMSE, diagonal distortion + NOMP": 0.0
+   }
+  },
+  "2bit_15dB": {
+   "nmse_db": {
+    "empirical LMMSE": -0.9600738034854608,
+    "raw (scalar LMMSE)": -0.7417054946400181
+   },
+   "nomp_ms_per_scene": 2.421422243118286,
+   "pd": {
+    "NOMP on raw quantised data": 0.278,
+    "empirical LMMSE + NOMP": 0.15866666666666668
+   },
+   "pd_strict": {
+    "NOMP on raw quantised data": 0.278,
+    "empirical LMMSE + NOMP": 0.15866666666666668
+   },
+   "diff_vs_nomp": {
+    "empirical LMMSE + NOMP": [
+     -0.11933333333333335,
+     -0.13167083333333335,
+     -0.10732916666666667
+    ]
+   },
+   "identical_predictions": {
+    "empirical LMMSE + NOMP": 0.0
+   }
+  }
+ },
+ "B3": {
+  "inf": {
+   "pd": 0.9856666666666667,
+   "pd_strict": 0.9856666666666667,
+   "rmse": 0.05817270635349468
+  },
+  "4": {
+   "pd": 0.6633333333333333,
+   "pd_strict": 0.6633333333333333,
+   "rmse": 0.47685967552056113
+  },
+  "2": {
+   "pd": 0.23166666666666666,
+   "pd_strict": 0.23166666666666666,
+   "rmse": 0.552602863462799
+  },
+  "1": {
+   "pd": 0.18,
+   "pd_strict": 0.18,
+   "rmse": 0.5752440841293006
+  }
+ }
+}

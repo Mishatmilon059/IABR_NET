@@ -1,0 +1,2 @@
+threads=1  greedy (os=4, rc=3)            median 9.96 ms  (p5 6.66, p95 12.99, 100 runs)
+threads=1  greedy + selfcal (1.0, 5.0)    median 16.17 ms  (p5 12.97, p95 19.57, 100 runs)

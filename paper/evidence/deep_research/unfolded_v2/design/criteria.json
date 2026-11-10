@@ -1,0 +1,166 @@
+{
+ "written": "2026-10-16T01:48:13",
+ "status": "PRE-REGISTERED before any training or test-bank run. Do not edit after the first test evaluation; amendments go to criteria_amendments.json with reason + timestamp.",
+ "designs": {
+  "A": "CA-UNOMP: condition-adaptive decoder unfolded from NOMP (Mamandipoor et al. 2016) / quantised NOMP-ML (GNOMP); 921,842 params; trained, primary design",
+  "B": "HU-NOMP: hyper-conditioned unfolded NOMP (learned hyperparameters, seeds, stopping; no learned step MLP, no learned selector); 517,103 params; trained, secondary design and ablation",
+  "C": "posterior-mass decoder for ideal hardware; NOT trained (diag: legal headroom <= +0.0008 vs os8rc6, separation prior -0.03* when violated)"
+ },
+ "claim_rules": {
+  "metric": "pd_paper (|err|<=1 deg per angle component, mean over SNR groups) via new_results/common.py scene_stats/metric_by_snr; strict Pd and RMSE reported alongside; unknown-L cells use hit-F1 = 2*hits/(n_true+n_est) with Hungarian matching",
+  "stats": "paired bootstrap, 2000 resamples within SNR groups, seed 0; a win/loss requires the 95% CI to exclude 0; family-level Holm-adjusted win counts reported as sensitivity",
+  "selection": "one checkpoint per design, chosen only on the validation mix (seed 71_200_000); no test bank used for any choice; designs A and B are both reported whatever the outcome",
+  "wording": "decoder must be described as 'unfolded from NOMP (Mamandipoor et al. 2016)'; NOMP and the strongest classical variants stay named baselines; any gain traced to the benchmark prior is labelled a prior exploit",
+  "L_protocol": "official and regime cells: true L given to every method; unknown-L tests: no method is given L"
+ },
+ "seeds": {
+  "train": "default_rng([70_200_000, step])",
+  "val_mix": "71_200_000 (+component offset)",
+  "G0": "71_200_100+",
+  "test": "9520-9561 (see banks); excluded as already used: 9500, 9501, 9515, 9595, 70,000,000, 71,000,000-71,000,002"
+ },
+ "gate_G0": {
+  "run_before": "S2 training (uses validation seeds only)",
+  "measures": [
+   "G0a: share of failing scenes where ML-from-truth reaches lower exact quantised NLL than 13-start ML (b1/15, b2/15, b1/0, b2/0; 200 scenes each)",
+   "G0b: classical annealed ML (kappa 3->1) Pd vs 13-start ML",
+   "G0c: oracle Pd over the classical hypothesis pool H1-H6"
+  ],
+  "decision": "if G0a < 10% in all four cells AND G0c oracle < +0.02 over ML in all four cells: drop A's learned selector (A = B + step MLP) and report; classical annealed ML is a named baseline in all cases"
+ },
+ "PRIMARY": {
+  "id": "P1_official",
+  "bank": "official frozen eval_bank, 8000 scenes, L=3 given, ideal hardware",
+  "requires_all": [
+   "A - NOMP os4rc3: 95% CI > 0",
+   "A - NOMP os8rc6: 95% CI > 0",
+   "no SNR in {10,15,20,25} dB with A - NOMP os8rc6 CI entirely < 0",
+   "fresh ideal replicate (seed 9520, 4000 scenes): A - NOMP os8rc6 point estimate > 0"
+  ],
+  "prediction": "FAIL vs os8rc6 expected (diag: best legal mechanism +0.0007 n.s. over os8rc6); pass vs os4rc3 plausible (+0.0015)"
+ },
+ "SECONDARY": {
+  "S1_regime_vs_best_classical": {
+   "cells": [
+    {
+     "cell": "M5_b1_snr15",
+     "seed": 9521
+    },
+    {
+     "cell": "M5_b2_snr15",
+     "seed": 9522
+    },
+    {
+     "cell": "M5_b3_snr15",
+     "seed": 9523
+    },
+    {
+     "cell": "M5_b4_snr15",
+     "seed": 9524
+    },
+    {
+     "cell": "M5_b1_snr0",
+     "seed": 9525
+    },
+    {
+     "cell": "M5_b2_snr0",
+     "seed": 9526
+    },
+    {
+     "cell": "M5_b3_snr0",
+     "seed": 9527
+    },
+    {
+     "cell": "M5_b4_snr0",
+     "seed": 9528
+    },
+    {
+     "cell": "M2_0.2_snr15",
+     "seed": 9541
+    },
+    {
+     "cell": "M6_30_snr15",
+     "seed": 9542
+    },
+    {
+     "cell": "M6_30_snr0",
+     "seed": 9543
+    },
+    {
+     "cell": "M3_ph45_g0_snr0",
+     "seed": 9544
+    },
+    {
+     "cell": "M3_ph30_g4_snr15",
+     "seed": 9545
+    },
+    {
+     "cell": "M1_0.3_snr15",
+     "seed": 9546
+    }
+   ],
+   "n_per_cell": 1000,
+   "baseline": "best classical per cell, chosen on the test bank itself, classical methods given the TRUE SNR/noise variance and true impairment model: NOMP os4rc3, NOMP os8rc6, NOMP+tuned SC, consistent NOMP, quantised ML 13 starts + EM, classical annealed ML, EB-ML-g5, PN-ML, POS-MAP",
+   "decoder_inputs": "Y, ADC bits b and AGC type, L; NOT the SNR, NOT the impairment type/level",
+   "pass": ">= 7 of 14 cells with A - best classical CI > 0, AND no cell with A - best classical point estimate < -0.02 and CI < 0, AND S2 holds",
+   "prediction": "expected FAIL on the count (likely wins: M5_b1_snr15, M2_0.2_snr15; predicted losses: M3 cells vs EB-ML-g5, M1)"
+  },
+  "S1b_regime_vs_deployable_classical": {
+   "cells": "same 14 cells",
+   "baseline": "one fixed bit-aware classical pipeline not told SNR or impairment: b<=4 -> quantised ML (13 starts + EM) with classical joint noise-std estimation; b=inf -> NOMP os8rc6 + tuned SC",
+   "pass": ">= 10 of 14 cells with CI > 0 and no significant loss in any cell"
+  },
+  "S2_official_noninferiority": {
+   "pass": "A - NOMP os8rc6 on the official bank: lower 95% CI bound > -0.002, and no SNR >= 10 dB with CI entirely < 0"
+  },
+  "S3_snr_mismatch": {
+   "cells": "the 8 M5 cells",
+   "pass": "A beats quantised ML with assumed SNR = true+5 dB AND true-5 dB (CI > 0) in >= 6 of 8 cells"
+  },
+  "S4_unknown_L": {
+   "banks": [
+    "fresh L-mixed seed 9550 (L uniform 1..6, SNR -10..25, 2000 scenes)",
+    "cached L1/L2/L4/L5/L6 at 0 and 15 dB"
+   ],
+   "baseline": "NOMP with its residual-threshold stopping (P_fa 0.01) using true sigma, and using classically estimated sigma; threshold of each tuned on validation only",
+   "pass": "A hit-F1 - best of those baselines CI > 0 on the L-mixed bank AND in >= 6 of the 10 cached cells, with false-alarm rate not higher than the baseline's by > 0.02"
+  },
+  "S5_latency": {
+   "pass": "A median <= 120 ms per scene (1 thread, batch 1) and below multi-start quantised ML (482 ms); batch-256 throughput reported"
+  }
+ },
+ "HONESTY": {
+  "H1_prior_violation": {
+   "banks": [
+    "cached sep_1/2/3/5/10/20deg_snr15",
+    "fresh nosep seed 9560 and sep10 seed 9561 (L=3, -10/-5/0/5 dB, 1000 each)",
+    "cached L1/L2/L4/L5/L6 0/15 dB with L given"
+   ],
+   "pass": "A - NOMP os4rc3 never has CI entirely below -0.01 on any of these banks; every loss is reported; if the official-bank gain shrinks by > 50% on nosep/sep10 relative to the official bank at the same SNRs, the official gain is labelled a benchmark-prior exploit"
+  },
+  "H2_no_prior_features": "no pairwise-separation or gain-ordering feature in any learned input (checked by code listing in the report)",
+  "H3_OOD_report_only": [
+   "M8 0.5 m/15 (seed 9548)",
+   "M4 2-bit/15 (seed 9547)",
+   "M5c clipping b2/15 (seed 9529)",
+   "ADC SNR sweep b1/b2 at -5,5,10,25 dB (seeds 9530-9537)"
+  ],
+  "H4_attribution": [
+   "A vs B",
+   "A with kappa fixed 1",
+   "A with eta fixed 0",
+   "A with true sigma instead of sigma_hat",
+   "A with step MLP off",
+   "A with lowest-NLL selection instead of learned selector",
+   "A with heat weight beta=0",
+   "hybrid (ML from FT-network seeds) shown as prior best system"
+  ],
+  "H5_null_reporting": "every failed criterion is reported plainly in the report and summary; no cell, bank or variant is added or dropped after the first test evaluation"
+ },
+ "OUTCOME_LABELS": {
+  "FULL": "P1 and S1 and S2 pass",
+  "REGIME_ONLY": "S2 passes and (S1 or S1b or S3 or S4) passes; P1 fails",
+  "NULL": "otherwise (incl. S2 fail = regression on the official bank)",
+  "expected": "REGIME_ONLY or NULL"
+ }
+}

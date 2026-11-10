@@ -1,0 +1,213 @@
+=== M6_30_snr15 (n=1000) best classical (imp-stage set) NOMP os8 rc6 0.7692; with simple fixes NOMP os8 rc6 0.7692 [127s]
+   NOMP                       Pd 0.7688 [0.7560,0.7825]
+   NOMP+SC                    Pd 0.7673 [0.7548,0.7805]
+   NOMP+SC tuned              Pd 0.7548 [0.7418,0.7685]
+   classical dual             Pd 0.7690 [0.7562,0.7827]
+   classical dual+SC          Pd 0.7675 [0.7548,0.7807]
+   NOMP os8 rc6               Pd 0.7692 [0.7562,0.7825]
+   FFT parabolic os16         Pd 0.7293 [0.7155,0.7432]
+   EB-ML-g5                   Pd 0.7590 [0.7455,0.7730]
+   FFT-peak seeds+SC          Pd 0.7555 [0.7418,0.7692]
+   FFT-peak seeds+SC tuned    Pd 0.7393 [0.7253,0.7532]
+   multi-start K6             Pd 0.7687 [0.7558,0.7822]
+   multi-start K6+SC tuned    Pd 0.7547 [0.7415,0.7683]
+   NOMP+SC tuned it8          Pd 0.7532 [0.7398,0.7667]
+   NOMP os16 rc6+SC tuned     Pd 0.7530 [0.7397,0.7665]
+   FT seeds on Ht+SC          Pd 0.8118 [0.8005,0.8242]
+   FT heat+SC                 Pd 0.8020 [0.7898,0.8142]
+   FT dual+SC                 Pd 0.7683 [0.7548,0.7823]
+   orig dual+SC               Pd 0.7712 [0.7587,0.7842]
+   FT seeds on Ht+SC - FFT-peak seeds+SC                    +0.0563 [+0.0480,+0.0648]*
+   FT seeds on Ht+SC - NOMP                                 +0.0430 [+0.0337,+0.0527]*
+   FT seeds on Ht+SC - NOMP os8 rc6                         +0.0427 [+0.0335,+0.0523]*
+   FT seeds on Ht+SC - NOMP+SC tuned                        +0.0570 [+0.0475,+0.0668]*
+   FT heat+SC - FFT-peak seeds+SC                           +0.0465 [+0.0365,+0.0565]*
+   FT heat+SC - NOMP                                        +0.0332 [+0.0228,+0.0437]*
+   FT heat+SC - NOMP os8 rc6                                +0.0328 [+0.0225,+0.0433]*
+   FT heat+SC - NOMP+SC tuned                               +0.0472 [+0.0373,+0.0570]*
+   FT dual+SC - FFT-peak seeds+SC                           +0.0128 [+0.0028,+0.0227]*
+   FT dual+SC - NOMP                                        -0.0005 [-0.0095,+0.0075]
+   FT dual+SC - NOMP os8 rc6                                -0.0008 [-0.0100,+0.0075]
+   FT dual+SC - NOMP+SC tuned                               +0.0135 [+0.0060,+0.0207]*
+   orig dual+SC - FFT-peak seeds+SC                         +0.0157 [+0.0065,+0.0250]*
+   orig dual+SC - NOMP                                      +0.0023 [-0.0055,+0.0097]
+   orig dual+SC - NOMP os8 rc6                              +0.0020 [-0.0058,+0.0093]
+   orig dual+SC - NOMP+SC tuned                             +0.0163 [+0.0098,+0.0228]*
+   FFT-peak seeds+SC - NOMP os8 rc6                         -0.0137 [-0.0230,-0.0042]*
+   FFT-peak seeds+SC tuned - NOMP os8 rc6                   -0.0298 [-0.0398,-0.0202]*
+   multi-start K6 - NOMP os8 rc6                            -0.0005 [-0.0032,+0.0022]
+   multi-start K6+SC tuned - NOMP os8 rc6                   -0.0145 [-0.0215,-0.0078]*
+   NOMP+SC tuned it8 - NOMP os8 rc6                         -0.0160 [-0.0232,-0.0088]*
+   NOMP os16 rc6+SC tuned - NOMP os8 rc6                    -0.0162 [-0.0233,-0.0093]*
+   FT dual+SC - orig dual+SC                                -0.0028 [-0.0077,+0.0023]
+=== M6_20_snr15 (n=1000) best classical (imp-stage set) NOMP 0.8627; with simple fixes NOMP 0.8627 [136s]
+   NOMP                       Pd 0.8627 [0.8508,0.8742]
+   NOMP+SC                    Pd 0.8590 [0.8477,0.8702]
+   NOMP+SC tuned              Pd 0.8560 [0.8443,0.8668]
+   classical dual             Pd 0.8627 [0.8508,0.8742]
+   classical dual+SC          Pd 0.8590 [0.8477,0.8702]
+   NOMP os8 rc6               Pd 0.8623 [0.8508,0.8738]
+   FFT parabolic os16         Pd 0.7998 [0.7870,0.8127]
+   EB-ML-g5                   Pd 0.8598 [0.8485,0.8712]
+   FFT-peak seeds+SC          Pd 0.8252 [0.8125,0.8377]
+   FFT-peak seeds+SC tuned    Pd 0.8202 [0.8075,0.8327]
+   multi-start K6             Pd 0.8627 [0.8508,0.8742]
+   multi-start K6+SC tuned    Pd 0.8560 [0.8443,0.8668]
+   NOMP+SC tuned it8          Pd 0.8542 [0.8427,0.8655]
+   NOMP os16 rc6+SC tuned     Pd 0.8563 [0.8447,0.8675]
+   FT seeds on Ht+SC          Pd 0.8830 [0.8730,0.8937]
+   FT heat+SC                 Pd 0.8772 [0.8665,0.8875]
+   FT dual+SC                 Pd 0.8597 [0.8477,0.8710]
+   orig dual+SC               Pd 0.8637 [0.8522,0.8748]
+   FT seeds on Ht+SC - FFT-peak seeds+SC                    +0.0578 [+0.0493,+0.0667]*
+   FT seeds on Ht+SC - NOMP                                 +0.0203 [+0.0123,+0.0288]*
+   FT seeds on Ht+SC - NOMP+SC tuned                        +0.0270 [+0.0200,+0.0345]*
+   FT heat+SC - FFT-peak seeds+SC                           +0.0520 [+0.0427,+0.0613]*
+   FT heat+SC - NOMP                                        +0.0145 [+0.0052,+0.0238]*
+   FT heat+SC - NOMP+SC tuned                               +0.0212 [+0.0130,+0.0297]*
+   FT dual+SC - FFT-peak seeds+SC                           +0.0345 [+0.0253,+0.0435]*
+   FT dual+SC - NOMP                                        -0.0030 [-0.0110,+0.0050]
+   FT dual+SC - NOMP+SC tuned                               +0.0037 [-0.0030,+0.0102]
+   orig dual+SC - FFT-peak seeds+SC                         +0.0385 [+0.0295,+0.0472]*
+   orig dual+SC - NOMP                                      +0.0010 [-0.0062,+0.0082]
+   orig dual+SC - NOMP+SC tuned                             +0.0077 [+0.0018,+0.0133]*
+   FFT-peak seeds+SC - NOMP                                 -0.0375 [-0.0457,-0.0287]*
+   FFT-peak seeds+SC tuned - NOMP                           -0.0425 [-0.0508,-0.0337]*
+   multi-start K6 - NOMP                                    +0.0000 [+0.0000,+0.0000]
+   multi-start K6+SC tuned - NOMP                           -0.0067 [-0.0122,-0.0010]*
+   NOMP+SC tuned it8 - NOMP                                 -0.0085 [-0.0142,-0.0025]*
+   NOMP os16 rc6+SC tuned - NOMP                            -0.0063 [-0.0117,-0.0005]*
+   FT dual+SC - orig dual+SC                                -0.0040 [-0.0077,-0.0003]*
+=== M2_0.2_snr15 (n=1000) best classical (imp-stage set) NOMP os8 rc6 0.6303; with simple fixes NOMP os8 rc6 0.6303 [137s]
+   NOMP                       Pd 0.6293 [0.6153,0.6437]
+   NOMP+SC                    Pd 0.6293 [0.6153,0.6438]
+   NOMP+SC tuned              Pd 0.6253 [0.6112,0.6405]
+   classical dual             Pd 0.6287 [0.6145,0.6432]
+   classical dual+SC          Pd 0.6287 [0.6147,0.6432]
+   NOMP os8 rc6               Pd 0.6303 [0.6163,0.6447]
+   FFT parabolic os16         Pd 0.5858 [0.5713,0.6008]
+   EB-ML-g5                   Pd 0.6298 [0.6158,0.6453]
+   FFT-peak seeds+SC          Pd 0.5932 [0.5790,0.6080]
+   FFT-peak seeds+SC tuned    Pd 0.5883 [0.5742,0.6032]
+   multi-start K6             Pd 0.6295 [0.6153,0.6440]
+   multi-start K6+SC tuned    Pd 0.6255 [0.6113,0.6405]
+   NOMP+SC tuned it8          Pd 0.6240 [0.6098,0.6388]
+   NOMP os16 rc6+SC tuned     Pd 0.6257 [0.6113,0.6408]
+   FT seeds on Ht+SC          Pd 0.6642 [0.6505,0.6783]
+   FT heat+SC                 Pd 0.6623 [0.6488,0.6762]
+   FT dual+SC                 Pd 0.6290 [0.6148,0.6435]
+   orig dual+SC               Pd 0.6277 [0.6138,0.6422]
+   FT seeds on Ht+SC - FFT-peak seeds+SC                    +0.0710 [+0.0622,+0.0803]*
+   FT seeds on Ht+SC - NOMP                                 +0.0348 [+0.0278,+0.0422]*
+   FT seeds on Ht+SC - NOMP os8 rc6                         +0.0338 [+0.0270,+0.0408]*
+   FT seeds on Ht+SC - NOMP+SC tuned                        +0.0388 [+0.0307,+0.0475]*
+   FT heat+SC - FFT-peak seeds+SC                           +0.0692 [+0.0598,+0.0787]*
+   FT heat+SC - NOMP                                        +0.0330 [+0.0255,+0.0408]*
+   FT heat+SC - NOMP os8 rc6                                +0.0320 [+0.0245,+0.0397]*
+   FT heat+SC - NOMP+SC tuned                               +0.0370 [+0.0285,+0.0460]*
+   FT dual+SC - FFT-peak seeds+SC                           +0.0358 [+0.0283,+0.0432]*
+   FT dual+SC - NOMP                                        -0.0003 [-0.0043,+0.0035]
+   FT dual+SC - NOMP os8 rc6                                -0.0013 [-0.0050,+0.0023]
+   FT dual+SC - NOMP+SC tuned                               +0.0037 [-0.0018,+0.0092]
+   orig dual+SC - FFT-peak seeds+SC                         +0.0345 [+0.0273,+0.0415]*
+   orig dual+SC - NOMP                                      -0.0017 [-0.0052,+0.0017]
+   orig dual+SC - NOMP os8 rc6                              -0.0027 [-0.0057,+0.0003]
+   orig dual+SC - NOMP+SC tuned                             +0.0023 [-0.0027,+0.0078]
+   FFT-peak seeds+SC - NOMP os8 rc6                         -0.0372 [-0.0442,-0.0303]*
+   FFT-peak seeds+SC tuned - NOMP os8 rc6                   -0.0420 [-0.0502,-0.0340]*
+   multi-start K6 - NOMP os8 rc6                            -0.0008 [-0.0022,+0.0003]
+   multi-start K6+SC tuned - NOMP os8 rc6                   -0.0048 [-0.0098,-0.0002]*
+   NOMP+SC tuned it8 - NOMP os8 rc6                         -0.0063 [-0.0118,-0.0010]*
+   NOMP os16 rc6+SC tuned - NOMP os8 rc6                    -0.0047 [-0.0098,+0.0000]
+   FT dual+SC - orig dual+SC                                +0.0013 [-0.0012,+0.0038]
+=== M6_30_snr0 (n=1000) best classical (imp-stage set) NOMP 0.5920; with simple fixes NOMP 0.5920 [131s]
+   NOMP                       Pd 0.5920 [0.5768,0.6063]
+   NOMP+SC                    Pd 0.5905 [0.5755,0.6047]
+   NOMP+SC tuned              Pd 0.5913 [0.5767,0.6053]
+   classical dual             Pd 0.5920 [0.5768,0.6063]
+   classical dual+SC          Pd 0.5905 [0.5755,0.6047]
+   NOMP os8 rc6               Pd 0.5910 [0.5760,0.6048]
+   FFT parabolic os16         Pd 0.5713 [0.5565,0.5860]
+   EB-ML-g5                   Pd 0.5918 [0.5767,0.6060]
+   FFT-peak seeds+SC          Pd 0.5913 [0.5763,0.6060]
+   FFT-peak seeds+SC tuned    Pd 0.5913 [0.5762,0.6055]
+   multi-start K6             Pd 0.5915 [0.5765,0.6057]
+   multi-start K6+SC tuned    Pd 0.5908 [0.5762,0.6047]
+   NOMP+SC tuned it8          Pd 0.5917 [0.5767,0.6058]
+   NOMP os16 rc6+SC tuned     Pd 0.5915 [0.5768,0.6055]
+   FT seeds on Ht+SC          Pd 0.6092 [0.5940,0.6232]
+   FT heat+SC                 Pd 0.6092 [0.5942,0.6230]
+   FT dual+SC                 Pd 0.5952 [0.5802,0.6092]
+   orig dual+SC               Pd 0.5953 [0.5802,0.6090]
+   FT seeds on Ht+SC - FFT-peak seeds+SC                    +0.0178 [+0.0113,+0.0242]*
+   FT seeds on Ht+SC - NOMP                                 +0.0172 [+0.0110,+0.0240]*
+   FT seeds on Ht+SC - NOMP+SC tuned                        +0.0178 [+0.0110,+0.0250]*
+   FT heat+SC - FFT-peak seeds+SC                           +0.0178 [+0.0100,+0.0258]*
+   FT heat+SC - NOMP                                        +0.0172 [+0.0097,+0.0253]*
+   FT heat+SC - NOMP+SC tuned                               +0.0178 [+0.0100,+0.0265]*
+   FT dual+SC - FFT-peak seeds+SC                           +0.0038 [-0.0045,+0.0115]
+   FT dual+SC - NOMP                                        +0.0032 [-0.0023,+0.0088]
+   FT dual+SC - NOMP+SC tuned                               +0.0038 [-0.0017,+0.0095]
+   orig dual+SC - FFT-peak seeds+SC                         +0.0040 [-0.0038,+0.0113]
+   orig dual+SC - NOMP                                      +0.0033 [-0.0010,+0.0077]
+   orig dual+SC - NOMP+SC tuned                             +0.0040 [-0.0003,+0.0083]
+   FFT-peak seeds+SC - NOMP                                 -0.0007 [-0.0072,+0.0063]
+   FFT-peak seeds+SC tuned - NOMP                           -0.0007 [-0.0073,+0.0065]
+   multi-start K6 - NOMP                                    -0.0005 [-0.0013,+0.0000]
+   multi-start K6+SC tuned - NOMP                           -0.0012 [-0.0042,+0.0018]
+   NOMP+SC tuned it8 - NOMP                                 -0.0003 [-0.0033,+0.0027]
+   NOMP os16 rc6+SC tuned - NOMP                            -0.0005 [-0.0037,+0.0027]
+   FT dual+SC - orig dual+SC                                -0.0002 [-0.0040,+0.0038]
+=== M3_ph45_g0_snr0 (n=1000) best classical (imp-stage set) EB-ML-g5 0.4925; with simple fixes EB-ML-g5 0.4925 [155s]
+   NOMP                       Pd 0.4920 [0.4768,0.5067]
+   NOMP+SC                    Pd 0.4918 [0.4768,0.5068]
+   NOMP+SC tuned              Pd 0.4917 [0.4768,0.5067]
+   classical dual             Pd 0.4922 [0.4770,0.5068]
+   classical dual+SC          Pd 0.4920 [0.4770,0.5068]
+   NOMP os8 rc6               Pd 0.4920 [0.4770,0.5067]
+   FFT parabolic os16         Pd 0.4682 [0.4528,0.4825]
+   EB-ML-g5                   Pd 0.4925 [0.4773,0.5073]
+   FFT-peak seeds+SC          Pd 0.4675 [0.4525,0.4818]
+   FFT-peak seeds+SC tuned    Pd 0.4675 [0.4522,0.4820]
+   multi-start K6             Pd 0.4917 [0.4763,0.5065]
+   multi-start K6+SC tuned    Pd 0.4915 [0.4765,0.5063]
+   NOMP+SC tuned it8          Pd 0.4915 [0.4765,0.5065]
+   NOMP os16 rc6+SC tuned     Pd 0.4913 [0.4760,0.5060]
+   FT seeds on Ht+SC          Pd 0.4997 [0.4843,0.5140]
+   FT heat+SC                 Pd 0.5070 [0.4917,0.5215]
+   FT dual+SC                 Pd 0.5017 [0.4863,0.5162]
+   orig dual+SC               Pd 0.4945 [0.4795,0.5092]
+   v2b+NOMP+SC tuned          Pd 0.5530 [0.5373,0.5673]
+   FT v2b heat+SC             Pd 0.5540 [0.5383,0.5683]
+   FT seeds on Ht+SC - EB-ML-g5                             +0.0072 [+0.0020,+0.0125]*
+   FT seeds on Ht+SC - FFT-peak seeds+SC                    +0.0322 [+0.0247,+0.0397]*
+   FT seeds on Ht+SC - NOMP                                 +0.0077 [+0.0027,+0.0130]*
+   FT seeds on Ht+SC - NOMP+SC tuned                        +0.0080 [+0.0030,+0.0132]*
+   FT heat+SC - EB-ML-g5                                    +0.0145 [+0.0082,+0.0205]*
+   FT heat+SC - FFT-peak seeds+SC                           +0.0395 [+0.0313,+0.0472]*
+   FT heat+SC - NOMP                                        +0.0150 [+0.0087,+0.0210]*
+   FT heat+SC - NOMP+SC tuned                               +0.0153 [+0.0090,+0.0213]*
+   FT dual+SC - EB-ML-g5                                    +0.0092 [+0.0045,+0.0138]*
+   FT dual+SC - FFT-peak seeds+SC                           +0.0342 [+0.0267,+0.0420]*
+   FT dual+SC - NOMP                                        +0.0097 [+0.0052,+0.0143]*
+   FT dual+SC - NOMP+SC tuned                               +0.0100 [+0.0053,+0.0147]*
+   orig dual+SC - EB-ML-g5                                  +0.0020 [-0.0007,+0.0047]
+   orig dual+SC - FFT-peak seeds+SC                         +0.0270 [+0.0198,+0.0342]*
+   orig dual+SC - NOMP                                      +0.0025 [-0.0002,+0.0052]
+   orig dual+SC - NOMP+SC tuned                             +0.0028 [+0.0002,+0.0055]*
+   v2b+NOMP+SC tuned - EB-ML-g5                             +0.0605 [+0.0498,+0.0705]*
+   v2b+NOMP+SC tuned - FFT-peak seeds+SC                    +0.0855 [+0.0742,+0.0968]*
+   v2b+NOMP+SC tuned - NOMP                                 +0.0610 [+0.0502,+0.0712]*
+   v2b+NOMP+SC tuned - NOMP+SC tuned                        +0.0613 [+0.0505,+0.0715]*
+   FT v2b heat+SC - EB-ML-g5                                +0.0615 [+0.0500,+0.0725]*
+   FT v2b heat+SC - FFT-peak seeds+SC                       +0.0865 [+0.0745,+0.0983]*
+   FT v2b heat+SC - NOMP                                    +0.0620 [+0.0505,+0.0730]*
+   FT v2b heat+SC - NOMP+SC tuned                           +0.0623 [+0.0507,+0.0732]*
+   FFT-peak seeds+SC - EB-ML-g5                             -0.0250 [-0.0320,-0.0183]*
+   FFT-peak seeds+SC tuned - EB-ML-g5                       -0.0250 [-0.0320,-0.0183]*
+   multi-start K6 - EB-ML-g5                                -0.0008 [-0.0022,+0.0005]
+   multi-start K6+SC tuned - EB-ML-g5                       -0.0010 [-0.0023,+0.0003]
+   NOMP+SC tuned it8 - EB-ML-g5                             -0.0010 [-0.0022,+0.0000]
+   NOMP os16 rc6+SC tuned - EB-ML-g5                        -0.0012 [-0.0030,+0.0007]
+   FT dual+SC - orig dual+SC                                +0.0072 [+0.0030,+0.0113]*
+done

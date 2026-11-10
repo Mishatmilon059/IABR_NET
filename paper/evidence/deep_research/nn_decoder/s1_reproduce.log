@@ -1,0 +1,12 @@
+device cpu steps 1500 batch 128
+learned decoder params 4803 lam 1.0232023000717163 torch threads 2
+learned_with_sc  official             rerun 0.7465  results5.json 0.7465  diff +0.0000
+   ndcommon.learned_decode vs exp.run_learned on the subset: max |d psi| 0.00e+00 rad, max |d phi| 0.00e+00 rad
+learned_with_sc  T2_d5                rerun 0.7393  results5.json 0.7393  diff +0.0000
+learned_with_sc  gain_g4_snr15        rerun 0.9097  results5.json 0.9097  diff +0.0000
+learned_with_sc  oodphase_d15_snr15   rerun 0.8677  results5.json 0.8677  diff +0.0000
+learned_no_sc    official             rerun 0.7437  results5.json 0.7437  diff +0.0000
+   ndcommon.learned_decode vs exp.run_learned on the subset: max |d psi| 0.00e+00 rad, max |d phi| 0.00e+00 rad
+learned_no_sc    T2_d5                rerun 0.7340  results5.json 0.7340  diff +0.0000
+learned_no_sc    gain_g4_snr15        rerun 0.8827  results5.json 0.8827  diff +0.0000
+learned_no_sc    oodphase_d15_snr15   rerun 0.8553  results5.json 0.8553  diff +0.0000

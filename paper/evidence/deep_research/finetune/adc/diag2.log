@@ -1,0 +1,97 @@
+--- clean SNR 15
+    NOMP                                       Pd 0.9290  median cell dist 0.0102  1.6s
+    oracle rc3                                 Pd 0.9383  median cell dist 0.0099
+    oracle rc10                                Pd 0.9360  median cell dist 0.01
+    oracle rc30                                Pd 0.9343  median cell dist 0.01
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3270  median cell dist 0.1707
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.9280  median cell dist 0.0102
+    ideal 64-grid seeds, no refinement         Pd 0.6583  median cell dist 0.0859
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.9283  median cell dist 0.0102
+--- b4 SNR 15
+    NOMP                                       Pd 0.7733  median cell dist 0.0477  1.2s
+    oracle rc3                                 Pd 0.7890  median cell dist 0.0466
+    oracle rc10                                Pd 0.7873  median cell dist 0.0468
+    oracle rc30                                Pd 0.7867  median cell dist 0.047
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3270  median cell dist 0.1707
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.7767  median cell dist 0.0473
+    ideal 64-grid seeds, no refinement         Pd 0.6583  median cell dist 0.0859
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.7833  median cell dist 0.0473
+--- b2 SNR 15
+    NOMP                                       Pd 0.2630  median cell dist 0.223  1.0s
+    oracle rc3                                 Pd 0.3813  median cell dist 0.1953
+    oracle rc10                                Pd 0.3797  median cell dist 0.1955
+    oracle rc30                                Pd 0.3797  median cell dist 0.1958
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3270  median cell dist 0.1707
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.3247  median cell dist 0.1782
+    ideal 64-grid seeds, no refinement         Pd 0.6583  median cell dist 0.0859
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.3737  median cell dist 0.1733
+    FFT-peak seeds (heat)                      Pd 0.2387  median cell dist None  1.5s
+    FFT-peak dual                              Pd 0.2560  median cell dist None  2.0s
+    consistent NOMP (8 it)                     Pd 0.4297  median cell dist 0.1539  26.7s
+    multi-start K6                             Pd 0.2547  median cell dist 0.2289  21.3s
+--- b1 SNR 15
+    NOMP                                       Pd 0.1787  median cell dist 0.3031  1.2s
+    oracle rc3                                 Pd 0.5747  median cell dist 0.1468
+    oracle rc10                                Pd 0.5743  median cell dist 0.1475
+    oracle rc30                                Pd 0.5743  median cell dist 0.1468
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3270  median cell dist 0.1707
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.3063  median cell dist 0.1798
+    ideal 64-grid seeds, no refinement         Pd 0.6583  median cell dist 0.0859
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.4303  median cell dist 0.1316
+    FFT-peak seeds (heat)                      Pd 0.1607  median cell dist None  2.1s
+    FFT-peak dual                              Pd 0.1710  median cell dist None  3.6s
+    consistent NOMP (8 it)                     Pd 0.2253  median cell dist 0.2798  34.9s
+    multi-start K6                             Pd 0.1723  median cell dist 0.3142  16.7s
+--- clean SNR 0
+    NOMP                                       Pd 0.6897  median cell dist 0.056  1.6s
+    oracle rc3                                 Pd 0.7440  median cell dist 0.0504
+    oracle rc10                                Pd 0.7443  median cell dist 0.051
+    oracle rc30                                Pd 0.7433  median cell dist 0.051
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3330  median cell dist 0.1714
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.7157  median cell dist 0.0547
+    ideal 64-grid seeds, no refinement         Pd 0.6620  median cell dist 0.0839
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.7290  median cell dist 0.0535
+--- b4 SNR 0
+    NOMP                                       Pd 0.6630  median cell dist 0.0638  1.9s
+    oracle rc3                                 Pd 0.7260  median cell dist 0.0573
+    oracle rc10                                Pd 0.7250  median cell dist 0.0575
+    oracle rc30                                Pd 0.7243  median cell dist 0.0576
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3330  median cell dist 0.1714
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.6977  median cell dist 0.0627
+    ideal 64-grid seeds, no refinement         Pd 0.6620  median cell dist 0.0839
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.7107  median cell dist 0.062
+--- b2 SNR 0
+    NOMP                                       Pd 0.3563  median cell dist 0.1731  2.9s
+    oracle rc3                                 Pd 0.5133  median cell dist 0.1286
+    oracle rc10                                Pd 0.5097  median cell dist 0.1288
+    oracle rc30                                Pd 0.5087  median cell dist 0.1293
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3330  median cell dist 0.1714
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.4293  median cell dist 0.1435
+    ideal 64-grid seeds, no refinement         Pd 0.6620  median cell dist 0.0839
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.4840  median cell dist 0.1262
+    FFT-peak seeds (heat)                      Pd 0.3510  median cell dist None  2.5s
+    FFT-peak dual                              Pd 0.3567  median cell dist None  2.6s
+    consistent NOMP (8 it)                     Pd 0.4070  median cell dist 0.1425  25.2s
+    multi-start K6                             Pd 0.3580  median cell dist 0.1733  12.6s
+--- b1 SNR 0
+    NOMP                                       Pd 0.1687  median cell dist 0.3772  1.2s
+    oracle rc3                                 Pd 0.5117  median cell dist 0.1609
+    oracle rc10                                Pd 0.5057  median cell dist 0.1619
+    oracle rc30                                Pd 0.5057  median cell dist 0.1629
+    truth itself                               Pd 1.0000  median cell dist 0.0
+    ideal 32-grid seeds, no refinement         Pd 0.3330  median cell dist 0.1714
+    ideal 32-grid seeds + Newton/cyclic        Pd 0.3260  median cell dist 0.178
+    ideal 64-grid seeds, no refinement         Pd 0.6620  median cell dist 0.0839
+    ideal 64-grid seeds + Newton/cyclic        Pd 0.4190  median cell dist 0.1503
+    FFT-peak seeds (heat)                      Pd 0.1620  median cell dist None  1.9s
+    FFT-peak dual                              Pd 0.1693  median cell dist None  1.9s
+    consistent NOMP (8 it)                     Pd 0.2240  median cell dist 0.3846  19.3s
+    multi-start K6                             Pd 0.1733  median cell dist 0.3761  16.5s
+total 286s

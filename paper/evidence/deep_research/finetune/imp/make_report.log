@@ -1,0 +1,760 @@
+
+################ stress banks: Pd (paper); diffs paired 95% CI, * = CI excludes 0
+
+== M1 (stress)
+       0.05 snr15 NOMP 0.927 | tunedSC 0.930 | EB-ML 0.925 | best cl NOMP+SC 0.931 | v2b+SCt 0.930 | orig dual 0.924 | oracle 0.936 | Ycheck 0e+00
+      FT heat+SC           0.911  vs best -0.020 [-0.028,-0.012]*  vs NOMP -0.016 [-0.024,-0.009]*  vs orig dual -0.013 [-0.020,-0.007]*
+      FT dual+SC           0.914  vs best -0.017 [-0.024,-0.010]*  vs NOMP -0.013 [-0.020,-0.007]*  vs orig dual -0.010 [-0.017,-0.005]*
+      FT network only      0.486  vs best -0.445 [-0.466,-0.424]*  vs NOMP -0.442 [-0.462,-0.421]*  vs orig dual -0.439 [-0.459,-0.418]*
+      FT nocorr dual+SC    0.931  vs best +0.000 [+0.000,+0.000]  vs NOMP +0.003 [-0.001,+0.008]  vs orig dual +0.006 [+0.002,+0.011]*
+      FT v2b dual+SC       0.930  vs best -0.001 [-0.003,+0.001]  vs NOMP +0.003 [-0.002,+0.008]  vs orig dual +0.006 [+0.001,+0.010]*
+      best FT variant: FT nocorr dual+SC 0.931 vs best classical +0.000 [+0.000,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.008 [-0.014,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.017 [-0.024,-0.010]* | (c)-(a) -0.012 [-0.018,-0.007]* | (c)-(b) -0.003 [-0.009,+0.002]
+        0.1 snr15 NOMP 0.923 | tunedSC 0.922 | EB-ML 0.923 | best cl NOMP os8 rc6 0.924 | v2b+SCt 0.923 | orig dual 0.915 | oracle 0.932 | Ycheck 0e+00
+      FT heat+SC           0.906  vs best -0.018 [-0.027,-0.009]*  vs NOMP -0.017 [-0.026,-0.008]*  vs orig dual -0.009 [-0.017,-0.003]*
+      FT dual+SC           0.911  vs best -0.014 [-0.021,-0.007]*  vs NOMP -0.012 [-0.019,-0.005]*  vs orig dual -0.005 [-0.009,-0.001]*
+      FT network only      0.483  vs best -0.441 [-0.460,-0.421]*  vs NOMP -0.440 [-0.459,-0.419]*  vs orig dual -0.432 [-0.452,-0.412]*
+      FT nocorr dual+SC    0.923  vs best -0.001 [-0.007,+0.004]  vs NOMP +0.000 [-0.005,+0.006]  vs orig dual +0.008 [+0.003,+0.012]*
+      FT v2b dual+SC       0.924  vs best -0.001 [-0.006,+0.005]  vs NOMP +0.001 [-0.005,+0.007]  vs orig dual +0.008 [+0.004,+0.013]*
+      best FT variant: FT v2b dual+SC 0.924 vs best classical -0.001 [-0.006,+0.005]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.006 [-0.012,-0.001]* | (b) FT NOMP on Hc - NOMP+SC -0.012 [-0.019,-0.006]* | (c)-(a) -0.011 [-0.016,-0.005]* | (c)-(b) -0.005 [-0.011,+0.001]
+        0.2 snr15 NOMP 0.907 | tunedSC 0.908 | EB-ML 0.905 | best cl NOMP+SC 0.909 | v2b+SCt 0.907 | orig dual 0.904 | oracle 0.918 | Ycheck 0e+00
+      FT heat+SC           0.893  vs best -0.016 [-0.025,-0.008]*  vs NOMP -0.014 [-0.023,-0.005]*  vs orig dual -0.011 [-0.019,-0.004]*
+      FT dual+SC           0.898  vs best -0.011 [-0.018,-0.004]*  vs NOMP -0.009 [-0.017,-0.001]*  vs orig dual -0.006 [-0.012,-0.001]*
+      FT network only      0.498  vs best -0.411 [-0.431,-0.392]*  vs NOMP -0.409 [-0.428,-0.390]*  vs orig dual -0.406 [-0.426,-0.386]*
+      FT nocorr dual+SC    0.909  vs best +0.000 [+0.000,+0.000]  vs NOMP +0.002 [-0.004,+0.008]  vs orig dual +0.005 [+0.000,+0.010]*
+      FT v2b dual+SC       0.910  vs best +0.001 [-0.003,+0.004]  vs NOMP +0.003 [-0.004,+0.010]  vs orig dual +0.006 [+0.001,+0.011]*
+      best FT variant: FT v2b dual+SC 0.910 vs best classical +0.001 [-0.003,+0.004]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.006 [-0.013,+0.000] | (b) FT NOMP on Hc - NOMP+SC -0.011 [-0.018,-0.004]* | (c)-(a) -0.010 [-0.016,-0.005]* | (c)-(b) -0.005 [-0.011,+0.000]
+        0.3 snr15 NOMP 0.867 | tunedSC 0.876 | EB-ML 0.879 | best cl EB-ML-g5 0.879 | v2b+SCt 0.878 | orig dual 0.880 | oracle 0.889 | Ycheck 0e+00
+      FT heat+SC           0.878  vs best -0.000 [-0.009,+0.009]  vs NOMP +0.012 [+0.001,+0.023]*  vs orig dual -0.002 [-0.009,+0.005]
+      FT dual+SC           0.874  vs best -0.005 [-0.014,+0.004]  vs NOMP +0.007 [-0.003,+0.018]  vs orig dual -0.006 [-0.012,-0.001]*
+      FT network only      0.517  vs best -0.362 [-0.382,-0.342]*  vs NOMP -0.350 [-0.370,-0.330]*  vs orig dual -0.363 [-0.384,-0.344]*
+      FT nocorr dual+SC    0.877  vs best -0.002 [-0.009,+0.005]  vs NOMP +0.010 [+0.003,+0.017]*  vs orig dual -0.003 [-0.011,+0.003]
+      FT v2b dual+SC       0.880  vs best +0.001 [-0.005,+0.007]  vs NOMP +0.013 [+0.005,+0.022]*  vs orig dual +0.000 [-0.007,+0.007]
+      best FT variant: FT seeds on Ht+SC 0.884 vs best classical +0.005 [-0.003,+0.015]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.007 [+0.000,+0.015]* | (b) FT NOMP on Hc - NOMP+SC -0.003 [-0.011,+0.006] | (c)-(a) -0.006 [-0.012,+0.000] | (c)-(b) +0.005 [-0.001,+0.010]
+       0.05 snr0  NOMP 0.690 | tunedSC 0.687 | EB-ML 0.690 | best cl NOMP 0.690 | v2b+SCt 0.686 | orig dual 0.687 | oracle 0.747 | Ycheck 0e+00
+      FT heat+SC           0.682  vs best -0.007 [-0.015,+0.000]  vs NOMP -0.007 [-0.015,+0.000]  vs orig dual -0.004 [-0.011,+0.002]
+      FT dual+SC           0.685  vs best -0.005 [-0.011,+0.001]  vs NOMP -0.005 [-0.011,+0.001]  vs orig dual -0.002 [-0.007,+0.002]
+      FT network only      0.551  vs best -0.139 [-0.156,-0.122]*  vs NOMP -0.139 [-0.156,-0.122]*  vs orig dual -0.136 [-0.153,-0.120]*
+      FT nocorr dual+SC    0.689  vs best -0.001 [-0.002,+0.000]  vs NOMP -0.001 [-0.002,+0.000]  vs orig dual +0.002 [-0.002,+0.006]
+      FT v2b dual+SC       0.689  vs best -0.001 [-0.006,+0.004]  vs NOMP -0.001 [-0.006,+0.004]  vs orig dual +0.002 [-0.002,+0.007]
+      best FT variant: FT nocorr dual+SC 0.689 vs best classical -0.001 [-0.002,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.005 [-0.011,+0.001] | (b) FT NOMP on Hc - NOMP+SC -0.004 [-0.010,+0.001] | (c)-(a) -0.002 [-0.007,+0.003] | (c)-(b) -0.002 [-0.008,+0.003]
+        0.1 snr0  NOMP 0.687 | tunedSC 0.684 | EB-ML 0.687 | best cl NOMP 0.687 | v2b+SCt 0.682 | orig dual 0.682 | oracle 0.745 | Ycheck 0e+00
+      FT heat+SC           0.676  vs best -0.011 [-0.019,-0.003]*  vs NOMP -0.011 [-0.019,-0.003]*  vs orig dual -0.006 [-0.013,+0.001]
+      FT dual+SC           0.685  vs best -0.002 [-0.008,+0.003]  vs NOMP -0.002 [-0.008,+0.003]  vs orig dual +0.002 [-0.003,+0.007]
+      FT network only      0.546  vs best -0.141 [-0.158,-0.125]*  vs NOMP -0.141 [-0.158,-0.125]*  vs orig dual -0.136 [-0.153,-0.120]*
+      FT nocorr dual+SC    0.686  vs best -0.001 [-0.002,+0.000]  vs NOMP -0.001 [-0.002,+0.000]  vs orig dual +0.004 [-0.000,+0.008]
+      FT v2b dual+SC       0.684  vs best -0.003 [-0.008,+0.001]  vs NOMP -0.003 [-0.008,+0.001]  vs orig dual +0.001 [-0.004,+0.006]
+      best FT variant: FT nocorr dual+SC 0.686 vs best classical -0.001 [-0.002,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.008 [-0.015,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.002 [-0.008,+0.004] | (c)-(a) -0.002 [-0.008,+0.004] | (c)-(b) -0.008 [-0.014,-0.003]*
+        0.2 snr0  NOMP 0.682 | tunedSC 0.677 | EB-ML 0.682 | best cl EB-ML-g5 0.682 | v2b+SCt 0.674 | orig dual 0.678 | oracle 0.744 | Ycheck 0e+00
+      FT heat+SC           0.666  vs best -0.016 [-0.024,-0.008]*  vs NOMP -0.016 [-0.024,-0.007]*  vs orig dual -0.012 [-0.019,-0.005]*
+      FT dual+SC           0.670  vs best -0.012 [-0.019,-0.005]*  vs NOMP -0.011 [-0.018,-0.005]*  vs orig dual -0.008 [-0.013,-0.003]*
+      FT network only      0.532  vs best -0.150 [-0.167,-0.133]*  vs NOMP -0.150 [-0.167,-0.133]*  vs orig dual -0.146 [-0.163,-0.129]*
+      FT nocorr dual+SC    0.681  vs best -0.001 [-0.002,+0.001]  vs NOMP -0.000 [-0.002,+0.001]  vs orig dual +0.003 [-0.002,+0.009]
+      FT v2b dual+SC       0.679  vs best -0.003 [-0.009,+0.002]  vs NOMP -0.003 [-0.008,+0.003]  vs orig dual +0.001 [-0.005,+0.006]
+      best FT variant: FT nocorr dual+SC 0.681 vs best classical -0.001 [-0.002,+0.001]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.008 [-0.014,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.011 [-0.018,-0.005]* | (c)-(a) -0.007 [-0.014,-0.001]* | (c)-(b) -0.004 [-0.009,+0.001]
+        0.3 snr0  NOMP 0.666 | tunedSC 0.658 | EB-ML 0.663 | best cl NOMP 0.666 | v2b+SCt 0.656 | orig dual 0.662 | oracle 0.737 | Ycheck 0e+00
+      FT heat+SC           0.653  vs best -0.013 [-0.021,-0.005]*  vs NOMP -0.013 [-0.021,-0.005]*  vs orig dual -0.009 [-0.016,-0.003]*
+      FT dual+SC           0.659  vs best -0.007 [-0.013,-0.001]*  vs NOMP -0.007 [-0.013,-0.001]*  vs orig dual -0.003 [-0.008,+0.001]
+      FT network only      0.507  vs best -0.159 [-0.177,-0.141]*  vs NOMP -0.159 [-0.177,-0.141]*  vs orig dual -0.155 [-0.172,-0.137]*
+      FT nocorr dual+SC    0.665  vs best -0.001 [-0.003,+0.001]  vs NOMP -0.001 [-0.003,+0.001]  vs orig dual +0.003 [-0.002,+0.008]
+      FT v2b dual+SC       0.661  vs best -0.005 [-0.011,+0.001]  vs NOMP -0.005 [-0.011,+0.001]  vs orig dual -0.001 [-0.007,+0.004]
+      best FT variant: FT nocorr dual+SC 0.665 vs best classical -0.001 [-0.003,+0.001]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.009 [-0.015,-0.003]* | (b) FT NOMP on Hc - NOMP+SC -0.007 [-0.013,-0.001]* | (c)-(a) -0.004 [-0.009,+0.002] | (c)-(b) -0.006 [-0.011,-0.001]*
+
+== M2 (stress)
+       0.02 snr15 NOMP 0.916 | tunedSC 0.915 | EB-ML 0.914 | best cl NOMP os8 rc6 0.917 | v2b+SCt 0.914 | orig dual 0.907 | oracle 0.924 | Ycheck 0e+00
+      FT heat+SC           0.901  vs best -0.016 [-0.024,-0.009]*  vs NOMP -0.015 [-0.022,-0.009]*  vs orig dual -0.006 [-0.013,+0.000]
+      FT dual+SC           0.903  vs best -0.014 [-0.022,-0.007]*  vs NOMP -0.013 [-0.020,-0.005]*  vs orig dual -0.004 [-0.008,-0.000]*
+      FT network only      0.483  vs best -0.434 [-0.454,-0.414]*  vs NOMP -0.432 [-0.453,-0.412]*  vs orig dual -0.424 [-0.445,-0.403]*
+      FT nocorr dual+SC    0.915  vs best -0.002 [-0.006,+0.002]  vs NOMP -0.001 [-0.005,+0.004]  vs orig dual +0.008 [+0.003,+0.013]*
+      FT v2b dual+SC       0.914  vs best -0.003 [-0.007,+0.001]  vs NOMP -0.001 [-0.006,+0.003]  vs orig dual +0.007 [+0.003,+0.013]*
+      best FT variant: FT nocorr dual+SC 0.915 vs best classical -0.002 [-0.006,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.007 [-0.014,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.012 [-0.018,-0.006]* | (c)-(a) -0.007 [-0.012,-0.002]* | (c)-(b) -0.002 [-0.009,+0.004]
+       0.05 snr15 NOMP 0.871 | tunedSC 0.867 | EB-ML 0.870 | best cl NOMP os8 rc6 0.872 | v2b+SCt 0.869 | orig dual 0.864 | oracle 0.883 | Ycheck 0e+00
+      FT heat+SC           0.856  vs best -0.016 [-0.024,-0.008]*  vs NOMP -0.014 [-0.022,-0.007]*  vs orig dual -0.008 [-0.015,-0.002]*
+      FT dual+SC           0.859  vs best -0.013 [-0.022,-0.006]*  vs NOMP -0.012 [-0.020,-0.004]*  vs orig dual -0.005 [-0.011,-0.001]*
+      FT network only      0.506  vs best -0.366 [-0.387,-0.346]*  vs NOMP -0.365 [-0.386,-0.344]*  vs orig dual -0.358 [-0.379,-0.338]*
+      FT nocorr dual+SC    0.869  vs best -0.004 [-0.010,+0.003]  vs NOMP -0.002 [-0.008,+0.004]  vs orig dual +0.004 [+0.000,+0.008]*
+      FT v2b dual+SC       0.867  vs best -0.005 [-0.012,+0.002]  vs NOMP -0.003 [-0.011,+0.004]  vs orig dual +0.003 [-0.002,+0.008]
+      best FT variant: FT nocorr dual+SC 0.869 vs best classical -0.004 [-0.010,+0.003]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.005 [-0.011,-0.000]* | (b) FT NOMP on Hc - NOMP+SC -0.010 [-0.016,-0.004]* | (c)-(a) -0.007 [-0.013,-0.002]* | (c)-(b) -0.003 [-0.008,+0.003]
+        0.1 snr15 NOMP 0.780 | tunedSC 0.776 | EB-ML 0.785 | best cl EB-ML-g5 0.785 | v2b+SCt 0.785 | orig dual 0.778 | oracle 0.809 | Ycheck 0e+00
+      FT heat+SC           0.788  vs best +0.003 [-0.006,+0.011]  vs NOMP +0.007 [-0.003,+0.017]  vs orig dual +0.010 [+0.001,+0.019]*
+      FT dual+SC           0.777  vs best -0.008 [-0.016,+0.001]  vs NOMP -0.003 [-0.011,+0.004]  vs orig dual -0.000 [-0.004,+0.004]
+      FT network only      0.570  vs best -0.215 [-0.235,-0.196]*  vs NOMP -0.210 [-0.231,-0.190]*  vs orig dual -0.208 [-0.228,-0.187]*
+      FT nocorr dual+SC    0.778  vs best -0.007 [-0.016,+0.002]  vs NOMP -0.002 [-0.009,+0.005]  vs orig dual +0.000 [-0.003,+0.005]
+      FT v2b dual+SC       0.786  vs best +0.001 [-0.007,+0.008]  vs NOMP +0.005 [-0.005,+0.016]  vs orig dual +0.008 [+0.000,+0.016]
+      best FT variant: FT seeds on Ht+SC 0.792 vs best classical +0.007 [-0.002,+0.016]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.014 [+0.007,+0.021]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.007,+0.005] | (c)-(a) -0.004 [-0.010,+0.001] | (c)-(b) +0.010 [+0.003,+0.018]*
+        0.2 snr15 NOMP 0.627 | tunedSC 0.628 | EB-ML 0.632 | best cl EB-ML-g5 0.632 | v2b+SCt 0.628 | orig dual 0.627 | oracle 0.689 | Ycheck 0e+00
+      FT heat+SC           0.665  vs best +0.033 [+0.021,+0.045]*  vs NOMP +0.038 [+0.027,+0.049]*  vs orig dual +0.038 [+0.028,+0.049]*
+      FT dual+SC           0.630  vs best -0.003 [-0.013,+0.008]  vs NOMP +0.003 [-0.004,+0.009]  vs orig dual +0.003 [-0.002,+0.007]
+      FT network only      0.569  vs best -0.064 [-0.084,-0.044]*  vs NOMP -0.058 [-0.077,-0.038]*  vs orig dual -0.058 [-0.078,-0.038]*
+      FT nocorr dual+SC    0.627  vs best -0.005 [-0.016,+0.005]  vs NOMP +0.000 [-0.002,+0.002]  vs orig dual +0.000 [-0.004,+0.005]
+      FT v2b dual+SC       0.633  vs best +0.000 [-0.010,+0.011]  vs NOMP +0.006 [-0.007,+0.018]  vs orig dual +0.006 [-0.007,+0.018]
+      best FT variant: FT heat+SC 0.665 vs best classical +0.033 [+0.021,+0.045]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.038 [+0.029,+0.048]* | (b) FT NOMP on Hc - NOMP+SC +0.003 [-0.003,+0.009] | (c)-(a) +0.001 [-0.005,+0.006] | (c)-(b) +0.036 [+0.027,+0.046]*
+       0.02 snr0  NOMP 0.688 | tunedSC 0.686 | EB-ML 0.688 | best cl NOMP 0.688 | v2b+SCt 0.687 | orig dual 0.688 | oracle 0.745 | Ycheck 0e+00
+      FT heat+SC           0.678  vs best -0.010 [-0.018,-0.002]*  vs NOMP -0.010 [-0.018,-0.002]*  vs orig dual -0.010 [-0.018,-0.002]*
+      FT dual+SC           0.685  vs best -0.004 [-0.010,+0.003]  vs NOMP -0.004 [-0.010,+0.003]  vs orig dual -0.003 [-0.009,+0.003]
+      FT network only      0.551  vs best -0.137 [-0.154,-0.121]*  vs NOMP -0.137 [-0.154,-0.121]*  vs orig dual -0.137 [-0.154,-0.120]*
+      FT nocorr dual+SC    0.686  vs best -0.002 [-0.004,+0.000]  vs NOMP -0.002 [-0.004,+0.000]  vs orig dual -0.002 [-0.006,+0.003]
+      FT v2b dual+SC       0.689  vs best +0.001 [-0.005,+0.006]  vs NOMP +0.001 [-0.005,+0.006]  vs orig dual +0.001 [-0.004,+0.006]
+      best FT variant: FT v2b dual+SC 0.689 vs best classical +0.001 [-0.005,+0.006]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.008 [-0.014,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.002 [-0.008,+0.005] | (c)-(a) -0.001 [-0.007,+0.004] | (c)-(b) -0.007 [-0.013,-0.002]*
+       0.05 snr0  NOMP 0.672 | tunedSC 0.670 | EB-ML 0.672 | best cl classical dual 0.672 | v2b+SCt 0.668 | orig dual 0.667 | oracle 0.730 | Ycheck 0e+00
+      FT heat+SC           0.657  vs best -0.015 [-0.023,-0.008]*  vs NOMP -0.014 [-0.023,-0.007]*  vs orig dual -0.009 [-0.016,-0.003]*
+      FT dual+SC           0.666  vs best -0.006 [-0.012,+0.000]  vs NOMP -0.005 [-0.012,+0.001]  vs orig dual -0.000 [-0.005,+0.005]
+      FT network only      0.545  vs best -0.128 [-0.146,-0.110]*  vs NOMP -0.127 [-0.145,-0.109]*  vs orig dual -0.122 [-0.140,-0.104]*
+      FT nocorr dual+SC    0.671  vs best -0.001 [-0.003,+0.000]  vs NOMP -0.001 [-0.002,+0.000]  vs orig dual +0.004 [-0.000,+0.009]
+      FT v2b dual+SC       0.668  vs best -0.004 [-0.009,+0.001]  vs NOMP -0.003 [-0.009,+0.002]  vs orig dual +0.002 [-0.004,+0.007]
+      best FT variant: FT nocorr dual+SC 0.671 vs best classical -0.001 [-0.003,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.010 [-0.016,-0.005]* | (b) FT NOMP on Hc - NOMP+SC -0.005 [-0.011,+0.001] | (c)-(a) -0.004 [-0.009,+0.002] | (c)-(b) -0.009 [-0.015,-0.004]*
+        0.1 snr0  NOMP 0.625 | tunedSC 0.622 | EB-ML 0.625 | best cl classical dual 0.626 | v2b+SCt 0.619 | orig dual 0.621 | oracle 0.695 | Ycheck 0e+00
+      FT heat+SC           0.624  vs best -0.001 [-0.009,+0.006]  vs NOMP -0.000 [-0.008,+0.007]  vs orig dual +0.004 [-0.003,+0.010]
+      FT dual+SC           0.630  vs best +0.004 [-0.002,+0.010]  vs NOMP +0.005 [-0.001,+0.011]  vs orig dual +0.009 [+0.004,+0.014]*
+      FT network only      0.540  vs best -0.086 [-0.104,-0.069]*  vs NOMP -0.085 [-0.103,-0.068]*  vs orig dual -0.081 [-0.098,-0.064]*
+      FT nocorr dual+SC    0.624  vs best -0.002 [-0.004,-0.000]*  vs NOMP -0.001 [-0.003,+0.000]  vs orig dual +0.003 [-0.002,+0.007]
+      FT v2b dual+SC       0.622  vs best -0.004 [-0.011,+0.003]  vs NOMP -0.003 [-0.011,+0.005]  vs orig dual +0.001 [-0.006,+0.008]
+      best FT variant: FT NOMP on Hc+SC 0.630 vs best classical +0.004 [-0.002,+0.011]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.001 [-0.007,+0.004] | (b) FT NOMP on Hc - NOMP+SC +0.006 [+0.000,+0.013] | (c)-(a) +0.002 [-0.004,+0.007] | (c)-(b) -0.006 [-0.011,-0.001]*
+        0.2 snr0  NOMP 0.518 | tunedSC 0.518 | EB-ML 0.518 | best cl NOMP os8 rc6 0.520 | v2b+SCt 0.517 | orig dual 0.517 | oracle 0.622 | Ycheck 0e+00
+      FT heat+SC           0.519  vs best -0.000 [-0.008,+0.008]  vs NOMP +0.001 [-0.007,+0.009]  vs orig dual +0.002 [-0.007,+0.010]
+      FT dual+SC           0.517  vs best -0.003 [-0.009,+0.002]  vs NOMP -0.002 [-0.007,+0.003]  vs orig dual -0.001 [-0.006,+0.004]
+      FT network only      0.471  vs best -0.049 [-0.064,-0.034]*  vs NOMP -0.048 [-0.063,-0.032]*  vs orig dual -0.047 [-0.062,-0.031]*
+      FT nocorr dual+SC    0.519  vs best -0.001 [-0.003,+0.000]  vs NOMP +0.000 [-0.001,+0.002]  vs orig dual +0.001 [-0.002,+0.005]
+      FT v2b dual+SC       0.517  vs best -0.003 [-0.015,+0.009]  vs NOMP -0.002 [-0.014,+0.011]  vs orig dual -0.001 [-0.013,+0.011]
+      best FT variant: FT nocorr heat+SC 0.520 vs best classical +0.001 [-0.005,+0.007]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.002 [-0.005,+0.009] | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.007,+0.004] | (c)-(a) -0.001 [-0.005,+0.004] | (c)-(b) +0.002 [-0.005,+0.009]
+
+== M3 (stress)
+     ph0_g6 snr15 NOMP 0.813 | tunedSC 0.847 | EB-ML 0.897 | best cl EB-ML-g5 0.897 | v2b+SCt 0.907 | orig dual 0.877 | oracle 0.867 | Ycheck 0e+00
+      FT heat+SC           0.882  vs best -0.014 [-0.025,-0.004]*  vs NOMP +0.069 [+0.054,+0.084]*  vs orig dual +0.006 [-0.005,+0.017]
+      FT dual+SC           0.886  vs best -0.010 [-0.021,-0.001]*  vs NOMP +0.073 [+0.058,+0.089]*  vs orig dual +0.010 [-0.001,+0.020]
+      FT network only      0.509  vs best -0.388 [-0.409,-0.368]*  vs NOMP -0.304 [-0.327,-0.282]*  vs orig dual -0.368 [-0.389,-0.347]*
+      FT nocorr dual+SC    0.815  vs best -0.082 [-0.096,-0.067]*  vs NOMP +0.002 [+0.000,+0.004]*  vs orig dual -0.062 [-0.075,-0.048]*
+      FT v2b dual+SC       0.906  vs best +0.009 [+0.000,+0.018]*  vs NOMP +0.093 [+0.078,+0.107]*  vs orig dual +0.029 [+0.020,+0.038]*
+      best FT variant: FT v2b dual+SC 0.906 vs best classical +0.009 [+0.000,+0.018]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.033 [+0.022,+0.044]* | (b) FT NOMP on Hc - NOMP+SC +0.071 [+0.055,+0.086]* | (c)-(a) +0.035 [+0.023,+0.047]* | (c)-(b) -0.003 [-0.008,+0.002]
+    ph20_g0 snr15 NOMP 0.828 | tunedSC 0.845 | EB-ML 0.850 | best cl EB-ML-g5 0.850 | v2b+SCt 0.851 | orig dual 0.841 | oracle 0.845 | Ycheck 0e+00
+      FT heat+SC           0.841  vs best -0.009 [-0.017,-0.001]*  vs NOMP +0.014 [+0.003,+0.024]*  vs orig dual +0.000 [-0.008,+0.008]
+      FT dual+SC           0.841  vs best -0.009 [-0.016,-0.002]*  vs NOMP +0.013 [+0.004,+0.022]*  vs orig dual -0.000 [-0.005,+0.005]
+      FT network only      0.541  vs best -0.309 [-0.328,-0.289]*  vs NOMP -0.286 [-0.306,-0.267]*  vs orig dual -0.300 [-0.321,-0.280]*
+      FT nocorr dual+SC    0.842  vs best -0.008 [-0.015,-0.001]*  vs NOMP +0.014 [+0.007,+0.022]*  vs orig dual +0.001 [-0.002,+0.004]
+      FT v2b dual+SC       0.851  vs best +0.001 [-0.004,+0.007]  vs NOMP +0.024 [+0.014,+0.034]*  vs orig dual +0.010 [+0.003,+0.017]*
+      best FT variant: FT v2b dual+SC 0.851 vs best classical +0.001 [-0.004,+0.007]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.003 [-0.003,+0.009] | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.006,+0.004] | (c)-(a) -0.004 [-0.009,+0.001] | (c)-(b) +0.000 [-0.006,+0.006]
+    ph30_g0 snr15 NOMP 0.745 | tunedSC 0.775 | EB-ML 0.796 | best cl EB-ML-g5 0.796 | v2b+SCt 0.800 | orig dual 0.755 | oracle 0.775 | Ycheck 0e+00
+      FT heat+SC           0.774  vs best -0.022 [-0.032,-0.012]*  vs NOMP +0.028 [+0.017,+0.039]*  vs orig dual +0.019 [+0.009,+0.029]*
+      FT dual+SC           0.763  vs best -0.032 [-0.043,-0.022]*  vs NOMP +0.018 [+0.009,+0.027]*  vs orig dual +0.009 [+0.002,+0.016]*
+      FT network only      0.569  vs best -0.227 [-0.245,-0.208]*  vs NOMP -0.176 [-0.196,-0.157]*  vs orig dual -0.186 [-0.205,-0.167]*
+      FT nocorr dual+SC    0.755  vs best -0.041 [-0.052,-0.030]*  vs NOMP +0.009 [+0.004,+0.015]*  vs orig dual +0.000 [-0.005,+0.005]
+      FT v2b dual+SC       0.798  vs best +0.002 [-0.003,+0.008]  vs NOMP +0.053 [+0.041,+0.064]*  vs orig dual +0.043 [+0.032,+0.055]*
+      best FT variant: FT v2b dual+SC 0.798 vs best classical +0.002 [-0.003,+0.008]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.013 [+0.005,+0.021]* | (b) FT NOMP on Hc - NOMP+SC +0.009 [+0.001,+0.017]* | (c)-(a) +0.006 [-0.002,+0.014] | (c)-(b) +0.011 [+0.003,+0.019]*
+    ph30_g4 snr15 NOMP 0.701 | tunedSC 0.743 | EB-ML 0.789 | best cl EB-ML-g5 0.789 | v2b+SCt 0.788 | orig dual 0.726 | oracle 0.754 | Ycheck 0e+00
+      FT heat+SC           0.771  vs best -0.018 [-0.027,-0.008]*  vs NOMP +0.070 [+0.054,+0.086]*  vs orig dual +0.046 [+0.032,+0.059]*
+      FT dual+SC           0.765  vs best -0.024 [-0.033,-0.015]*  vs NOMP +0.064 [+0.049,+0.079]*  vs orig dual +0.040 [+0.027,+0.052]*
+      FT network only      0.543  vs best -0.246 [-0.267,-0.227]*  vs NOMP -0.159 [-0.180,-0.136]*  vs orig dual -0.183 [-0.204,-0.162]*
+      FT nocorr dual+SC    0.701  vs best -0.088 [-0.103,-0.072]*  vs NOMP +0.000 [-0.002,+0.002]  vs orig dual -0.024 [-0.035,-0.014]*
+      FT v2b dual+SC       0.787  vs best -0.002 [-0.009,+0.005]  vs NOMP +0.086 [+0.070,+0.101]*  vs orig dual +0.061 [+0.047,+0.075]*
+      best FT variant: FT v2b dual+SC 0.787 vs best classical -0.002 [-0.009,+0.005]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.033 [+0.023,+0.043]* | (b) FT NOMP on Hc - NOMP+SC +0.064 [+0.049,+0.079]* | (c)-(a) +0.038 [+0.026,+0.050]* | (c)-(b) +0.006 [+0.000,+0.013]*
+    ph45_g0 snr15 NOMP 0.605 | tunedSC 0.627 | EB-ML 0.696 | best cl EB-ML-g5 0.696 | v2b+SCt 0.701 | orig dual 0.605 | oracle 0.661 | Ycheck 0e+00
+      FT heat+SC           0.643  vs best -0.053 [-0.067,-0.038]*  vs NOMP +0.038 [+0.027,+0.050]*  vs orig dual +0.039 [+0.028,+0.050]*
+      FT dual+SC           0.612  vs best -0.084 [-0.097,-0.070]*  vs NOMP +0.007 [+0.001,+0.014]*  vs orig dual +0.008 [+0.002,+0.013]*
+      FT network only      0.529  vs best -0.167 [-0.186,-0.147]*  vs NOMP -0.076 [-0.095,-0.056]*  vs orig dual -0.075 [-0.095,-0.056]*
+      FT nocorr dual+SC    0.606  vs best -0.090 [-0.105,-0.075]*  vs NOMP +0.001 [-0.001,+0.004]  vs orig dual +0.001 [-0.004,+0.006]
+      FT v2b dual+SC       0.702  vs best +0.006 [-0.002,+0.014]  vs NOMP +0.097 [+0.083,+0.111]*  vs orig dual +0.098 [+0.084,+0.111]*
+      best FT variant: FT v2b heat+SC 0.704 vs best classical +0.008 [-0.001,+0.016]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.035 [+0.025,+0.045]* | (b) FT NOMP on Hc - NOMP+SC +0.006 [+0.000,+0.013] | (c)-(a) +0.003 [-0.003,+0.008] | (c)-(b) +0.031 [+0.022,+0.041]*
+     ph0_g6 snr0  NOMP 0.677 | tunedSC 0.679 | EB-ML 0.675 | best cl NOMP+SC tuned 0.679 | v2b+SCt 0.628 | orig dual 0.682 | oracle 0.750 | Ycheck 0e+00
+      FT heat+SC           0.654  vs best -0.025 [-0.037,-0.013]*  vs NOMP -0.024 [-0.036,-0.012]*  vs orig dual -0.028 [-0.039,-0.018]*
+      FT dual+SC           0.656  vs best -0.023 [-0.034,-0.011]*  vs NOMP -0.021 [-0.033,-0.009]*  vs orig dual -0.026 [-0.036,-0.016]*
+      FT network only      0.542  vs best -0.136 [-0.153,-0.119]*  vs NOMP -0.135 [-0.152,-0.118]*  vs orig dual -0.140 [-0.157,-0.122]*
+      FT nocorr dual+SC    0.678  vs best -0.000 [-0.002,+0.001]  vs NOMP +0.001 [-0.001,+0.003]  vs orig dual -0.004 [-0.013,+0.005]
+      FT v2b dual+SC       0.627  vs best -0.051 [-0.065,-0.038]*  vs NOMP -0.050 [-0.063,-0.037]*  vs orig dual -0.055 [-0.067,-0.043]*
+      best FT variant: FT seeds on Ht+SC 0.680 vs best classical +0.002 [-0.007,+0.010]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.002 [-0.006,+0.010] | (b) FT NOMP on Hc - NOMP+SC -0.022 [-0.033,-0.010]* | (c)-(a) -0.027 [-0.038,-0.015]* | (c)-(b) -0.002 [-0.007,+0.002]
+    ph20_g0 snr0  NOMP 0.642 | tunedSC 0.642 | EB-ML 0.642 | best cl NOMP 0.642 | v2b+SCt 0.650 | orig dual 0.642 | oracle 0.703 | Ycheck 0e+00
+      FT heat+SC           0.635  vs best -0.007 [-0.015,+0.001]  vs NOMP -0.007 [-0.015,+0.001]  vs orig dual -0.007 [-0.014,+0.000]
+      FT dual+SC           0.646  vs best +0.004 [-0.002,+0.010]  vs NOMP +0.004 [-0.002,+0.010]  vs orig dual +0.004 [-0.000,+0.008]
+      FT network only      0.534  vs best -0.109 [-0.126,-0.092]*  vs NOMP -0.109 [-0.126,-0.092]*  vs orig dual -0.109 [-0.126,-0.091]*
+      FT nocorr dual+SC    0.641  vs best -0.001 [-0.003,+0.000]  vs NOMP -0.001 [-0.003,+0.000]  vs orig dual -0.001 [-0.006,+0.003]
+      FT v2b dual+SC       0.651  vs best +0.008 [-0.001,+0.018]  vs NOMP +0.008 [-0.001,+0.018]  vs orig dual +0.008 [-0.001,+0.018]
+      best FT variant: FT v2b dual+SC 0.651 vs best classical +0.008 [-0.001,+0.018]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.009 [-0.016,-0.003]* | (b) FT NOMP on Hc - NOMP+SC +0.005 [-0.001,+0.010] | (c)-(a) +0.003 [-0.002,+0.008] | (c)-(b) -0.011 [-0.017,-0.005]*
+    ph30_g0 snr0  NOMP 0.589 | tunedSC 0.588 | EB-ML 0.589 | best cl NOMP os8 rc6 0.591 | v2b+SCt 0.609 | orig dual 0.589 | oracle 0.669 | Ycheck 0e+00
+      FT heat+SC           0.590  vs best -0.001 [-0.010,+0.006]  vs NOMP +0.001 [-0.008,+0.009]  vs orig dual +0.000 [-0.007,+0.008]
+      FT dual+SC           0.595  vs best +0.004 [-0.003,+0.011]  vs NOMP +0.006 [-0.001,+0.013]  vs orig dual +0.006 [+0.000,+0.012]*
+      FT network only      0.508  vs best -0.083 [-0.100,-0.066]*  vs NOMP -0.081 [-0.099,-0.063]*  vs orig dual -0.081 [-0.098,-0.064]*
+      FT nocorr dual+SC    0.589  vs best -0.002 [-0.005,-0.000]*  vs NOMP -0.000 [-0.003,+0.002]  vs orig dual -0.001 [-0.005,+0.003]
+      FT v2b dual+SC       0.609  vs best +0.018 [+0.007,+0.031]*  vs NOMP +0.020 [+0.009,+0.033]*  vs orig dual +0.020 [+0.009,+0.032]*
+      best FT variant: FT v2b dual+SC 0.609 vs best classical +0.018 [+0.007,+0.031]*
+      ablation (a) FT seeds on Ht - NOMP+SC -0.001 [-0.007,+0.005] | (b) FT NOMP on Hc - NOMP+SC +0.006 [-0.001,+0.013] | (c)-(a) +0.002 [-0.003,+0.008] | (c)-(b) -0.005 [-0.011,+0.000]
+    ph30_g4 snr0  NOMP 0.580 | tunedSC 0.580 | EB-ML 0.583 | best cl EB-ML-g5 0.583 | v2b+SCt 0.591 | orig dual 0.590 | oracle 0.662 | Ycheck 0e+00
+      FT heat+SC           0.590  vs best +0.007 [-0.004,+0.018]  vs NOMP +0.010 [-0.001,+0.021]  vs orig dual +0.001 [-0.008,+0.009]
+      FT dual+SC           0.595  vs best +0.012 [+0.001,+0.022]*  vs NOMP +0.015 [+0.004,+0.025]*  vs orig dual +0.005 [-0.003,+0.014]
+      FT network only      0.506  vs best -0.077 [-0.096,-0.059]*  vs NOMP -0.074 [-0.092,-0.056]*  vs orig dual -0.084 [-0.102,-0.067]*
+      FT nocorr dual+SC    0.581  vs best -0.002 [-0.005,+0.001]  vs NOMP +0.001 [-0.001,+0.003]  vs orig dual -0.008 [-0.016,-0.000]*
+      FT v2b dual+SC       0.592  vs best +0.008 [-0.005,+0.022]  vs NOMP +0.011 [-0.003,+0.025]  vs orig dual +0.002 [-0.011,+0.015]
+      best FT variant: FT dual+SC 0.595 vs best classical +0.012 [+0.001,+0.022]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.005 [-0.002,+0.013] | (b) FT NOMP on Hc - NOMP+SC +0.014 [+0.004,+0.025]* | (c)-(a) +0.004 [-0.005,+0.013] | (c)-(b) -0.005 [-0.011,+0.002]
+    ph45_g0 snr0  NOMP 0.483 | tunedSC 0.483 | EB-ML 0.483 | best cl NOMP os8 rc6 0.484 | v2b+SCt 0.542 | orig dual 0.484 | oracle 0.595 | Ycheck 0e+00
+      FT heat+SC           0.489  vs best +0.006 [-0.001,+0.013]  vs NOMP +0.007 [-0.000,+0.014]  vs orig dual +0.005 [-0.002,+0.012]
+      FT dual+SC           0.490  vs best +0.006 [+0.001,+0.012]*  vs NOMP +0.007 [+0.001,+0.013]*  vs orig dual +0.006 [+0.000,+0.011]*
+      FT network only      0.454  vs best -0.029 [-0.045,-0.014]*  vs NOMP -0.028 [-0.043,-0.013]*  vs orig dual -0.030 [-0.045,-0.014]*
+      FT nocorr dual+SC    0.482  vs best -0.002 [-0.004,+0.001]  vs NOMP -0.001 [-0.003,+0.001]  vs orig dual -0.002 [-0.006,+0.001]
+      FT v2b dual+SC       0.544  vs best +0.061 [+0.047,+0.075]*  vs NOMP +0.062 [+0.048,+0.076]*  vs orig dual +0.060 [+0.047,+0.074]*
+      best FT variant: FT v2b heat+SC 0.547 vs best classical +0.063 [+0.050,+0.077]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.003 [-0.003,+0.010] | (b) FT NOMP on Hc - NOMP+SC +0.007 [+0.001,+0.013]* | (c)-(a) +0.004 [-0.001,+0.009] | (c)-(b) +0.000 [-0.006,+0.006]
+
+== M6 (stress)
+         10 snr15 NOMP 0.910 | tunedSC 0.907 | EB-ML 0.911 | best cl EB-ML-g5 0.911 | v2b+SCt 0.909 | orig dual 0.909 | oracle 0.930 | Ycheck 0e+00
+      FT heat+SC           0.909  vs best -0.002 [-0.011,+0.007]  vs NOMP -0.001 [-0.011,+0.009]  vs orig dual +0.000 [-0.006,+0.007]
+      FT dual+SC           0.905  vs best -0.006 [-0.014,+0.001]  vs NOMP -0.005 [-0.013,+0.003]  vs orig dual -0.004 [-0.008,+0.000]
+      FT network only      0.501  vs best -0.410 [-0.430,-0.389]*  vs NOMP -0.409 [-0.430,-0.388]*  vs orig dual -0.408 [-0.429,-0.386]*
+      FT nocorr dual+SC    0.909  vs best -0.002 [-0.007,+0.003]  vs NOMP -0.001 [-0.006,+0.004]  vs orig dual +0.000 [-0.005,+0.006]
+      FT v2b dual+SC       0.910  vs best -0.001 [-0.006,+0.005]  vs NOMP +0.000 [-0.006,+0.007]  vs orig dual +0.002 [-0.004,+0.007]
+      best FT variant: FT seeds on Ht+SC 0.915 vs best classical +0.004 [-0.004,+0.012]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.006 [-0.002,+0.013] | (b) FT NOMP on Hc - NOMP+SC -0.005 [-0.011,+0.002] | (c)-(a) -0.006 [-0.010,-0.001]* | (c)-(b) +0.005 [-0.002,+0.011]
+         20 snr15 NOMP 0.850 | tunedSC 0.840 | EB-ML 0.842 | best cl NOMP 0.850 | v2b+SCt 0.844 | orig dual 0.846 | oracle 0.895 | Ycheck 0e+00
+      FT heat+SC           0.866  vs best +0.016 [+0.004,+0.029]*  vs NOMP +0.016 [+0.004,+0.029]*  vs orig dual +0.020 [+0.010,+0.030]*
+      FT dual+SC           0.844  vs best -0.006 [-0.016,+0.004]  vs NOMP -0.006 [-0.016,+0.004]  vs orig dual -0.002 [-0.006,+0.001]
+      FT network only      0.531  vs best -0.318 [-0.341,-0.296]*  vs NOMP -0.318 [-0.341,-0.296]*  vs orig dual -0.315 [-0.337,-0.293]*
+      FT nocorr dual+SC    0.845  vs best -0.005 [-0.011,+0.002]  vs NOMP -0.005 [-0.011,+0.002]  vs orig dual -0.001 [-0.008,+0.006]
+      FT v2b dual+SC       0.848  vs best -0.002 [-0.010,+0.006]  vs NOMP -0.002 [-0.010,+0.006]  vs orig dual +0.002 [-0.004,+0.008]
+      best FT variant: FT seeds on Ht+SC 0.874 vs best classical +0.025 [+0.012,+0.038]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.030 [+0.018,+0.042]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.008,+0.007] | (c)-(a) -0.009 [-0.015,-0.002]* | (c)-(b) +0.022 [+0.013,+0.032]*
+         30 snr15 NOMP 0.757 | tunedSC 0.741 | EB-ML 0.750 | best cl NOMP 0.757 | v2b+SCt 0.738 | orig dual 0.756 | oracle 0.830 | Ycheck 0e+00
+      FT heat+SC           0.790  vs best +0.033 [+0.017,+0.048]*  vs NOMP +0.033 [+0.017,+0.048]*  vs orig dual +0.034 [+0.021,+0.047]*
+      FT dual+SC           0.754  vs best -0.004 [-0.017,+0.009]  vs NOMP -0.004 [-0.017,+0.009]  vs orig dual -0.003 [-0.010,+0.004]
+      FT network only      0.557  vs best -0.200 [-0.222,-0.177]*  vs NOMP -0.200 [-0.222,-0.177]*  vs orig dual -0.199 [-0.221,-0.175]*
+      FT nocorr dual+SC    0.746  vs best -0.011 [-0.020,-0.003]*  vs NOMP -0.011 [-0.020,-0.003]*  vs orig dual -0.010 [-0.019,-0.001]*
+      FT v2b dual+SC       0.745  vs best -0.013 [-0.024,-0.001]*  vs NOMP -0.013 [-0.024,-0.001]*  vs orig dual -0.012 [-0.022,-0.002]*
+      best FT variant: FT seeds on Ht+SC 0.797 vs best classical +0.039 [+0.025,+0.054]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.051 [+0.038,+0.064]* | (b) FT NOMP on Hc - NOMP+SC +0.008 [-0.004,+0.019] | (c)-(a) -0.007 [-0.015,+0.001] | (c)-(b) +0.036 [+0.025,+0.049]*
+          5 snr15 NOMP 0.924 | tunedSC 0.924 | EB-ML 0.923 | best cl NOMP+SC 0.924 | v2b+SCt 0.925 | orig dual 0.919 | oracle 0.934 | Ycheck 0e+00
+      FT heat+SC           0.913  vs best -0.011 [-0.019,-0.005]*  vs NOMP -0.011 [-0.019,-0.003]*  vs orig dual -0.006 [-0.012,-0.001]*
+      FT dual+SC           0.915  vs best -0.010 [-0.015,-0.004]*  vs NOMP -0.009 [-0.016,-0.002]*  vs orig dual -0.005 [-0.009,-0.001]*
+      FT network only      0.488  vs best -0.436 [-0.457,-0.416]*  vs NOMP -0.436 [-0.456,-0.416]*  vs orig dual -0.431 [-0.452,-0.411]*
+      FT nocorr dual+SC    0.924  vs best +0.000 [+0.000,+0.000]  vs NOMP +0.001 [-0.005,+0.006]  vs orig dual +0.005 [+0.001,+0.009]*
+      FT v2b dual+SC       0.925  vs best +0.001 [-0.002,+0.003]  vs NOMP +0.001 [-0.004,+0.007]  vs orig dual +0.006 [+0.002,+0.010]*
+      best FT variant: FT v2b dual+SC 0.925 vs best classical +0.001 [-0.002,+0.003]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.006 [-0.012,-0.001]* | (b) FT NOMP on Hc - NOMP+SC -0.010 [-0.015,-0.004]* | (c)-(a) -0.005 [-0.010,-0.001]* | (c)-(b) -0.002 [-0.007,+0.003]
+         10 snr0  NOMP 0.683 | tunedSC 0.685 | EB-ML 0.683 | best cl NOMP+SC tuned 0.685 | v2b+SCt 0.684 | orig dual 0.682 | oracle 0.741 | Ycheck 0e+00
+      FT heat+SC           0.671  vs best -0.014 [-0.022,-0.006]*  vs NOMP -0.011 [-0.019,-0.004]*  vs orig dual -0.011 [-0.017,-0.004]*
+      FT dual+SC           0.677  vs best -0.008 [-0.014,-0.002]*  vs NOMP -0.006 [-0.012,+0.001]  vs orig dual -0.005 [-0.010,-0.000]*
+      FT network only      0.551  vs best -0.134 [-0.151,-0.118]*  vs NOMP -0.132 [-0.148,-0.116]*  vs orig dual -0.131 [-0.147,-0.114]*
+      FT nocorr dual+SC    0.684  vs best -0.001 [-0.003,+0.001]  vs NOMP +0.002 [-0.000,+0.004]  vs orig dual +0.002 [-0.002,+0.007]
+      FT v2b dual+SC       0.683  vs best -0.003 [-0.008,+0.002]  vs NOMP +0.000 [-0.005,+0.005]  vs orig dual +0.001 [-0.004,+0.005]
+      best FT variant: FT nocorr dual+SC 0.684 vs best classical -0.001 [-0.003,+0.001]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.008 [-0.014,-0.002]* | (b) FT NOMP on Hc - NOMP+SC -0.007 [-0.013,+0.000] | (c)-(a) -0.005 [-0.010,+0.000] | (c)-(b) -0.006 [-0.011,-0.001]*
+         20 snr0  NOMP 0.644 | tunedSC 0.643 | EB-ML 0.644 | best cl NOMP 0.644 | v2b+SCt 0.644 | orig dual 0.644 | oracle 0.720 | Ycheck 0e+00
+      FT heat+SC           0.647  vs best +0.003 [-0.006,+0.013]  vs NOMP +0.003 [-0.006,+0.013]  vs orig dual +0.003 [-0.007,+0.012]
+      FT dual+SC           0.642  vs best -0.002 [-0.009,+0.005]  vs NOMP -0.002 [-0.009,+0.005]  vs orig dual -0.002 [-0.009,+0.004]
+      FT network only      0.541  vs best -0.103 [-0.121,-0.086]*  vs NOMP -0.103 [-0.121,-0.086]*  vs orig dual -0.103 [-0.121,-0.086]*
+      FT nocorr dual+SC    0.642  vs best -0.002 [-0.003,+0.000]  vs NOMP -0.002 [-0.003,+0.000]  vs orig dual -0.002 [-0.008,+0.004]
+      FT v2b dual+SC       0.646  vs best +0.002 [-0.005,+0.010]  vs NOMP +0.002 [-0.005,+0.010]  vs orig dual +0.002 [-0.004,+0.008]
+      best FT variant: FT nocorr heat+SC 0.650 vs best classical +0.006 [-0.001,+0.014]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.008 [+0.000,+0.016] | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.008,+0.006] | (c)-(a) -0.003 [-0.010,+0.003] | (c)-(b) +0.005 [-0.001,+0.013]
+         30 snr0  NOMP 0.580 | tunedSC 0.579 | EB-ML 0.581 | best cl EB-ML-g5 0.581 | v2b+SCt 0.581 | orig dual 0.581 | oracle 0.676 | Ycheck 0e+00
+      FT heat+SC           0.589  vs best +0.009 [-0.001,+0.019]  vs NOMP +0.009 [-0.000,+0.020]  vs orig dual +0.008 [-0.001,+0.018]
+      FT dual+SC           0.580  vs best -0.001 [-0.008,+0.007]  vs NOMP -0.001 [-0.008,+0.007]  vs orig dual -0.001 [-0.007,+0.005]
+      FT network only      0.508  vs best -0.072 [-0.090,-0.055]*  vs NOMP -0.072 [-0.090,-0.054]*  vs orig dual -0.073 [-0.090,-0.055]*
+      FT nocorr dual+SC    0.580  vs best -0.001 [-0.004,+0.003]  vs NOMP -0.000 [-0.004,+0.003]  vs orig dual -0.001 [-0.007,+0.005]
+      FT v2b dual+SC       0.582  vs best +0.001 [-0.007,+0.010]  vs NOMP +0.002 [-0.006,+0.010]  vs orig dual +0.001 [-0.006,+0.009]
+      best FT variant: FT nocorr heat+SC 0.592 vs best classical +0.011 [+0.003,+0.020]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.012 [+0.004,+0.021]* | (b) FT NOMP on Hc - NOMP+SC +0.001 [-0.006,+0.008] | (c)-(a) -0.002 [-0.008,+0.004] | (c)-(b) +0.010 [+0.002,+0.018]*
+          5 snr0  NOMP 0.684 | tunedSC 0.683 | EB-ML 0.684 | best cl classical dual 0.686 | v2b+SCt 0.687 | orig dual 0.685 | oracle 0.741 | Ycheck 0e+00
+      FT heat+SC           0.678  vs best -0.007 [-0.015,+0.000]  vs NOMP -0.006 [-0.014,+0.001]  vs orig dual -0.007 [-0.013,-0.000]*
+      FT dual+SC           0.683  vs best -0.002 [-0.008,+0.003]  vs NOMP -0.001 [-0.007,+0.005]  vs orig dual -0.002 [-0.006,+0.003]
+      FT network only      0.552  vs best -0.133 [-0.149,-0.117]*  vs NOMP -0.132 [-0.148,-0.116]*  vs orig dual -0.133 [-0.149,-0.116]*
+      FT nocorr dual+SC    0.686  vs best +0.000 [-0.002,+0.002]  vs NOMP +0.001 [-0.001,+0.004]  vs orig dual +0.001 [-0.005,+0.006]
+      FT v2b dual+SC       0.688  vs best +0.002 [-0.002,+0.007]  vs NOMP +0.004 [-0.001,+0.009]  vs orig dual +0.003 [-0.002,+0.008]
+      best FT variant: FT v2b dual+SC 0.688 vs best classical +0.002 [-0.002,+0.007]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.006 [-0.012,+0.000] | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.007,+0.005] | (c)-(a) -0.000 [-0.006,+0.004] | (c)-(b) -0.005 [-0.011,-0.000]*
+
+== M8 (stress)
+        0.5 snr15 NOMP 0.862 | tunedSC 0.867 | EB-ML 0.885 | best cl EB-ML-g5 0.885 | v2b+SCt 0.891 | orig dual 0.867 | oracle 0.906 | Ycheck 0e+00
+      FT heat+SC           0.893  vs best +0.008 [-0.004,+0.019]  vs NOMP +0.032 [+0.019,+0.045]*  vs orig dual +0.026 [+0.015,+0.038]*
+      FT dual+SC           0.870  vs best -0.015 [-0.025,-0.006]*  vs NOMP +0.008 [-0.001,+0.017]  vs orig dual +0.003 [-0.003,+0.008]
+      FT network only      0.556  vs best -0.329 [-0.351,-0.308]*  vs NOMP -0.306 [-0.328,-0.284]*  vs orig dual -0.311 [-0.333,-0.288]*
+      FT nocorr dual+SC    0.868  vs best -0.018 [-0.027,-0.009]*  vs NOMP +0.006 [-0.001,+0.013]  vs orig dual +0.000 [-0.005,+0.005]
+      FT v2b dual+SC       0.893  vs best +0.007 [-0.001,+0.015]  vs NOMP +0.031 [+0.019,+0.042]*  vs orig dual +0.025 [+0.017,+0.034]*
+      best FT variant: FT seeds on Ht+SC 0.898 vs best classical +0.013 [+0.002,+0.023]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.031 [+0.020,+0.042]* | (b) FT NOMP on Hc - NOMP+SC +0.002 [-0.005,+0.009] | (c)-(a) -0.005 [-0.010,+0.001] | (c)-(b) +0.024 [+0.014,+0.035]*
+          1 snr15 NOMP 0.909 | tunedSC 0.909 | EB-ML 0.914 | best cl EB-ML-g5 0.914 | v2b+SCt 0.915 | orig dual 0.911 | oracle 0.926 | Ycheck 0e+00
+      FT heat+SC           0.906  vs best -0.008 [-0.017,+0.000]  vs NOMP -0.003 [-0.013,+0.006]  vs orig dual -0.005 [-0.012,+0.002]
+      FT dual+SC           0.904  vs best -0.009 [-0.018,-0.001]*  vs NOMP -0.004 [-0.012,+0.003]  vs orig dual -0.006 [-0.011,-0.003]*
+      FT network only      0.516  vs best -0.398 [-0.417,-0.376]*  vs NOMP -0.393 [-0.412,-0.371]*  vs orig dual -0.395 [-0.414,-0.373]*
+      FT nocorr dual+SC    0.909  vs best -0.005 [-0.012,+0.002]  vs NOMP +0.000 [-0.006,+0.007]  vs orig dual -0.002 [-0.007,+0.003]
+      FT v2b dual+SC       0.916  vs best +0.003 [-0.003,+0.008]  vs NOMP +0.008 [+0.001,+0.015]*  vs orig dual +0.006 [+0.000,+0.011]
+      best FT variant: FT v2b dual+SC 0.916 vs best classical +0.003 [-0.003,+0.008]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.002 [-0.005,+0.009] | (b) FT NOMP on Hc - NOMP+SC -0.004 [-0.011,+0.001] | (c)-(a) -0.005 [-0.010,+0.000] | (c)-(b) +0.002 [-0.004,+0.008]
+          2 snr15 NOMP 0.924 | tunedSC 0.925 | EB-ML 0.923 | best cl NOMP os8 rc6 0.926 | v2b+SCt 0.923 | orig dual 0.917 | oracle 0.934 | Ycheck 0e+00
+      FT heat+SC           0.911  vs best -0.015 [-0.024,-0.006]*  vs NOMP -0.013 [-0.021,-0.005]*  vs orig dual -0.007 [-0.014,+0.000]
+      FT dual+SC           0.912  vs best -0.014 [-0.023,-0.006]*  vs NOMP -0.012 [-0.020,-0.004]*  vs orig dual -0.006 [-0.011,-0.001]*
+      FT network only      0.487  vs best -0.439 [-0.458,-0.418]*  vs NOMP -0.436 [-0.456,-0.416]*  vs orig dual -0.430 [-0.451,-0.409]*
+      FT nocorr dual+SC    0.926  vs best -0.000 [-0.006,+0.005]  vs NOMP +0.002 [-0.004,+0.008]  vs orig dual +0.008 [+0.004,+0.013]*
+      FT v2b dual+SC       0.923  vs best -0.003 [-0.008,+0.003]  vs NOMP -0.000 [-0.006,+0.006]  vs orig dual +0.006 [+0.001,+0.010]*
+      best FT variant: FT nocorr dual+SC 0.926 vs best classical -0.000 [-0.006,+0.005]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.004 [-0.010,+0.001] | (b) FT NOMP on Hc - NOMP+SC -0.014 [-0.020,-0.008]* | (c)-(a) -0.011 [-0.016,-0.006]* | (c)-(b) -0.001 [-0.007,+0.005]
+        0.5 snr0  NOMP 0.663 | tunedSC 0.662 | EB-ML 0.663 | best cl EB-ML-g5 0.663 | v2b+SCt 0.664 | orig dual 0.660 | oracle 0.727 | Ycheck 0e+00
+      FT heat+SC           0.659  vs best -0.004 [-0.012,+0.004]  vs NOMP -0.004 [-0.012,+0.005]  vs orig dual -0.001 [-0.009,+0.007]
+      FT dual+SC           0.660  vs best -0.003 [-0.009,+0.002]  vs NOMP -0.003 [-0.009,+0.002]  vs orig dual -0.000 [-0.005,+0.004]
+      FT network only      0.536  vs best -0.127 [-0.146,-0.109]*  vs NOMP -0.127 [-0.146,-0.109]*  vs orig dual -0.124 [-0.143,-0.106]*
+      FT nocorr dual+SC    0.663  vs best -0.001 [-0.002,+0.001]  vs NOMP -0.000 [-0.002,+0.002]  vs orig dual +0.002 [-0.002,+0.007]
+      FT v2b dual+SC       0.665  vs best +0.001 [-0.007,+0.010]  vs NOMP +0.002 [-0.007,+0.010]  vs orig dual +0.004 [-0.004,+0.013]
+      best FT variant: FT v2b dual+SC 0.665 vs best classical +0.001 [-0.007,+0.010]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.004 [-0.011,+0.002] | (b) FT NOMP on Hc - NOMP+SC -0.002 [-0.007,+0.004] | (c)-(a) +0.001 [-0.004,+0.006] | (c)-(b) -0.002 [-0.008,+0.005]
+          1 snr0  NOMP 0.681 | tunedSC 0.682 | EB-ML 0.681 | best cl NOMP+SC 0.682 | v2b+SCt 0.683 | orig dual 0.680 | oracle 0.740 | Ycheck 0e+00
+      FT heat+SC           0.675  vs best -0.007 [-0.015,+0.001]  vs NOMP -0.005 [-0.014,+0.003]  vs orig dual -0.005 [-0.012,+0.003]
+      FT dual+SC           0.681  vs best -0.001 [-0.008,+0.006]  vs NOMP +0.000 [-0.006,+0.007]  vs orig dual +0.001 [-0.005,+0.007]
+      FT network only      0.549  vs best -0.133 [-0.150,-0.116]*  vs NOMP -0.131 [-0.148,-0.115]*  vs orig dual -0.131 [-0.148,-0.114]*
+      FT nocorr dual+SC    0.683  vs best +0.001 [+0.000,+0.002]  vs NOMP +0.002 [-0.000,+0.006]  vs orig dual +0.003 [-0.002,+0.008]
+      FT v2b dual+SC       0.683  vs best +0.000 [-0.005,+0.006]  vs NOMP +0.002 [-0.004,+0.008]  vs orig dual +0.003 [-0.003,+0.009]
+      best FT variant: FT nocorr dual+SC 0.683 vs best classical +0.001 [+0.000,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.009 [-0.016,-0.003]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.008,+0.006] | (c)-(a) +0.002 [-0.004,+0.009] | (c)-(b) -0.006 [-0.011,-0.000]*
+          2 snr0  NOMP 0.688 | tunedSC 0.688 | EB-ML 0.688 | best cl NOMP 0.688 | v2b+SCt 0.687 | orig dual 0.687 | oracle 0.743 | Ycheck 0e+00
+      FT heat+SC           0.679  vs best -0.009 [-0.017,-0.001]*  vs NOMP -0.009 [-0.017,-0.001]*  vs orig dual -0.007 [-0.015,-0.000]*
+      FT dual+SC           0.685  vs best -0.003 [-0.010,+0.003]  vs NOMP -0.003 [-0.010,+0.003]  vs orig dual -0.002 [-0.008,+0.004]
+      FT network only      0.550  vs best -0.138 [-0.155,-0.121]*  vs NOMP -0.138 [-0.155,-0.121]*  vs orig dual -0.136 [-0.154,-0.119]*
+      FT nocorr dual+SC    0.688  vs best +0.000 [-0.001,+0.002]  vs NOMP +0.000 [-0.001,+0.002]  vs orig dual +0.002 [-0.004,+0.007]
+      FT v2b dual+SC       0.689  vs best +0.001 [-0.005,+0.006]  vs NOMP +0.001 [-0.005,+0.006]  vs orig dual +0.002 [-0.003,+0.007]
+      best FT variant: FT v2b dual+SC 0.689 vs best classical +0.001 [-0.005,+0.006]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.007 [-0.013,-0.001]* | (b) FT NOMP on Hc - NOMP+SC -0.003 [-0.009,+0.004] | (c)-(a) -0.002 [-0.008,+0.004] | (c)-(b) -0.006 [-0.011,-0.001]*
+
+################ fresh banks: Pd (paper); diffs paired 95% CI, * = CI excludes 0
+
+== M2 (fresh)
+       0.02 snr15 NOMP 0.918 | tunedSC 0.917 | EB-ML 0.916 | best cl NOMP os8 rc6 0.922 | v2b+SCt 0.917 | orig dual 0.912 | oracle 0.931
+      FT heat+SC           0.897  vs best -0.025 [-0.031,-0.018]*  vs NOMP -0.021 [-0.027,-0.015]*  vs orig dual -0.014 [-0.019,-0.010]*
+      FT dual+SC           0.906  vs best -0.015 [-0.021,-0.011]*  vs NOMP -0.012 [-0.017,-0.007]*  vs orig dual -0.005 [-0.008,-0.003]*
+      FT network only      0.481  vs best -0.441 [-0.454,-0.427]*  vs NOMP -0.437 [-0.450,-0.423]*  vs orig dual -0.430 [-0.444,-0.417]*
+      FT nocorr dual+SC    0.917  vs best -0.005 [-0.009,-0.001]*  vs NOMP -0.001 [-0.006,+0.003]  vs orig dual +0.005 [+0.002,+0.008]*
+      FT v2b dual+SC       0.918  vs best -0.004 [-0.009,+0.000]  vs NOMP -0.000 [-0.005,+0.004]  vs orig dual +0.006 [+0.003,+0.010]*
+      best FT variant: FT v2b dual+SC 0.918 vs best classical -0.004 [-0.009,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.011 [-0.015,-0.007]* | (b) FT NOMP on Hc - NOMP+SC -0.010 [-0.015,-0.006]* | (c)-(a) -0.009 [-0.012,-0.005]* | (c)-(b) -0.009 [-0.014,-0.005]*
+       0.05 snr15 NOMP 0.875 | tunedSC 0.871 | EB-ML 0.874 | best cl NOMP os8 rc6 0.879 | v2b+SCt 0.871 | orig dual 0.873 | oracle 0.889
+      FT heat+SC           0.862  vs best -0.017 [-0.023,-0.010]*  vs NOMP -0.013 [-0.019,-0.007]*  vs orig dual -0.010 [-0.015,-0.006]*
+      FT dual+SC           0.868  vs best -0.011 [-0.016,-0.006]*  vs NOMP -0.008 [-0.013,-0.003]*  vs orig dual -0.005 [-0.008,-0.002]*
+      FT network only      0.508  vs best -0.371 [-0.385,-0.357]*  vs NOMP -0.367 [-0.381,-0.353]*  vs orig dual -0.365 [-0.379,-0.350]*
+      FT nocorr dual+SC    0.873  vs best -0.006 [-0.011,-0.002]*  vs NOMP -0.003 [-0.007,+0.001]  vs orig dual -0.000 [-0.003,+0.002]
+      FT v2b dual+SC       0.872  vs best -0.007 [-0.012,-0.002]*  vs NOMP -0.004 [-0.008,+0.001]  vs orig dual -0.001 [-0.004,+0.002]
+      best FT variant: FT nocorr dual+SC 0.873 vs best classical -0.006 [-0.011,-0.002]*
+      ablation (a) FT seeds on Ht - NOMP+SC -0.007 [-0.010,-0.003]* | (b) FT NOMP on Hc - NOMP+SC -0.005 [-0.008,-0.001]* | (c)-(a) -0.004 [-0.007,-0.000]* | (c)-(b) -0.006 [-0.009,-0.002]*
+        0.1 snr15 NOMP 0.791 | tunedSC 0.788 | EB-ML 0.791 | best cl NOMP os8 rc6 0.793 | v2b+SCt 0.793 | orig dual 0.788 | oracle 0.814
+      FT heat+SC           0.792  vs best -0.001 [-0.008,+0.005]  vs NOMP +0.001 [-0.005,+0.008]  vs orig dual +0.004 [-0.000,+0.009]
+      FT dual+SC           0.788  vs best -0.005 [-0.011,+0.001]  vs NOMP -0.003 [-0.008,+0.003]  vs orig dual +0.000 [-0.003,+0.004]
+      FT network only      0.566  vs best -0.227 [-0.241,-0.213]*  vs NOMP -0.225 [-0.238,-0.210]*  vs orig dual -0.222 [-0.235,-0.207]*
+      FT nocorr dual+SC    0.789  vs best -0.004 [-0.009,+0.001]  vs NOMP -0.002 [-0.007,+0.003]  vs orig dual +0.001 [-0.001,+0.004]
+      FT v2b dual+SC       0.794  vs best +0.000 [-0.006,+0.007]  vs NOMP +0.003 [-0.004,+0.009]  vs orig dual +0.006 [+0.001,+0.011]*
+      best FT variant: FT nocorr heat+SC 0.796 vs best classical +0.002 [-0.004,+0.009]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.006 [+0.002,+0.011]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.004,+0.003] | (c)-(a) -0.003 [-0.007,-0.000]* | (c)-(b) +0.004 [-0.000,+0.008]
+        0.2 snr15 NOMP 0.627 | tunedSC 0.623 | EB-ML 0.624 | best cl NOMP 0.627 | v2b+SCt 0.625 | orig dual 0.630 | oracle 0.690
+      FT heat+SC           0.663  vs best +0.036 [+0.028,+0.044]*  vs NOMP +0.036 [+0.028,+0.044]*  vs orig dual +0.033 [+0.026,+0.041]*
+      FT dual+SC           0.630  vs best +0.003 [-0.002,+0.008]  vs NOMP +0.003 [-0.002,+0.008]  vs orig dual +0.000 [-0.004,+0.004]
+      FT network only      0.573  vs best -0.053 [-0.068,-0.040]*  vs NOMP -0.053 [-0.068,-0.040]*  vs orig dual -0.057 [-0.070,-0.043]*
+      FT nocorr dual+SC    0.626  vs best -0.001 [-0.003,+0.001]  vs NOMP -0.001 [-0.003,+0.001]  vs orig dual -0.004 [-0.007,-0.000]*
+      FT v2b dual+SC       0.627  vs best +0.000 [-0.009,+0.009]  vs NOMP +0.000 [-0.009,+0.009]  vs orig dual -0.003 [-0.012,+0.006]
+      best FT variant: FT heat+SC 0.663 vs best classical +0.036 [+0.028,+0.044]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.037 [+0.030,+0.044]* | (b) FT NOMP on Hc - NOMP+SC +0.004 [-0.000,+0.009] | (c)-(a) +0.001 [-0.003,+0.005] | (c)-(b) +0.033 [+0.026,+0.040]*
+       0.02 snr0  NOMP 0.700 | tunedSC 0.699 | EB-ML 0.700 | best cl NOMP+SC 0.700 | v2b+SCt 0.696 | orig dual 0.698 | oracle 0.754
+      FT heat+SC           0.690  vs best -0.010 [-0.015,-0.005]*  vs NOMP -0.010 [-0.015,-0.004]*  vs orig dual -0.008 [-0.013,-0.004]*
+      FT dual+SC           0.694  vs best -0.006 [-0.011,-0.001]*  vs NOMP -0.006 [-0.011,-0.001]*  vs orig dual -0.004 [-0.008,-0.000]*
+      FT network only      0.562  vs best -0.138 [-0.150,-0.126]*  vs NOMP -0.137 [-0.150,-0.126]*  vs orig dual -0.136 [-0.148,-0.124]*
+      FT nocorr dual+SC    0.701  vs best +0.000 [-0.000,+0.002]  vs NOMP +0.001 [-0.001,+0.002]  vs orig dual +0.002 [-0.001,+0.006]
+      FT v2b dual+SC       0.699  vs best -0.001 [-0.005,+0.003]  vs NOMP -0.001 [-0.005,+0.003]  vs orig dual +0.001 [-0.003,+0.004]
+      best FT variant: FT nocorr dual+SC 0.701 vs best classical +0.000 [-0.000,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.005 [-0.008,-0.001]* | (b) FT NOMP on Hc - NOMP+SC -0.006 [-0.011,-0.001]* | (c)-(a) -0.005 [-0.009,-0.001]* | (c)-(b) -0.004 [-0.007,-0.001]*
+       0.05 snr0  NOMP 0.684 | tunedSC 0.684 | EB-ML 0.684 | best cl classical dual+SC 0.685 | v2b+SCt 0.682 | orig dual 0.683 | oracle 0.742
+      FT heat+SC           0.679  vs best -0.006 [-0.012,-0.001]*  vs NOMP -0.005 [-0.011,-0.000]*  vs orig dual -0.004 [-0.009,-0.000]*
+      FT dual+SC           0.682  vs best -0.004 [-0.008,+0.001]  vs NOMP -0.003 [-0.007,+0.002]  vs orig dual -0.002 [-0.005,+0.002]
+      FT network only      0.564  vs best -0.122 [-0.134,-0.110]*  vs NOMP -0.121 [-0.133,-0.109]*  vs orig dual -0.120 [-0.132,-0.108]*
+      FT nocorr dual+SC    0.686  vs best +0.000 [-0.001,+0.002]  vs NOMP +0.001 [-0.000,+0.003]  vs orig dual +0.002 [-0.001,+0.005]
+      FT v2b dual+SC       0.683  vs best -0.003 [-0.007,+0.001]  vs NOMP -0.002 [-0.005,+0.003]  vs orig dual -0.001 [-0.005,+0.003]
+      best FT variant: FT nocorr dual+SC 0.686 vs best classical +0.000 [-0.001,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.003 [-0.006,+0.001] | (b) FT NOMP on Hc - NOMP+SC -0.004 [-0.009,+0.000] | (c)-(a) -0.003 [-0.007,+0.001] | (c)-(b) -0.001 [-0.005,+0.002]
+        0.1 snr0  NOMP 0.635 | tunedSC 0.635 | EB-ML 0.635 | best cl NOMP+SC tuned 0.635 | v2b+SCt 0.635 | orig dual 0.636 | oracle 0.698
+      FT heat+SC           0.637  vs best +0.002 [-0.004,+0.008]  vs NOMP +0.002 [-0.003,+0.008]  vs orig dual +0.001 [-0.004,+0.006]
+      FT dual+SC           0.638  vs best +0.003 [-0.002,+0.008]  vs NOMP +0.003 [-0.002,+0.008]  vs orig dual +0.002 [-0.002,+0.006]
+      FT network only      0.548  vs best -0.087 [-0.099,-0.075]*  vs NOMP -0.087 [-0.099,-0.075]*  vs orig dual -0.088 [-0.099,-0.076]*
+      FT nocorr dual+SC    0.635  vs best +0.000 [-0.002,+0.002]  vs NOMP +0.000 [-0.000,+0.002]  vs orig dual -0.001 [-0.004,+0.003]
+      FT v2b dual+SC       0.635  vs best -0.001 [-0.006,+0.005]  vs NOMP -0.000 [-0.006,+0.005]  vs orig dual -0.001 [-0.006,+0.004]
+      best FT variant: FT NOMP on Hc+SC 0.638 vs best classical +0.003 [-0.002,+0.008]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.002 [-0.002,+0.006] | (b) FT NOMP on Hc - NOMP+SC +0.003 [-0.001,+0.008] | (c)-(a) +0.001 [-0.003,+0.005] | (c)-(b) -0.001 [-0.005,+0.003]
+        0.2 snr0  NOMP 0.513 | tunedSC 0.513 | EB-ML 0.513 | best cl NOMP os8 rc6 0.514 | v2b+SCt 0.516 | orig dual 0.514 | oracle 0.619
+      FT heat+SC           0.520  vs best +0.006 [+0.001,+0.012]*  vs NOMP +0.007 [+0.002,+0.013]*  vs orig dual +0.006 [+0.001,+0.012]*
+      FT dual+SC           0.516  vs best +0.002 [-0.002,+0.006]  vs NOMP +0.003 [-0.001,+0.007]  vs orig dual +0.002 [-0.002,+0.006]
+      FT network only      0.476  vs best -0.038 [-0.048,-0.027]*  vs NOMP -0.037 [-0.047,-0.026]*  vs orig dual -0.038 [-0.048,-0.027]*
+      FT nocorr dual+SC    0.513  vs best -0.000 [-0.002,+0.001]  vs NOMP +0.001 [+0.000,+0.001]  vs orig dual -0.000 [-0.003,+0.002]
+      FT v2b dual+SC       0.517  vs best +0.003 [-0.004,+0.011]  vs NOMP +0.004 [-0.003,+0.012]  vs orig dual +0.003 [-0.004,+0.011]
+      best FT variant: FT nocorr heat+SC 0.521 vs best classical +0.007 [+0.003,+0.012]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.007 [+0.002,+0.012]* | (b) FT NOMP on Hc - NOMP+SC +0.003 [-0.001,+0.007] | (c)-(a) +0.000 [-0.003,+0.003] | (c)-(b) +0.004 [-0.001,+0.009]
+
+== M3 (fresh)
+     ph0_g6 snr15 NOMP 0.825 | tunedSC 0.858 | EB-ML 0.908 | best cl EB-ML-g5 0.908 | v2b+SCt 0.909 | orig dual 0.881 | oracle 0.871
+      FT heat+SC           0.882  vs best -0.026 [-0.034,-0.019]*  vs NOMP +0.058 [+0.047,+0.068]*  vs orig dual +0.001 [-0.007,+0.008]
+      FT dual+SC           0.887  vs best -0.021 [-0.028,-0.014]*  vs NOMP +0.063 [+0.053,+0.074]*  vs orig dual +0.006 [-0.001,+0.013]
+      FT network only      0.519  vs best -0.390 [-0.404,-0.375]*  vs NOMP -0.306 [-0.322,-0.289]*  vs orig dual -0.362 [-0.377,-0.349]*
+      FT nocorr dual+SC    0.824  vs best -0.084 [-0.095,-0.074]*  vs NOMP -0.000 [-0.002,+0.002]  vs orig dual -0.057 [-0.067,-0.048]*
+      FT v2b dual+SC       0.909  vs best +0.001 [-0.004,+0.006]  vs NOMP +0.085 [+0.075,+0.096]*  vs orig dual +0.028 [+0.021,+0.035]*
+      best FT variant: FT v2b dual+SC 0.909 vs best classical +0.001 [-0.004,+0.006]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.026 [+0.019,+0.033]* | (b) FT NOMP on Hc - NOMP+SC +0.064 [+0.054,+0.075]* | (c)-(a) +0.032 [+0.024,+0.040]* | (c)-(b) -0.005 [-0.009,-0.002]*
+    ph20_g0 snr15 NOMP 0.828 | tunedSC 0.845 | EB-ML 0.858 | best cl EB-ML-g5 0.858 | v2b+SCt 0.855 | orig dual 0.843 | oracle 0.849
+      FT heat+SC           0.844  vs best -0.014 [-0.020,-0.008]*  vs NOMP +0.016 [+0.009,+0.023]*  vs orig dual +0.001 [-0.004,+0.007]
+      FT dual+SC           0.842  vs best -0.015 [-0.021,-0.010]*  vs NOMP +0.015 [+0.008,+0.021]*  vs orig dual -0.000 [-0.004,+0.003]
+      FT network only      0.548  vs best -0.310 [-0.324,-0.296]*  vs NOMP -0.280 [-0.294,-0.266]*  vs orig dual -0.295 [-0.309,-0.281]*
+      FT nocorr dual+SC    0.845  vs best -0.012 [-0.017,-0.008]*  vs NOMP +0.018 [+0.012,+0.024]*  vs orig dual +0.003 [-0.000,+0.005]
+      FT v2b dual+SC       0.856  vs best -0.002 [-0.006,+0.002]  vs NOMP +0.028 [+0.021,+0.035]*  vs orig dual +0.013 [+0.009,+0.018]*
+      best FT variant: FT v2b dual+SC 0.856 vs best classical -0.002 [-0.006,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.000 [-0.006,+0.005] | (b) FT NOMP on Hc - NOMP+SC -0.003 [-0.007,+0.001] | (c)-(a) -0.001 [-0.004,+0.003] | (c)-(b) +0.002 [-0.003,+0.007]
+    ph30_g0 snr15 NOMP 0.749 | tunedSC 0.777 | EB-ML 0.805 | best cl EB-ML-g5 0.805 | v2b+SCt 0.803 | orig dual 0.765 | oracle 0.782
+      FT heat+SC           0.786  vs best -0.019 [-0.025,-0.012]*  vs NOMP +0.037 [+0.028,+0.046]*  vs orig dual +0.021 [+0.014,+0.029]*
+      FT dual+SC           0.773  vs best -0.032 [-0.039,-0.024]*  vs NOMP +0.024 [+0.017,+0.031]*  vs orig dual +0.008 [+0.003,+0.013]*
+      FT network only      0.570  vs best -0.236 [-0.249,-0.222]*  vs NOMP -0.180 [-0.194,-0.166]*  vs orig dual -0.195 [-0.210,-0.181]*
+      FT nocorr dual+SC    0.764  vs best -0.041 [-0.048,-0.033]*  vs NOMP +0.015 [+0.010,+0.020]*  vs orig dual -0.000 [-0.004,+0.003]
+      FT v2b dual+SC       0.802  vs best -0.003 [-0.007,+0.002]  vs NOMP +0.053 [+0.044,+0.062]*  vs orig dual +0.038 [+0.030,+0.046]*
+      best FT variant: FT v2b dual+SC 0.802 vs best classical -0.003 [-0.007,+0.002]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.014 [+0.008,+0.021]* | (b) FT NOMP on Hc - NOMP+SC +0.008 [+0.002,+0.013]* | (c)-(a) +0.007 [+0.002,+0.013]* | (c)-(b) +0.014 [+0.008,+0.020]*
+    ph30_g4 snr15 NOMP 0.707 | tunedSC 0.742 | EB-ML 0.797 | best cl EB-ML-g5 0.797 | v2b+SCt 0.794 | orig dual 0.737 | oracle 0.761
+      FT heat+SC           0.781  vs best -0.015 [-0.022,-0.008]*  vs NOMP +0.074 [+0.064,+0.086]*  vs orig dual +0.045 [+0.035,+0.054]*
+      FT dual+SC           0.771  vs best -0.026 [-0.033,-0.019]*  vs NOMP +0.064 [+0.053,+0.074]*  vs orig dual +0.034 [+0.026,+0.043]*
+      FT network only      0.552  vs best -0.245 [-0.259,-0.231]*  vs NOMP -0.155 [-0.171,-0.140]*  vs orig dual -0.184 [-0.200,-0.170]*
+      FT nocorr dual+SC    0.708  vs best -0.089 [-0.101,-0.078]*  vs NOMP +0.001 [-0.000,+0.002]  vs orig dual -0.029 [-0.036,-0.022]*
+      FT v2b dual+SC       0.793  vs best -0.004 [-0.009,+0.001]  vs NOMP +0.086 [+0.075,+0.097]*  vs orig dual +0.056 [+0.047,+0.065]*
+      best FT variant: FT v2b dual+SC 0.793 vs best classical -0.004 [-0.009,+0.001]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.035 [+0.028,+0.043]* | (b) FT NOMP on Hc - NOMP+SC +0.063 [+0.053,+0.074]* | (c)-(a) +0.038 [+0.030,+0.049]* | (c)-(b) +0.011 [+0.006,+0.016]*
+    ph45_g0 snr15 NOMP 0.610 | tunedSC 0.636 | EB-ML 0.714 | best cl EB-ML-g5 0.714 | v2b+SCt 0.717 | orig dual 0.612 | oracle 0.676
+      FT heat+SC           0.654  vs best -0.060 [-0.070,-0.050]*  vs NOMP +0.044 [+0.036,+0.053]*  vs orig dual +0.042 [+0.034,+0.050]*
+      FT dual+SC           0.621  vs best -0.093 [-0.104,-0.083]*  vs NOMP +0.011 [+0.006,+0.016]*  vs orig dual +0.009 [+0.005,+0.013]*
+      FT network only      0.553  vs best -0.161 [-0.175,-0.146]*  vs NOMP -0.056 [-0.071,-0.042]*  vs orig dual -0.059 [-0.073,-0.044]*
+      FT nocorr dual+SC    0.610  vs best -0.104 [-0.115,-0.092]*  vs NOMP +0.001 [-0.001,+0.003]  vs orig dual -0.002 [-0.005,+0.002]
+      FT v2b dual+SC       0.717  vs best +0.003 [-0.002,+0.008]  vs NOMP +0.107 [+0.096,+0.118]*  vs orig dual +0.105 [+0.093,+0.116]*
+      best FT variant: FT v2b dual+SC 0.717 vs best classical +0.003 [-0.002,+0.008]
+      ablation (a) FT seeds on Ht - NOMP+SC +0.037 [+0.030,+0.045]* | (b) FT NOMP on Hc - NOMP+SC +0.011 [+0.006,+0.017]* | (c)-(a) +0.008 [+0.003,+0.012]* | (c)-(b) +0.033 [+0.027,+0.041]*
+     ph0_g6 snr0  NOMP 0.684 | tunedSC 0.684 | EB-ML 0.680 | best cl NOMP 0.684 | v2b+SCt 0.645 | orig dual 0.693 | oracle 0.752
+      FT heat+SC           0.671  vs best -0.013 [-0.021,-0.005]*  vs NOMP -0.013 [-0.021,-0.005]*  vs orig dual -0.022 [-0.028,-0.015]*
+      FT dual+SC           0.673  vs best -0.011 [-0.019,-0.003]*  vs NOMP -0.011 [-0.019,-0.003]*  vs orig dual -0.019 [-0.026,-0.013]*
+      FT network only      0.560  vs best -0.124 [-0.136,-0.113]*  vs NOMP -0.124 [-0.136,-0.113]*  vs orig dual -0.133 [-0.144,-0.121]*
+      FT nocorr dual+SC    0.684  vs best -0.001 [-0.002,+0.000]  vs NOMP -0.001 [-0.002,+0.000]  vs orig dual -0.009 [-0.015,-0.002]*
+      FT v2b dual+SC       0.645  vs best -0.039 [-0.048,-0.030]*  vs NOMP -0.039 [-0.048,-0.030]*  vs orig dual -0.047 [-0.056,-0.039]*
+      best FT variant: FT nocorr heat+SC 0.697 vs best classical +0.012 [+0.007,+0.017]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.011 [+0.006,+0.016]* | (b) FT NOMP on Hc - NOMP+SC -0.011 [-0.019,-0.003]* | (c)-(a) -0.024 [-0.031,-0.017]* | (c)-(b) -0.002 [-0.005,+0.002]
+    ph20_g0 snr0  NOMP 0.651 | tunedSC 0.652 | EB-ML 0.651 | best cl NOMP+SC tuned 0.652 | v2b+SCt 0.659 | orig dual 0.654 | oracle 0.712
+      FT heat+SC           0.653  vs best +0.001 [-0.003,+0.006]  vs NOMP +0.003 [-0.002,+0.008]  vs orig dual -0.001 [-0.005,+0.004]
+      FT dual+SC           0.655  vs best +0.003 [-0.001,+0.008]  vs NOMP +0.005 [+0.000,+0.009]  vs orig dual +0.001 [-0.003,+0.005]
+      FT network only      0.548  vs best -0.104 [-0.116,-0.093]*  vs NOMP -0.102 [-0.115,-0.091]*  vs orig dual -0.106 [-0.118,-0.095]*
+      FT nocorr dual+SC    0.651  vs best -0.001 [-0.002,+0.001]  vs NOMP +0.001 [-0.000,+0.002]  vs orig dual -0.003 [-0.006,+0.000]
+      FT v2b dual+SC       0.660  vs best +0.008 [+0.002,+0.015]*  vs NOMP +0.010 [+0.003,+0.017]*  vs orig dual +0.006 [+0.000,+0.013]
+      best FT variant: FT v2b dual+SC 0.660 vs best classical +0.008 [+0.002,+0.015]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.003 [-0.001,+0.006] | (b) FT NOMP on Hc - NOMP+SC +0.004 [-0.000,+0.008] | (c)-(a) +0.000 [-0.004,+0.004] | (c)-(b) -0.001 [-0.004,+0.002]
+    ph30_g0 snr0  NOMP 0.601 | tunedSC 0.601 | EB-ML 0.602 | best cl EB-ML-g5 0.602 | v2b+SCt 0.626 | orig dual 0.600 | oracle 0.671
+      FT heat+SC           0.605  vs best +0.003 [-0.001,+0.008]  vs NOMP +0.004 [-0.001,+0.009]  vs orig dual +0.005 [+0.001,+0.010]*
+      FT dual+SC           0.606  vs best +0.004 [-0.000,+0.008]  vs NOMP +0.004 [+0.000,+0.009]*  vs orig dual +0.006 [+0.002,+0.010]*
+      FT network only      0.523  vs best -0.079 [-0.091,-0.067]*  vs NOMP -0.078 [-0.091,-0.066]*  vs orig dual -0.077 [-0.089,-0.066]*
+      FT nocorr dual+SC    0.601  vs best -0.001 [-0.003,+0.001]  vs NOMP -0.001 [-0.002,+0.001]  vs orig dual +0.001 [-0.003,+0.004]
+      FT v2b dual+SC       0.627  vs best +0.025 [+0.017,+0.034]*  vs NOMP +0.026 [+0.017,+0.035]*  vs orig dual +0.027 [+0.019,+0.035]*
+      best FT variant: FT v2b dual+SC 0.627 vs best classical +0.025 [+0.017,+0.034]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.005 [+0.001,+0.009]* | (b) FT NOMP on Hc - NOMP+SC +0.005 [+0.000,+0.009]* | (c)-(a) -0.000 [-0.004,+0.003] | (c)-(b) -0.000 [-0.004,+0.003]
+    ph30_g4 snr0  NOMP 0.591 | tunedSC 0.591 | EB-ML 0.591 | best cl classical dual+SC 0.592 | v2b+SCt 0.605 | orig dual 0.593 | oracle 0.672
+      FT heat+SC           0.597  vs best +0.005 [-0.003,+0.013]  vs NOMP +0.006 [-0.002,+0.013]  vs orig dual +0.004 [-0.002,+0.010]
+      FT dual+SC           0.598  vs best +0.006 [-0.001,+0.013]  vs NOMP +0.006 [-0.000,+0.013]  vs orig dual +0.004 [-0.001,+0.010]
+      FT network only      0.520  vs best -0.072 [-0.085,-0.060]*  vs NOMP -0.071 [-0.084,-0.059]*  vs orig dual -0.073 [-0.086,-0.061]*
+      FT nocorr dual+SC    0.592  vs best -0.001 [-0.002,+0.000]  vs NOMP +0.000 [-0.001,+0.001]  vs orig dual -0.002 [-0.007,+0.004]
+      FT v2b dual+SC       0.606  vs best +0.014 [+0.004,+0.023]*  vs NOMP +0.014 [+0.005,+0.024]*  vs orig dual +0.012 [+0.003,+0.022]*
+      best FT variant: FT v2b dual+SC 0.606 vs best classical +0.014 [+0.004,+0.023]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.008 [+0.004,+0.013]* | (b) FT NOMP on Hc - NOMP+SC +0.007 [-0.000,+0.014] | (c)-(a) -0.003 [-0.009,+0.003] | (c)-(b) -0.001 [-0.005,+0.003]
+    ph45_g0 snr0  NOMP 0.494 | tunedSC 0.494 | EB-ML 0.494 | best cl EB-ML-g5 0.494 | v2b+SCt 0.558 | orig dual 0.496 | oracle 0.599
+      FT heat+SC           0.508  vs best +0.014 [+0.008,+0.020]*  vs NOMP +0.014 [+0.008,+0.021]*  vs orig dual +0.012 [+0.006,+0.018]*
+      FT dual+SC           0.506  vs best +0.012 [+0.006,+0.016]*  vs NOMP +0.012 [+0.007,+0.017]*  vs orig dual +0.010 [+0.006,+0.013]*
+      FT network only      0.454  vs best -0.041 [-0.053,-0.029]*  vs NOMP -0.040 [-0.052,-0.029]*  vs orig dual -0.043 [-0.055,-0.031]*
+      FT nocorr dual+SC    0.494  vs best -0.000 [-0.002,+0.001]  vs NOMP +0.000 [-0.001,+0.002]  vs orig dual -0.002 [-0.006,+0.001]
+      FT v2b dual+SC       0.559  vs best +0.065 [+0.054,+0.075]*  vs NOMP +0.065 [+0.054,+0.076]*  vs orig dual +0.063 [+0.052,+0.074]*
+      best FT variant: FT v2b heat+SC 0.560 vs best classical +0.066 [+0.054,+0.077]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.007 [+0.002,+0.013]* | (b) FT NOMP on Hc - NOMP+SC +0.012 [+0.008,+0.017]* | (c)-(a) +0.007 [+0.003,+0.011]* | (c)-(b) +0.002 [-0.003,+0.007]
+
+== M6 (fresh)
+         10 snr15 NOMP 0.915 | tunedSC 0.915 | EB-ML 0.916 | best cl NOMP+SC 0.917 | v2b+SCt 0.914 | orig dual 0.912 | oracle 0.935
+      FT heat+SC           0.902  vs best -0.015 [-0.022,-0.009]*  vs NOMP -0.013 [-0.020,-0.007]*  vs orig dual -0.010 [-0.015,-0.006]*
+      FT dual+SC           0.903  vs best -0.015 [-0.020,-0.010]*  vs NOMP -0.013 [-0.019,-0.007]*  vs orig dual -0.010 [-0.014,-0.006]*
+      FT network only      0.489  vs best -0.429 [-0.442,-0.415]*  vs NOMP -0.426 [-0.441,-0.412]*  vs orig dual -0.423 [-0.437,-0.410]*
+      FT nocorr dual+SC    0.917  vs best -0.000 [-0.001,+0.000]  vs NOMP +0.002 [-0.002,+0.006]  vs orig dual +0.005 [+0.001,+0.009]*
+      FT v2b dual+SC       0.917  vs best -0.001 [-0.003,+0.002]  vs NOMP +0.001 [-0.003,+0.006]  vs orig dual +0.004 [+0.001,+0.008]*
+      best FT variant: FT nocorr dual+SC 0.917 vs best classical -0.000 [-0.001,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.003 [-0.008,+0.002] | (b) FT NOMP on Hc - NOMP+SC -0.015 [-0.021,-0.010]* | (c)-(a) -0.012 [-0.016,-0.008]* | (c)-(b) -0.000 [-0.004,+0.004]
+         20 snr15 NOMP 0.861 | tunedSC 0.853 | EB-ML 0.857 | best cl NOMP 0.861 | v2b+SCt 0.856 | orig dual 0.862 | oracle 0.902
+      FT heat+SC           0.867  vs best +0.006 [-0.002,+0.015]  vs NOMP +0.006 [-0.002,+0.015]  vs orig dual +0.006 [-0.000,+0.012]
+      FT dual+SC           0.857  vs best -0.004 [-0.012,+0.003]  vs NOMP -0.004 [-0.012,+0.003]  vs orig dual -0.005 [-0.009,-0.001]*
+      FT network only      0.531  vs best -0.329 [-0.344,-0.314]*  vs NOMP -0.329 [-0.344,-0.314]*  vs orig dual -0.330 [-0.345,-0.315]*
+      FT nocorr dual+SC    0.855  vs best -0.005 [-0.010,-0.000]*  vs NOMP -0.005 [-0.010,-0.000]*  vs orig dual -0.006 [-0.011,-0.001]*
+      FT v2b dual+SC       0.858  vs best -0.003 [-0.009,+0.003]  vs NOMP -0.003 [-0.009,+0.003]  vs orig dual -0.004 [-0.008,+0.000]
+      best FT variant: FT nocorr heat+SC 0.878 vs best classical +0.017 [+0.009,+0.026]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.022 [+0.015,+0.029]* | (b) FT NOMP on Hc - NOMP+SC +0.001 [-0.005,+0.007] | (c)-(a) -0.010 [-0.014,-0.006]* | (c)-(b) +0.011 [+0.005,+0.017]*
+         30 snr15 NOMP 0.761 | tunedSC 0.748 | EB-ML 0.750 | best cl NOMP 0.761 | v2b+SCt 0.754 | orig dual 0.768 | oracle 0.839
+      FT heat+SC           0.791  vs best +0.030 [+0.020,+0.041]*  vs NOMP +0.030 [+0.020,+0.041]*  vs orig dual +0.023 [+0.015,+0.032]*
+      FT dual+SC           0.763  vs best +0.002 [-0.006,+0.010]  vs NOMP +0.002 [-0.006,+0.010]  vs orig dual -0.005 [-0.010,+0.000]
+      FT network only      0.564  vs best -0.197 [-0.214,-0.180]*  vs NOMP -0.197 [-0.214,-0.180]*  vs orig dual -0.204 [-0.219,-0.188]*
+      FT nocorr dual+SC    0.757  vs best -0.004 [-0.009,+0.002]  vs NOMP -0.004 [-0.009,+0.002]  vs orig dual -0.011 [-0.017,-0.004]*
+      FT v2b dual+SC       0.760  vs best -0.001 [-0.008,+0.007]  vs NOMP -0.001 [-0.008,+0.007]  vs orig dual -0.007 [-0.013,-0.001]*
+      best FT variant: FT seeds on Ht+SC 0.807 vs best classical +0.046 [+0.035,+0.057]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.050 [+0.040,+0.059]* | (b) FT NOMP on Hc - NOMP+SC +0.006 [-0.002,+0.013] | (c)-(a) -0.016 [-0.021,-0.010]* | (c)-(b) +0.028 [+0.021,+0.036]*
+          5 snr15 NOMP 0.928 | tunedSC 0.928 | EB-ML 0.927 | best cl NOMP+SC 0.930 | v2b+SCt 0.928 | orig dual 0.922 | oracle 0.940
+      FT heat+SC           0.907  vs best -0.022 [-0.028,-0.017]*  vs NOMP -0.020 [-0.027,-0.014]*  vs orig dual -0.015 [-0.020,-0.010]*
+      FT dual+SC           0.914  vs best -0.016 [-0.021,-0.012]*  vs NOMP -0.014 [-0.020,-0.009]*  vs orig dual -0.008 [-0.012,-0.005]*
+      FT network only      0.483  vs best -0.446 [-0.460,-0.433]*  vs NOMP -0.444 [-0.458,-0.431]*  vs orig dual -0.439 [-0.453,-0.426]*
+      FT nocorr dual+SC    0.930  vs best +0.000 [+0.000,+0.000]  vs NOMP +0.002 [-0.002,+0.006]  vs orig dual +0.008 [+0.005,+0.011]*
+      FT v2b dual+SC       0.930  vs best -0.000 [-0.002,+0.002]  vs NOMP +0.002 [-0.002,+0.006]  vs orig dual +0.007 [+0.005,+0.011]*
+      best FT variant: FT nocorr dual+SC 0.930 vs best classical +0.000 [+0.000,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.012 [-0.017,-0.008]* | (b) FT NOMP on Hc - NOMP+SC -0.016 [-0.021,-0.012]* | (c)-(a) -0.011 [-0.014,-0.007]* | (c)-(b) -0.006 [-0.011,-0.002]*
+         10 snr0  NOMP 0.698 | tunedSC 0.697 | EB-ML 0.698 | best cl NOMP 0.698 | v2b+SCt 0.699 | orig dual 0.697 | oracle 0.750
+      FT heat+SC           0.692  vs best -0.007 [-0.012,-0.002]*  vs NOMP -0.007 [-0.012,-0.002]*  vs orig dual -0.005 [-0.010,-0.001]*
+      FT dual+SC           0.693  vs best -0.005 [-0.009,-0.000]*  vs NOMP -0.005 [-0.009,-0.000]*  vs orig dual -0.003 [-0.007,+0.000]
+      FT network only      0.561  vs best -0.137 [-0.149,-0.125]*  vs NOMP -0.137 [-0.149,-0.125]*  vs orig dual -0.135 [-0.147,-0.124]*
+      FT nocorr dual+SC    0.698  vs best -0.000 [-0.001,+0.001]  vs NOMP -0.000 [-0.001,+0.001]  vs orig dual +0.001 [-0.002,+0.004]
+      FT v2b dual+SC       0.699  vs best +0.001 [-0.003,+0.005]  vs NOMP +0.001 [-0.003,+0.005]  vs orig dual +0.003 [-0.002,+0.007]
+      best FT variant: FT v2b dual+SC 0.699 vs best classical +0.001 [-0.003,+0.005]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.002 [-0.006,+0.002] | (b) FT NOMP on Hc - NOMP+SC -0.004 [-0.008,+0.000] | (c)-(a) -0.004 [-0.008,+0.000] | (c)-(b) -0.002 [-0.006,+0.001]
+         20 snr0  NOMP 0.667 | tunedSC 0.665 | EB-ML 0.667 | best cl classical dual 0.667 | v2b+SCt 0.661 | orig dual 0.667 | oracle 0.736
+      FT heat+SC           0.666  vs best -0.002 [-0.008,+0.004]  vs NOMP -0.002 [-0.008,+0.004]  vs orig dual -0.001 [-0.007,+0.005]
+      FT dual+SC           0.666  vs best -0.002 [-0.007,+0.004]  vs NOMP -0.002 [-0.007,+0.004]  vs orig dual -0.001 [-0.006,+0.003]
+      FT network only      0.556  vs best -0.112 [-0.124,-0.099]*  vs NOMP -0.112 [-0.124,-0.099]*  vs orig dual -0.111 [-0.124,-0.099]*
+      FT nocorr dual+SC    0.666  vs best -0.001 [-0.003,+0.001]  vs NOMP -0.001 [-0.003,+0.001]  vs orig dual -0.000 [-0.004,+0.003]
+      FT v2b dual+SC       0.663  vs best -0.004 [-0.009,+0.001]  vs NOMP -0.004 [-0.008,+0.001]  vs orig dual -0.003 [-0.008,+0.001]
+      best FT variant: FT nocorr heat+SC 0.673 vs best classical +0.006 [+0.001,+0.011]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.006 [+0.001,+0.011]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.006,+0.004] | (c)-(a) -0.007 [-0.011,-0.002]* | (c)-(b) +0.000 [-0.005,+0.005]
+         30 snr0  NOMP 0.599 | tunedSC 0.598 | EB-ML 0.599 | best cl NOMP 0.599 | v2b+SCt 0.593 | orig dual 0.596 | oracle 0.687
+      FT heat+SC           0.606  vs best +0.007 [-0.001,+0.015]  vs NOMP +0.007 [-0.001,+0.015]  vs orig dual +0.010 [+0.004,+0.017]*
+      FT dual+SC           0.592  vs best -0.006 [-0.012,-0.000]*  vs NOMP -0.006 [-0.012,-0.000]*  vs orig dual -0.003 [-0.007,+0.001]
+      FT network only      0.525  vs best -0.074 [-0.087,-0.061]*  vs NOMP -0.074 [-0.087,-0.061]*  vs orig dual -0.071 [-0.084,-0.059]*
+      FT nocorr dual+SC    0.598  vs best -0.001 [-0.003,+0.001]  vs NOMP -0.001 [-0.003,+0.001]  vs orig dual +0.002 [-0.003,+0.007]
+      FT v2b dual+SC       0.594  vs best -0.005 [-0.011,+0.001]  vs NOMP -0.005 [-0.011,+0.001]  vs orig dual -0.002 [-0.007,+0.003]
+      best FT variant: FT nocorr heat+SC 0.615 vs best classical +0.016 [+0.009,+0.022]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.017 [+0.011,+0.024]* | (b) FT NOMP on Hc - NOMP+SC -0.005 [-0.011,+0.001] | (c)-(a) -0.009 [-0.013,-0.004]* | (c)-(b) +0.013 [+0.008,+0.019]*
+          5 snr0  NOMP 0.702 | tunedSC 0.700 | EB-ML 0.702 | best cl NOMP os8 rc6 0.702 | v2b+SCt 0.699 | orig dual 0.702 | oracle 0.753
+      FT heat+SC           0.696  vs best -0.006 [-0.011,-0.001]*  vs NOMP -0.006 [-0.011,-0.001]*  vs orig dual -0.006 [-0.010,-0.001]*
+      FT dual+SC           0.698  vs best -0.004 [-0.008,+0.001]  vs NOMP -0.003 [-0.008,+0.001]  vs orig dual -0.003 [-0.007,+0.001]
+      FT network only      0.566  vs best -0.137 [-0.149,-0.125]*  vs NOMP -0.136 [-0.148,-0.125]*  vs orig dual -0.136 [-0.148,-0.124]*
+      FT nocorr dual+SC    0.702  vs best -0.000 [-0.001,+0.000]  vs NOMP +0.000 [-0.001,+0.001]  vs orig dual +0.000 [-0.003,+0.003]
+      FT v2b dual+SC       0.701  vs best -0.001 [-0.004,+0.002]  vs NOMP -0.001 [-0.004,+0.002]  vs orig dual -0.001 [-0.005,+0.003]
+      best FT variant: FT nocorr dual+SC 0.702 vs best classical -0.000 [-0.001,+0.000]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.003 [-0.007,+0.000] | (b) FT NOMP on Hc - NOMP+SC -0.004 [-0.008,+0.001] | (c)-(a) -0.003 [-0.006,+0.001] | (c)-(b) -0.002 [-0.005,+0.001]
+
+== M8 (fresh)
+        0.5 snr15 NOMP 0.878 | tunedSC 0.881 | EB-ML 0.900 | best cl EB-ML-g5 0.900 | v2b+SCt 0.900 | orig dual 0.879 | oracle 0.918
+      FT heat+SC           0.898  vs best -0.001 [-0.007,+0.005]  vs NOMP +0.021 [+0.012,+0.029]*  vs orig dual +0.019 [+0.012,+0.027]*
+      FT dual+SC           0.879  vs best -0.020 [-0.026,-0.015]*  vs NOMP +0.001 [-0.005,+0.008]  vs orig dual +0.000 [-0.004,+0.005]
+      FT network only      0.542  vs best -0.358 [-0.373,-0.343]*  vs NOMP -0.336 [-0.351,-0.320]*  vs orig dual -0.337 [-0.353,-0.321]*
+      FT nocorr dual+SC    0.881  vs best -0.019 [-0.025,-0.013]*  vs NOMP +0.003 [-0.002,+0.008]  vs orig dual +0.002 [-0.002,+0.006]
+      FT v2b dual+SC       0.900  vs best +0.001 [-0.004,+0.006]  vs NOMP +0.023 [+0.015,+0.030]*  vs orig dual +0.021 [+0.015,+0.028]*
+      best FT variant: FT seeds on Ht+SC 0.907 vs best classical +0.008 [+0.002,+0.013]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.027 [+0.020,+0.034]* | (b) FT NOMP on Hc - NOMP+SC -0.001 [-0.006,+0.004] | (c)-(a) -0.009 [-0.013,-0.005]* | (c)-(b) +0.019 [+0.013,+0.025]*
+          1 snr15 NOMP 0.915 | tunedSC 0.919 | EB-ML 0.924 | best cl EB-ML-g5 0.924 | v2b+SCt 0.923 | orig dual 0.914 | oracle 0.934
+      FT heat+SC           0.906  vs best -0.017 [-0.024,-0.012]*  vs NOMP -0.009 [-0.016,-0.002]*  vs orig dual -0.008 [-0.013,-0.003]*
+      FT dual+SC           0.910  vs best -0.014 [-0.019,-0.008]*  vs NOMP -0.005 [-0.010,+0.001]  vs orig dual -0.004 [-0.008,+0.000]
+      FT network only      0.506  vs best -0.418 [-0.432,-0.404]*  vs NOMP -0.409 [-0.424,-0.395]*  vs orig dual -0.408 [-0.422,-0.394]*
+      FT nocorr dual+SC    0.919  vs best -0.005 [-0.009,-0.001]*  vs NOMP +0.004 [-0.000,+0.009]  vs orig dual +0.005 [+0.002,+0.009]*
+      FT v2b dual+SC       0.924  vs best +0.000 [-0.004,+0.004]  vs NOMP +0.009 [+0.003,+0.014]*  vs orig dual +0.010 [+0.006,+0.014]*
+      best FT variant: FT v2b dual+SC 0.924 vs best classical +0.000 [-0.004,+0.004]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.002 [-0.006,+0.003] | (b) FT NOMP on Hc - NOMP+SC -0.009 [-0.013,-0.004]* | (c)-(a) -0.011 [-0.015,-0.007]* | (c)-(b) -0.004 [-0.007,-0.000]*
+          2 snr15 NOMP 0.928 | tunedSC 0.930 | EB-ML 0.931 | best cl NOMP os8 rc6 0.932 | v2b+SCt 0.930 | orig dual 0.923 | oracle 0.942
+      FT heat+SC           0.908  vs best -0.024 [-0.031,-0.018]*  vs NOMP -0.020 [-0.026,-0.014]*  vs orig dual -0.015 [-0.020,-0.011]*
+      FT dual+SC           0.915  vs best -0.018 [-0.023,-0.013]*  vs NOMP -0.013 [-0.018,-0.008]*  vs orig dual -0.008 [-0.012,-0.005]*
+      FT network only      0.487  vs best -0.446 [-0.459,-0.432]*  vs NOMP -0.441 [-0.455,-0.428]*  vs orig dual -0.436 [-0.450,-0.423]*
+      FT nocorr dual+SC    0.928  vs best -0.004 [-0.008,-0.001]*  vs NOMP +0.000 [-0.003,+0.004]  vs orig dual +0.005 [+0.002,+0.008]*
+      FT v2b dual+SC       0.928  vs best -0.004 [-0.008,-0.000]*  vs NOMP +0.000 [-0.003,+0.004]  vs orig dual +0.005 [+0.002,+0.009]*
+      best FT variant: FT v2b dual+SC 0.928 vs best classical -0.004 [-0.008,-0.000]*
+      ablation (a) FT seeds on Ht - NOMP+SC -0.010 [-0.014,-0.006]* | (b) FT NOMP on Hc - NOMP+SC -0.013 [-0.018,-0.009]* | (c)-(a) -0.010 [-0.014,-0.007]* | (c)-(b) -0.007 [-0.011,-0.003]*
+        0.5 snr0  NOMP 0.678 | tunedSC 0.677 | EB-ML 0.678 | best cl NOMP 0.678 | v2b+SCt 0.680 | orig dual 0.676 | oracle 0.743
+      FT heat+SC           0.681  vs best +0.003 [-0.003,+0.009]  vs NOMP +0.003 [-0.003,+0.009]  vs orig dual +0.005 [+0.000,+0.011]
+      FT dual+SC           0.677  vs best -0.001 [-0.006,+0.004]  vs NOMP -0.001 [-0.006,+0.004]  vs orig dual +0.001 [-0.003,+0.005]
+      FT network only      0.558  vs best -0.120 [-0.132,-0.107]*  vs NOMP -0.120 [-0.132,-0.107]*  vs orig dual -0.118 [-0.129,-0.105]*
+      FT nocorr dual+SC    0.677  vs best -0.001 [-0.002,+0.000]  vs NOMP -0.001 [-0.002,+0.000]  vs orig dual +0.001 [-0.001,+0.004]
+      FT v2b dual+SC       0.681  vs best +0.003 [-0.004,+0.009]  vs NOMP +0.003 [-0.004,+0.009]  vs orig dual +0.005 [-0.002,+0.011]
+      best FT variant: FT v2b heat+SC 0.686 vs best classical +0.008 [+0.001,+0.015]*
+      ablation (a) FT seeds on Ht - NOMP+SC +0.006 [+0.001,+0.011]* | (b) FT NOMP on Hc - NOMP+SC -0.000 [-0.005,+0.005] | (c)-(a) -0.002 [-0.006,+0.001] | (c)-(b) +0.004 [-0.001,+0.009]
+          1 snr0  NOMP 0.700 | tunedSC 0.700 | EB-ML 0.700 | best cl NOMP os8 rc6 0.701 | v2b+SCt 0.699 | orig dual 0.699 | oracle 0.752
+      FT heat+SC           0.692  vs best -0.009 [-0.014,-0.003]*  vs NOMP -0.008 [-0.013,-0.002]*  vs orig dual -0.007 [-0.012,-0.002]*
+      FT dual+SC           0.694  vs best -0.007 [-0.012,-0.003]*  vs NOMP -0.006 [-0.011,-0.001]*  vs orig dual -0.006 [-0.010,-0.002]*
+      FT network only      0.567  vs best -0.134 [-0.147,-0.122]*  vs NOMP -0.133 [-0.146,-0.121]*  vs orig dual -0.133 [-0.145,-0.120]*
+      FT nocorr dual+SC    0.700  vs best -0.001 [-0.002,+0.000]  vs NOMP +0.000 [-0.001,+0.002]  vs orig dual +0.001 [-0.002,+0.004]
+      FT v2b dual+SC       0.701  vs best +0.000 [-0.004,+0.005]  vs NOMP +0.001 [-0.004,+0.006]  vs orig dual +0.002 [-0.003,+0.006]
+      best FT variant: FT v2b dual+SC 0.701 vs best classical +0.000 [-0.004,+0.005]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.002 [-0.006,+0.002] | (b) FT NOMP on Hc - NOMP+SC -0.007 [-0.012,-0.002]* | (c)-(a) -0.005 [-0.009,-0.001]* | (c)-(b) -0.000 [-0.004,+0.003]
+          2 snr0  NOMP 0.703 | tunedSC 0.702 | EB-ML 0.703 | best cl NOMP os8 rc6 0.704 | v2b+SCt 0.701 | orig dual 0.705 | oracle 0.756
+      FT heat+SC           0.694  vs best -0.009 [-0.015,-0.004]*  vs NOMP -0.009 [-0.015,-0.004]*  vs orig dual -0.010 [-0.016,-0.005]*
+      FT dual+SC           0.697  vs best -0.006 [-0.011,-0.001]*  vs NOMP -0.006 [-0.011,-0.001]*  vs orig dual -0.007 [-0.011,-0.003]*
+      FT network only      0.567  vs best -0.137 [-0.148,-0.125]*  vs NOMP -0.137 [-0.148,-0.124]*  vs orig dual -0.138 [-0.149,-0.126]*
+      FT nocorr dual+SC    0.703  vs best -0.000 [-0.002,+0.001]  vs NOMP -0.000 [-0.001,+0.001]  vs orig dual -0.001 [-0.005,+0.002]
+      FT v2b dual+SC       0.703  vs best -0.001 [-0.004,+0.003]  vs NOMP -0.001 [-0.005,+0.003]  vs orig dual -0.002 [-0.006,+0.002]
+      best FT variant: FT nocorr heat+SC 0.704 vs best classical +0.000 [-0.004,+0.004]
+      ablation (a) FT seeds on Ht - NOMP+SC -0.003 [-0.007,+0.001] | (b) FT NOMP on Hc - NOMP+SC -0.006 [-0.011,-0.001]* | (c)-(a) -0.006 [-0.010,-0.002]* | (c)-(b) -0.003 [-0.006,+0.000]
+
+== clean_snr15 (n=500) best classical NOMP os8 rc6 0.9310
+   NOMP                     0.9290  vs orig dual+SC +0.0043 [-0.0017,+0.0100]
+   NOMP+SC                  0.9307  vs NOMP +0.0017 [-0.0027,+0.0063]  vs orig dual+SC +0.0060 [+0.0017,+0.0107]
+   NOMP+SC tuned            0.9297  vs NOMP +0.0007 [-0.0043,+0.0057]  vs orig dual+SC +0.0050 [+0.0000,+0.0097]
+   classical dual           0.9290  vs NOMP +0.0000 [+0.0000,+0.0000]  vs orig dual+SC +0.0043 [-0.0017,+0.0100]
+   classical dual+SC        0.9307  vs NOMP +0.0017 [-0.0027,+0.0063]  vs orig dual+SC +0.0060 [+0.0017,+0.0107]
+   NOMP os8 rc6             0.9310  vs NOMP +0.0020 [-0.0003,+0.0050]  vs orig dual+SC +0.0063 [+0.0000,+0.0127]
+   FFT parabolic os4        0.8157  vs NOMP -0.1133 [-0.1287,-0.0983]  vs orig dual+SC -0.1090 [-0.1237,-0.0940]
+   FFT parabolic os16       0.8167  vs NOMP -0.1123 [-0.1280,-0.0967]  vs orig dual+SC -0.1080 [-0.1230,-0.0927]
+   EB-ML-g5                 0.9250  vs NOMP -0.0040 [-0.0077,-0.0007]  vs orig dual+SC +0.0003 [-0.0060,+0.0060]
+   v2b+NOMP                 0.9283  vs NOMP -0.0007 [-0.0027,+0.0010]  vs orig dual+SC +0.0037 [-0.0023,+0.0093]
+   v2b+NOMP+SC tuned        0.9297  vs NOMP +0.0007 [-0.0047,+0.0060]  vs orig dual+SC +0.0050 [+0.0000,+0.0097]
+   orig heat+SC             0.9183  vs NOMP -0.0107 [-0.0177,-0.0037]  vs orig dual+SC -0.0063 [-0.0123,-0.0017]
+   orig dual+SC             0.9247  vs NOMP -0.0043 [-0.0100,+0.0017]
+   orig network only        0.4477  vs NOMP -0.4813 [-0.5010,-0.4617]  vs orig dual+SC -0.4770 [-0.4980,-0.4567]
+   FT heat+SC               0.9143  vs NOMP -0.0147 [-0.0217,-0.0077]  vs orig dual+SC -0.0103 [-0.0167,-0.0043]
+   FT dual+SC               0.9167  vs NOMP -0.0123 [-0.0200,-0.0050]  vs orig dual+SC -0.0080 [-0.0127,-0.0037]
+   FT network only          0.4837  vs NOMP -0.4453 [-0.4660,-0.4250]  vs orig dual+SC -0.4410 [-0.4627,-0.4207]
+   FT nocorr heat+SC        0.9237  vs NOMP -0.0053 [-0.0117,+0.0010]  vs orig dual+SC -0.0010 [-0.0073,+0.0050]
+   FT nocorr dual+SC        0.9307  vs NOMP +0.0017 [-0.0027,+0.0063]  vs orig dual+SC +0.0060 [+0.0017,+0.0107]
+   FT nocorr network only   0.4800  vs NOMP -0.4490 [-0.4690,-0.4283]  vs orig dual+SC -0.4447 [-0.4663,-0.4237]
+   FT v2b heat+SC           0.9233  vs NOMP -0.0057 [-0.0123,+0.0010]  vs orig dual+SC -0.0013 [-0.0077,+0.0043]
+   FT v2b dual+SC           0.9297  vs NOMP +0.0007 [-0.0040,+0.0057]  vs orig dual+SC +0.0050 [+0.0007,+0.0097]
+   FT v2b network only      0.4797  vs NOMP -0.4493 [-0.4697,-0.4287]  vs orig dual+SC -0.4450 [-0.4667,-0.4240]
+   FT seeds on Ht+SC        0.9243  vs NOMP -0.0047 [-0.0110,+0.0017]  vs orig dual+SC -0.0003 [-0.0070,+0.0057]
+   FT NOMP on Hc+SC         0.9167  vs NOMP -0.0123 [-0.0200,-0.0050]  vs orig dual+SC -0.0080 [-0.0127,-0.0037]
+   oracle-seeded            0.9383  vs NOMP +0.0093 [+0.0043,+0.0150]  vs orig dual+SC +0.0137 [+0.0053,+0.0213]
+
+== clean_snr0 (n=500) best classical NOMP os8 rc6 0.6900
+   NOMP                     0.6897  vs orig dual+SC +0.0000 [-0.0047,+0.0050]
+   NOMP+SC                  0.6897  vs NOMP +0.0000 [-0.0013,+0.0013]  vs orig dual+SC +0.0000 [-0.0047,+0.0050]
+   NOMP+SC tuned            0.6887  vs NOMP -0.0010 [-0.0033,+0.0013]  vs orig dual+SC -0.0010 [-0.0057,+0.0040]
+   classical dual           0.6883  vs NOMP -0.0013 [-0.0033,+0.0000]  vs orig dual+SC -0.0013 [-0.0060,+0.0030]
+   classical dual+SC        0.6883  vs NOMP -0.0013 [-0.0037,+0.0007]  vs orig dual+SC -0.0013 [-0.0057,+0.0030]
+   NOMP os8 rc6             0.6900  vs NOMP +0.0003 [-0.0017,+0.0027]  vs orig dual+SC +0.0003 [-0.0043,+0.0050]
+   FFT parabolic os4        0.6507  vs NOMP -0.0390 [-0.0503,-0.0277]  vs orig dual+SC -0.0390 [-0.0507,-0.0273]
+   FFT parabolic os16       0.6517  vs NOMP -0.0380 [-0.0493,-0.0267]  vs orig dual+SC -0.0380 [-0.0497,-0.0263]
+   EB-ML-g5                 0.6897  vs NOMP +0.0000 [+0.0000,+0.0000]  vs orig dual+SC +0.0000 [-0.0047,+0.0050]
+   v2b+NOMP                 0.6883  vs NOMP -0.0013 [-0.0063,+0.0030]  vs orig dual+SC -0.0013 [-0.0073,+0.0043]
+   v2b+NOMP+SC tuned        0.6873  vs NOMP -0.0023 [-0.0077,+0.0027]  vs orig dual+SC -0.0023 [-0.0083,+0.0033]
+   orig heat+SC             0.6847  vs NOMP -0.0050 [-0.0120,+0.0023]  vs orig dual+SC -0.0050 [-0.0103,+0.0003]
+   orig dual+SC             0.6897  vs NOMP +0.0000 [-0.0050,+0.0047]
+   orig network only        0.5353  vs NOMP -0.1543 [-0.1713,-0.1367]  vs orig dual+SC -0.1543 [-0.1710,-0.1367]
+   FT heat+SC               0.6810  vs NOMP -0.0087 [-0.0163,-0.0013]  vs orig dual+SC -0.0087 [-0.0157,-0.0017]
+   FT dual+SC               0.6870  vs NOMP -0.0027 [-0.0080,+0.0027]  vs orig dual+SC -0.0027 [-0.0077,+0.0027]
+   FT network only          0.5513  vs NOMP -0.1383 [-0.1553,-0.1217]  vs orig dual+SC -0.1383 [-0.1557,-0.1220]
+   FT nocorr heat+SC        0.6817  vs NOMP -0.0080 [-0.0143,-0.0020]  vs orig dual+SC -0.0080 [-0.0153,-0.0007]
+   FT nocorr dual+SC        0.6900  vs NOMP +0.0003 [-0.0013,+0.0027]  vs orig dual+SC +0.0003 [-0.0043,+0.0050]
+   FT nocorr network only   0.5533  vs NOMP -0.1363 [-0.1533,-0.1190]  vs orig dual+SC -0.1363 [-0.1540,-0.1190]
+   FT v2b heat+SC           0.6820  vs NOMP -0.0077 [-0.0147,-0.0010]  vs orig dual+SC -0.0077 [-0.0150,-0.0007]
+   FT v2b dual+SC           0.6890  vs NOMP -0.0007 [-0.0060,+0.0043]  vs orig dual+SC -0.0007 [-0.0063,+0.0047]
+   FT v2b network only      0.5540  vs NOMP -0.1357 [-0.1523,-0.1190]  vs orig dual+SC -0.1357 [-0.1530,-0.1187]
+   FT seeds on Ht+SC        0.6800  vs NOMP -0.0097 [-0.0163,-0.0030]  vs orig dual+SC -0.0097 [-0.0173,-0.0020]
+   FT NOMP on Hc+SC         0.6870  vs NOMP -0.0027 [-0.0080,+0.0027]  vs orig dual+SC -0.0027 [-0.0077,+0.0027]
+   oracle-seeded            0.7440  vs NOMP +0.0543 [+0.0433,+0.0657]  vs orig dual+SC +0.0543 [+0.0423,+0.0663]
+
+== fresh_clean_clean_snr15 (n=1000) best classical NOMP os8 rc6 0.9363
+   NOMP                     0.9330  vs orig dual+SC +0.0078 [+0.0037,+0.0123]
+   NOMP+SC                  0.9307  vs NOMP -0.0023 [-0.0062,+0.0013]  vs orig dual+SC +0.0055 [+0.0028,+0.0082]
+   NOMP+SC tuned            0.9325  vs NOMP -0.0005 [-0.0047,+0.0035]  vs orig dual+SC +0.0073 [+0.0043,+0.0107]
+   classical dual           0.9330  vs NOMP +0.0000 [+0.0000,+0.0000]  vs orig dual+SC +0.0078 [+0.0037,+0.0123]
+   classical dual+SC        0.9307  vs NOMP -0.0023 [-0.0062,+0.0013]  vs orig dual+SC +0.0055 [+0.0028,+0.0082]
+   NOMP os8 rc6             0.9363  vs NOMP +0.0033 [+0.0017,+0.0055]  vs orig dual+SC +0.0112 [+0.0072,+0.0157]
+   FFT parabolic os4        0.8190  vs NOMP -0.1140 [-0.1250,-0.1027]  vs orig dual+SC -0.1062 [-0.1168,-0.0950]
+   FFT parabolic os16       0.8192  vs NOMP -0.1138 [-0.1248,-0.1027]  vs orig dual+SC -0.1060 [-0.1165,-0.0950]
+   EB-ML-g5                 0.9327  vs NOMP -0.0003 [-0.0022,+0.0013]  vs orig dual+SC +0.0075 [+0.0032,+0.0118]
+   v2b+NOMP                 0.9332  vs NOMP +0.0002 [-0.0003,+0.0008]  vs orig dual+SC +0.0080 [+0.0038,+0.0125]
+   v2b+NOMP+SC tuned        0.9325  vs NOMP -0.0005 [-0.0047,+0.0035]  vs orig dual+SC +0.0073 [+0.0043,+0.0107]
+   orig heat+SC             0.9165  vs NOMP -0.0165 [-0.0218,-0.0117]  vs orig dual+SC -0.0087 [-0.0130,-0.0048]
+   orig dual+SC             0.9252  vs NOMP -0.0078 [-0.0123,-0.0037]
+   orig network only        0.4430  vs NOMP -0.4900 [-0.5040,-0.4763]  vs orig dual+SC -0.4822 [-0.4963,-0.4687]
+   FT heat+SC               0.9088  vs NOMP -0.0242 [-0.0303,-0.0183]  vs orig dual+SC -0.0163 [-0.0213,-0.0118]
+   FT dual+SC               0.9170  vs NOMP -0.0160 [-0.0215,-0.0112]  vs orig dual+SC -0.0082 [-0.0118,-0.0050]
+   FT network only          0.4822  vs NOMP -0.4508 [-0.4648,-0.4372]  vs orig dual+SC -0.4430 [-0.4572,-0.4293]
+   FT nocorr heat+SC        0.9202  vs NOMP -0.0128 [-0.0180,-0.0080]  vs orig dual+SC -0.0050 [-0.0095,-0.0012]
+   FT nocorr dual+SC        0.9307  vs NOMP -0.0023 [-0.0062,+0.0013]  vs orig dual+SC +0.0055 [+0.0028,+0.0082]
+   FT nocorr network only   0.4757  vs NOMP -0.4573 [-0.4710,-0.4437]  vs orig dual+SC -0.4495 [-0.4632,-0.4357]
+   FT v2b heat+SC           0.9210  vs NOMP -0.0120 [-0.0172,-0.0070]  vs orig dual+SC -0.0042 [-0.0087,+0.0002]
+   FT v2b dual+SC           0.9313  vs NOMP -0.0017 [-0.0057,+0.0022]  vs orig dual+SC +0.0062 [+0.0033,+0.0092]
+   FT v2b network only      0.4747  vs NOMP -0.4583 [-0.4718,-0.4448]  vs orig dual+SC -0.4505 [-0.4642,-0.4367]
+   FT seeds on Ht+SC        0.9190  vs NOMP -0.0140 [-0.0192,-0.0090]  vs orig dual+SC -0.0062 [-0.0110,-0.0017]
+   FT NOMP on Hc+SC         0.9170  vs NOMP -0.0160 [-0.0215,-0.0112]  vs orig dual+SC -0.0082 [-0.0118,-0.0050]
+   oracle-seeded            0.9460  vs NOMP +0.0130 [+0.0087,+0.0180]  vs orig dual+SC +0.0208 [+0.0152,+0.0273]
+
+== fresh_clean_clean_snr0 (n=1000) best classical NOMP 0.7037
+   NOMP                     0.7037  vs orig dual+SC +0.0013 [-0.0023,+0.0050]
+   NOMP+SC                  0.7030  vs NOMP -0.0007 [-0.0022,+0.0007]  vs orig dual+SC +0.0007 [-0.0028,+0.0040]
+   NOMP+SC tuned            0.7022  vs NOMP -0.0015 [-0.0038,+0.0008]  vs orig dual+SC -0.0002 [-0.0040,+0.0035]
+   classical dual           0.7037  vs NOMP +0.0000 [+0.0000,+0.0000]  vs orig dual+SC +0.0013 [-0.0023,+0.0050]
+   classical dual+SC        0.7030  vs NOMP -0.0007 [-0.0022,+0.0007]  vs orig dual+SC +0.0007 [-0.0028,+0.0040]
+   NOMP os8 rc6             0.7022  vs NOMP -0.0015 [-0.0035,+0.0003]  vs orig dual+SC -0.0002 [-0.0038,+0.0035]
+   FFT parabolic os4        0.6555  vs NOMP -0.0482 [-0.0577,-0.0393]  vs orig dual+SC -0.0468 [-0.0558,-0.0378]
+   FFT parabolic os16       0.6585  vs NOMP -0.0452 [-0.0543,-0.0358]  vs orig dual+SC -0.0438 [-0.0530,-0.0345]
+   EB-ML-g5                 0.7033  vs NOMP -0.0003 [-0.0010,+0.0000]  vs orig dual+SC +0.0010 [-0.0027,+0.0047]
+   v2b+NOMP                 0.7025  vs NOMP -0.0012 [-0.0048,+0.0025]  vs orig dual+SC +0.0002 [-0.0038,+0.0042]
+   v2b+NOMP+SC tuned        0.7015  vs NOMP -0.0022 [-0.0063,+0.0022]  vs orig dual+SC -0.0008 [-0.0052,+0.0035]
+   orig heat+SC             0.7000  vs NOMP -0.0037 [-0.0077,+0.0005]  vs orig dual+SC -0.0023 [-0.0053,+0.0005]
+   orig dual+SC             0.7023  vs NOMP -0.0013 [-0.0050,+0.0023]
+   orig network only        0.5502  vs NOMP -0.1535 [-0.1657,-0.1410]  vs orig dual+SC -0.1522 [-0.1647,-0.1398]
+   FT heat+SC               0.6957  vs NOMP -0.0080 [-0.0132,-0.0028]  vs orig dual+SC -0.0067 [-0.0113,-0.0020]
+   FT dual+SC               0.6988  vs NOMP -0.0048 [-0.0097,+0.0002]  vs orig dual+SC -0.0035 [-0.0073,+0.0003]
+   FT network only          0.5627  vs NOMP -0.1410 [-0.1527,-0.1297]  vs orig dual+SC -0.1397 [-0.1517,-0.1285]
+   FT nocorr heat+SC        0.7008  vs NOMP -0.0028 [-0.0060,+0.0002]  vs orig dual+SC -0.0015 [-0.0053,+0.0025]
+   FT nocorr dual+SC        0.7030  vs NOMP -0.0007 [-0.0022,+0.0007]  vs orig dual+SC +0.0007 [-0.0028,+0.0040]
+   FT nocorr network only   0.5672  vs NOMP -0.1365 [-0.1483,-0.1247]  vs orig dual+SC -0.1352 [-0.1470,-0.1235]
+   FT v2b heat+SC           0.6992  vs NOMP -0.0045 [-0.0087,-0.0003]  vs orig dual+SC -0.0032 [-0.0078,+0.0010]
+   FT v2b dual+SC           0.7028  vs NOMP -0.0008 [-0.0045,+0.0028]  vs orig dual+SC +0.0005 [-0.0035,+0.0042]
+   FT v2b network only      0.5662  vs NOMP -0.1375 [-0.1490,-0.1260]  vs orig dual+SC -0.1362 [-0.1482,-0.1250]
+   FT seeds on Ht+SC        0.6988  vs NOMP -0.0048 [-0.0082,-0.0015]  vs orig dual+SC -0.0035 [-0.0080,+0.0007]
+   FT NOMP on Hc+SC         0.6988  vs NOMP -0.0048 [-0.0097,+0.0002]  vs orig dual+SC -0.0035 [-0.0073,+0.0003]
+   oracle-seeded            0.7535  vs NOMP +0.0498 [+0.0420,+0.0577]  vs orig dual+SC +0.0512 [+0.0428,+0.0593]
+
+== official (n=8000) best classical NOMP os8 rc6 0.7598
+   NOMP                     0.7581  vs orig dual+SC +0.0030 [+0.0016,+0.0043]
+   NOMP+SC                  0.7576  vs NOMP -0.0005 [-0.0014,+0.0005]  vs orig dual+SC +0.0025 [+0.0014,+0.0036]
+   NOMP+SC tuned            0.7565  vs NOMP -0.0016 [-0.0027,-0.0004]  vs orig dual+SC +0.0014 [+0.0001,+0.0026]
+   classical dual           0.7581  vs NOMP +0.0000 [-0.0003,+0.0003]  vs orig dual+SC +0.0030 [+0.0017,+0.0043]
+   classical dual+SC        0.7576  vs NOMP -0.0005 [-0.0015,+0.0004]  vs orig dual+SC +0.0024 [+0.0013,+0.0035]
+   NOMP os8 rc6             0.7598  vs NOMP +0.0017 [+0.0011,+0.0023]  vs orig dual+SC +0.0046 [+0.0033,+0.0060]
+   FFT parabolic os4        0.6829  vs NOMP -0.0752 [-0.0785,-0.0718]  vs orig dual+SC -0.0722 [-0.0755,-0.0689]
+   FFT parabolic os16       0.6826  vs NOMP -0.0755 [-0.0787,-0.0722]  vs orig dual+SC -0.0725 [-0.0759,-0.0693]
+   EB-ML-g5                 0.7578  vs NOMP -0.0003 [-0.0008,+0.0002]  vs orig dual+SC +0.0026 [+0.0013,+0.0039]
+   v2b+NOMP                 0.7576  vs NOMP -0.0005 [-0.0015,+0.0005]  vs orig dual+SC +0.0024 [+0.0009,+0.0039]
+   v2b+NOMP+SC tuned        0.7559  vs NOMP -0.0022 [-0.0037,-0.0007]  vs orig dual+SC +0.0008 [-0.0006,+0.0022]
+   orig heat+SC             0.7503  vs NOMP -0.0078 [-0.0095,-0.0061]  vs orig dual+SC -0.0048 [-0.0062,-0.0036]
+   orig dual+SC             0.7551  vs NOMP -0.0030 [-0.0043,-0.0016]
+   orig network only        0.4506  vs NOMP -0.3075 [-0.3118,-0.3033]  vs orig dual+SC -0.3045 [-0.3088,-0.3002]
+   FT heat+SC               0.7458  vs NOMP -0.0123 [-0.0142,-0.0102]  vs orig dual+SC -0.0093 [-0.0109,-0.0076]
+   FT dual+SC               0.7501  vs NOMP -0.0080 [-0.0097,-0.0063]  vs orig dual+SC -0.0050 [-0.0062,-0.0039]
+   FT network only          0.4716  vs NOMP -0.2865 [-0.2908,-0.2822]  vs orig dual+SC -0.2835 [-0.2876,-0.2794]
+   FT nocorr heat+SC        0.7520  vs NOMP -0.0061 [-0.0077,-0.0046]  vs orig dual+SC -0.0032 [-0.0049,-0.0016]
+   FT nocorr dual+SC        0.7580  vs NOMP -0.0001 [-0.0010,+0.0008]  vs orig dual+SC +0.0029 [+0.0017,+0.0040]
+   FT nocorr network only   0.4686  vs NOMP -0.2895 [-0.2938,-0.2855]  vs orig dual+SC -0.2865 [-0.2908,-0.2825]
+   FT v2b heat+SC           0.7518  vs NOMP -0.0063 [-0.0080,-0.0045]  vs orig dual+SC -0.0034 [-0.0052,-0.0016]
+   FT v2b dual+SC           0.7571  vs NOMP -0.0010 [-0.0024,+0.0003]  vs orig dual+SC +0.0019 [+0.0006,+0.0032]
+   FT v2b network only      0.4679  vs NOMP -0.2902 [-0.2944,-0.2859]  vs orig dual+SC -0.2872 [-0.2915,-0.2829]
+   FT seeds on Ht+SC        0.7513  vs NOMP -0.0068 [-0.0084,-0.0053]  vs orig dual+SC -0.0039 [-0.0055,-0.0022]
+   FT NOMP on Hc+SC         0.7500  vs NOMP -0.0081 [-0.0098,-0.0064]  vs orig dual+SC -0.0051 [-0.0064,-0.0040]
+   oracle-seeded            0.8261  vs NOMP +0.0680 [+0.0650,+0.0708]  vs orig dual+SC +0.0710 [+0.0679,+0.0740]
+   by SNR: {'NOMP': {'-10': 0.262, '-5': 0.506, '0': 0.691, '5': 0.82, '10': 0.899, '15': 0.945, '20': 0.966, '25': 0.976, 'mean': 0.758}, 'orig dual+SC': {'-10': 0.263, '-5': 0.507, '0': 0.692, '5': 0.819, '10': 0.895, '15': 0.939, '20': 0.958, '25': 0.969, 'mean': 0.755}, 'FT dual+SC': {'-10': 0.263, '-5': 0.504, '0': 0.691, '5': 0.816, '10': 0.889, '15': 0.93, '20': 0.952, '25': 0.956, 'mean': 0.75}, 'FT heat+SC': {'-10': 0.259, '-5': 0.505, '0': 0.685, '5': 0.81, '10': 0.881, '15': 0.927, '20': 0.946, '25': 0.954, 'mean': 0.746}}
+
+################ M4 physics control (known quantised codebooks)
+conditioning (rank, cond): {'b4': (16, 1.0), 'b3': (16, 1.0), 'b2': (16, 1.0), 'b1': (12, 'inf')}
+  stress_M4_b4_snr15     NOMP 0.929 tSC 0.930 LS 0.929 MD 0.928 orac 0.938 oracMD 0.935 clean 0.929 | MD-NOMP -0.001 [-0.002,+0.000] | clean-MD +0.001 [+0.000,+0.002]
+  stress_M4_b3_snr15     NOMP 0.882 tSC 0.884 LS 0.928 MD 0.927 orac 0.916 oracMD 0.934 clean 0.929 | MD-NOMP +0.045 [+0.034,+0.056]* | clean-MD +0.002 [-0.003,+0.007] | gap closed MD 96% LS 97%
+  stress_M4_b2_snr15     NOMP 0.755 tSC 0.745 LS 0.925 MD 0.924 orac 0.844 oracMD 0.935 clean 0.929 | MD-NOMP +0.170 [+0.154,+0.185]* | clean-MD +0.005 [-0.001,+0.011] | gap closed MD 97% LS 98%
+  stress_M4_b1_snr15     NOMP 0.295 tSC 0.296 LS 0.021 MD 0.902 orac 0.558 oracMD 0.911 clean 0.929 | MD-NOMP +0.607 [+0.590,+0.624]* | clean-MD +0.027 [+0.017,+0.036]* | gap closed MD 96% LS -43%
+  stress_M4_b4_snr0      NOMP 0.690 tSC 0.689 LS 0.690 MD 0.689 orac 0.744 oracMD 0.714 clean 0.690 | MD-NOMP -0.000 [-0.002,+0.001] | clean-MD +0.000 [-0.001,+0.002]
+  stress_M4_b3_snr0      NOMP 0.675 tSC 0.671 LS 0.699 MD 0.700 orac 0.738 oracMD 0.722 clean 0.690 | MD-NOMP +0.025 [+0.014,+0.036]* | clean-MD -0.010 [-0.019,-0.001]* | gap closed MD 167% LS 164%
+  stress_M4_b2_snr0      NOMP 0.574 tSC 0.575 LS 0.693 MD 0.693 orac 0.688 oracMD 0.722 clean 0.690 | MD-NOMP +0.118 [+0.100,+0.136]* | clean-MD -0.003 [-0.016,+0.010] | gap closed MD 103% LS 103%
+  stress_M4_b1_snr0      NOMP 0.191 tSC 0.191 LS 0.018 MD 0.657 orac 0.528 oracMD 0.693 clean 0.690 | MD-NOMP +0.466 [+0.443,+0.488]* | clean-MD +0.033 [+0.016,+0.049]* | gap closed MD 93% LS -35%
+  fresh_M4_b4_snr15      NOMP 0.933 tSC 0.932 LS 0.933 MD 0.933 orac 0.946 oracMD 0.945 clean 0.933 | MD-NOMP +0.000 [-0.001,+0.001] | clean-MD +0.000 [-0.001,+0.001]
+  fresh_M4_b3_snr15      NOMP 0.888 tSC 0.894 LS 0.933 MD 0.933 orac 0.919 oracMD 0.945 clean 0.933 | MD-NOMP +0.045 [+0.037,+0.052]* | clean-MD +0.000 [-0.003,+0.003] | gap closed MD 100% LS 99%
+  fresh_M4_b2_snr15      NOMP 0.747 tSC 0.750 LS 0.935 MD 0.936 orac 0.851 oracMD 0.949 clean 0.933 | MD-NOMP +0.190 [+0.176,+0.202]* | clean-MD -0.003 [-0.007,+0.001] | gap closed MD 102% LS 101%
+  fresh_M4_b1_snr15      NOMP 0.282 tSC 0.282 LS 0.019 MD 0.909 orac 0.553 oracMD 0.923 clean 0.933 | MD-NOMP +0.627 [+0.614,+0.640]* | clean-MD +0.024 [+0.017,+0.031]* | gap closed MD 96% LS -41%
+  fresh_M4_b4_snr0       NOMP 0.704 tSC 0.702 LS 0.704 MD 0.704 orac 0.753 oracMD 0.731 clean 0.704 | MD-NOMP +0.000 [-0.000,+0.001] | clean-MD -0.000 [-0.001,+0.000]
+  fresh_M4_b3_snr0       NOMP 0.688 tSC 0.687 LS 0.706 MD 0.706 orac 0.748 oracMD 0.730 clean 0.704 | MD-NOMP +0.017 [+0.010,+0.025]* | clean-MD -0.002 [-0.008,+0.005] | gap closed MD 113% LS 112%
+  fresh_M4_b2_snr0       NOMP 0.587 tSC 0.588 LS 0.699 MD 0.698 orac 0.690 oracMD 0.723 clean 0.704 | MD-NOMP +0.111 [+0.100,+0.122]* | clean-MD +0.005 [-0.003,+0.014] | gap closed MD 95% LS 96%
+  fresh_M4_b1_snr0       NOMP 0.205 tSC 0.206 LS 0.018 MD 0.668 orac 0.540 oracMD 0.694 clean 0.704 | MD-NOMP +0.463 [+0.448,+0.478]* | clean-MD +0.035 [+0.023,+0.047]* | gap closed MD 93% LS -38%
+
+wrote results.json and figures

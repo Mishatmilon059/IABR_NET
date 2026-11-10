@@ -1,0 +1,124 @@
+{
+ "timings": {
+  "NOMP greedy, verify nomp_mine | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 4.802149996976368,
+   "p10_ms": 4.618469990964513,
+   "p90_ms": 5.084790002729278,
+   "median_ms_per_scene": 4.802149996976368
+  },
+  "NOMP greedy, verify nomp_mine | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 194.67980000626994,
+   "p10_ms": 184.50747000606498,
+   "p90_ms": 283.64049999800045,
+   "median_ms_per_scene": 0.760467968774492
+  },
+  "NOMP greedy, notebook nomp_greedy | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 6.888449999678414,
+   "p10_ms": 6.468290010525379,
+   "p90_ms": 7.5726400027633645,
+   "median_ms_per_scene": 6.888449999678414
+  },
+  "NOMP greedy, notebook nomp_greedy | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 378.70734999887645,
+   "p10_ms": 367.58337000210304,
+   "p90_ms": 423.50605999527033,
+   "median_ms_per_scene": 1.4793255859331111
+  },
+  "CNN forward only | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 5.880449993128423,
+   "p10_ms": 5.59797000605613,
+   "p90_ms": 6.476729997666553,
+   "median_ms_per_scene": 5.880449993128423
+  },
+  "CNN forward only | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 550.6475500005763,
+   "p10_ms": 537.1664400037844,
+   "p90_ms": 598.9018299951567,
+   "median_ms_per_scene": 2.150966992189751
+  },
+  "CNN + classical heat-seeded decoder (IABR-Net classical) | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 12.272500003746245,
+   "p10_ms": 11.970819994166959,
+   "p90_ms": 12.841700002900325,
+   "median_ms_per_scene": 12.272500003746245
+  },
+  "CNN + classical heat-seeded decoder (IABR-Net classical) | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 993.8185499995598,
+   "p10_ms": 967.7736799960257,
+   "p90_ms": 1092.2302200007834,
+   "median_ms_per_scene": 3.8821037109357803
+  },
+  "CNN + learned decoder SC on (all-neural) | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 101.40629999659723,
+   "p10_ms": 99.76365000475198,
+   "p90_ms": 109.71499998704532,
+   "median_ms_per_scene": 101.40629999659723
+  },
+  "CNN + learned decoder SC on (all-neural) | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 2083.6612999992212,
+   "p10_ms": 2063.344990002224,
+   "p90_ms": 2229.6540900002583,
+   "median_ms_per_scene": 8.139301953121958
+  },
+  "CNN + learned decoder SC off (all-neural) | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 53.02339999616379,
+   "p10_ms": 51.77079999266425,
+   "p90_ms": 60.5743700027233,
+   "median_ms_per_scene": 53.02339999616379
+  },
+  "CNN + learned decoder SC off (all-neural) | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 1426.53844999586,
+   "p10_ms": 1411.2820299866144,
+   "p90_ms": 1525.280960003147,
+   "median_ms_per_scene": 5.572415820296328
+  },
+  "learned decoder alone, SC on | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 97.49645000556484,
+   "p10_ms": 93.96164000063436,
+   "p90_ms": 126.55597999983002,
+   "median_ms_per_scene": 97.49645000556484
+  },
+  "learned decoder alone, SC on | batch 256": {
+   "batch": 256,
+   "runs": 40,
+   "median_ms_per_call": 1565.1413000014145,
+   "p10_ms": 1533.2714500036673,
+   "p90_ms": 1767.4975900023128,
+   "median_ms_per_scene": 6.113833203130525
+  }
+ },
+ "platform": "Windows-11-10.0.26200-SP0",
+ "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+ "python": "3.12.10",
+ "numpy": "2.3.5",
+ "torch": "2.7.1+cu118",
+ "torch_threads": 1,
+ "cnn_params": 191702,
+ "decoder_params": 4803
+}

@@ -1,0 +1,15 @@
+SNR 4 dB ch 0: nML_radius1 0.00687 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.904) | GD_from_0 0.00674 (step 0.001, median |x|/sqrt(n) 1.037, frac on ball 0.654)  [87s]
+SNR 4 dB ch 1: nML_radius1 0.00522 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.910) | GD_from_0 0.00516 (step 0.001, median |x|/sqrt(n) 1.046, frac on ball 0.670)  [167s]
+SNR 4 dB ch 2: nML_radius1 0.00705 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.903) | GD_from_0 0.00735 (step 0.001, median |x|/sqrt(n) 1.036, frac on ball 0.642)  [250s]
+SNR 4 dB ch 3: nML_radius1 0.00604 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.903) | GD_from_0 0.00629 (step 0.001, median |x|/sqrt(n) 1.045, frac on ball 0.666)  [326s]
+SNR 4 dB ch 4: nML_radius1 0.00665 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.909) | GD_from_0 0.00656 (step 0.001, median |x|/sqrt(n) 1.043, frac on ball 0.686)  [382s]
+SNR 4 dB ch 5: nML_radius1 0.00562 (step 0.003, median |x|/sqrt(n) 1.000, frac on ball 0.938) | GD_from_0 0.00546 (step 0.001, median |x|/sqrt(n) 1.042, frac on ball 0.665)  [437s]
+== SNR 4 dB mean BER over 6 channels x 32768 test bits: {"nML_radius1": 0.00624, "GD_from_0": 0.00626, "bit_errors_total_GD_from_0": 1231, "bit_errors_total_nML_radius1": 1227, "channels_GD_from_0_better_than_nML_radius1": 4}
+SNR 8 dB ch 0: nML_radius1 0.00082 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.939) | GD_from_0 0.00073 (step 0.001, median |x|/sqrt(n) 1.051, frac on ball 0.714)  [497s]
+SNR 8 dB ch 1: nML_radius1 0.00067 (step 0.0003, median |x|/sqrt(n) 1.000, frac on ball 0.800) | GD_from_0 0.00067 (step 0.0003, median |x|/sqrt(n) 0.697, frac on ball 0.000)  [556s]
+SNR 8 dB ch 2: nML_radius1 0.00082 (step 0.0003, median |x|/sqrt(n) 1.000, frac on ball 0.788) | GD_from_0 0.00089 (step 0.0003, median |x|/sqrt(n) 0.695, frac on ball 0.000)  [616s]
+SNR 8 dB ch 3: nML_radius1 0.00095 (step 0.003, median |x|/sqrt(n) 1.000, frac on ball 0.964) | GD_from_0 0.00092 (step 0.001, median |x|/sqrt(n) 1.052, frac on ball 0.723)  [676s]
+SNR 8 dB ch 4: nML_radius1 0.00052 (step 0.001, median |x|/sqrt(n) 1.000, frac on ball 0.934) | GD_from_0 0.00040 (step 0.0003, median |x|/sqrt(n) 0.700, frac on ball 0.000)  [734s]
+SNR 8 dB ch 5: nML_radius1 0.00070 (step 0.0003, median |x|/sqrt(n) 1.000, frac on ball 0.807) | GD_from_0 0.00055 (step 0.0003, median |x|/sqrt(n) 0.696, frac on ball 0.000)  [793s]
+== SNR 8 dB mean BER over 6 channels x 32768 test bits: {"nML_radius1": 0.00075, "GD_from_0": 0.00069, "bit_errors_total_GD_from_0": 136, "bit_errors_total_nML_radius1": 147, "channels_GD_from_0_better_than_nML_radius1": 4}
+done in 793s

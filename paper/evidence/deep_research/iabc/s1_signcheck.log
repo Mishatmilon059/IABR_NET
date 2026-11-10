@@ -1,0 +1,24 @@
+--- phase 8.0 deg, gain 3.0 dB, N=64 noiseless scenes
+(a) max |to_ant(Y) - conj(D_r) H D_t| / max|H| = 7.34e-15
+(b) front() sign  c = exp(-lg - j ph): identifiable residual RMS phase 1.01e-07 deg, gain 4.31e-08 dB  (before: 4.354 deg, 1.720 dB)
+(b) OPPOSITE sign c = exp(+lg + j ph): identifiable residual RMS phase 8.71e+00 deg, gain 3.44e+00 dB  (before: 4.354 deg, 1.720 dB)
+    relative LS misfit of the L-path model at true angles: raw Ht 0.289 | true-corrected Hc 0.026 (non-zero only because the unidentifiable ramp shifts the angles)
+    relative LS misfit after NOMP on the true-corrected Hc (free angles): 1.94e-03
+(c) max |20 log10|g| - (20/ln10) ln|g|| = 1.33e-15 dB; 20/ln10 = 8.685890; max |raw gain| drawn = 2.999 dB (spec 3.0)
+(d) oracle ALS (true angles, noiseless) target-est RMS: phase 8.508e-02 deg, gain 1.871e-02 dB | target+est (wrong sign): 8.703 deg, 3.439 dB | gate open 1.00
+    selfcal_ret vs notebook selfcal (NOMP start, (1,5), iters 2): max |dU|,|dV| = 0.0e+00
+    self-cal from NOMP angles (noiseless): target-est RMS phase 0.447 deg, gain 0.093 dB
+(e) IABC (noiseless): before 4.354 deg / 1.720 dB | target-imp 3.758 deg / 0.710 dB | target+imp 5.038 deg / 2.910 dB
+    front() Hc == Ht * exp(-imp_lg - j imp_ph): max rel diff 1.7e-07
+--- phase 30.0 deg, gain 6.0 dB, N=64 noiseless scenes
+(a) max |to_ant(Y) - conj(D_r) H D_t| / max|H| = 1.14e-14
+(b) front() sign  c = exp(-lg - j ph): identifiable residual RMS phase 3.78e-07 deg, gain 8.61e-08 dB  (before: 16.328 deg, 3.441 dB)
+(b) OPPOSITE sign c = exp(+lg + j ph): identifiable residual RMS phase 3.27e+01 deg, gain 6.88e+00 dB  (before: 16.328 deg, 3.441 dB)
+    relative LS misfit of the L-path model at true angles: raw Ht 0.599 | true-corrected Hc 0.097 (non-zero only because the unidentifiable ramp shifts the angles)
+    relative LS misfit after NOMP on the true-corrected Hc (free angles): 1.94e-03
+(c) max |20 log10|g| - (20/ln10) ln|g|| = 2.66e-15 dB; 20/ln10 = 8.685890; max |raw gain| drawn = 5.998 dB (spec 6.0)
+(d) oracle ALS (true angles, noiseless) target-est RMS: phase 3.029e-01 deg, gain 5.233e-02 dB | target+est (wrong sign): 32.630 deg, 6.878 dB | gate open 1.00
+    selfcal_ret vs notebook selfcal (NOMP start, (1,5), iters 2): max |dU|,|dV| = 0.0e+00
+    self-cal from NOMP angles (noiseless): target-est RMS phase 16.328 deg, gain 3.441 dB
+(e) IABC (noiseless): before 16.328 deg / 3.441 dB | target-imp 15.427 deg / 2.578 dB | target+imp 17.249 deg / 4.404 dB
+    front() Hc == Ht * exp(-imp_lg - j imp_ph): max rel diff 1.5e-07

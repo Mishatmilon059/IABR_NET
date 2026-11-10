@@ -1,0 +1,126 @@
+{
+ "phase_d0_snr0": {
+  "NOMP": {
+   "pd_existing": 0.6816666666666666,
+   "pd_rerun": 0.6816666666666666,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.6896666666666667,
+   "diff_new_minus_existing": [
+    0.008000000000000007,
+    -0.020666666666666614,
+    0.03633333333333333
+   ],
+   "within_ci": true
+  },
+  "NOMP+selfcal": {
+   "pd_existing": 0.6813333333333333,
+   "pd_rerun": 0.6813333333333333,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.6896666666666667,
+   "diff_new_minus_existing": [
+    0.008333333333333304,
+    -0.020333333333333314,
+    0.03699999999999992
+   ],
+   "within_ci": true
+  },
+  "IABR-v2 dual": {
+   "pd_existing": 0.6836666666666666,
+   "pd_rerun": 0.6836666666666666,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.6896666666666667,
+   "diff_new_minus_existing": [
+    0.006000000000000005,
+    -0.022666666666666616,
+    0.03367500000000002
+   ],
+   "within_ci": true
+  },
+  "IABR-Net heat": {
+   "pd_existing": 0.6803333333333333,
+   "pd_rerun": 0.6803333333333333,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.6846666666666666,
+   "diff_new_minus_existing": [
+    0.0043333333333333,
+    -0.024666666666666615,
+    0.033333333333333326
+   ],
+   "within_ci": true
+  },
+  "network only": {
+   "pd_existing": 0.5486666666666666,
+   "pd_rerun": 0.5486666666666666,
+   "scene_agreement_0p01deg": 0.986,
+   "pd_new_clean_bank": 0.5353333333333333,
+   "diff_new_minus_existing": [
+    -0.013333333333333308,
+    -0.042675000000000074,
+    0.015341666666666597
+   ],
+   "within_ci": true
+  }
+ },
+ "phase_d0_snr15": {
+  "NOMP": {
+   "pd_existing": 0.9496666666666667,
+   "pd_rerun": 0.9496666666666667,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.929,
+   "diff_new_minus_existing": [
+    -0.02066666666666661,
+    -0.036008333333333364,
+    -0.005333333333333301
+   ],
+   "within_ci": false
+  },
+  "NOMP+selfcal": {
+   "pd_existing": 0.947,
+   "pd_rerun": 0.947,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.9306666666666666,
+   "diff_new_minus_existing": [
+    -0.01633333333333331,
+    -0.031675000000000064,
+    -0.0010000000000000009
+   ],
+   "within_ci": false
+  },
+  "IABR-v2 dual": {
+   "pd_existing": 0.9413333333333334,
+   "pd_rerun": 0.9413333333333334,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.9246666666666666,
+   "diff_new_minus_existing": [
+    -0.01666666666666672,
+    -0.03266666666666662,
+    -0.0006583333333333091
+   ],
+   "within_ci": false
+  },
+  "IABR-Net heat": {
+   "pd_existing": 0.937,
+   "pd_rerun": 0.937,
+   "scene_agreement_0p01deg": 1.0,
+   "pd_new_clean_bank": 0.9183333333333333,
+   "diff_new_minus_existing": [
+    -0.01866666666666672,
+    -0.03699999999999992,
+    -0.0010000000000000009
+   ],
+   "within_ci": false
+  },
+  "network only": {
+   "pd_existing": 0.437,
+   "pd_rerun": 0.437,
+   "scene_agreement_0p01deg": 0.982,
+   "pd_new_clean_bank": 0.44766666666666666,
+   "diff_new_minus_existing": [
+    0.010666666666666658,
+    -0.015666666666666662,
+    0.03533333333333333
+   ],
+   "within_ci": true
+  }
+ }
+}

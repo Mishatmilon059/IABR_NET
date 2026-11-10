@@ -1,0 +1,65 @@
+=== b1_snr15 (n=200, seed 71200101) failing scenes 188; G0a truth-better share 0.314
+   ML                 Pd 0.5217
+   ML truth           Pd 0.6083
+   annealed ML        Pd 0.5233
+   pool oracle        Pd 0.5175
+   pool lowest NLL    Pd 0.4592
+   pool H1            Pd 0.3908
+   pool H2            Pd 0.4233
+   pool H3            Pd 0.3842
+   pool H4            Pd 0.3658
+   pool H5            Pd 0.4000
+   pool H6            Pd 0.3092
+   annealed ML - ML                   +0.0017 [-0.0033,+0.0067]
+   pool oracle - ML                   -0.0042 [-0.0408,+0.0325]
+   pool lowest NLL - ML               -0.0625 [-0.1008,-0.0233]*
+   time ML 101s annealed 133s pool 5s
+=== b2_snr15 (n=200, seed 71200102) failing scenes 173; G0a truth-better share 0.185
+   ML                 Pd 0.6650
+   ML truth           Pd 0.7117
+   annealed ML        Pd 0.6608
+   pool oracle        Pd 0.7250
+   pool lowest NLL    Pd 0.6658
+   pool H1            Pd 0.6558
+   pool H2            Pd 0.6408
+   pool H3            Pd 0.6042
+   pool H4            Pd 0.5175
+   pool H5            Pd 0.5550
+   pool H6            Pd 0.4400
+   annealed ML - ML                   -0.0042 [-0.0092,+0.0000]
+   pool oracle - ML                   +0.0600 [+0.0383,+0.0817]*
+   pool lowest NLL - ML               +0.0008 [-0.0200,+0.0217]
+   time ML 103s annealed 103s pool 7s
+=== b1_snr0 (n=200, seed 71200103) failing scenes 200; G0a truth-better share 0.040
+   ML                 Pd 0.2875
+   ML truth           Pd 0.4217
+   annealed ML        Pd 0.2875
+   pool oracle        Pd 0.3233
+   pool lowest NLL    Pd 0.2717
+   pool H1            Pd 0.2550
+   pool H2            Pd 0.2467
+   pool H3            Pd 0.2600
+   pool H4            Pd 0.2475
+   pool H5            Pd 0.2517
+   pool H6            Pd 0.2250
+   annealed ML - ML                   +0.0000 [+0.0000,+0.0000]
+   pool oracle - ML                   +0.0358 [+0.0158,+0.0558]*
+   pool lowest NLL - ML               -0.0158 [-0.0342,+0.0042]
+   time ML 85s annealed 107s pool 7s
+=== b2_snr0 (n=200, seed 71200104) failing scenes 196; G0a truth-better share 0.010
+   ML                 Pd 0.4650
+   ML truth           Pd 0.5192
+   annealed ML        Pd 0.4650
+   pool oracle        Pd 0.5042
+   pool lowest NLL    Pd 0.4675
+   pool H1            Pd 0.4617
+   pool H2            Pd 0.4550
+   pool H3            Pd 0.4608
+   pool H4            Pd 0.4500
+   pool H5            Pd 0.4617
+   pool H6            Pd 0.3842
+   annealed ML - ML                   +0.0000 [+0.0000,+0.0000]
+   pool oracle - ML                   +0.0392 [+0.0266,+0.0525]*
+   pool lowest NLL - ML               +0.0025 [-0.0058,+0.0108]
+   time ML 105s annealed 154s pool 8s
+G0 decision: KEEP learned selector

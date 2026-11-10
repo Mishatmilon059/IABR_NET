@@ -1,0 +1,28 @@
+Deviations from DESIGN.md (all decided before any test-bank evaluation; validation data only)
+1. Detection-fusion conv reduced to conv1x1(5->8) + conv3x3(8->8) + conv3x3(8->1) (~0.7k params instead of 11k) for CPU cost (it runs on every
+   64x64 detection map of every hypothesis). Param counts as implemented: A 910,515, B 506,800 (design 921,842 / 517,103).
+2. Step-MLP inputs: 16 features from the Newton quantities (no probe second differences, no coherence-with-other-paths feature).
+   Selector token: 16 features (no per-path Fisher log-det). No pairwise-separation or gain-prior feature anywhere (H2).
+3. Polish: 12 LM layers with the classical adaptive damping of mlq.lm (x learned per-layer factor) instead of 4 fixed layers: G0 showed 4
+   layers lose 0.06 to 13-start ML at 1 bit / 15 dB (g0_gate.log), 12 layers do not (g0_pool12.log). Self-calibration (learned strength)
+   is applied to unquantised rows only, before the polish.
+4. eta (heteroscedastic term) enters the E-step, the polish likelihood and the hypothesis NLL, but not the cyclic Newton steps (those
+   run on the unweighted / de-quantised residual as in NOMP).
+5. Unknown-L mode uses hypothesis H1 (greedy) only, with the learned accept/stop head; the stop head is trained on every batch by running
+   one extra detection (candidate L+1 = reject).
+6. Validation mix: 1200 scenes (20 groups) instead of 2400.
+7. S1 stopped after 1000 of 2000 steps (val plateau 0.6827 -> 0.6854, steps slower than benchmarked); best_S1.pt = step 1000.
+8. S2B attempt 1 (front LR x0.1, global grad clipping, hypernet softplus offsets -6/-7) aborted at step ~550: val flat (0.6854 at init ->
+   0.6840) and diagnosis (diag on ckpt step 500) showed (i) hypernet outputs unchanged from init in every cell (kappa 1.000, eta 0) and
+   (ii) front drift: sigma_hat/sigma at 1 bit 1.05 -> 1.18, Pd 0.531 -> 0.506 on val. Attempt 2: front frozen at S1 weights in S2/S3,
+   per-module gradient clipping (norm 5 each), hypernet output layer 10x LR, softplus offsets -4/-5 (kappa ~1.018, damp ~0.018 at init).
+9. Quantised-ML baselines run in a torch re-implementation of mlq.lm / init_gains (mlt.py; reproduces the numpy Pd exactly on 2 x 60
+   validation scenes, same solution in 87-97% of scenes, mlt_check.log). 'ML snr+-5' and 'ML joint sigma' use the 13 classical starts
+   without the EM start (EM needs sigma). Added classical baselines: 'classical skeleton' (the unfolded core in its classical configuration,
+   no network, true sigma, hypotheses H1,H3-H6, lowest NLL) and 'ML nominal 10dB' (SNR-blind, since sigma is not identifiable at 1 bit).
+10. S2B attempt 2 stopped at step ~560: validation declined monotonically (0.6864 at step 0 -> 0.6805 -> 0.6788; 1 bit / 15 dB 0.525 -> 0.481
+    -> 0.456); diag (trained vs init hypernet / fusion swapped) showed both learned parts contributing small losses. The validated best
+    checkpoint (step 0: S1 front end + hypernet at its initial, near-classical outputs, untrained fusion) is design B's final model.
+    Design flaw found and fixed for A: step-MLP output (zero-init) x hypernet gate (zero at init) is a zero-gradient saddle; A uses its
+    own per-layer gate vector (24 params, init 0.1). S2A trains ONLY the step MLP (+gate), the selector and the stop head on top of the
+    frozen best B (hypernet, fusion, front frozen), i.e. A = B + step MLP + learned selector, as in the design's ablation logic.

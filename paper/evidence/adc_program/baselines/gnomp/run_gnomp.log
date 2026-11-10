@@ -1,0 +1,18 @@
+b1 snr-10: NOMP Pd 0.0622 strict 0.0622 n=L 1.000  GNOMP-L Pd 0.0233 strict 0.0233 n=L 1.000  GNOMP-CFAR Pd nan strict 0.0000 n=L 0.000  wall 64s
+b1 snr  0: NOMP Pd 0.1639 strict 0.1639 n=L 1.000  GNOMP-L Pd 0.0511 strict 0.0511 n=L 1.000  GNOMP-CFAR Pd nan strict 0.0000 n=L 0.000  wall 60s
+b1 snr 10: NOMP Pd 0.1928 strict 0.1928 n=L 1.000  GNOMP-L Pd 0.0717 strict 0.0717 n=L 1.000  GNOMP-CFAR Pd nan strict 0.0000 n=L 0.000  wall 59s
+b1 snr 15: NOMP Pd 0.1939 strict 0.1939 n=L 1.000  GNOMP-L Pd 0.0589 strict 0.0589 n=L 1.000  GNOMP-CFAR Pd nan strict 0.0000 n=L 0.000  wall 86s
+b1 snr 25: NOMP Pd 0.1650 strict 0.1650 n=L 1.000  GNOMP-L Pd 0.0433 strict 0.0433 n=L 1.000  GNOMP-CFAR Pd nan strict 0.0000 n=L 0.000  wall 64s
+b2 snr-10: NOMP Pd 0.1739 strict 0.1739 n=L 1.000  GNOMP-L Pd 0.0600 strict 0.0600 n=L 1.000  GNOMP-CFAR Pd 0.0000 strict 0.0000 n=L 0.010  wall 100s
+b2 snr  0: NOMP Pd 0.3706 strict 0.3706 n=L 1.000  GNOMP-L Pd 0.1400 strict 0.1400 n=L 1.000  GNOMP-CFAR Pd 0.1756 strict 0.0761 n=L 0.433  wall 354s
+b2 snr 10: NOMP Pd 0.3117 strict 0.3117 n=L 1.000  GNOMP-L Pd 0.1206 strict 0.1206 n=L 1.000  GNOMP-CFAR Pd 0.1517 strict 0.1122 n=L 0.740  wall 655s
+b2 snr 15: NOMP Pd 0.2789 strict 0.2789 n=L 1.000  GNOMP-L Pd 0.0994 strict 0.0994 n=L 1.000  GNOMP-CFAR Pd 0.1392 strict 0.1072 n=L 0.770  wall 740s
+b2 snr 25: NOMP Pd 0.2372 strict 0.2372 n=L 1.000  GNOMP-L Pd 0.0989 strict 0.0989 n=L 1.000  GNOMP-CFAR Pd 0.1250 strict 0.1067 n=L 0.853  wall 811s
+b3 snr-10: NOMP Pd 0.2261 strict 0.2261 n=L 1.000  GNOMP-L Pd 0.0667 strict 0.0667 n=L 1.000  GNOMP-CFAR Pd 0.0000 strict 0.0000 n=L 0.003  wall 117s
+b3 snr  0: NOMP Pd 0.5761 strict 0.5761 n=L 1.000  GNOMP-L Pd 0.1711 strict 0.1711 n=L 1.000  GNOMP-CFAR Pd 0.2015 strict 0.1028 n=L 0.510  wall 297s
+b3 snr 10: NOMP Pd 0.5828 strict 0.5828 n=L 1.000  GNOMP-L Pd 0.1783 strict 0.1783 n=L 1.000  GNOMP-CFAR Pd 0.2074 strict 0.1867 n=L 0.900  wall 722s
+b3 snr 15: NOMP Pd 0.5133 strict 0.5133 n=L 1.000  GNOMP-L Pd 0.1711 strict 0.1711 n=L 1.000  GNOMP-CFAR Pd 0.2097 strict 0.1894 n=L 0.903  wall 669s
+b3 snr 25: NOMP Pd 0.4100 strict 0.4100 n=L 1.000  GNOMP-L Pd 0.1139 strict 0.1139 n=L 1.000  GNOMP-CFAR Pd 0.1536 strict 0.1506 n=L 0.980  wall 737s
+b4 snr-10: NOMP Pd 0.2556 strict 0.2556 n=L 1.000  GNOMP-L Pd 0.0717 strict 0.0717 n=L 1.000  GNOMP-CFAR Pd 0.0556 strict 0.0006 n=L 0.010  wall 133s
+b4 snr  0: NOMP Pd 0.6661 strict 0.6661 n=L 1.000  GNOMP-L Pd 0.1822 strict 0.1822 n=L 1.000  GNOMP-CFAR Pd 0.2059 strict 0.1050 n=L 0.510  wall 168s
+b4 snr 10: NOMP Pd 0.8117 strict 0.8117 n=L 1.000  GNOMP-L Pd 0.2272 strict 0.2272 n=L 1.000  GNOMP-CFAR Pd 0.2373 strict 0.2278 n=L 0.960  wall 335s

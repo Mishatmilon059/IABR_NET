@@ -1,0 +1,13 @@
+bench step 0: data 0.238s  fwd/bwd/step 8.777s  loss 1.0315
+bench step 1: data 0.153s  fwd/bwd/step 2.599s  loss 1.0446
+bench step 2: data 0.155s  fwd/bwd/step 3.189s  loss 1.0605
+bench step 3: data 0.176s  fwd/bwd/step 2.685s  loss 0.9869
+bench step 4: data 0.127s  fwd/bwd/step 2.267s  loss 0.8558
+bench step 5: data 0.150s  fwd/bwd/step 2.158s  loss 1.0587
+bench step 6: data 0.149s  fwd/bwd/step 4.206s  loss 0.9339
+bench step 7: data 0.150s  fwd/bwd/step 2.655s  loss 0.9574
+bench step 8: data 0.188s  fwd/bwd/step 2.565s  loss 0.7312
+bench step 9: data 0.160s  fwd/bwd/step 2.314s  loss 0.7992
+bench step 10: data 0.153s  fwd/bwd/step 1.833s  loss 1.1036
+bench step 11: data 0.142s  fwd/bwd/step 1.947s  loss 0.9999
+mean data 0.155s, compute 2.582s, total 2.737s/step (batch 128)

@@ -1,0 +1,13 @@
+# GitHub check of the source-code link in SignalNet footnote 1 (https://github.com/Ryandry1st/Carrier-Frequency-Offset), 2026-10-16T05:30Z
+## GET https://api.github.com/repos/Ryandry1st/Carrier-Frequency-Offset
+{'message': 'Moved Permanently', 'url': 'https://api.github.com/repositories/228931060'}
+## repository 228931060
+{'full_name': 'Ryandry1st/Low-Res-Carrier-Frequency-Offset', 'html_url': 'https://github.com/Ryandry1st/Low-Res-Carrier-Frequency-Offset', 'created_at': '2019-12-18T22:21:10Z', 'pushed_at': '2020-12-12T07:22:54Z', 'default_branch': 'master', 'description': 'Detailed code used for researching machine learning for carrier frequency offset'}
+## file tree
+README.md 2679
+SPAWC_DL_for_CFO.ipynb 1383274
+## README first line
+# Deep Learning-based Carrier Frequency Offset Estimation with One-Bit ADCs
+## author repos whose name/description mentions signal, sinusoid or SignalNet
+20 public repos
+none

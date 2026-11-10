@@ -1,0 +1,242 @@
+
+### m5: Pd (paper-style, mean over SNR groups) per method; best classical per cell in brackets
+
+| method | b4_snr15 | b3_snr15 | b2_snr15 | b1_snr15 | b4_snr0 | b3_snr0 | b2_snr0 | b1_snr0 |
+|---|---|---|---|---|---|---|---|---|
+| NOMP | 0.773 | 0.504 | 0.263 | 0.179 | **0.663** | 0.588 | 0.356 | 0.169 |
+| NOMP+SC | 0.774 | 0.504 | 0.263 | 0.178 | 0.662 | 0.588 | 0.356 | 0.169 |
+| NOMP+SC tuned | 0.773 | 0.503 | 0.263 | 0.178 | 0.663 | 0.588 | 0.356 | 0.169 |
+| FFT-peak seeds | 0.736 | 0.483 | 0.239 | 0.161 | 0.643 | 0.572 | 0.351 | 0.162 |
+| FFT-peak seeds+SC | 0.736 | 0.480 | 0.234 | 0.160 | 0.641 | 0.571 | 0.348 | 0.161 |
+| classical dual | 0.773 | 0.502 | 0.256 | 0.171 | 0.663 | 0.588 | 0.357 | 0.169 |
+| classical dual+SC | 0.774 | 0.502 | 0.256 | 0.170 | 0.662 | **0.589** | 0.357 | 0.169 |
+| NOMP os8 rc6 | 0.773 | 0.503 | 0.262 | 0.178 | 0.663 | 0.587 | 0.359 | 0.171 |
+| multi-start K6 | 0.773 | 0.502 | 0.255 | 0.172 | 0.663 | 0.588 | 0.358 | 0.173 |
+| consistent NOMP | **0.843** | **0.699** | **0.430** | **0.225** | 0.632 | 0.521 | **0.407** | 0.224 |
+| FFT parabolic os4 | 0.724 | 0.480 | 0.245 | 0.169 | 0.627 | 0.570 | 0.359 | 0.169 |
+| FFT parabolic os16 | 0.717 | 0.478 | 0.251 | 0.167 | 0.629 | 0.569 | 0.364 | 0.169 |
+| consistent parabolic | 0.812 | 0.677 | 0.412 | 0.203 | 0.623 | 0.522 | 0.406 | **0.226** |
+| orig heat+SC | 0.769 | 0.508 | 0.268 | 0.177 | 0.652 | 0.579 | 0.355 | 0.159 |
+| orig dual+SC | 0.776 | 0.510 | 0.268 | 0.179 | 0.660 | 0.586 | 0.359 | 0.170 |
+| orig network only | 0.562 | 0.431 | 0.244 | 0.176 | 0.531 | 0.538 | 0.355 | 0.155 |
+| FT heat+SC | 0.768 | 0.492 | 0.281 | 0.225 | 0.654 | 0.572 | 0.321 | 0.157 |
+| FT dual+SC | 0.775 | 0.509 | 0.269 | 0.178 | 0.661 | 0.587 | 0.359 | 0.169 |
+| FT NOMP on Hc | 0.776 | 0.509 | 0.269 | 0.178 | 0.661 | 0.587 | 0.358 | 0.167 |
+| FT network only | 0.546 | 0.609 | 0.559 | 0.399 | 0.532 | 0.500 | 0.432 | 0.229 |
+| FT heat + consistent | 0.837 | 0.676 | 0.448 | 0.310 | 0.632 | 0.511 | 0.366 | 0.215 |
+| oracle-seeded | 0.789 | 0.538 | 0.381 | 0.575 | 0.726 | 0.672 | 0.513 | 0.512 |
+
+m5: network methods minus the BEST classical method of the cell (paired bootstrap 95% CI; * = CI excludes 0)
+
+| method | b4_snr15 | b3_snr15 | b2_snr15 | b1_snr15 | b4_snr0 | b3_snr0 | b2_snr0 | b1_snr0 |
+|---|---|---|---|---|---|---|---|---|
+| orig heat+SC | -0.074 [-0.088,-0.060]* | -0.191 [-0.207,-0.175]* | -0.162 [-0.178,-0.146]* | -0.048 [-0.060,-0.036]* | -0.011 [-0.017,-0.004]* | -0.010 [-0.017,-0.003]* | -0.052 [-0.073,-0.031]* | -0.066 [-0.082,-0.052]* |
+| orig dual+SC | -0.067 [-0.081,-0.054]* | -0.189 [-0.205,-0.173]* | -0.161 [-0.177,-0.146]* | -0.046 [-0.059,-0.034]* | -0.003 [-0.007,+0.001] | -0.003 [-0.007,+0.001] | -0.048 [-0.070,-0.027]* | -0.056 [-0.071,-0.041]* |
+| orig network only | -0.281 [-0.299,-0.262]* | -0.268 [-0.287,-0.248]* | -0.186 [-0.202,-0.171]* | -0.049 [-0.062,-0.036]* | -0.132 [-0.149,-0.116]* | -0.050 [-0.066,-0.036]* | -0.052 [-0.073,-0.031]* | -0.071 [-0.086,-0.055]* |
+| FT heat+SC | -0.075 [-0.090,-0.062]* | -0.207 [-0.224,-0.190]* | -0.148 [-0.167,-0.130]* | +0.000 [-0.015,+0.015] | -0.009 [-0.016,-0.003]* | -0.017 [-0.025,-0.009]* | -0.086 [-0.107,-0.065]* | -0.069 [-0.083,-0.054]* |
+| FT dual+SC | -0.068 [-0.081,-0.055]* | -0.190 [-0.206,-0.174]* | -0.161 [-0.177,-0.146]* | -0.047 [-0.059,-0.036]* | -0.002 [-0.006,+0.002] | -0.001 [-0.005,+0.002] | -0.048 [-0.069,-0.027]* | -0.057 [-0.073,-0.042]* |
+| FT NOMP on Hc | -0.067 [-0.081,-0.054]* | -0.190 [-0.206,-0.174]* | -0.161 [-0.177,-0.146]* | -0.047 [-0.059,-0.036]* | -0.002 [-0.005,+0.002] | -0.002 [-0.006,+0.002] | -0.049 [-0.071,-0.028]* | -0.058 [-0.074,-0.044]* |
+| FT network only | -0.297 [-0.318,-0.277]* | -0.090 [-0.110,-0.070]* | +0.130 [+0.110,+0.148]* | +0.174 [+0.155,+0.192]* | -0.131 [-0.149,-0.115]* | -0.089 [-0.108,-0.069]* | +0.025 [+0.009,+0.041]* | +0.004 [-0.010,+0.018] |
+| FT heat + consistent | -0.006 [-0.012,+0.000] | -0.023 [-0.034,-0.012]* | +0.018 [+0.003,+0.034]* | +0.085 [+0.072,+0.098]* | -0.031 [-0.044,-0.019]* | -0.077 [-0.095,-0.060]* | -0.041 [-0.054,-0.028]* | -0.011 [-0.022,+0.002] |
+| oracle-seeded | -0.054 [-0.069,-0.039]* | -0.161 [-0.180,-0.142]* | -0.048 [-0.073,-0.023]* | +0.349 [+0.321,+0.376]* | +0.063 [+0.051,+0.076]* | +0.083 [+0.071,+0.096]* | +0.106 [+0.080,+0.132]* | +0.286 [+0.259,+0.312]* |
+
+best classical per cell: b4_snr15: consistent NOMP, b3_snr15: consistent NOMP, b2_snr15: consistent NOMP, b1_snr15: consistent NOMP, b4_snr0: NOMP, b3_snr0: classical dual+SC, b2_snr0: consistent NOMP, b1_snr0: consistent parabolic
+b4_snr15: consistent NOMP - NOMP [0.0697, 0.0563, 0.0833] | FT dual+SC - orig dual+SC [-0.0003, -0.0033, 0.002] | FT heat+SC - orig heat+SC [-0.0013, -0.0067, 0.0037]
+b3_snr15: consistent NOMP - NOMP [0.1953, 0.1793, 0.2117] | FT dual+SC - orig dual+SC [-0.001, -0.0037, 0.0013] | FT heat+SC - orig heat+SC [-0.0163, -0.0253, -0.008]
+b2_snr15: consistent NOMP - NOMP [0.1667, 0.152, 0.1817] | FT dual+SC - orig dual+SC [0.0003, -0.0033, 0.0037] | FT heat+SC - orig heat+SC [0.0133, 0.0003, 0.026]
+b1_snr15: consistent NOMP - NOMP [0.0467, 0.035, 0.059] | FT dual+SC - orig dual+SC [-0.001, -0.005, 0.0027] | FT heat+SC - orig heat+SC [0.048, 0.0377, 0.058]
+b4_snr0: consistent NOMP - NOMP [-0.0313, -0.0437, -0.0203] | FT dual+SC - orig dual+SC [0.0007, -0.0007, 0.002] | FT heat+SC - orig heat+SC [0.0013, -0.0017, 0.0043]
+b3_snr0: consistent NOMP - NOMP [-0.067, -0.0843, -0.0497] | FT dual+SC - orig dual+SC [0.0017, -0.0007, 0.004] | FT heat+SC - orig heat+SC [-0.0067, -0.013, -0.0007]
+b2_snr0: consistent NOMP - NOMP [0.0507, 0.0293, 0.0717] | FT dual+SC - orig dual+SC [0.0003, -0.0013, 0.002] | FT heat+SC - orig heat+SC [-0.034, -0.0457, -0.0223]
+b1_snr0: consistent NOMP - NOMP [0.0553, 0.041, 0.07] | FT dual+SC - orig dual+SC [-0.0013, -0.0037, 0.001] | FT heat+SC - orig heat+SC [-0.0023, -0.0113, 0.0073]
+
+### fresh: Pd (paper-style, mean over SNR groups) per method; best classical per cell in brackets
+
+| method | b4_snr15 | b3_snr15 | b2_snr15 | b1_snr15 | b4_snr0 | b3_snr0 | b2_snr0 | b1_snr0 |
+|---|---|---|---|---|---|---|---|---|
+| NOMP | 0.781 | 0.509 | 0.272 | 0.178 | 0.674 | 0.602 | 0.376 | 0.166 |
+| NOMP+SC | 0.781 | 0.509 | 0.271 | 0.177 | 0.674 | 0.602 | 0.376 | 0.166 |
+| NOMP+SC tuned | 0.778 | 0.509 | 0.271 | 0.176 | 0.674 | 0.602 | 0.376 | 0.166 |
+| FFT-peak seeds | 0.749 | 0.481 | 0.246 | 0.167 | 0.648 | 0.584 | 0.371 | 0.164 |
+| FFT-peak seeds+SC | 0.748 | 0.478 | 0.244 | 0.165 | 0.647 | 0.583 | 0.370 | 0.163 |
+| classical dual | 0.781 | 0.507 | 0.263 | 0.171 | 0.674 | 0.602 | 0.376 | 0.166 |
+| classical dual+SC | 0.781 | 0.507 | 0.261 | 0.170 | 0.674 | 0.602 | 0.376 | 0.166 |
+| NOMP os8 rc6 | 0.782 | 0.509 | 0.274 | 0.179 | **0.675** | 0.602 | 0.375 | 0.166 |
+| multi-start K6 | 0.781 | 0.507 | 0.261 | 0.170 | 0.674 | **0.603** | 0.374 | 0.166 |
+| consistent NOMP | **0.850** | **0.712** | **0.424** | **0.223** | 0.651 | 0.544 | **0.420** | **0.217** |
+| FFT parabolic os4 | 0.731 | 0.486 | 0.254 | 0.167 | 0.635 | 0.571 | 0.372 | 0.169 |
+| FFT parabolic os16 | 0.729 | 0.483 | 0.259 | 0.167 | 0.633 | 0.569 | 0.371 | 0.168 |
+| consistent parabolic | 0.828 | 0.691 | 0.403 | 0.201 | 0.642 | 0.532 | 0.413 | 0.215 |
+| orig heat+SC | 0.779 | 0.520 | 0.277 | 0.181 | 0.670 | 0.599 | 0.374 | 0.158 |
+| orig dual+SC | 0.783 | 0.524 | 0.282 | 0.180 | 0.674 | 0.601 | 0.374 | 0.167 |
+| orig network only | 0.547 | 0.438 | 0.250 | 0.182 | 0.552 | 0.547 | 0.372 | 0.153 |
+| FT heat+SC | 0.774 | 0.504 | 0.288 | 0.226 | 0.670 | 0.594 | 0.344 | 0.160 |
+| FT dual+SC | 0.783 | 0.523 | 0.279 | 0.177 | 0.674 | 0.601 | 0.375 | 0.168 |
+| FT NOMP on Hc | 0.783 | 0.523 | 0.279 | 0.177 | 0.674 | 0.600 | 0.375 | 0.167 |
+| FT network only | 0.527 | 0.612 | 0.579 | 0.401 | 0.551 | 0.519 | 0.436 | 0.229 |
+| FT heat + consistent | 0.840 | 0.692 | 0.453 | 0.306 | 0.649 | 0.541 | 0.384 | 0.215 |
+| oracle-seeded | 0.795 | 0.536 | 0.380 | 0.571 | 0.737 | 0.683 | 0.529 | 0.504 |
+
+fresh: network methods minus the BEST classical method of the cell (paired bootstrap 95% CI; * = CI excludes 0)
+
+| method | b4_snr15 | b3_snr15 | b2_snr15 | b1_snr15 | b4_snr0 | b3_snr0 | b2_snr0 | b1_snr0 |
+|---|---|---|---|---|---|---|---|---|
+| orig heat+SC | -0.070 [-0.080,-0.060]* | -0.193 [-0.204,-0.181]* | -0.147 [-0.158,-0.136]* | -0.041 [-0.050,-0.032]* | -0.004 [-0.009,+0.000] | -0.004 [-0.008,+0.000] | -0.045 [-0.059,-0.031]* | -0.060 [-0.070,-0.049]* |
+| orig dual+SC | -0.067 [-0.076,-0.057]* | -0.188 [-0.199,-0.177]* | -0.143 [-0.154,-0.132]* | -0.043 [-0.051,-0.034]* | -0.000 [-0.004,+0.003] | -0.002 [-0.005,+0.001] | -0.045 [-0.059,-0.031]* | -0.051 [-0.061,-0.041]* |
+| orig network only | -0.303 [-0.317,-0.289]* | -0.274 [-0.287,-0.261]* | -0.174 [-0.186,-0.162]* | -0.041 [-0.050,-0.031]* | -0.123 [-0.135,-0.111]* | -0.056 [-0.067,-0.045]* | -0.047 [-0.061,-0.032]* | -0.064 [-0.075,-0.053]* |
+| FT heat+SC | -0.076 [-0.085,-0.065]* | -0.209 [-0.221,-0.197]* | -0.136 [-0.150,-0.124]* | +0.003 [-0.008,+0.013] | -0.005 [-0.010,-0.001]* | -0.009 [-0.014,-0.004]* | -0.076 [-0.090,-0.062]* | -0.057 [-0.069,-0.047]* |
+| FT dual+SC | -0.066 [-0.075,-0.056]* | -0.190 [-0.201,-0.179]* | -0.146 [-0.157,-0.135]* | -0.045 [-0.053,-0.038]* | -0.000 [-0.004,+0.003] | -0.001 [-0.004,+0.002] | -0.045 [-0.058,-0.031]* | -0.049 [-0.059,-0.039]* |
+| FT NOMP on Hc | -0.066 [-0.075,-0.056]* | -0.190 [-0.201,-0.179]* | -0.146 [-0.157,-0.135]* | -0.045 [-0.053,-0.038]* | -0.000 [-0.004,+0.003] | -0.003 [-0.006,+0.000] | -0.045 [-0.058,-0.031]* | -0.050 [-0.060,-0.040]* |
+| FT network only | -0.323 [-0.337,-0.308]* | -0.100 [-0.114,-0.086]* | +0.155 [+0.142,+0.168]* | +0.178 [+0.165,+0.192]* | -0.124 [-0.136,-0.112]* | -0.083 [-0.095,-0.071]* | +0.016 [+0.005,+0.028]* | +0.012 [+0.001,+0.022]* |
+| FT heat + consistent | -0.009 [-0.014,-0.005]* | -0.021 [-0.028,-0.013]* | +0.029 [+0.018,+0.039]* | +0.083 [+0.074,+0.094]* | -0.025 [-0.034,-0.017]* | -0.062 [-0.075,-0.050]* | -0.036 [-0.044,-0.026]* | -0.002 [-0.010,+0.007] |
+| oracle-seeded | -0.054 [-0.065,-0.044]* | -0.176 [-0.189,-0.163]* | -0.044 [-0.061,-0.028]* | +0.348 [+0.329,+0.366]* | +0.063 [+0.054,+0.072]* | +0.081 [+0.071,+0.090]* | +0.109 [+0.092,+0.126]* | +0.287 [+0.268,+0.306]* |
+
+best classical per cell: b4_snr15: consistent NOMP, b3_snr15: consistent NOMP, b2_snr15: consistent NOMP, b1_snr15: consistent NOMP, b4_snr0: NOMP os8 rc6, b3_snr0: multi-start K6, b2_snr0: consistent NOMP, b1_snr0: consistent NOMP
+b4_snr15: consistent NOMP - NOMP [0.0683, 0.059, 0.0777] | FT dual+SC - orig dual+SC [0.0003, -0.0008, 0.0015] | FT heat+SC - orig heat+SC [-0.0052, -0.0085, -0.0018]
+b3_snr15: consistent NOMP - NOMP [0.203, 0.192, 0.2147] | FT dual+SC - orig dual+SC [-0.0015, -0.0032, 0.0002] | FT heat+SC - orig heat+SC [-0.0162, -0.022, -0.01]
+b2_snr15: consistent NOMP - NOMP [0.1525, 0.1418, 0.1633] | FT dual+SC - orig dual+SC [-0.0033, -0.0057, -0.0008] | FT heat+SC - orig heat+SC [0.011, 0.002, 0.0202]
+b1_snr15: consistent NOMP - NOMP [0.0445, 0.0367, 0.0523] | FT dual+SC - orig dual+SC [-0.0025, -0.0057, 0.0005] | FT heat+SC - orig heat+SC [0.044, 0.0363, 0.0515]
+b4_snr0: consistent NOMP - NOMP [-0.0228, -0.0308, -0.015] | FT dual+SC - orig dual+SC [0.0002, -0.0012, 0.0015] | FT heat+SC - orig heat+SC [-0.0007, -0.0035, 0.002]
+b3_snr0: consistent NOMP - NOMP [-0.0578, -0.0697, -0.0462] | FT dual+SC - orig dual+SC [0.0003, -0.0012, 0.002] | FT heat+SC - orig heat+SC [-0.005, -0.009, -0.0012]
+b2_snr0: consistent NOMP - NOMP [0.0438, 0.0302, 0.0573] | FT dual+SC - orig dual+SC [0.0007, -0.001, 0.0023] | FT heat+SC - orig heat+SC [-0.0305, -0.0387, -0.0225]
+b1_snr0: consistent NOMP - NOMP [0.052, 0.0425, 0.0613] | FT dual+SC - orig dual+SC [0.0017, -0.0005, 0.004] | FT heat+SC - orig heat+SC [0.0023, -0.0038, 0.0087]
+
+### clean: Pd (paper-style, mean over SNR groups) per method; best classical per cell in brackets
+
+| method | clean_snr15 | clean_snr0 |
+|---|---|---|
+| NOMP | 0.929 | 0.690 |
+| NOMP+SC | 0.931 | 0.690 |
+| NOMP+SC tuned | 0.930 | 0.689 |
+| FFT-peak seeds | 0.856 | 0.661 |
+| FFT-peak seeds+SC | 0.858 | 0.660 |
+| classical dual | 0.929 | 0.688 |
+| classical dual+SC | 0.931 | 0.688 |
+| NOMP os8 rc6 | **0.931** | **0.690** |
+| multi-start K6 | 0.929 | 0.689 |
+| consistent NOMP | - | - |
+| FFT parabolic os4 | 0.816 | 0.651 |
+| FFT parabolic os16 | 0.817 | 0.652 |
+| consistent parabolic | - | - |
+| orig heat+SC | 0.918 | 0.685 |
+| orig dual+SC | 0.925 | 0.690 |
+| orig network only | 0.448 | 0.535 |
+| FT heat+SC | 0.918 | 0.687 |
+| FT dual+SC | 0.924 | 0.689 |
+| FT NOMP on Hc | 0.924 | 0.689 |
+| FT network only | 0.464 | 0.546 |
+| FT heat + consistent | - | - |
+| oracle-seeded | 0.938 | 0.744 |
+
+clean: network methods minus the BEST classical method of the cell (paired bootstrap 95% CI; * = CI excludes 0)
+
+| method | clean_snr15 | clean_snr0 |
+|---|---|---|
+| orig heat+SC | -0.013 [-0.021,-0.005]* | -0.005 [-0.012,+0.002] |
+| orig dual+SC | -0.006 [-0.013,+0.000] | -0.000 [-0.005,+0.004] |
+| orig network only | -0.483 [-0.503,-0.463]* | -0.155 [-0.172,-0.137]* |
+| FT heat+SC | -0.013 [-0.021,-0.005]* | -0.003 [-0.010,+0.004] |
+| FT dual+SC | -0.007 [-0.013,-0.001]* | -0.001 [-0.005,+0.004] |
+| FT NOMP on Hc | -0.007 [-0.013,-0.001]* | -0.001 [-0.006,+0.003] |
+| FT network only | -0.467 [-0.486,-0.447]* | -0.144 [-0.163,-0.126]* |
+| FT heat + consistent | - | - |
+| oracle-seeded | +0.007 [+0.003,+0.012]* | +0.054 [+0.043,+0.065]* |
+
+best classical per cell: clean_snr15: NOMP os8 rc6, clean_snr0: NOMP os8 rc6
+clean_snr15: consistent NOMP - NOMP - | FT dual+SC - orig dual+SC [-0.0007, -0.002, 0.0007] | FT heat+SC - orig heat+SC [0.0, -0.0017, 0.0017]
+clean_snr0: consistent NOMP - NOMP - | FT dual+SC - orig dual+SC [-0.0003, -0.0037, 0.0027] | FT heat+SC - orig heat+SC [0.002, -0.001, 0.005]
+
+### official: Pd (paper-style, mean over SNR groups) per method; best classical per cell in brackets
+
+| method | official |
+|---|---|
+| NOMP | 0.758 |
+| NOMP+SC | 0.758 |
+| NOMP+SC tuned | 0.757 |
+| FFT-peak seeds | 0.713 |
+| FFT-peak seeds+SC | 0.712 |
+| classical dual | 0.758 |
+| classical dual+SC | 0.758 |
+| NOMP os8 rc6 | **0.760** |
+| multi-start K6 | 0.758 |
+| consistent NOMP | - |
+| FFT parabolic os4 | 0.683 |
+| FFT parabolic os16 | 0.683 |
+| consistent parabolic | - |
+| orig heat+SC | 0.750 |
+| orig dual+SC | 0.755 |
+| orig network only | 0.451 |
+| FT heat+SC | 0.751 |
+| FT dual+SC | 0.755 |
+| FT NOMP on Hc | 0.755 |
+| FT network only | 0.458 |
+| FT heat + consistent | - |
+| oracle-seeded | 0.826 |
+
+official: network methods minus the BEST classical method of the cell (paired bootstrap 95% CI; * = CI excludes 0)
+
+| method | official |
+|---|---|
+| orig heat+SC | -0.009 [-0.011,-0.008]* |
+| orig dual+SC | -0.005 [-0.006,-0.003]* |
+| orig network only | -0.309 [-0.314,-0.305]* |
+| FT heat+SC | -0.009 [-0.011,-0.007]* |
+| FT dual+SC | -0.004 [-0.006,-0.003]* |
+| FT NOMP on Hc | -0.005 [-0.006,-0.003]* |
+| FT network only | -0.301 [-0.306,-0.297]* |
+| FT heat + consistent | - |
+| oracle-seeded | +0.066 [+0.063,+0.069]* |
+
+best classical per cell: official: NOMP os8 rc6
+official: consistent NOMP - NOMP - | FT dual+SC - orig dual+SC [0.0003, -0.0001, 0.0008] | FT heat+SC - orig heat+SC [0.0005, -0.0003, 0.0013]
+
+official by SNR (paper Pd):
+| method | -10 | -5 | 0 | 5 | 10 | 15 | 20 | 25 | mean |
+|---|---|---|---|---|---|---|---|---|---|
+| NOMP | 0.262 | 0.506 | 0.691 | 0.820 | 0.899 | 0.945 | 0.966 | 0.976 | 0.7581 |
+| NOMP+SC | 0.262 | 0.506 | 0.691 | 0.821 | 0.900 | 0.943 | 0.963 | 0.976 | 0.7576 |
+| NOMP+SC tuned | 0.262 | 0.506 | 0.691 | 0.815 | 0.897 | 0.942 | 0.962 | 0.977 | 0.7565 |
+| FFT-peak seeds | 0.260 | 0.497 | 0.667 | 0.771 | 0.845 | 0.870 | 0.890 | 0.907 | 0.7134 |
+| FFT-peak seeds+SC | 0.259 | 0.496 | 0.666 | 0.772 | 0.843 | 0.869 | 0.888 | 0.905 | 0.7124 |
+| classical dual | 0.263 | 0.506 | 0.691 | 0.820 | 0.899 | 0.945 | 0.966 | 0.976 | 0.7581 |
+| classical dual+SC | 0.262 | 0.506 | 0.691 | 0.821 | 0.900 | 0.943 | 0.963 | 0.976 | 0.7576 |
+| NOMP os8 rc6 | 0.265 | 0.507 | 0.691 | 0.821 | 0.901 | 0.945 | 0.969 | 0.978 | 0.7598 |
+| multi-start K6 | 0.264 | 0.506 | 0.691 | 0.820 | 0.899 | 0.945 | 0.966 | 0.976 | 0.7583 |
+| FFT parabolic os4 | 0.263 | 0.485 | 0.656 | 0.741 | 0.809 | 0.828 | 0.834 | 0.848 | 0.6829 |
+| FFT parabolic os16 | 0.263 | 0.489 | 0.658 | 0.739 | 0.810 | 0.825 | 0.832 | 0.846 | 0.6826 |
+| orig heat+SC | 0.260 | 0.504 | 0.685 | 0.814 | 0.888 | 0.935 | 0.951 | 0.964 | 0.7503 |
+| orig dual+SC | 0.263 | 0.507 | 0.692 | 0.819 | 0.895 | 0.939 | 0.958 | 0.969 | 0.7551 |
+| orig network only | 0.252 | 0.455 | 0.554 | 0.540 | 0.502 | 0.451 | 0.428 | 0.423 | 0.4506 |
+| FT heat+SC | 0.260 | 0.503 | 0.687 | 0.816 | 0.888 | 0.936 | 0.952 | 0.964 | 0.7508 |
+| FT dual+SC | 0.263 | 0.506 | 0.693 | 0.820 | 0.895 | 0.939 | 0.959 | 0.969 | 0.7555 |
+| FT NOMP on Hc | 0.262 | 0.505 | 0.693 | 0.820 | 0.895 | 0.939 | 0.959 | 0.969 | 0.7552 |
+| FT network only | 0.251 | 0.454 | 0.553 | 0.553 | 0.515 | 0.463 | 0.440 | 0.438 | 0.4584 |
+| oracle-seeded | 0.566 | 0.636 | 0.740 | 0.845 | 0.914 | 0.949 | 0.974 | 0.984 | 0.8261 |
+
+### headline per cell: best classical (extended set) vs fine-tuned network-only and best FT decoder variant (paired 95% CI)
+
+| set | cell | best classical | Pd | FT network only | diff [CI] | orig network only | best FT+decoder | diff [CI] | oracle-seeded |
+|---|---|---|---|---|---|---|---|---|---|
+| m5 | b4_snr15 | consistent NOMP | 0.843 | 0.546 | -0.297 [-0.318,-0.277]* | 0.562 | FT heat + consistent 0.837 | -0.006 [-0.012,+0.000] | 0.789 |
+| m5 | b3_snr15 | consistent NOMP | 0.699 | 0.609 | -0.090 [-0.110,-0.070]* | 0.431 | FT heat + consistent 0.676 | -0.023 [-0.034,-0.012]* | 0.538 |
+| m5 | b2_snr15 | consistent NOMP | 0.430 | 0.559 | +0.130 [+0.110,+0.148]* | 0.244 | FT heat + consistent 0.448 | +0.018 [+0.003,+0.034]* | 0.381 |
+| m5 | b1_snr15 | consistent NOMP | 0.225 | 0.399 | +0.174 [+0.155,+0.192]* | 0.176 | FT heat + consistent 0.310 | +0.085 [+0.072,+0.098]* | 0.575 |
+| m5 | b4_snr0 | NOMP | 0.663 | 0.532 | -0.131 [-0.149,-0.115]* | 0.531 | FT NOMP on Hc 0.661 | -0.002 [-0.005,+0.002] | 0.726 |
+| m5 | b3_snr0 | classical dual+SC | 0.589 | 0.500 | -0.089 [-0.108,-0.069]* | 0.538 | FT dual+SC 0.587 | -0.001 [-0.005,+0.002] | 0.672 |
+| m5 | b2_snr0 | consistent NOMP | 0.407 | 0.432 | +0.025 [+0.009,+0.041]* | 0.355 | FT heat + consistent 0.366 | -0.041 [-0.054,-0.028]* | 0.513 |
+| m5 | b1_snr0 | consistent parabolic | 0.226 | 0.229 | +0.004 [-0.010,+0.018] | 0.155 | FT heat + consistent 0.215 | -0.011 [-0.022,+0.002] | 0.512 |
+| fresh | b4_snr15 | consistent NOMP | 0.850 | 0.527 | -0.323 [-0.337,-0.308]* | 0.547 | FT heat + consistent 0.840 | -0.009 [-0.014,-0.005]* | 0.795 |
+| fresh | b3_snr15 | consistent NOMP | 0.712 | 0.612 | -0.100 [-0.114,-0.086]* | 0.438 | FT heat + consistent 0.692 | -0.021 [-0.028,-0.013]* | 0.536 |
+| fresh | b2_snr15 | consistent NOMP | 0.424 | 0.579 | +0.155 [+0.142,+0.168]* | 0.250 | FT heat + consistent 0.453 | +0.029 [+0.018,+0.039]* | 0.380 |
+| fresh | b1_snr15 | consistent NOMP | 0.223 | 0.401 | +0.178 [+0.165,+0.192]* | 0.182 | FT heat + consistent 0.306 | +0.083 [+0.074,+0.094]* | 0.571 |
+| fresh | b4_snr0 | NOMP os8 rc6 | 0.675 | 0.551 | -0.124 [-0.136,-0.112]* | 0.552 | FT NOMP on Hc 0.674 | -0.000 [-0.004,+0.003] | 0.737 |
+| fresh | b3_snr0 | multi-start K6 | 0.603 | 0.519 | -0.083 [-0.095,-0.071]* | 0.547 | FT dual+SC 0.601 | -0.001 [-0.004,+0.002] | 0.683 |
+| fresh | b2_snr0 | consistent NOMP | 0.420 | 0.436 | +0.016 [+0.005,+0.028]* | 0.372 | FT heat + consistent 0.384 | -0.036 [-0.044,-0.026]* | 0.529 |
+| fresh | b1_snr0 | consistent NOMP | 0.217 | 0.229 | +0.012 [+0.001,+0.022]* | 0.153 | FT heat + consistent 0.215 | -0.002 [-0.010,+0.007] | 0.504 |
+official: FT dual+SC - orig dual+SC [0.0003, -0.0001, 0.0008], FT heat+SC - orig heat+SC [0.0005, -0.0003, 0.0013], FT dual+SC - NOMP [-0.0026, -0.004, -0.0013], FT network only - orig network only [0.0077, 0.0052, 0.0101]
+clean_snr15: FT dual+SC - orig dual+SC [-0.0007, -0.002, 0.0007], FT heat+SC - orig heat+SC [0.0, -0.0017, 0.0017], FT dual+SC - NOMP [-0.005, -0.0107, 0.001], FT network only - orig network only [0.016, 0.0057, 0.0263]
+clean_snr0: FT dual+SC - orig dual+SC [-0.0003, -0.0037, 0.0027], FT heat+SC - orig heat+SC [0.002, -0.001, 0.005], FT dual+SC - NOMP [-0.0003, -0.005, 0.0043], FT network only - orig network only [0.0103, 0.001, 0.0197]
+
+latency (ms/scene, 1 thread, batch 1): {'NOMP': 6.49, 'NOMP+SC tuned': 12.76, 'classical dual': 8.8, 'NOMP os8 rc6': 10.09, 'multi-start K6': 50.91, 'consistent NOMP': 74.35, 'CNN forward only': 5.82, 'FT heat+SC (CNN + decode)': 12.51, 'FT dual+SC (CNN + decode)': 18.33, 'FT network only (CNN + parabolic)': 6.12}
+
+wrote results.json, fig_adc.png, fig_train.png

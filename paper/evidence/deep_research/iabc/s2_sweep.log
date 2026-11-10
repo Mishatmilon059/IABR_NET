@@ -1,0 +1,29 @@
+clean: cached, skip
+c8_3: cached, skip
+ph8: cached, skip
+g3: cached, skip
+c30_6: cached, skip
+ph20: cached, skip
+g6: cached, skip
+ph45   ph 45 g 0 | RMS phase deg before 24.22 iabc 24.09 sc_t0_i4 15.48 oracle 15.16 | gain dB before 0.00 iabc 0.13 sc_t0_i4 1.54 oracle 1.51
+        Pd NOMP 0.502 | IABC+NOMP 0.506 | IABR-Net heat 0.498 | IABR-v2 dual 0.506 | NOMP+SC default 0.502 | NOMP+SC tuned 0.510 | NOMP+SC tau0 i2 0.516 | NOMP+SC tau0 i4 0.515 | IABC+NOMP+SC tuned 0.512 | gate open def 0.00 tun 0.29 | net 4s decode 19s total 51s [51s]
+c20_4  ph 20 g 4 | RMS phase deg before 10.76 iabc 10.44 sc_t0_i4 14.20 oracle 14.15 | gain dB before 2.22 iabc 1.62 sc_t0_i4 1.51 oracle 1.49
+        Pd NOMP 0.649 | IABC+NOMP 0.665 | IABR-Net heat 0.679 | IABR-v2 dual 0.677 | NOMP+SC default 0.651 | NOMP+SC tuned 0.670 | NOMP+SC tau0 i2 0.641 | NOMP+SC tau0 i4 0.637 | IABC+NOMP+SC tuned 0.682 | gate open def 0.09 tun 0.55 | net 3s decode 19s total 47s [98s]
+c5_2   ph  5 g 2 | RMS phase deg before 2.69 iabc 2.53 sc_t0_i4 13.79 oracle 14.59 | gain dB before 1.11 iabc 0.81 sc_t0_i4 1.43 oracle 1.48
+        Pd NOMP 0.734 | IABC+NOMP 0.730 | IABR-Net heat 0.740 | IABR-v2 dual 0.743 | NOMP+SC default 0.745 | NOMP+SC tuned 0.746 | NOMP+SC tau0 i2 0.720 | NOMP+SC tau0 i4 0.716 | IABC+NOMP+SC tuned 0.744 | gate open def 0.48 tun 0.59 | net 4s decode 19s total 49s [147s]
+ph2    ph  2 g 0 | RMS phase deg before 1.08 iabc 1.12 sc_t0_i4 13.44 oracle 14.15 | gain dB before 0.00 iabc 0.19 sc_t0_i4 1.40 oracle 1.47
+        Pd NOMP 0.749 | IABC+NOMP 0.741 | IABR-Net heat 0.741 | IABR-v2 dual 0.746 | NOMP+SC default 0.747 | NOMP+SC tuned 0.746 | NOMP+SC tau0 i2 0.728 | NOMP+SC tau0 i4 0.723 | IABC+NOMP+SC tuned 0.746 | gate open def 0.49 tun 0.60 | net 4s decode 19s total 50s [197s]
+ph5    ph  5 g 0 | RMS phase deg before 2.69 iabc 2.54 sc_t0_i4 13.52 oracle 14.30 | gain dB before 0.00 iabc 0.18 sc_t0_i4 1.40 oracle 1.45
+        Pd NOMP 0.745 | IABC+NOMP 0.737 | IABR-Net heat 0.738 | IABR-v2 dual 0.743 | NOMP+SC default 0.745 | NOMP+SC tuned 0.745 | NOMP+SC tau0 i2 0.724 | NOMP+SC tau0 i4 0.720 | IABC+NOMP+SC tuned 0.743 | gate open def 0.49 tun 0.60 | net 4s decode 19s total 49s [246s]
+ph12   ph 12 g 0 | RMS phase deg before 6.46 iabc 6.24 sc_t0_i4 13.79 oracle 14.28 | gain dB before 0.00 iabc 0.16 sc_t0_i4 1.41 oracle 1.46
+        Pd NOMP 0.719 | IABC+NOMP 0.714 | IABR-Net heat 0.719 | IABR-v2 dual 0.723 | NOMP+SC default 0.725 | NOMP+SC tuned 0.727 | NOMP+SC tau0 i2 0.706 | NOMP+SC tau0 i4 0.702 | IABC+NOMP+SC tuned 0.725 | gate open def 0.48 tun 0.59 | net 4s decode 19s total 48s [294s]
+ph30   ph 30 g 0 | RMS phase deg before 16.15 iabc 16.02 sc_t0_i4 14.07 oracle 14.63 | gain dB before 0.00 iabc 0.13 sc_t0_i4 1.44 oracle 1.49
+        Pd NOMP 0.614 | IABC+NOMP 0.614 | IABR-Net heat 0.621 | IABR-v2 dual 0.622 | NOMP+SC default 0.620 | NOMP+SC tuned 0.629 | NOMP+SC tau0 i2 0.619 | NOMP+SC tau0 i4 0.615 | IABC+NOMP+SC tuned 0.630 | gate open def 0.23 tun 0.54 | net 17s decode 26s total 77s [371s]
+g1     ph  0 g 1 | RMS phase deg before 0.00 iabc 0.45 sc_t0_i4 13.64 oracle 14.22 | gain dB before 0.55 iabc 0.51 sc_t0_i4 1.41 oracle 1.49
+        Pd NOMP 0.748 | IABC+NOMP 0.738 | IABR-Net heat 0.742 | IABR-v2 dual 0.746 | NOMP+SC default 0.750 | NOMP+SC tuned 0.750 | NOMP+SC tau0 i2 0.731 | NOMP+SC tau0 i4 0.728 | IABC+NOMP+SC tuned 0.748 | gate open def 0.49 tun 0.60 | net 9s decode 20s total 51s [421s]
+g2     ph  0 g 2 | RMS phase deg before 0.00 iabc 0.49 sc_t0_i4 13.73 oracle 14.31 | gain dB before 1.11 iabc 0.81 sc_t0_i4 1.43 oracle 1.48
+        Pd NOMP 0.742 | IABC+NOMP 0.733 | IABR-Net heat 0.740 | IABR-v2 dual 0.744 | NOMP+SC default 0.749 | NOMP+SC tuned 0.750 | NOMP+SC tau0 i2 0.725 | NOMP+SC tau0 i4 0.722 | IABC+NOMP+SC tuned 0.746 | gate open def 0.48 tun 0.59 | net 5s decode 16s total 46s [467s]
+g4     ph  0 g 4 | RMS phase deg before 0.00 iabc 0.58 sc_t0_i4 13.78 oracle 14.33 | gain dB before 2.22 iabc 1.52 sc_t0_i4 1.48 oracle 1.50
+        Pd NOMP 0.718 | IABC+NOMP 0.733 | IABR-Net heat 0.738 | IABR-v2 dual 0.741 | NOMP+SC default 0.733 | NOMP+SC tuned 0.736 | NOMP+SC tau0 i2 0.703 | NOMP+SC tau0 i4 0.698 | IABC+NOMP+SC tuned 0.744 | gate open def 0.38 tun 0.57 | net 4s decode 16s total 39s [506s]
+chunk check g6: first 400 scenes recomputed in a 400-chunk vs attempt-1 1600-batch cache: max |diff| over all per-scene arrays = 8.70e-08
+done 515s

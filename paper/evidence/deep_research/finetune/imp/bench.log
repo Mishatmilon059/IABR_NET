@@ -1,0 +1,13 @@
+bench step 0: data 0.070s fwd/bwd/step 1.541s loss 1.4061 (heat 0.5680 imp 1.68e-02) gradnorm 1.55
+bench step 1: data 0.152s fwd/bwd/step 1.169s loss 1.6092 (heat 0.6361 imp 1.95e-02) gradnorm 1.34
+bench step 2: data 0.164s fwd/bwd/step 1.249s loss 1.2763 (heat 0.5370 imp 1.48e-02) gradnorm 1.42
+bench step 3: data 0.156s fwd/bwd/step 1.324s loss 1.2856 (heat 0.6440 imp 1.28e-02) gradnorm 0.69
+bench step 4: data 0.176s fwd/bwd/step 2.114s loss 1.2355 (heat 0.5685 imp 1.33e-02) gradnorm 0.86
+bench step 5: data 0.191s fwd/bwd/step 1.227s loss 1.6109 (heat 0.6434 imp 1.94e-02) gradnorm 1.19
+bench step 6: data 0.124s fwd/bwd/step 0.974s loss 1.3272 (heat 0.7273 imp 1.20e-02) gradnorm 0.54
+bench step 7: data 0.141s fwd/bwd/step 1.063s loss 1.1293 (heat 0.5332 imp 1.19e-02) gradnorm 0.56
+bench step 8: data 0.111s fwd/bwd/step 1.112s loss 1.4278 (heat 0.5955 imp 1.66e-02) gradnorm 0.64
+bench step 9: data 0.109s fwd/bwd/step 0.939s loss 1.3688 (heat 0.5900 imp 1.56e-02) gradnorm 0.70
+bench step 10: data 0.096s fwd/bwd/step 1.089s loss 1.3156 (heat 0.5612 imp 1.51e-02) gradnorm 0.82
+bench step 11: data 0.137s fwd/bwd/step 1.126s loss 1.3507 (heat 0.5810 imp 1.54e-02) gradnorm 0.99
+mean data 0.140s, compute 1.222s, total 1.362s/step (batch 128)

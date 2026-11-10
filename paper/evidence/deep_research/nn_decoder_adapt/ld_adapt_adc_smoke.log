@@ -1,0 +1,59 @@
+2026-10-15 15:43:49 start smoke=True ckpt=D:/ai_ml_project/IABR_v2_extracted/IABR_v2/outputs/checkpoints/IABRv2/final.pt steps=4 bs=16 threads=2
+2026-10-15 15:43:49 checkpoint ready: D:/ai_ml_project/IABR_v2_extracted/IABR_v2/outputs/checkpoints/IABRv2/final.pt Fri Sep 25 08:52:16 2026
+2026-10-15 15:44:02 step 4/4 loss(avg last 50) 4.3312 lam 1.025 2s
+2026-10-15 15:44:04 clean_snr15 NOMP: 0.9417 | FT-CNN + classical heat decoder: 0.9417 | FT-CNN + original learned decoder: 0.9417 | FT-CNN + adapted learned decoder: 0.9417 | original CNN + original learned decoder: 0.9417
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:04 M5_b4_snr15 NOMP: 0.8167 | FT-CNN + classical heat decoder: 0.7917 | FT-CNN + original learned decoder: 0.7917 | FT-CNN + adapted learned decoder: 0.7917 | original CNN + original learned decoder: 0.7917
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - NOMP pd_paper -0.0250 [-0.0667, +0.0167]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0000 [-0.0250, +0.0250]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0000 [-0.0250, +0.0250]
+2026-10-15 15:44:04     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0000 [-0.0250, +0.0250]
+2026-10-15 15:44:05 M5_b3_snr15 NOMP: 0.5000 | FT-CNN + classical heat decoder: 0.5250 | FT-CNN + original learned decoder: 0.5250 | FT-CNN + adapted learned decoder: 0.5083 | original CNN + original learned decoder: 0.5250
+2026-10-15 15:44:05     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0083 [-0.0250, +0.0500]
+2026-10-15 15:44:05     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper -0.0167 [-0.0417, +0.0000]
+2026-10-15 15:44:05     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper -0.0167 [-0.0417, +0.0000]
+2026-10-15 15:44:05     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper -0.0167 [-0.0417, +0.0000]
+2026-10-15 15:44:06 M5_b2_snr15 NOMP: 0.3167 | FT-CNN + classical heat decoder: 0.3167 | FT-CNN + original learned decoder: 0.3167 | FT-CNN + adapted learned decoder: 0.3167 | original CNN + original learned decoder: 0.3167
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0000 [-0.0250, +0.0250]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:06 M5_b1_snr15 NOMP: 0.2167 | FT-CNN + classical heat decoder: 0.1833 | FT-CNN + original learned decoder: 0.1833 | FT-CNN + adapted learned decoder: 0.1917 | original CNN + original learned decoder: 0.1833
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - NOMP pd_paper -0.0250 [-0.0667, +0.0167]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:06     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:07 clean_snr0 NOMP: 0.7583 | FT-CNN + classical heat decoder: 0.7417 | FT-CNN + original learned decoder: 0.7417 | FT-CNN + adapted learned decoder: 0.7500 | original CNN + original learned decoder: 0.7417
+2026-10-15 15:44:07     FT-CNN + adapted learned decoder - NOMP pd_paper -0.0083 [-0.0250, +0.0000]
+2026-10-15 15:44:07     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:07     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:07     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:08 M5_b4_snr0 NOMP: 0.7417 | FT-CNN + classical heat decoder: 0.7250 | FT-CNN + original learned decoder: 0.7250 | FT-CNN + adapted learned decoder: 0.7333 | original CNN + original learned decoder: 0.7250
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - NOMP pd_paper -0.0083 [-0.0333, +0.0167]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:08 M5_b3_snr0 NOMP: 0.6583 | FT-CNN + classical heat decoder: 0.6500 | FT-CNN + original learned decoder: 0.6583 | FT-CNN + adapted learned decoder: 0.6667 | original CNN + original learned decoder: 0.6583
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0083 [-0.0167, +0.0333]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0167 [-0.0167, +0.0500]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0083 [-0.0167, +0.0333]
+2026-10-15 15:44:08     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0083 [-0.0167, +0.0333]
+2026-10-15 15:44:09 M5_b2_snr0 NOMP: 0.4833 | FT-CNN + classical heat decoder: 0.4833 | FT-CNN + original learned decoder: 0.4833 | FT-CNN + adapted learned decoder: 0.4917 | original CNN + original learned decoder: 0.4833
+2026-10-15 15:44:09     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0083 [-0.0167, +0.0417]
+2026-10-15 15:44:09     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:09     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:09     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0083 [+0.0000, +0.0250]
+2026-10-15 15:44:10 M5_b1_snr0 NOMP: 0.2500 | FT-CNN + classical heat decoder: 0.2500 | FT-CNN + original learned decoder: 0.2500 | FT-CNN + adapted learned decoder: 0.2500 | original CNN + original learned decoder: 0.2500
+2026-10-15 15:44:10     FT-CNN + adapted learned decoder - NOMP pd_paper +0.0000 [-0.0333, +0.0333]
+2026-10-15 15:44:10     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:10     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:10     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper +0.0000 [+0.0000, +0.0000]
+2026-10-15 15:44:12 official_subset NOMP: 0.7625 | FT-CNN + classical heat decoder: 0.7458 | FT-CNN + original learned decoder: 0.7458 | FT-CNN + adapted learned decoder: 0.7375 | original CNN + original learned decoder: 0.7458
+2026-10-15 15:44:12     FT-CNN + adapted learned decoder - NOMP pd_paper -0.0250 [-0.0583, +0.0000]
+2026-10-15 15:44:12     FT-CNN + adapted learned decoder - FT-CNN + classical heat decoder pd_paper -0.0083 [-0.0208, +0.0000]
+2026-10-15 15:44:12     FT-CNN + adapted learned decoder - FT-CNN + original learned decoder pd_paper -0.0083 [-0.0208, +0.0000]
+2026-10-15 15:44:12     FT-CNN + adapted learned decoder - original CNN + original learned decoder pd_paper -0.0083 [-0.0208, +0.0000]
+2026-10-15 15:44:12 done

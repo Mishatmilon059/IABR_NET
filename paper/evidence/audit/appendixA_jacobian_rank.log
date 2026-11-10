@@ -1,0 +1,4 @@
+L=1 params=68  nullity per trial: [6, 6, 6]  smallest nonzero sv 1.237e+00, largest null-space sv 9.359e-11, s_max 6.429e+01; max |J v|/|v| over the 6 tangent vectors (3 draws) 6.67e-10
+L=2 params=72  nullity per trial: [6, 6, 6]  smallest nonzero sv 1.485e+00, largest null-space sv 3.422e-10, s_max 8.511e+01; max |J v|/|v| over the 6 tangent vectors (3 draws) 6.67e-10
+L=3 params=76  nullity per trial: [6, 6, 6]  smallest nonzero sv 4.461e-01, largest null-space sv 1.360e-09, s_max 3.464e+02; max |J v|/|v| over the 6 tangent vectors (3 draws) 9.20e-10
+L=4 params=80  nullity per trial: [6, 6, 6]  smallest nonzero sv 3.471e+00, largest null-space sv 7.773e-10, s_max 1.606e+02; max |J v|/|v| over the 6 tangent vectors (3 draws) 8.09e-10

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\iabc_v2\gen_v2b.py", line 24, in <module>
+    np.savez(fn, tok=tok, glob=glob, eA=eA.astype(np.float32), tgt=b['tgt'], snr=b['snr'], L=b['L'], pd=b['pd'], gd=b['gd'])
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_npyio_impl.py", line 686, in savez
+    _savez(file, args, kwds, False, allow_pickle=allow_pickle)
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_npyio_impl.py", line 799, in _savez
+    format.write_array(fid, val,
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_format_impl.py", line 777, in write_array
+    fp.write(chunk.tobytes('C'))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 1221, in write
+    self._fileobj.write(data)
+OSError: [Errno 28] No space left on device

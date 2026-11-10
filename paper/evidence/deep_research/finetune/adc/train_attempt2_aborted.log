@@ -1,0 +1,3 @@
+config: THREADS=4 BS=64 WARM=50 STEPS=900 (attempt 2; attempt 1 with batch 128 / 6 threads ran at 11 s/step under shared-CPU load and was aborted at step ~60, see train_attempt1_aborted.log)
+step 0 monitor: orig heat 0.4699 imp 4.15e-03 | adc heat 0.9461 imp 5.14e-03
+step 50/900 loss 0.9551 (heat 0.7186 imp 4.73e-03) lr 3.00e-04 | monitor orig heat 0.4927 imp 4.15e-03, adc heat 0.8722 imp 5.07e-03 | 2.00 s/step, ETA 28 min

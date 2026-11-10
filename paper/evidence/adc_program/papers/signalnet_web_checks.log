@@ -1,0 +1,11 @@
+# SignalNet web checks, 2026-10-16 (this session). Tool: WebFetch / WebSearch.
+## doi.org/10.1109/TSP.2022.3201336 -> 302 to https://ieeexplore.ieee.org/document/9872431/ ; IEEE page returned EMPTY content (no metadata read).
+## api.crossref.org/works/10.1109/TSP.2022.3201336
+Title: "SignalNet: A Low Resolution Sinusoid Decomposition and Estimation Network"
+Authors: Ryan M. Dreifuerst; Robert W. Heath (family names Dreifuerst, Heath)
+Container-title: IEEE Transactions on Signal Processing; Volume 70; Page 4454-4467; Published year 2022; Issue not provided; type journal-article
+## arxiv.org/abs/2106.05490
+Title and authors as above. [v1] Thu, 10 Jun 2021 (21,291 KB); [v2] Thu, 13 Jan 2022 (796 KB)
+Comments: "Submitted to IEEE Transactions on Signal Processing"; Journal reference: none listed; Related DOI 10.1109/TSP.2022.3201336
+## par.nsf.gov/servlets/purl/10366074 -> ECONNREFUSED (unreachable). Search snippet lists IEEE TSP vol 70 pages 4454-4467, ISSN 1053-587X.
+## Local renders checked: signalnet_pages/eq3b.png (Eq.3 is z = Q_b(N u / ||u||^2)); signalnet_pages/alg1.png (Algorithm 1: m from [0, M-1]; y <- y/||y||; sum i=0..m).

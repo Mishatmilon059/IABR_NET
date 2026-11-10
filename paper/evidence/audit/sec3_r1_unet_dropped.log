@@ -1,0 +1,3 @@
+U-Net dropped per SNR {-10: 89, -5: 120, 0: 121, 5: 80, 10: 63, 15: 23, 20: 17, 25: 25} total 538
+mean over SNR points of paper-style Pd 0.7365854889296044
+pooled paper-style 0.7440587867417136

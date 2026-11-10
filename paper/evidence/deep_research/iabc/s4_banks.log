@@ -1,0 +1,57 @@
+56 cached banks; skipped (truth angles not on this machine, cannot be scored): ['dldoa_test']
+official             N= 8000 L=[3] | NOMP 0.7581 IABC+NOMP 0.7499 | diff -0.0082 [-0.0096,-0.0069] below0 | strict diff -0.0082 [-0.0096,-0.0069] | cached pred__NOMP_no_network | 83s
+L10_snr0             N=  500 L=[10] | NOMP 0.4551 IABC+NOMP 0.4561 | diff +0.0010 [-0.0018,+0.0038] contains0 | strict diff +0.0010 [-0.0018,+0.0038] | cached pred__NOMP_no_network | 3s
+L10_snr15            N=  500 L=[10] | NOMP 0.8423 IABC+NOMP 0.8377 | diff -0.0046 [-0.0095,+0.0002] contains0 | strict diff -0.0046 [-0.0095,+0.0002] | cached pred__NOMP_no_network | 4s
+L1_snr0              N=  500 L=[1] | NOMP 0.8310 IABC+NOMP 0.8320 | diff +0.0010 [+0.0000,+0.0030] contains0 | strict diff +0.0010 [+0.0000,+0.0030] | cached pred__NOMP_no_network | 2s
+L1_snr15             N=  500 L=[1] | NOMP 0.9630 IABC+NOMP 0.9630 | diff +0.0000 [+0.0000,+0.0000] contains0 | strict diff +0.0000 [+0.0000,+0.0000] | cached pred__NOMP_no_network | 1s
+L2_snr0              N=  500 L=[2] | NOMP 0.7550 IABC+NOMP 0.7525 | diff -0.0025 [-0.0070,+0.0020] contains0 | strict diff -0.0025 [-0.0070,+0.0020] | cached pred__NOMP_no_network | 2s
+L2_snr15             N=  500 L=[2] | NOMP 0.9590 IABC+NOMP 0.9495 | diff -0.0095 [-0.0140,-0.0055] below0 | strict diff -0.0095 [-0.0140,-0.0055] | cached pred__NOMP_no_network | 1s
+L4_snr0              N=  500 L=[4] | NOMP 0.6482 IABC+NOMP 0.6500 | diff +0.0018 [-0.0028,+0.0067] contains0 | strict diff +0.0018 [-0.0028,+0.0067] | cached pred__NOMP_no_network | 2s
+L4_snr15             N=  500 L=[4] | NOMP 0.9290 IABC+NOMP 0.9197 | diff -0.0093 [-0.0145,-0.0047] below0 | strict diff -0.0093 [-0.0145,-0.0047] | cached pred__NOMP_no_network | 1s
+L5_snr0              N=  500 L=[5] | NOMP 0.6074 IABC+NOMP 0.6052 | diff -0.0022 [-0.0058,+0.0016] contains0 | strict diff -0.0022 [-0.0058,+0.0016] | cached pred__NOMP_no_network | 1s
+L5_snr15             N=  500 L=[5] | NOMP 0.9214 IABC+NOMP 0.9036 | diff -0.0178 [-0.0240,-0.0120] below0 | strict diff -0.0178 [-0.0240,-0.0120] | cached pred__NOMP_no_network | 1s
+L6_snr0              N=  500 L=[6] | NOMP 0.5667 IABC+NOMP 0.5637 | diff -0.0030 [-0.0067,+0.0003] contains0 | strict diff -0.0030 [-0.0067,+0.0003] | cached pred__NOMP_no_network | 1s
+L6_snr15             N=  500 L=[6] | NOMP 0.8960 IABC+NOMP 0.8858 | diff -0.0102 [-0.0160,-0.0045] below0 | strict diff -0.0102 [-0.0160,-0.0045] | cached pred__NOMP_no_network | 1s
+L7_snr0              N=  500 L=[7] | NOMP 0.5423 IABC+NOMP 0.5437 | diff +0.0014 [-0.0017,+0.0044] contains0 | strict diff +0.0014 [-0.0017,+0.0044] | cached pred__NOMP_no_network | 1s
+L7_snr15             N=  500 L=[7] | NOMP 0.8797 IABC+NOMP 0.8661 | diff -0.0136 [-0.0190,-0.0080] below0 | strict diff -0.0136 [-0.0190,-0.0080] | cached pred__NOMP_no_network | 1s
+L8_snr0              N=  500 L=[8] | NOMP 0.5019 IABC+NOMP 0.5019 | diff +0.0000 [-0.0031,+0.0033] contains0 | strict diff +0.0000 [-0.0031,+0.0033] | cached pred__NOMP_no_network | 1s
+L8_snr15             N=  500 L=[8] | NOMP 0.8651 IABC+NOMP 0.8548 | diff -0.0104 [-0.0156,-0.0054] below0 | strict diff -0.0104 [-0.0156,-0.0054] | cached pred__NOMP_no_network | 1s
+T2_d1                N= 8000 L=[3] | NOMP 0.7573 IABC+NOMP 0.7488 | diff -0.0085 [-0.0099,-0.0071] below0 | strict diff -0.0085 [-0.0099,-0.0071] | cached pred__NOMP_no_network | 94s
+T2_d2                N= 8000 L=[3] | NOMP 0.7515 IABC+NOMP 0.7424 | diff -0.0091 [-0.0105,-0.0077] below0 | strict diff -0.0091 [-0.0105,-0.0077] | cached pred__NOMP_no_network | 83s
+T2_d5                N= 8000 L=[3] | NOMP 0.7468 IABC+NOMP 0.7403 | diff -0.0065 [-0.0079,-0.0051] below0 | strict diff -0.0065 [-0.0079,-0.0051] | cached pred__NOMP_no_network | 119s
+gain_g0.5_snr0       N=  500 L=[3] | NOMP 0.7047 IABC+NOMP 0.7073 | diff +0.0027 [-0.0020,+0.0077] contains0 | strict diff +0.0027 [-0.0020,+0.0077] | cached pred__NOMP_no_network | 4s
+gain_g0.5_snr15      N=  500 L=[3] | NOMP 0.9393 IABC+NOMP 0.9223 | diff -0.0170 [-0.0237,-0.0103] below0 | strict diff -0.0170 [-0.0237,-0.0103] | cached pred__NOMP_no_network | 4s
+gain_g1_snr0         N=  500 L=[3] | NOMP 0.7083 IABC+NOMP 0.7080 | diff -0.0003 [-0.0053,+0.0047] contains0 | strict diff -0.0003 [-0.0053,+0.0047] | cached pred__NOMP_no_network | 3s
+gain_g1_snr15        N=  500 L=[3] | NOMP 0.9350 IABC+NOMP 0.9260 | diff -0.0090 [-0.0153,-0.0030] below0 | strict diff -0.0090 [-0.0153,-0.0030] | cached pred__NOMP_no_network | 3s
+gain_g2_snr0         N=  500 L=[3] | NOMP 0.7143 IABC+NOMP 0.7133 | diff -0.0010 [-0.0067,+0.0047] contains0 | strict diff -0.0010 [-0.0067,+0.0047] | cached pred__NOMP_no_network | 4s
+gain_g2_snr15        N=  500 L=[3] | NOMP 0.9167 IABC+NOMP 0.9057 | diff -0.0110 [-0.0190,-0.0027] below0 | strict diff -0.0110 [-0.0190,-0.0027] | cached pred__NOMP_no_network | 4s
+gain_g4_snr0         N=  500 L=[3] | NOMP 0.6893 IABC+NOMP 0.6920 | diff +0.0027 [-0.0050,+0.0097] contains0 | strict diff +0.0027 [-0.0050,+0.0097] | cached pred__NOMP_no_network | 4s
+gain_g4_snr15        N=  500 L=[3] | NOMP 0.8697 IABC+NOMP 0.8847 | diff +0.0150 [+0.0057,+0.0250] above0 | strict diff +0.0150 [+0.0057,+0.0250] | cached pred__NOMP_no_network | 4s
+oodphase_d10_snr0    N=  500 L=[3] | NOMP 0.6947 IABC+NOMP 0.6950 | diff +0.0003 [-0.0047,+0.0053] contains0 | strict diff +0.0003 [-0.0047,+0.0053] | cached pred__NOMP_no_network | 3s
+oodphase_d10_snr15   N=  500 L=[3] | NOMP 0.9127 IABC+NOMP 0.9060 | diff -0.0067 [-0.0127,-0.0007] below0 | strict diff -0.0067 [-0.0127,-0.0007] | cached pred__NOMP_no_network | 4s
+oodphase_d15_snr0    N=  500 L=[3] | NOMP 0.6750 IABC+NOMP 0.6753 | diff +0.0003 [-0.0043,+0.0047] contains0 | strict diff +0.0003 [-0.0043,+0.0047] | cached pred__NOMP_no_network | 3s
+oodphase_d15_snr15   N=  500 L=[3] | NOMP 0.8633 IABC+NOMP 0.8563 | diff -0.0070 [-0.0127,-0.0013] below0 | strict diff -0.0070 [-0.0127,-0.0013] | cached pred__NOMP_no_network | 3s
+phase_d0_snr0        N=  500 L=[3] | NOMP 0.6817 IABC+NOMP 0.6853 | diff +0.0037 [-0.0017,+0.0087] contains0 | strict diff +0.0037 [-0.0017,+0.0087] | cached pred__NOMP_no_network | 5s
+phase_d0_snr15       N=  500 L=[3] | NOMP 0.9497 IABC+NOMP 0.9340 | diff -0.0157 [-0.0213,-0.0100] below0 | strict diff -0.0157 [-0.0213,-0.0100] | cached pred__NOMP_no_network | 3s
+phase_d1_snr0        N=  500 L=[3] | NOMP 0.6900 IABC+NOMP 0.6870 | diff -0.0030 [-0.0077,+0.0013] contains0 | strict diff -0.0030 [-0.0077,+0.0013] | cached pred__NOMP_no_network | 3s
+phase_d1_snr15       N=  500 L=[3] | NOMP 0.9417 IABC+NOMP 0.9283 | diff -0.0133 [-0.0190,-0.0073] below0 | strict diff -0.0133 [-0.0190,-0.0073] | cached pred__NOMP_no_network | 5s
+phase_d2_snr0        N=  500 L=[3] | NOMP 0.7077 IABC+NOMP 0.7037 | diff -0.0040 [-0.0090,+0.0003] contains0 | strict diff -0.0040 [-0.0090,+0.0003] | cached pred__NOMP_no_network | 3s
+phase_d2_snr15       N=  500 L=[3] | NOMP 0.9393 IABC+NOMP 0.9190 | diff -0.0203 [-0.0267,-0.0147] below0 | strict diff -0.0203 [-0.0267,-0.0147] | cached pred__NOMP_no_network | 4s
+phase_d5_snr0        N=  500 L=[3] | NOMP 0.7153 IABC+NOMP 0.7137 | diff -0.0017 [-0.0060,+0.0023] contains0 | strict diff -0.0017 [-0.0060,+0.0023] | cached pred__NOMP_no_network | 3s
+phase_d5_snr15       N=  500 L=[3] | NOMP 0.9330 IABC+NOMP 0.9170 | diff -0.0160 [-0.0233,-0.0090] below0 | strict diff -0.0160 [-0.0233,-0.0090] | cached pred__NOMP_no_network | 3s
+sep_10deg_snr15      N=  500 L=[2] | NOMP 0.9955 IABC+NOMP 0.9940 | diff -0.0015 [-0.0040,+0.0010] contains0 | strict diff -0.0015 [-0.0040,+0.0010] | cached pred__NOMP_no_network | 3s
+sep_1deg_snr15       N=  500 L=[2] | NOMP 0.4990 IABC+NOMP 0.4720 | diff -0.0270 [-0.0350,-0.0190] below0 | strict diff -0.0270 [-0.0350,-0.0190] | cached pred__NOMP_no_network | 3s
+sep_20deg_snr15      N=  500 L=[2] | NOMP 0.9950 IABC+NOMP 0.9960 | diff +0.0010 [+0.0000,+0.0025] contains0 | strict diff +0.0010 [+0.0000,+0.0025] | cached pred__NOMP_no_network | 2s
+sep_2deg_snr15       N=  500 L=[2] | NOMP 0.5880 IABC+NOMP 0.4170 | diff -0.1710 [-0.1920,-0.1495] below0 | strict diff -0.1710 [-0.1920,-0.1495] | cached pred__NOMP_no_network | 2s
+sep_30deg_snr15      N=  500 L=[2] | NOMP 0.9950 IABC+NOMP 0.9950 | diff +0.0000 [+0.0000,+0.0000] contains0 | strict diff +0.0000 [+0.0000,+0.0000] | cached pred__NOMP_no_network | 4s
+sep_3deg_snr15       N=  500 L=[2] | NOMP 0.7115 IABC+NOMP 0.4320 | diff -0.2795 [-0.3020,-0.2555] below0 | strict diff -0.2795 [-0.3020,-0.2555] | cached pred__NOMP_no_network | 2s
+sep_5deg_snr15       N=  500 L=[2] | NOMP 0.8970 IABC+NOMP 0.7580 | diff -0.1390 [-0.1580,-0.1215] below0 | strict diff -0.1390 [-0.1580,-0.1215] | cached pred__NOMP_no_network | 3s
+tail_snr-20          N=  500 L=[3] | NOMP 0.0303 IABC+NOMP 0.0310 | diff +0.0007 [-0.0007,+0.0020] contains0 | strict diff +0.0007 [-0.0007,+0.0020] | cached pred__NOMP_no_network | 6s
+tail_snr-25          N=  500 L=[3] | NOMP 0.0200 IABC+NOMP 0.0200 | diff +0.0000 [-0.0013,+0.0013] contains0 | strict diff +0.0000 [-0.0013,+0.0013] | cached pred__NOMP_no_network | 3s
+tail_snr30           N=  500 L=[3] | NOMP 0.9813 IABC+NOMP 0.9567 | diff -0.0247 [-0.0310,-0.0190] below0 | strict diff -0.0247 [-0.0310,-0.0190] | cached pred__NOMP_no_network | 4s
+tail_snr35           N=  500 L=[3] | NOMP 0.9893 IABC+NOMP 0.9597 | diff -0.0297 [-0.0377,-0.0227] below0 | strict diff -0.0297 [-0.0377,-0.0227] | cached pred__NOMP_no_network | 4s
+tune_L6              N=  300 L=[6] | NOMP 0.7297 IABC+NOMP 0.7217 | diff -0.0081 [-0.0153,-0.0011] below0 | strict diff -0.0081 [-0.0153,-0.0011] | NOMP on cached Ht (run here) | 12s
+tune_clean           N=  600 L=[3] | NOMP 0.8006 IABC+NOMP 0.7886 | diff -0.0119 [-0.0169,-0.0075] below0 | strict diff -0.0119 [-0.0169,-0.0075] | NOMP on cached Ht (run here) | 8s
+tune_d5              N=  300 L=[3] | NOMP 0.8133 IABC+NOMP 0.8111 | diff -0.0022 [-0.0067,+0.0022] contains0 | strict diff -0.0022 [-0.0067,+0.0022] | NOMP on cached Ht (run here) | 3s
+tune_g3              N=  300 L=[3] | NOMP 0.8039 IABC+NOMP 0.8028 | diff -0.0011 [-0.0122,+0.0100] contains0 | strict diff -0.0011 [-0.0122,+0.0100] | NOMP on cached Ht (run here) | 3s
+banks: 55 | CI above 0: 1 | contains 0: 27 | below 0: 27 | 541s

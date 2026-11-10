@@ -1,0 +1,154 @@
+{
+ "official": {
+  "n": 8000,
+  "L": 3,
+  "IABR_v2": 0.7551458333333334,
+  "NOMP_cached": 0.7581041666666667,
+  "NOMP_recomputed": 0.7581041666666667,
+  "NOMP_selfcal": 0.7576250000000001,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.0024791666666666664,
+   0.001375,
+   0.0036666666666666666
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   -0.00047916666666666664,
+   -0.0013958333333333331,
+   0.00039583333333333343
+  ]
+ },
+ "T2_d5": {
+  "n": 8000,
+  "L": 3,
+  "IABR_v2": 0.7451666666666668,
+  "NOMP_cached": 0.7468333333333332,
+  "NOMP_recomputed": 0.7468333333333332,
+  "NOMP_selfcal": 0.747625,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.002458333333333333,
+   0.0013744791666666662,
+   0.003583333333333333
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   0.0007916666666666663,
+   -0.00020833333333333337,
+   0.0017505208333333305
+  ]
+ },
+ "gain_g4_snr15": {
+  "n": 500,
+  "L": 3,
+  "IABR_v2": 0.9123333333333332,
+  "NOMP_cached": 0.8696666666666667,
+  "NOMP_recomputed": 0.8696666666666667,
+  "NOMP_selfcal": 0.895,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   -0.017333333333333336,
+   -0.025675000000000003,
+   -0.010000000000000002
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   0.025333333333333333,
+   0.017666666666666664,
+   0.033
+  ]
+ },
+ "gain_g2_snr0": {
+  "n": 500,
+  "L": 3,
+  "IABR_v2": 0.7146666666666668,
+  "NOMP_cached": 0.7143333333333334,
+  "NOMP_recomputed": 0.7143333333333334,
+  "NOMP_selfcal": 0.716,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.0013333333333333344,
+   -0.004333333333333334,
+   0.007333333333333334
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   0.001666666666666667,
+   -0.00033333333333333327,
+   0.004333333333333334
+  ]
+ },
+ "oodphase_d15_snr15": {
+  "n": 500,
+  "L": 3,
+  "IABR_v2": 0.8693333333333334,
+  "NOMP_cached": 0.8633333333333334,
+  "NOMP_recomputed": 0.8633333333333334,
+  "NOMP_selfcal": 0.873,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.003666666666666666,
+   0.0003333333333333326,
+   0.007333333333333334
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   0.009666666666666667,
+   0.0016666666666666702,
+   0.01800833333333329
+  ]
+ },
+ "L8_snr0": {
+  "n": 500,
+  "L": 8,
+  "IABR_v2": 0.50275,
+  "NOMP_cached": 0.501875,
+  "NOMP_recomputed": 0.501875,
+  "NOMP_selfcal": 0.501625,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   -0.001125,
+   -0.0045,
+   0.002125
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   -0.00025,
+   -0.000875,
+   0.000375
+  ]
+ },
+ "L8_snr15": {
+  "n": 500,
+  "L": 8,
+  "IABR_v2": 0.86275,
+  "NOMP_cached": 0.865125,
+  "NOMP_recomputed": 0.865125,
+  "NOMP_selfcal": 0.86475,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.002,
+   -0.00175,
+   0.006
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   -0.000375,
+   -0.005375,
+   0.004875
+  ]
+ },
+ "sep_5deg_snr15": {
+  "n": 500,
+  "L": 2,
+  "IABR_v2": 0.8595,
+  "NOMP_cached": 0.897,
+  "NOMP_recomputed": 0.897,
+  "NOMP_selfcal": 0.943,
+  "recompute_matches_cache": true,
+  "diff_selfcalNOMP_minus_IABR": [
+   0.0835,
+   0.06948750000000001,
+   0.0985
+  ],
+  "diff_selfcalNOMP_minus_NOMP": [
+   0.046,
+   0.033,
+   0.06
+  ]
+ }
+}

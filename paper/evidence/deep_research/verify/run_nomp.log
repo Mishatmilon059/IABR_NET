@@ -1,0 +1,12 @@
+official             N= 8000 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 4.34e-14 rad | 13.2s
+T2_d5                N= 8000 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 5.61e-14 rad | 13.7s
+gain_g4_snr15        N=  500 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 1.73e-14 rad | 1.5s
+oodphase_d15_snr15   N=  500 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 8.44e-15 rad | 1.2s
+L8_snr0              N=  500 L=[8] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 1.25e-14 rad | 8.0s
+L8_snr15             N=  500 L=[8] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 2.17e-14 rad | 6.9s
+sep_5deg_snr15       N=  500 L=[2] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 2.28e-15 rad | 0.5s
+sep_2deg_snr15       N=  500 L=[2] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 4.23e-15 rad | 0.5s
+phase_d0_snr0        N=  500 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 6.22e-15 rad | 1.0s
+phase_d0_snr15       N=  500 L=[3] | scenes with max|diff|<1e-6 rad: 1.0000 | <0.01 deg: 1.0000 | max diff 1.73e-14 rad | 1.1s
+oracle-seeded (3 cyclic rounds) official done in 5.3s
+oracle-seeded (10 cyclic rounds) official done in 17.5s

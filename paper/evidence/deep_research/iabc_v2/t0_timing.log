@@ -1,0 +1,10 @@
+W W^H = c I ? max|W W^H - I*mean diag| = 1.8599374729195885e-15  diag mean 1.0
+F F^H = c I ? max|F F^H - I*mean diag| = 2.448678847968294e-15  diag mean 1.0
+W^H W diag mean 1.0 max offdiag 2.2514774938931273e-15
+to_ant(Y) vs conj(D_r) H D_t (SNR 300 dB): max rel diff 3.3154703656289175e-15
+H[n,m] == sum_l alpha_l exp(-j n u_l + j m v_l) (u = pi cos psi): max diff 5.226604091682146e-15
+make_batch(256): 0.22s
+sample_paths 2000 (L 1..9): 0.55s
+L=3: nomp_greedy 400 scenes 1.6s, selfcal 4 it 1.0s
+L=9: nomp_greedy 400 scenes 20.4s, selfcal 4 it 14.0s
+CNN 400 scenes 2.64s

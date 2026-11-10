@@ -1,0 +1,2 @@
+nosep 1000 scenes; residual at truth / ((256-6) sigma2) mean 1.01 | frac of scenes violating pi/6: 0.212 | < 10 deg: 0.033 | < 2 deg: 0.0
+sep10 1000 scenes; residual at truth / ((256-6) sigma2) mean 1.0128 | frac of scenes violating pi/6: 0.187 | < 10 deg: 0.0 | < 2 deg: 0.0

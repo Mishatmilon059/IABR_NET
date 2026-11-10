@@ -1,0 +1,44 @@
+step 0 val mean 0.6257 ideal:0.773 adc_b1_15:0.181 adc_b2_15:0.272 adc_b3_15:0.517 adc_b4_15:0.758 adc_b1_0:0.186 adc_b2_0:0.386 adc_b3_0:0.606 adc_b4_0:0.619 M2_15:0.631 M6_15:0.761 M6_0:0.600 M3_0:0.528 M3_15:0.756 M1_15:0.881 geom_L1:0.938 geom_L2:0.869 geom_L4:0.778 geom_L5:0.728 geom_L6:0.748
+step 25/2000 heat:0.5311 imp:0.0042 lsig:3.0319 L:2.1110 typ:1.5817 loss:2.9943 gn:5.0376 | 1.47 s/step ETA 48 min
+step 50/2000 heat:0.4741 imp:0.0017 lsig:1.3650 L:1.9852 typ:1.3844 loss:1.9149 gn:3.8211 | 1.40 s/step ETA 45 min
+step 75/2000 heat:0.4991 imp:0.0020 lsig:0.3611 L:1.3051 typ:0.9690 loss:1.2350 gn:3.0375 | 1.62 s/step ETA 52 min
+step 100/2000 heat:0.4443 imp:0.0026 lsig:0.2113 L:0.9075 typ:0.9434 loss:1.0503 gn:2.1898 | 1.33 s/step ETA 42 min
+step 125/2000 heat:0.4227 imp:0.0009 lsig:0.1436 L:0.7443 typ:0.7761 loss:0.8431 gn:1.8616 | 1.84 s/step ETA 58 min
+step 150/2000 heat:0.4264 imp:0.0018 lsig:0.1750 L:0.5372 typ:0.9739 loss:0.9059 gn:2.6348 | 1.68 s/step ETA 52 min
+step 175/2000 heat:0.4245 imp:0.0012 lsig:0.1613 L:0.6233 typ:0.7011 loss:0.8288 gn:2.4574 | 1.42 s/step ETA 43 min
+step 200/2000 heat:0.4410 imp:0.0016 lsig:0.1525 L:0.5970 typ:0.5712 loss:0.8284 gn:2.2444 | 1.07 s/step ETA 32 min
+step 225/2000 heat:0.4093 imp:0.0031 lsig:0.1309 L:0.5061 typ:0.7761 loss:0.8872 gn:2.1865 | 1.58 s/step ETA 47 min
+step 250/2000 heat:0.3967 imp:0.0017 lsig:0.1221 L:0.6417 typ:0.7801 loss:0.8282 gn:2.0194 | 1.64 s/step ETA 48 min
+step 275/2000 heat:0.4403 imp:0.0016 lsig:0.1403 L:0.5857 typ:0.6955 loss:0.8487 gn:2.0865 | 1.73 s/step ETA 50 min
+step 300/2000 heat:0.4208 imp:0.0018 lsig:0.1131 L:0.5019 typ:0.7218 loss:0.8103 gn:1.8919 | 1.57 s/step ETA 45 min
+step 325/2000 heat:0.4182 imp:0.0034 lsig:0.1237 L:0.4515 typ:0.9217 loss:0.9245 gn:2.2921 | 0.99 s/step ETA 28 min
+step 350/2000 heat:0.4340 imp:0.0009 lsig:0.1366 L:0.5618 typ:0.6708 loss:0.7951 gn:2.0300 | 1.01 s/step ETA 28 min
+step 375/2000 heat:0.4276 imp:0.0020 lsig:0.1209 L:0.4651 typ:0.6758 loss:0.8159 gn:1.7635 | 1.03 s/step ETA 28 min
+step 400/2000 heat:0.4391 imp:0.0019 lsig:0.1167 L:0.7794 typ:0.6826 loss:0.8857 gn:1.8434 | 1.07 s/step ETA 28 min
+step 425/2000 heat:0.4609 imp:0.0014 lsig:0.1157 L:0.5549 typ:0.6375 loss:0.8272 gn:1.9038 | 1.01 s/step ETA 27 min
+step 450/2000 heat:0.4587 imp:0.0017 lsig:0.1226 L:0.5750 typ:0.7282 loss:0.8633 gn:1.8520 | 1.10 s/step ETA 28 min
+step 475/2000 heat:0.4529 imp:0.0028 lsig:0.1152 L:0.5355 typ:0.7549 loss:0.9075 gn:1.7990 | 1.73 s/step ETA 44 min
+step 500/2000 heat:0.4368 imp:0.0012 lsig:0.0956 L:0.4931 typ:0.7127 loss:0.7876 gn:1.5144 | 1.76 s/step ETA 44 min
+VAL step 500 mean 0.6827 (best) ideal:0.773 adc_b1_15:0.506 adc_b2_15:0.617 adc_b3_15:0.756 adc_b4_15:0.856 adc_b1_0:0.278 adc_b2_0:0.464 adc_b3_0:0.572 adc_b4_0:0.603 M2_15:0.639 M6_15:0.767 M6_0:0.600 M3_0:0.528 M3_15:0.756 M1_15:0.883 geom_L1:0.938 geom_L2:0.869 geom_L4:0.778 geom_L5:0.728 geom_L6:0.748
+step 525/2000 heat:0.4091 imp:0.0017 lsig:0.0962 L:0.6384 typ:0.6936 loss:0.8102 gn:1.8569 | 2.30 s/step ETA 57 min
+step 550/2000 heat:0.4352 imp:0.0032 lsig:0.1027 L:0.6877 typ:0.8503 loss:0.9549 gn:1.7096 | 1.21 s/step ETA 29 min
+step 575/2000 heat:0.3893 imp:0.0021 lsig:0.0793 L:0.3989 typ:0.7402 loss:0.7615 gn:1.5406 | 1.10 s/step ETA 26 min
+step 600/2000 heat:0.4204 imp:0.0023 lsig:0.0860 L:0.4863 typ:0.8566 loss:0.8446 gn:1.6908 | 1.06 s/step ETA 25 min
+step 625/2000 heat:0.3958 imp:0.0004 lsig:0.0984 L:0.3674 typ:0.7020 loss:0.6784 gn:1.7396 | 0.95 s/step ETA 22 min
+step 650/2000 heat:0.4389 imp:0.0029 lsig:0.1235 L:0.2688 typ:0.7926 loss:0.8599 gn:2.1312 | 0.93 s/step ETA 21 min
+step 675/2000 heat:0.4006 imp:0.0022 lsig:0.1089 L:0.4888 typ:0.8126 loss:0.8247 gn:2.0456 | 0.92 s/step ETA 20 min
+step 700/2000 heat:0.4544 imp:0.0023 lsig:0.1006 L:0.7696 typ:0.7336 loss:0.9184 gn:1.4742 | 1.06 s/step ETA 23 min
+step 725/2000 heat:0.4076 imp:0.0022 lsig:0.1131 L:0.5456 typ:0.9686 loss:0.8772 gn:1.9654 | 1.01 s/step ETA 22 min
+step 750/2000 heat:0.3877 imp:0.0027 lsig:0.0894 L:0.4230 typ:0.8475 loss:0.8200 gn:1.6971 | 0.97 s/step ETA 20 min
+step 775/2000 heat:0.4069 imp:0.0029 lsig:0.0921 L:0.7134 typ:0.8050 loss:0.9042 gn:1.4675 | 1.21 s/step ETA 25 min
+step 800/2000 heat:0.4308 imp:0.0028 lsig:0.1090 L:0.5380 typ:0.7896 loss:0.8933 gn:1.8288 | 1.84 s/step ETA 37 min
+step 825/2000 heat:0.4150 imp:0.0014 lsig:0.0993 L:0.4613 typ:0.5803 loss:0.7435 gn:1.8080 | 1.64 s/step ETA 32 min
+step 850/2000 heat:0.4294 imp:0.0008 lsig:0.1026 L:0.7215 typ:0.7197 loss:0.8110 gn:1.7793 | 1.81 s/step ETA 35 min
+step 875/2000 heat:0.3900 imp:0.0007 lsig:0.0803 L:0.4809 typ:0.6876 loss:0.6976 gn:1.5252 | 1.65 s/step ETA 31 min
+step 900/2000 heat:0.4178 imp:0.0021 lsig:0.1055 L:0.4450 typ:0.6648 loss:0.7966 gn:1.6369 | 1.72 s/step ETA 32 min
+step 925/2000 heat:0.4442 imp:0.0021 lsig:0.0964 L:0.5395 typ:0.6916 loss:0.8434 gn:1.5081 | 2.01 s/step ETA 36 min
+step 950/2000 heat:0.3879 imp:0.0027 lsig:0.0789 L:0.3073 typ:0.7533 loss:0.7764 gn:1.6286 | 1.60 s/step ETA 28 min
+step 975/2000 heat:0.4265 imp:0.0026 lsig:0.1001 L:0.4434 typ:0.6481 loss:0.8250 gn:1.6382 | 0.96 s/step ETA 16 min
+step 1000/2000 heat:0.4380 imp:0.0015 lsig:0.0999 L:0.7361 typ:0.6283 loss:0.8336 gn:1.5685 | 1.74 s/step ETA 29 min
+VAL step 1000 mean 0.6854 (best) ideal:0.773 adc_b1_15:0.531 adc_b2_15:0.614 adc_b3_15:0.758 adc_b4_15:0.858 adc_b1_0:0.297 adc_b2_0:0.472 adc_b3_0:0.569 adc_b4_0:0.606 M2_15:0.639 M6_15:0.767 M6_0:0.600 M3_0:0.522 M3_15:0.758 M1_15:0.883 geom_L1:0.938 geom_L2:0.869 geom_L4:0.778 geom_L5:0.728 geom_L6:0.748
+STOPPED MANUALLY after the step-1000 validation (val mean plateau 0.6827 -> 0.6854; steps slower than benchmark); best_S1.pt (step 1000 front end) is used for S2B.

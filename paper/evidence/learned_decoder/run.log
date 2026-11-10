@@ -1,0 +1,38 @@
+device cpu steps 1500 batch 128
+params: V1 1410  V2 1442
+
+--- classical baselines (heatmap init) ---
+classical peaks                    official 0.295 | T2_d5 0.295
+classical newton+cyclic            official 0.742 | T2_d5 0.734
+classical newton+cyclic+selfcal    official 0.745 | T2_d5 0.739
+
+--- untrained learned models ---
+V1 pasted design, untrained        official 0.009 | T2_d5 0.010
+V2 normalised, untrained           official 0.742 | T2_d5 0.734
+
+--- training V1 ---
+  [V1] step 150/1500 loss(avg last 50) 1.78145  73s
+  [V1] step 300/1500 loss(avg last 50) 1.76246  202s
+  [V1] step 450/1500 loss(avg last 50) 1.79191  323s
+  [V1] step 600/1500 loss(avg last 50) 1.75003  2662s
+  [V1] step 750/1500 loss(avg last 50) 1.76660  12061s
+  [V1] step 900/1500 loss(avg last 50) 1.73853  12129s
+  [V1] step 1050/1500 loss(avg last 50) 1.74784  12193s
+  [V1] step 1200/1500 loss(avg last 50) 1.77546  12263s
+  [V1] step 1350/1500 loss(avg last 50) 1.74812  12336s
+  [V1] step 1500/1500 loss(avg last 50) 1.73524  12436s
+V1 pasted design, trained          official 0.009 | T2_d5 0.009
+
+--- training V2 ---
+  [V2] step 150/1500 loss(avg last 50) 1.10148  109s
+  [V2] step 300/1500 loss(avg last 50) 1.06227  206s
+  [V2] step 450/1500 loss(avg last 50) 1.07643  303s
+  [V2] step 600/1500 loss(avg last 50) 1.10616  384s
+  [V2] step 750/1500 loss(avg last 50) 1.06211  480s
+  [V2] step 900/1500 loss(avg last 50) 1.08196  566s
+  [V2] step 1050/1500 loss(avg last 50) 1.06002  654s
+  [V2] step 1200/1500 loss(avg last 50) 1.08875  746s
+  [V2] step 1350/1500 loss(avg last 50) 1.05494  830s
+  [V2] step 1500/1500 loss(avg last 50) 1.08471  920s
+V2 normalised, trained             official 0.743 | T2_d5 0.735
+done

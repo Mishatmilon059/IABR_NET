@@ -1,0 +1,14 @@
+per SNR: oracle gain (components / 6 per scene, = Pd gain) split by residual of the oracle candidate vs NOMP
+ snr | total gain | from lower-residual cands (search loss) | from higher-residual cands (objective-limited) | median mll rank of oracle cand among 59
+ -10 | 0.1043 | 0.0050 | 0.0993 | 23
+  -5 | 0.0493 | 0.0013 | 0.0480 | 18
+   0 | 0.0320 | 0.0023 | 0.0297 | 17
+   5 | 0.0130 | 0.0003 | 0.0127 | 12
+  10 | 0.0103 | 0.0013 | 0.0090 | 12
+  15 | 0.0070 | 0.0023 | 0.0047 | 12
+  20 | 0.0077 | 0.0053 | 0.0023 | 0
+  25 | 0.0060 | 0.0047 | 0.0013 | 0
+
+all SNR: total 0.0287 | search-loss part 0.0028 | objective-limited part 0.0259
+family of the oracle candidate in improved scenes: {'branch': 53, 'fftcomb': 292, 'nomp_os8rc6': 17, 'random': 55, 'swap': 116}
+oracle candidate obeys min-sep in improved scenes: 0.797

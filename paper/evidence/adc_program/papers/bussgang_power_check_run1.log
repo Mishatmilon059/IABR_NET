@@ -1,0 +1,51 @@
+[    0.0s] A1 scalar 1-bit Bussgang (y ~ CN(0,1), n = 400000):
+[    0.1s]    A                            0.7976
+[    0.1s]    A_imag                       -0.0011
+[    0.1s]    sqrt_2_over_pi               0.7979
+[    0.1s]    corr_q_y                     0.0000
+[    0.1s]    Eq2                          0.3632
+[    0.1s]    one_minus_2_over_pi          0.3634
+[    0.1s]    Eq2_given_abs_y_lt_0p3       0.7432
+[    0.2s]    Eq2_given_abs_y_gt_1p5       0.5059
+[    0.2s]    SDR_inf_snr                  1.7518
+[    0.2s]    SDR_formula                  1.7519
+[    0.2s]    -> signal-to-distortion ratio of the linearised 1-bit output at infinite SNR = 1.752 (2.43 dB); formula (2/pi)/(1-2/pi) = 1.752 (2.44 dB)
+[    0.2s] A2 eq. (17): tau = K = 4, M = 16, BLMMSE = Phi~^H r (eq. 16), 2000 channels per SNR
+[    0.3s]    SNR  -20 dB: Monte-Carlo NMSE  -0.11 dB   eq.(17)  -0.11 dB
+[    0.3s]    SNR  -10 dB: Monte-Carlo NMSE  -0.87 dB   eq.(17)  -0.87 dB
+[    0.3s]    SNR    0 dB: Monte-Carlo NMSE  -3.10 dB   eq.(17)  -3.09 dB
+[    0.3s]    SNR   10 dB: Monte-Carlo NMSE  -4.20 dB   eq.(17)  -4.21 dB
+[    0.3s]    SNR   20 dB: Monte-Carlo NMSE  -4.38 dB   eq.(17)  -4.38 dB
+[    0.3s]    SNR   40 dB: Monte-Carlo NMSE  -4.41 dB   eq.(17)  -4.40 dB
+[    0.3s]    eq. (18) limit 1 - 2/pi = -4.40 dB
+[    0.3s] A3 Fig. 2 setting: M = 16, K = 4, tau = 20 (DFT pilots), 1000 channels per SNR
+[    0.6s]    SNR  -20 dB: BLMMSE  -0.50 dB   AQN[28]  -0.50 dB   (arcsine-law C_r vs empirical C_r rel. error 0.564)
+[    0.9s]    SNR  -10 dB: BLMMSE  -3.25 dB   AQN[28]  -3.25 dB   (arcsine-law C_r vs empirical C_r rel. error 0.529)
+[    1.2s]    SNR    0 dB: BLMMSE  -7.22 dB   AQN[28]  -7.20 dB   (arcsine-law C_r vs empirical C_r rel. error 0.384)
+[    1.6s]    SNR   10 dB: BLMMSE  -7.95 dB   AQN[28]  -7.86 dB   (arcsine-law C_r vs empirical C_r rel. error 0.333)
+[    2.0s]    SNR   20 dB: BLMMSE  -7.94 dB   AQN[28]  -7.85 dB   (arcsine-law C_r vs empirical C_r rel. error 0.327)
+[    5.0s] B1 prior C_g (8000 scenes, SNR 0 dB): per-beam power mean 1.004, min 0.371, max 12.517; off-diagonal energy fraction 0.037; max |mean|/rms 0.037
+[    7.9s] B1 prior C_g (8000 scenes, SNR 15 dB): per-beam power mean 1.004, min 0.371, max 12.517; off-diagonal energy fraction 0.037; max |mean|/rms 0.037
+[    8.2s]    1-bit, 0 dB: arcsine-law C_r vs empirical C_r rel. error 0.193; Bussgang C_gr = C_g A^H vs empirical rel. error 1.187
+[   21.9s] B2 1-bit / 0 dB (seed 12600, 1000 scenes): NMSE of de-quantised beamspace (dB): empirical LMMSE -0.20, Bussgang LMMSE (analytic) 0.20, Bussgang LMMSE, diagonal distortion 0.20, raw (scalar LMMSE) -0.19
+[   21.9s]    Pd 0.1613 (strict 0.1613)  NOMP on raw quantised data
+[   21.9s]    Pd 0.0533 (strict 0.0533)  empirical LMMSE + NOMP   diff vs NOMP -0.1080 [-0.1188, -0.0975]   identical scene predictions 0.000
+[   21.9s]    Pd 0.0735 (strict 0.0735)  Bussgang LMMSE (analytic) + NOMP   diff vs NOMP -0.0878 [-0.0987, -0.0772]   identical scene predictions 0.000
+[   21.9s]    Pd 0.0735 (strict 0.0735)  Bussgang LMMSE, diagonal distortion + NOMP   diff vs NOMP -0.0878 [-0.0987, -0.0772]   identical scene predictions 0.000
+[   29.1s] B2 2-bit / 0 dB (seed 12600, 1000 scenes): NMSE of de-quantised beamspace (dB): empirical LMMSE -0.65, raw (scalar LMMSE) -0.47
+[   29.1s]    Pd 0.3728 (strict 0.3728)  NOMP on raw quantised data
+[   29.1s]    Pd 0.1212 (strict 0.1212)  empirical LMMSE + NOMP   diff vs NOMP -0.2517 [-0.2672, -0.2363]   identical scene predictions 0.000
+[   29.7s]    1-bit, 15 dB: arcsine-law C_r vs empirical C_r rel. error 0.468; Bussgang C_gr = C_g A^H vs empirical rel. error 1.156
+[   41.1s] B2 1-bit / 15 dB (seed 12615, 1000 scenes): NMSE of de-quantised beamspace (dB): empirical LMMSE -0.43, Bussgang LMMSE (analytic) 0.42, Bussgang LMMSE, diagonal distortion 0.42, raw (scalar LMMSE) -0.37
+[   41.1s]    Pd 0.1883 (strict 0.1883)  NOMP on raw quantised data
+[   41.1s]    Pd 0.0992 (strict 0.0992)  empirical LMMSE + NOMP   diff vs NOMP -0.0892 [-0.0995, -0.0793]   identical scene predictions 0.000
+[   41.2s]    Pd 0.1408 (strict 0.1408)  Bussgang LMMSE (analytic) + NOMP   diff vs NOMP -0.0475 [-0.0575, -0.0377]   identical scene predictions 0.000
+[   41.2s]    Pd 0.1408 (strict 0.1408)  Bussgang LMMSE, diagonal distortion + NOMP   diff vs NOMP -0.0475 [-0.0575, -0.0377]   identical scene predictions 0.000
+[   46.3s] B2 2-bit / 15 dB (seed 12615, 1000 scenes): NMSE of de-quantised beamspace (dB): empirical LMMSE -0.96, raw (scalar LMMSE) -0.74
+[   46.3s]    Pd 0.2780 (strict 0.2780)  NOMP on raw quantised data
+[   46.3s]    Pd 0.1587 (strict 0.1587)  empirical LMMSE + NOMP   diff vs NOMP -0.1193 [-0.1317, -0.1073]   identical scene predictions 0.000
+[   47.8s] B3 40 dB, bits inf: NOMP Pd 0.9857 (strict 0.9857, RMSE 0.058 deg)
+[   49.1s] B3 40 dB, bits 4: NOMP Pd 0.6633 (strict 0.6633, RMSE 0.477 deg)
+[   50.4s] B3 40 dB, bits 2: NOMP Pd 0.2317 (strict 0.2317, RMSE 0.553 deg)
+[   52.7s] B3 40 dB, bits 1: NOMP Pd 0.1800 (strict 0.1800, RMSE 0.575 deg)
+[   52.7s] done

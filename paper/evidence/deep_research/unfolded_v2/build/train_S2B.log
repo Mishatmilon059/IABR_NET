@@ -1,0 +1,27 @@
+step 0 val mean 0.6864 ideal:0.773 adc_b1_15:0.525 adc_b2_15:0.625 adc_b3_15:0.764 adc_b4_15:0.856 adc_b1_0:0.292 adc_b2_0:0.472 adc_b3_0:0.569 adc_b4_0:0.606 M2_15:0.644 M6_15:0.783 M6_0:0.606 M3_0:0.522 M3_15:0.756 M1_15:0.881 geom_L1:0.938 geom_L2:0.869 geom_L4:0.778 geom_L5:0.725 geom_L6:0.746
+step 25/1000 hit:0.6411 hits_final:0.6706 stop:0.6860 det:8.8771 L:3.0400 loss:1.7346 gn:44876347474.3719 | 1.88 s/step ETA 31 min
+step 50/1000 hit:0.6528 hits_final:0.6558 stop:0.5538 det:8.2662 L:3.1200 loss:1.6455 gn:271.9376 | 2.06 s/step ETA 33 min
+step 75/1000 hit:0.7404 hits_final:0.5914 stop:0.2765 det:8.5585 L:3.2800 loss:1.6792 gn:0.5075 | 2.03 s/step ETA 31 min
+step 100/1000 hit:0.6970 hits_final:0.6235 stop:0.2132 det:8.2003 L:3.1200 loss:1.5810 gn:0.5106 | 1.83 s/step ETA 27 min
+step 125/1000 hit:0.6264 hits_final:0.6731 stop:0.2343 det:7.5169 L:3.0800 loss:1.4484 gn:0.5437 | 2.81 s/step ETA 41 min
+step 150/1000 hit:0.6102 hits_final:0.6822 stop:0.1095 det:6.8229 L:2.9200 loss:1.3254 gn:0.6215 | 2.34 s/step ETA 33 min
+step 175/1000 hit:0.6772 hits_final:0.6333 stop:0.1675 det:6.5778 L:3.0000 loss:1.3853 gn:0.8204 | 2.21 s/step ETA 30 min
+step 200/1000 hit:0.7256 hits_final:0.6037 stop:0.1297 det:6.2438 L:3.2800 loss:1.3889 gn:435797434983.0760 | 3.33 s/step ETA 44 min
+step 225/1000 hit:0.7036 hits_final:0.6223 stop:0.1541 det:6.0879 L:3.0000 loss:1.3586 gn:2.5288 | 2.15 s/step ETA 28 min
+step 250/1000 hit:0.6438 hits_final:0.6439 stop:0.2073 det:5.9380 L:3.0400 loss:1.2998 gn:0.8267 | 2.59 s/step ETA 32 min
+VAL step 250 mean 0.6805 ideal:0.774 adc_b1_15:0.481 adc_b2_15:0.608 adc_b3_15:0.742 adc_b4_15:0.847 adc_b1_0:0.269 adc_b2_0:0.458 adc_b3_0:0.583 adc_b4_0:0.606 M2_15:0.650 M6_15:0.786 M6_0:0.597 M3_0:0.528 M3_15:0.756 M1_15:0.886 geom_L1:0.938 geom_L2:0.863 geom_L4:0.772 geom_L5:0.728 geom_L6:0.740
+step 275/1000 hit:0.6339 hits_final:0.6497 stop:0.1713 det:5.8254 L:3.0800 loss:1.2678 gn:0.6305 | 3.32 s/step ETA 40 min
+step 300/1000 hit:0.6179 hits_final:0.6597 stop:0.1837 det:5.8332 L:3.0400 loss:1.2563 gn:3793.1322 | 1.99 s/step ETA 23 min
+step 325/1000 hit:0.6463 hits_final:0.6390 stop:0.1367 det:5.8744 L:3.1200 loss:1.2747 gn:0.7978 | 2.83 s/step ETA 32 min
+step 350/1000 hit:0.6457 hits_final:0.6363 stop:0.0627 det:5.8153 L:3.1200 loss:1.2460 gn:1.9197 | 1.64 s/step ETA 18 min
+step 375/1000 hit:0.7071 hits_final:0.5872 stop:0.1440 det:5.9704 L:3.3600 loss:1.3473 gn:12025.9470 | 1.96 s/step ETA 20 min
+step 400/1000 hit:0.5987 hits_final:0.6633 stop:0.1255 det:5.7431 L:3.1600 loss:1.2107 gn:0.6186 | 2.84 s/step ETA 28 min
+step 425/1000 hit:0.6334 hits_final:0.6358 stop:0.0573 det:5.7310 L:2.9600 loss:1.2237 gn:0.6393 | 3.09 s/step ETA 30 min
+step 450/1000 hit:0.6058 hits_final:0.6502 stop:0.2113 det:5.7858 L:3.4000 loss:1.2477 gn:0.9048 | 2.74 s/step ETA 25 min
+step 475/1000 hit:0.5912 hits_final:0.6533 stop:0.0522 det:5.6562 L:3.0800 loss:1.1725 gn:0.5470 | 2.45 s/step ETA 21 min
+step 500/1000 hit:0.6076 hits_final:0.6437 stop:0.1574 det:5.6358 L:2.9600 loss:1.2184 gn:0.7934 | 2.23 s/step ETA 19 min
+VAL step 500 mean 0.6788 ideal:0.772 adc_b1_15:0.456 adc_b2_15:0.619 adc_b3_15:0.750 adc_b4_15:0.853 adc_b1_0:0.247 adc_b2_0:0.467 adc_b3_0:0.567 adc_b4_0:0.606 M2_15:0.653 M6_15:0.789 M6_0:0.589 M3_0:0.528 M3_15:0.747 M1_15:0.897 geom_L1:0.938 geom_L2:0.863 geom_L4:0.772 geom_L5:0.718 geom_L6:0.748
+step 525/1000 hit:0.6236 hits_final:0.6383 stop:0.1039 det:5.6690 L:3.0400 loss:1.2216 gn:0.6446 | 3.37 s/step ETA 27 min
+step 550/1000 hit:0.5994 hits_final:0.6479 stop:0.0898 det:5.6697 L:3.2400 loss:1.1933 gn:0.4981 | 2.29 s/step ETA 17 min
+step 575/1000 hit:0.5572 hits_final:0.6729 stop:0.0744 det:5.6887 L:3.0800 loss:1.1483 gn:0.5652 | 2.21 s/step ETA 16 min
+STOPPED MANUALLY at step ~560: validation declined monotonically (0.6864 step 0 -> 0.6805 -> 0.6788; 1 bit/15 dB 0.525 -> 0.481 -> 0.456). best_S2B.pt = step 0 (validated best) is design B's final checkpoint.

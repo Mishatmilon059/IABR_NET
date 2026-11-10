@@ -1,0 +1,12 @@
+b1_snr15 n=60: numpy ML Pd 0.4611 | torch ML Pd 0.4611 | same solution (1e-3 rad) in 0.867 of scenes | numpy 59.0s, torch family (6 variants) 134.9s
+   ML               Pd 0.4611
+   annealed ML      Pd 0.4694
+   ML snr+5         Pd 0.4278
+   ML snr-5         Pd 0.4222
+   ML joint sigma   Pd 0.2889
+b2_snr0 n=60: numpy ML Pd 0.4611 | torch ML Pd 0.4611 | same solution (1e-3 rad) in 0.967 of scenes | numpy 44.4s, torch family (6 variants) 128.0s
+   ML               Pd 0.4611
+   annealed ML      Pd 0.4611
+   ML snr+5         Pd 0.4389
+   ML snr-5         Pd 0.4056
+   ML joint sigma   Pd 0.4556

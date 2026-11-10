@@ -1,0 +1,29 @@
+A1 detection loss (11), m ~ U{1..5}
+   continuous constant: m_hat* = 3.6900, threshold = 1.6707   (paper: 3.69, 1.67)
+   Lambert-W formula (38): W(9.1582) + alpha = 3.6900
+   integer constant m_hat = 1: E[L_det] = 16.1582
+   integer constant m_hat = 2: E[L_det] = 5.5386
+   integer constant m_hat = 3: E[L_det] = 2.1215
+   integer constant m_hat = 4: E[L_det] = 1.7437
+   integer constant m_hat = 5: E[L_det] = 3.0000
+   -> an integer-valued input-independent detector can reach at best 1.7437 (always predict 4); mixing 3 and 4 is linear in the mixing weight, so it cannot reach 1.67
+   MSE threshold (blind, continuous) = Var(m) = 2.0000; best integer constant (3) = 2.0000
+
+A2 frequency threshold, Algorithm 1 Monte Carlo (1000000 accepted draws per m, N = 64)
+   m=1: MC threshold 0.00521 (-22.83 dB) | paper eq.(45) 0.01562 (-18.06 dB) | same formula with Var(w0)=1/192, no rejection 0.00521 (-22.83 dB) | acceptance 1.000
+   m=2: MC threshold 0.00856 (-20.67 dB) | paper eq.(45) 0.02272 (-16.44 dB) | same formula with Var(w0)=1/192, no rejection 0.01231 (-19.10 dB) | acceptance 0.913
+   m=3: MC threshold 0.00954 (-20.21 dB) | paper eq.(45) 0.02509 (-16.01 dB) | same formula with Var(w0)=1/192, no rejection 0.01467 (-18.34 dB) | acceptance 0.824
+   m=4: MC threshold 0.00987 (-20.06 dB) | paper eq.(45) 0.02627 (-15.81 dB) | same formula with Var(w0)=1/192, no rejection 0.01585 (-18.00 dB) | acceptance 0.735
+   m=5: MC threshold 0.00998 (-20.01 dB) | paper eq.(45) 0.02698 (-15.69 dB) | same formula with Var(w0)=1/192, no rejection 0.01656 (-17.81 dB) | acceptance 0.650
+   note: 1/64 = 0.125^2 = (E[w0])^2, whereas Var(U(0, 0.25)) = 0.25^2/12 = 1/192 = 0.00521 (-22.83 dB)
+
+A3 amplitude: Var(U(0.1,1)) = 0.0675 (-11.71 dB)   (paper: 0.0675; dashed line in the plotted figure digitised at -11.25 dB)
+   phase: Var(U(0,2pi)) = 3.2899 = pi^2/3 (5.17 dB)
+   time 7.9 s
+
+B blind (input-independent) Pd on our geometry: 4000 scenes, L=3, angles U[0,pi]^2, min separation pi/6
+   marginal check: psi mean 88.8 deg, std 52.2 deg (uniform [0,180]: 90, 52.0)
+   selection half: centre 0.0114 | spread triangle 0.0173 | best of 40 random sets 0.0208 (random set 02) | median random 0.0180
+   held-out half:  best-selected guess random set 02 -> blind Pd = 0.0187; centre -> 0.0124
+   analytic scale: P(|err| <= 1 deg) for one uniform component on [0,180] deg = 2/180 = 0.0111
+   total time 31.3 s

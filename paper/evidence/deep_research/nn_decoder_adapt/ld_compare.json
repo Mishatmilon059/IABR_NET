@@ -1,0 +1,1418 @@
+{
+ "M5_b4_snr15": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent NOMP",
+  "pd": {
+   "NOMP": 0.7733333333333333,
+   "FT-CNN + classical heat decoder": 0.7676666666666667,
+   "FT-CNN + original learned decoder": 0.7736666666666666,
+   "FT-CNN + adapted learned decoder": 0.7733333333333333,
+   "original CNN + original learned decoder": 0.7686666666666667,
+   "NOMP+SC": 0.7743333333333333,
+   "NOMP+SC tuned": 0.7733333333333333,
+   "FFT-peak seeds": 0.7363333333333333,
+   "FFT-peak seeds+SC": 0.736,
+   "classical dual": 0.7733333333333333,
+   "classical dual+SC": 0.7743333333333333,
+   "NOMP os8 rc6": 0.7733333333333333,
+   "multi-start K6": 0.7733333333333333,
+   "consistent NOMP": 0.843,
+   "orig heat+SC": 0.769,
+   "orig dual+SC": 0.7756666666666666,
+   "FT heat+SC": 0.7676666666666667,
+   "FT dual+SC": 0.7753333333333333,
+   "FT NOMP on Hc": 0.7756666666666666,
+   "FT network only": 0.5456666666666666,
+   "FT heat + consistent": 0.8366666666666667,
+   "oracle-seeded": 0.789,
+   "FFT parabolic os4": 0.7243333333333334,
+   "FFT parabolic os16": 0.7166666666666667,
+   "consistent parabolic": 0.8116666666666666,
+   "orig network only": 0.5623333333333334
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.06966666666666665,
+    -0.08366666666666667,
+    -0.055333333333333345
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.0,
+    -0.007000000000000006,
+    0.006666666666666601
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    -0.06966666666666665,
+    -0.08366666666666667,
+    -0.055333333333333345
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.22766666666666668,
+    0.20566666666666678,
+    0.2486666666666667
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.0020000000000000018,
+    -0.008000000000000007,
+    0.0033333333333334103
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.06933333333333336,
+    -0.08333333333333326,
+    -0.05599999999999994
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    0.0003333333333332966,
+    -0.006341666666666742,
+    0.0070083333333332935
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.06933333333333336,
+    -0.08333333333333326,
+    -0.05599999999999994
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.22799999999999998,
+    0.20666666666666667,
+    0.249
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.0016666666666667052,
+    -0.007333333333333414,
+    0.003666666666666707
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.07433333333333325,
+    -0.08799999999999997,
+    -0.06066666666666665
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.004666666666666597,
+    -0.01200000000000001,
+    0.0023333333333334094
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.07433333333333325,
+    -0.08799999999999997,
+    -0.06066666666666665
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.2230000000000001,
+    0.20132499999999992,
+    0.2443333333333333
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.006666666666666599,
+    -0.012333333333333307,
+    -0.0016666666666665941
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.07533333333333325,
+    -0.08966666666666667,
+    -0.06166666666666665
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.005666666666666598,
+    -0.012666666666666607,
+    0.0006666666666667043
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    -0.07533333333333325,
+    -0.08966666666666667,
+    -0.06166666666666665
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.2220000000000001,
+    0.20099166666666662,
+    0.243
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.0076666666666665995,
+    -0.013333333333333308,
+    -0.002666666666666595
+   ]
+  }
+ },
+ "M5_b3_snr15": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent NOMP",
+  "pd": {
+   "NOMP": 0.5036666666666667,
+   "FT-CNN + classical heat decoder": 0.49166666666666664,
+   "FT-CNN + original learned decoder": 0.5076666666666667,
+   "FT-CNN + adapted learned decoder": 0.5206666666666667,
+   "original CNN + original learned decoder": 0.509,
+   "NOMP+SC": 0.5036666666666667,
+   "NOMP+SC tuned": 0.5033333333333333,
+   "FFT-peak seeds": 0.48333333333333334,
+   "FFT-peak seeds+SC": 0.48,
+   "classical dual": 0.5016666666666667,
+   "classical dual+SC": 0.5016666666666667,
+   "NOMP os8 rc6": 0.5026666666666667,
+   "multi-start K6": 0.5016666666666667,
+   "consistent NOMP": 0.699,
+   "orig heat+SC": 0.508,
+   "orig dual+SC": 0.51,
+   "FT heat+SC": 0.49166666666666664,
+   "FT dual+SC": 0.509,
+   "FT NOMP on Hc": 0.509,
+   "FT network only": 0.6086666666666667,
+   "FT heat + consistent": 0.676,
+   "oracle-seeded": 0.5383333333333333,
+   "FFT parabolic os4": 0.48,
+   "FFT parabolic os16": 0.478,
+   "consistent parabolic": 0.6773333333333333,
+   "orig network only": 0.431
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.17833333333333323,
+    -0.19466666666666665,
+    -0.16200000000000003
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.017000000000000015,
+    0.008666666666666711,
+    0.025341666666666658
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    -0.17833333333333323,
+    -0.19466666666666665,
+    -0.16200000000000003
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    -0.08799999999999997,
+    -0.10966666666666669,
+    -0.06633333333333336
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    0.011666666666666714,
+    0.0050000000000000044,
+    0.01866666666666672
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.19133333333333324,
+    -0.20766666666666672,
+    -0.17565833333333336
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    0.0040000000000000036,
+    -0.0029999999999999485,
+    0.011333333333333306
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.19133333333333324,
+    -0.20766666666666672,
+    -0.17565833333333336
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    -0.10099999999999998,
+    -0.123,
+    -0.08000000000000007
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.0013333333333332975,
+    -0.005666666666666598,
+    0.0030000000000000027
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.18999999999999995,
+    -0.2060083333333334,
+    -0.17366666666666664
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    0.005333333333333301,
+    -0.001666666666666651,
+    0.01266666666666666
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.18999999999999995,
+    -0.2060083333333334,
+    -0.17366666666666664
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    -0.09966666666666668,
+    -0.12266666666666665,
+    -0.07766666666666666
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    0.0,
+    -0.0040000000000000036,
+    0.004333333333333411
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.20733333333333331,
+    -0.22433333333333333,
+    -0.19
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.012000000000000066,
+    -0.02233333333333337,
+    -0.0013333333333332975
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    -0.20733333333333331,
+    -0.22433333333333333,
+    -0.19
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    -0.11700000000000005,
+    -0.1403333333333333,
+    -0.09565833333333339
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.017333333333333367,
+    -0.026008333333333408,
+    -0.008666666666666711
+   ]
+  }
+ },
+ "M5_b2_snr15": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent NOMP",
+  "pd": {
+   "NOMP": 0.263,
+   "FT-CNN + classical heat decoder": 0.2813333333333333,
+   "FT-CNN + original learned decoder": 0.2753333333333333,
+   "FT-CNN + adapted learned decoder": 0.33566666666666667,
+   "original CNN + original learned decoder": 0.269,
+   "NOMP+SC": 0.26266666666666666,
+   "NOMP+SC tuned": 0.26266666666666666,
+   "FFT-peak seeds": 0.23866666666666667,
+   "FFT-peak seeds+SC": 0.23366666666666666,
+   "classical dual": 0.256,
+   "classical dual+SC": 0.25566666666666665,
+   "NOMP os8 rc6": 0.26166666666666666,
+   "multi-start K6": 0.25466666666666665,
+   "consistent NOMP": 0.42966666666666664,
+   "orig heat+SC": 0.268,
+   "orig dual+SC": 0.2683333333333333,
+   "FT heat+SC": 0.2813333333333333,
+   "FT dual+SC": 0.26866666666666666,
+   "FT NOMP on Hc": 0.26866666666666666,
+   "FT network only": 0.5593333333333333,
+   "FT heat + consistent": 0.448,
+   "oracle-seeded": 0.38133333333333336,
+   "FFT parabolic os4": 0.24466666666666667,
+   "FFT parabolic os16": 0.25066666666666665,
+   "consistent parabolic": 0.41233333333333333,
+   "orig network only": 0.24366666666666667
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.09399999999999997,
+    -0.11166666666666664,
+    -0.07699166666666667
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.07266666666666666,
+    0.061333333333333295,
+    0.08400000000000002
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    -0.09399999999999997,
+    -0.11166666666666664,
+    -0.07699166666666667
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    -0.22366666666666668,
+    -0.24233333333333335,
+    -0.2043250000000001
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    0.067,
+    0.055999999999999994,
+    0.0780083333333333
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.15433333333333332,
+    -0.1706666666666667,
+    -0.138
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    0.012333333333333307,
+    0.005666666666666709,
+    0.019333333333333313
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.15433333333333332,
+    -0.1706666666666667,
+    -0.138
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    -0.28400000000000003,
+    -0.30333333333333334,
+    -0.26500000000000007
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    0.006666666666666654,
+    0.0016666666666666496,
+    0.012333333333333307
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.16066666666666662,
+    -0.17634166666666667,
+    -0.14466666666666667
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    0.006000000000000005,
+    -0.0010000000000000009,
+    0.012666666666666687
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.16066666666666662,
+    -0.17634166666666667,
+    -0.14466666666666667
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    -0.29033333333333333,
+    -0.30967500000000003,
+    -0.271
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    0.00033333333333335213,
+    -0.0046750000000000385,
+    0.005666666666666653
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.14833333333333332,
+    -0.16667500000000002,
+    -0.1303333333333333
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    0.018333333333333313,
+    0.0050000000000000044,
+    0.031333333333333324
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    -0.14833333333333332,
+    -0.16667500000000002,
+    -0.1303333333333333
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    -0.278,
+    -0.297675,
+    -0.25833333333333336
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    0.01266666666666666,
+    0.00033333333333335213,
+    0.02600833333333331
+   ]
+  }
+ },
+ "M5_b1_snr15": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent NOMP",
+  "pd": {
+   "NOMP": 0.17866666666666667,
+   "FT-CNN + classical heat decoder": 0.22533333333333333,
+   "FT-CNN + original learned decoder": 0.18866666666666668,
+   "FT-CNN + adapted learned decoder": 0.25466666666666665,
+   "original CNN + original learned decoder": 0.17766666666666667,
+   "NOMP+SC": 0.178,
+   "NOMP+SC tuned": 0.17766666666666667,
+   "FFT-peak seeds": 0.16066666666666668,
+   "FFT-peak seeds+SC": 0.15966666666666668,
+   "classical dual": 0.171,
+   "classical dual+SC": 0.17,
+   "NOMP os8 rc6": 0.178,
+   "multi-start K6": 0.17233333333333334,
+   "consistent NOMP": 0.22533333333333333,
+   "orig heat+SC": 0.17733333333333334,
+   "orig dual+SC": 0.17933333333333334,
+   "FT heat+SC": 0.22533333333333333,
+   "FT dual+SC": 0.17833333333333334,
+   "FT NOMP on Hc": 0.178,
+   "FT network only": 0.399,
+   "FT heat + consistent": 0.31033333333333335,
+   "oracle-seeded": 0.5746666666666667,
+   "FFT parabolic os4": 0.16866666666666666,
+   "FFT parabolic os16": 0.16733333333333333,
+   "consistent parabolic": 0.20266666666666666,
+   "orig network only": 0.17633333333333334
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    0.029333333333333322,
+    0.01533333333333331,
+    0.043333333333333335
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.07599999999999998,
+    0.06466666666666668,
+    0.08767499999999999
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    0.029333333333333322,
+    0.01533333333333331,
+    0.043333333333333335
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    -0.14433333333333337,
+    -0.16199999999999998,
+    -0.1276666666666667
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    0.07633333333333331,
+    0.06466666666666668,
+    0.08800833333333331
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.03666666666666665,
+    -0.05033333333333331,
+    -0.02466666666666667
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    0.010000000000000009,
+    0.002333333333333326,
+    0.017000000000000015
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.03666666666666665,
+    -0.05033333333333331,
+    -0.02466666666666667
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    -0.21033333333333334,
+    -0.22899999999999998,
+    -0.19200000000000003
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    0.010333333333333333,
+    0.0030000000000000027,
+    0.017008333333333302
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.04766666666666666,
+    -0.06033333333333332,
+    -0.03533333333333333
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.0010000000000000009,
+    -0.0073333333333333315,
+    0.005666666666666653
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.04766666666666666,
+    -0.06033333333333332,
+    -0.03533333333333333
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    -0.22133333333333335,
+    -0.239,
+    -0.20333333333333334
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.0006666666666666765,
+    -0.006666666666666682,
+    0.00533333333333333
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    0.0,
+    -0.015333333333333338,
+    0.014666666666666661
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    0.04666666666666666,
+    0.034999999999999976,
+    0.05766666666666667
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    0.0,
+    -0.015333333333333338,
+    0.014666666666666661
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    -0.1736666666666667,
+    -0.1903416666666667,
+    -0.156
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    0.046999999999999986,
+    0.03565833333333332,
+    0.057999999999999996
+   ]
+  }
+ },
+ "M5_b4_snr0": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "NOMP",
+  "pd": {
+   "NOMP": 0.663,
+   "FT-CNN + classical heat decoder": 0.6536666666666666,
+   "FT-CNN + original learned decoder": 0.657,
+   "FT-CNN + adapted learned decoder": 0.6556666666666666,
+   "original CNN + original learned decoder": 0.656,
+   "NOMP+SC": 0.6623333333333333,
+   "NOMP+SC tuned": 0.663,
+   "FFT-peak seeds": 0.6426666666666667,
+   "FFT-peak seeds+SC": 0.6406666666666667,
+   "classical dual": 0.6626666666666666,
+   "classical dual+SC": 0.662,
+   "NOMP os8 rc6": 0.6626666666666666,
+   "multi-start K6": 0.6626666666666666,
+   "consistent NOMP": 0.6316666666666667,
+   "orig heat+SC": 0.6523333333333333,
+   "orig dual+SC": 0.66,
+   "FT heat+SC": 0.6536666666666666,
+   "FT dual+SC": 0.6606666666666666,
+   "FT NOMP on Hc": 0.6613333333333333,
+   "FT network only": 0.532,
+   "FT heat + consistent": 0.632,
+   "oracle-seeded": 0.726,
+   "FFT parabolic os4": 0.6273333333333333,
+   "FFT parabolic os16": 0.629,
+   "consistent parabolic": 0.6233333333333333,
+   "orig network only": 0.531
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.007333333333333414,
+    -0.014666666666666606,
+    0.0
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    -0.007333333333333414,
+    -0.014666666666666606,
+    0.0
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    0.02399999999999991,
+    0.012324999999999975,
+    0.036666666666666625
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.12366666666666659,
+    0.10799999999999998,
+    0.1399999999999999
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.0050000000000000044,
+    -0.011666666666666606,
+    0.0016666666666667052
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.006000000000000005,
+    -0.012666666666666604,
+    0.0003333333333332966
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.006000000000000005,
+    -0.012666666666666604,
+    0.0003333333333332966
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    0.02533333333333332,
+    0.013324999999999976,
+    0.037666666666666626
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.125,
+    0.1090000000000001,
+    0.14200000000000002
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.003666666666666596,
+    -0.009333333333333416,
+    0.001666666666666597
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.007000000000000006,
+    -0.014000000000000012,
+    -0.0006666666666667043
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.007000000000000006,
+    -0.014000000000000012,
+    -0.0006666666666667043
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    0.024333333333333318,
+    0.012991666666666572,
+    0.03700000000000003
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.124,
+    0.10799999999999998,
+    0.1410083333333333
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.004666666666666597,
+    -0.010666666666666713,
+    0.0010000000000000009
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.009333333333333416,
+    -0.016000000000000014,
+    -0.0030000000000000027
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.009333333333333416,
+    -0.016000000000000014,
+    -0.0030000000000000027
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    0.02199999999999991,
+    0.010000000000000009,
+    0.03433333333333333
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.12166666666666659,
+    0.1060000000000001,
+    0.13833333333333342
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.007000000000000006,
+    -0.012666666666666604,
+    -0.0020000000000000018
+   ]
+  }
+ },
+ "M5_b3_snr0": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "classical dual+SC",
+  "pd": {
+   "NOMP": 0.588,
+   "FT-CNN + classical heat decoder": 0.572,
+   "FT-CNN + original learned decoder": 0.5783333333333334,
+   "FT-CNN + adapted learned decoder": 0.582,
+   "original CNN + original learned decoder": 0.581,
+   "NOMP+SC": 0.5883333333333334,
+   "NOMP+SC tuned": 0.588,
+   "FFT-peak seeds": 0.5723333333333334,
+   "FFT-peak seeds+SC": 0.571,
+   "classical dual": 0.5883333333333334,
+   "classical dual+SC": 0.5886666666666667,
+   "NOMP os8 rc6": 0.5866666666666667,
+   "multi-start K6": 0.5883333333333334,
+   "consistent NOMP": 0.521,
+   "orig heat+SC": 0.5786666666666667,
+   "orig dual+SC": 0.5856666666666667,
+   "FT heat+SC": 0.572,
+   "FT dual+SC": 0.5873333333333334,
+   "FT NOMP on Hc": 0.5866666666666667,
+   "FT network only": 0.5,
+   "FT heat + consistent": 0.5113333333333333,
+   "oracle-seeded": 0.672,
+   "FFT parabolic os4": 0.57,
+   "FFT parabolic os16": 0.5686666666666667,
+   "consistent parabolic": 0.522,
+   "orig network only": 0.5383333333333333
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.00666666666666671,
+    -0.014666666666666717,
+    0.0010000000000000009
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    -0.006000000000000005,
+    -0.014000000000000012,
+    0.0016666666666667052
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    0.06099999999999994,
+    0.04299999999999993,
+    0.07834166666666666
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.08199999999999996,
+    0.06400000000000006,
+    0.09999999999999998
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.005333333333333412,
+    -0.013333333333333308,
+    0.0020000000000000018
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.010333333333333306,
+    -0.01733333333333331,
+    -0.0033333333333332993
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.009666666666666601,
+    -0.01666666666666672,
+    -0.002666666666666706
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    0.05733333333333335,
+    0.03966666666666663,
+    0.07499999999999996
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.07833333333333337,
+    0.060658333333333314,
+    0.09699999999999998
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.009000000000000008,
+    -0.01534166666666675,
+    -0.002666666666666706
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.0076666666666667105,
+    -0.013666666666666716,
+    -0.0013333333333332975
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.007000000000000006,
+    -0.013000000000000012,
+    -0.0006666666666667043
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    0.05999999999999994,
+    0.042333333333333334,
+    0.07733333333333325
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.08099999999999996,
+    0.06299166666666672,
+    0.09966666666666668
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.006333333333333413,
+    -0.01200000000000001,
+    -0.0006666666666667014
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.01666666666666672,
+    -0.024675000000000058,
+    -0.008666666666666711
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.016000000000000014,
+    -0.024333333333333318,
+    -0.008000000000000007
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    0.050999999999999934,
+    0.03366666666666662,
+    0.06899999999999995
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.07199999999999995,
+    0.05399999999999999,
+    0.09100833333333332
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.015333333333333421,
+    -0.022666666666666724,
+    -0.008000000000000007
+   ]
+  }
+ },
+ "M5_b2_snr0": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent NOMP",
+  "pd": {
+   "NOMP": 0.35633333333333334,
+   "FT-CNN + classical heat decoder": 0.321,
+   "FT-CNN + original learned decoder": 0.3576666666666667,
+   "FT-CNN + adapted learned decoder": 0.37766666666666665,
+   "original CNN + original learned decoder": 0.35233333333333333,
+   "NOMP+SC": 0.35633333333333334,
+   "NOMP+SC tuned": 0.356,
+   "FFT-peak seeds": 0.351,
+   "FFT-peak seeds+SC": 0.34833333333333333,
+   "classical dual": 0.3566666666666667,
+   "classical dual+SC": 0.3566666666666667,
+   "NOMP os8 rc6": 0.359,
+   "multi-start K6": 0.358,
+   "consistent NOMP": 0.407,
+   "orig heat+SC": 0.355,
+   "orig dual+SC": 0.3586666666666667,
+   "FT heat+SC": 0.321,
+   "FT dual+SC": 0.359,
+   "FT NOMP on Hc": 0.3576666666666667,
+   "FT network only": 0.432,
+   "FT heat + consistent": 0.366,
+   "oracle-seeded": 0.5133333333333333,
+   "FFT parabolic os4": 0.3586666666666667,
+   "FFT parabolic os16": 0.3636666666666667,
+   "consistent parabolic": 0.406,
+   "orig network only": 0.355
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.029333333333333322,
+    -0.04966666666666664,
+    -0.008666666666666656
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.021333333333333315,
+    0.010333333333333361,
+    0.03366666666666668
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    -0.029333333333333322,
+    -0.04966666666666664,
+    -0.008666666666666656
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    -0.054333333333333345,
+    -0.07166666666666666,
+    -0.03699999999999998
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    0.018666666666666665,
+    0.008666666666666656,
+    0.030341666666666663
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.049333333333333285,
+    -0.07100000000000001,
+    -0.027000000000000024
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    0.001333333333333353,
+    -0.007008333333333338,
+    0.010333333333333306
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.049333333333333285,
+    -0.07100000000000001,
+    -0.027000000000000024
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    -0.0743333333333333,
+    -0.09334999999999999,
+    -0.055999999999999994
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.0013333333333332975,
+    -0.008000000000000007,
+    0.006000000000000005
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.05466666666666664,
+    -0.07533333333333331,
+    -0.03332500000000004
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.0040000000000000036,
+    -0.01166666666666666,
+    0.0033416666666666417
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.05466666666666664,
+    -0.07533333333333331,
+    -0.03332500000000004
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    -0.07966666666666666,
+    -0.09966666666666668,
+    -0.061
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.006666666666666654,
+    -0.013000000000000012,
+    0.0
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.08599999999999997,
+    -0.10666666666666669,
+    -0.06532500000000006
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.03533333333333333,
+    -0.04834166666666667,
+    -0.021666666666666667
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    -0.08599999999999997,
+    -0.10666666666666669,
+    -0.06532500000000006
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    -0.11099999999999999,
+    -0.1293333333333333,
+    -0.09333333333333332
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.03799999999999998,
+    -0.05066666666666664,
+    -0.025000000000000022
+   ]
+  }
+ },
+ "M5_b1_snr0": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "consistent parabolic",
+  "pd": {
+   "NOMP": 0.16866666666666666,
+   "FT-CNN + classical heat decoder": 0.157,
+   "FT-CNN + original learned decoder": 0.16433333333333333,
+   "FT-CNN + adapted learned decoder": 0.199,
+   "original CNN + original learned decoder": 0.15833333333333333,
+   "NOMP+SC": 0.169,
+   "NOMP+SC tuned": 0.169,
+   "FFT-peak seeds": 0.162,
+   "FFT-peak seeds+SC": 0.16066666666666668,
+   "classical dual": 0.16933333333333334,
+   "classical dual+SC": 0.16933333333333334,
+   "NOMP os8 rc6": 0.17133333333333334,
+   "multi-start K6": 0.17333333333333334,
+   "consistent NOMP": 0.224,
+   "orig heat+SC": 0.15933333333333333,
+   "orig dual+SC": 0.17,
+   "FT heat+SC": 0.157,
+   "FT dual+SC": 0.16866666666666666,
+   "FT NOMP on Hc": 0.16733333333333333,
+   "FT network only": 0.22933333333333333,
+   "FT heat + consistent": 0.215,
+   "oracle-seeded": 0.5116666666666667,
+   "FFT parabolic os4": 0.16866666666666666,
+   "FFT parabolic os16": 0.169,
+   "consistent parabolic": 0.22566666666666665,
+   "orig network only": 0.155
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.026666666666666644,
+    -0.04033333333333333,
+    -0.011666666666666686
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    0.03033333333333335,
+    0.01833333333333334,
+    0.042333333333333334
+   ],
+   "FT-CNN + adapted learned decoder - consistent NOMP": [
+    -0.024999999999999994,
+    -0.03900000000000001,
+    -0.009666666666666657
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    -0.030333333333333323,
+    -0.04266666666666666,
+    -0.018333333333333313
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    0.03033333333333335,
+    0.018666666666666665,
+    0.04200000000000001
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.06133333333333332,
+    -0.07633333333333334,
+    -0.04665833333333337
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.004333333333333328,
+    -0.012666666666666687,
+    0.0040000000000000036
+   ],
+   "FT-CNN + original learned decoder - consistent NOMP": [
+    -0.05966666666666667,
+    -0.07334166666666667,
+    -0.04466666666666666
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    -0.065,
+    -0.07899999999999999,
+    -0.051666666666666666
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.004333333333333328,
+    -0.011666666666666659,
+    0.003666666666666679
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.06733333333333333,
+    -0.08200833333333335,
+    -0.05233333333333334
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.010333333333333333,
+    -0.017000000000000015,
+    -0.003333333333333355
+   ],
+   "original CNN + original learned decoder - consistent NOMP": [
+    -0.06566666666666668,
+    -0.07967500000000002,
+    -0.049666666666666665
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    -0.07100000000000001,
+    -0.086,
+    -0.056999999999999995
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.010333333333333333,
+    -0.016999999999999987,
+    -0.003999999999999976
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.06866666666666665,
+    -0.08299999999999999,
+    -0.05366666666666667
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.011666666666666659,
+    -0.021999999999999992,
+    -0.0010000000000000009
+   ],
+   "FT-CNN + classical heat decoder - consistent NOMP": [
+    -0.067,
+    -0.08099999999999999,
+    -0.051666666666666666
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    -0.07233333333333333,
+    -0.08600833333333335,
+    -0.059
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.011666666666666659,
+    -0.020666666666666667,
+    -0.0016666666666666496
+   ]
+  }
+ },
+ "clean_snr15": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "NOMP os8 rc6",
+  "pd": {
+   "NOMP": 0.929,
+   "FT-CNN + classical heat decoder": 0.9183333333333333,
+   "FT-CNN + original learned decoder": 0.9203333333333333,
+   "FT-CNN + adapted learned decoder": 0.9213333333333333,
+   "original CNN + original learned decoder": 0.919,
+   "NOMP+SC": 0.9306666666666666,
+   "NOMP+SC tuned": 0.9296666666666666,
+   "FFT-peak seeds": 0.8563333333333333,
+   "FFT-peak seeds+SC": 0.8583333333333333,
+   "classical dual": 0.929,
+   "classical dual+SC": 0.9306666666666666,
+   "NOMP os8 rc6": 0.931,
+   "multi-start K6": 0.929,
+   "orig heat+SC": 0.9183333333333333,
+   "orig dual+SC": 0.9246666666666666,
+   "FT heat+SC": 0.9183333333333333,
+   "FT dual+SC": 0.924,
+   "FT NOMP on Hc": 0.924,
+   "FT network only": 0.46366666666666667,
+   "oracle-seeded": 0.9383333333333334,
+   "FFT parabolic os4": 0.8156666666666667,
+   "FFT parabolic os16": 0.8166666666666667,
+   "orig network only": 0.44766666666666666
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.009666666666666712,
+    -0.01666666666666672,
+    -0.002666666666666595
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    -0.0076666666666667105,
+    -0.014333333333333313,
+    -0.0006666666666667043
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.45766666666666667,
+    0.4376666666666667,
+    0.478
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.002666666666666706,
+    -0.007333333333333303,
+    0.0013416666666666926
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.010666666666666713,
+    -0.017666666666666612,
+    -0.0043333333333333
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.008666666666666711,
+    -0.01533333333333331,
+    -0.0023333333333334094
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.45666666666666667,
+    0.4369916666666666,
+    0.477
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.003666666666666707,
+    -0.008333333333333304,
+    0.0003333333333332966
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.01200000000000001,
+    -0.019000000000000017,
+    -0.005666666666666709
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.010000000000000009,
+    -0.01666666666666672,
+    -0.003666666666666596
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.45533333333333337,
+    0.43533333333333335,
+    0.4753333333333334
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.0050000000000000044,
+    -0.010000000000000009,
+    -0.0010000000000000009
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.012666666666666715,
+    -0.02100000000000002,
+    -0.0050000000000000044
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.010666666666666713,
+    -0.01766666666666672,
+    -0.003991666666666716
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.45466666666666666,
+    0.4349916666666666,
+    0.47533333333333333
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.005666666666666709,
+    -0.011666666666666603,
+    -0.0006666666666667043
+   ]
+  }
+ },
+ "clean_snr0": {
+  "n": 500,
+  "nomp_identical": true,
+  "best_classical": "NOMP os8 rc6",
+  "pd": {
+   "NOMP": 0.6896666666666667,
+   "FT-CNN + classical heat decoder": 0.6866666666666666,
+   "FT-CNN + original learned decoder": 0.6863333333333334,
+   "FT-CNN + adapted learned decoder": 0.686,
+   "original CNN + original learned decoder": 0.6843333333333333,
+   "NOMP+SC": 0.6896666666666667,
+   "NOMP+SC tuned": 0.6886666666666666,
+   "FFT-peak seeds": 0.661,
+   "FFT-peak seeds+SC": 0.6596666666666666,
+   "classical dual": 0.6883333333333334,
+   "classical dual+SC": 0.6883333333333334,
+   "NOMP os8 rc6": 0.69,
+   "multi-start K6": 0.689,
+   "orig heat+SC": 0.6846666666666666,
+   "orig dual+SC": 0.6896666666666667,
+   "FT heat+SC": 0.6866666666666666,
+   "FT dual+SC": 0.6893333333333334,
+   "FT NOMP on Hc": 0.6886666666666666,
+   "FT network only": 0.5456666666666666,
+   "oracle-seeded": 0.744,
+   "FFT parabolic os4": 0.6506666666666666,
+   "FFT parabolic os16": 0.6516666666666666,
+   "orig network only": 0.5353333333333333
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.0039999999999998925,
+    -0.01100000000000001,
+    0.0030000000000000027
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    -0.003666666666666596,
+    -0.010666666666666602,
+    0.0033416666666666946
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.14033333333333342,
+    0.12266666666666659,
+    0.1580083333333333
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.0033333333333332993,
+    -0.010000000000000009,
+    0.0030000000000000027
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.003666666666666596,
+    -0.010333333333333306,
+    0.0030000000000000027
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.0033333333333332993,
+    -0.010333333333333306,
+    0.003333333333333302
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.14066666666666672,
+    0.123,
+    0.15833333333333333
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.0030000000000000027,
+    -0.008666666666666711,
+    0.002333333333333301
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.005666666666666598,
+    -0.012666666666666715,
+    0.0010000000000000009
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.005333333333333301,
+    -0.012666666666666604,
+    0.0016666666666667052
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.13866666666666672,
+    0.121,
+    0.15666666666666673
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.0050000000000000044,
+    -0.011333333333333306,
+    0.0010000000000000009
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.0033333333333332993,
+    -0.010000000000000009,
+    0.003666666666666596
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.0030000000000000027,
+    -0.009666666666666712,
+    0.003666666666666707
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.14100000000000001,
+    0.12366666666666659,
+    0.15833333333333333
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.002666666666666706,
+    -0.008333333333333304,
+    0.002674999999999993
+   ]
+  }
+ },
+ "official_subset": {
+  "n": 2000,
+  "nomp_identical": true,
+  "best_classical": "NOMP os8 rc6",
+  "pd": {
+   "NOMP": 0.7565,
+   "FT-CNN + classical heat decoder": 0.7465833333333334,
+   "FT-CNN + original learned decoder": 0.74725,
+   "FT-CNN + adapted learned decoder": 0.7475833333333333,
+   "original CNN + original learned decoder": 0.7473333333333333,
+   "NOMP+SC": 0.7551666666666668,
+   "NOMP+SC tuned": 0.7543333333333333,
+   "FFT-peak seeds": 0.7120833333333334,
+   "FFT-peak seeds+SC": 0.7104166666666666,
+   "classical dual": 0.7568333333333332,
+   "classical dual+SC": 0.7555000000000001,
+   "NOMP os8 rc6": 0.7581666666666667,
+   "multi-start K6": 0.75675,
+   "orig heat+SC": 0.7464166666666667,
+   "orig dual+SC": 0.7528333333333334,
+   "FT heat+SC": 0.7465833333333334,
+   "FT dual+SC": 0.7525833333333334,
+   "FT NOMP on Hc": 0.7523333333333333,
+   "FT network only": 0.45391666666666663,
+   "oracle-seeded": 0.8233333333333333,
+   "FFT parabolic os4": 0.6793333333333333,
+   "FFT parabolic os16": 0.67875,
+   "orig network only": 0.44658333333333333
+  },
+  "diffs": {
+   "FT-CNN + adapted learned decoder - BEST classical": [
+    -0.010583333333333389,
+    -0.014499999999999957,
+    -0.006750000000000034
+   ],
+   "FT-CNN + adapted learned decoder - NOMP": [
+    -0.008916666666666684,
+    -0.012666666666666607,
+    -0.005249999999999977
+   ],
+   "FT-CNN + adapted learned decoder - FT network only": [
+    0.29366666666666663,
+    0.28558125,
+    0.30233333333333323
+   ],
+   "FT-CNN + adapted learned decoder - FT dual+SC": [
+    -0.0050000000000001155,
+    -0.008250000000000094,
+    -0.0019145833333332504
+   ],
+   "FT-CNN + original learned decoder - BEST classical": [
+    -0.010916666666666686,
+    -0.014583333333333393,
+    -0.007166666666666652
+   ],
+   "FT-CNN + original learned decoder - NOMP": [
+    -0.00924999999999998,
+    -0.012750000000000039,
+    -0.0055833333333333846
+   ],
+   "FT-CNN + original learned decoder - FT network only": [
+    0.29333333333333333,
+    0.28508333333333336,
+    0.3019166666666667
+   ],
+   "FT-CNN + original learned decoder - FT dual+SC": [
+    -0.005333333333333412,
+    -0.008333333333333304,
+    -0.0024999999999999467
+   ],
+   "original CNN + original learned decoder - BEST classical": [
+    -0.010833333333333361,
+    -0.014416666666666744,
+    -0.0071666666666665435
+   ],
+   "original CNN + original learned decoder - NOMP": [
+    -0.009166666666666656,
+    -0.012416666666666742,
+    -0.005666666666666709
+   ],
+   "original CNN + original learned decoder - FT network only": [
+    0.29341666666666666,
+    0.2851645833333332,
+    0.30200208333333334
+   ],
+   "original CNN + original learned decoder - FT dual+SC": [
+    -0.005250000000000088,
+    -0.007916666666666575,
+    -0.0025000000000000577
+   ],
+   "FT-CNN + classical heat decoder - BEST classical": [
+    -0.011583333333333279,
+    -0.015250000000000097,
+    -0.007914583333333256
+   ],
+   "FT-CNN + classical heat decoder - NOMP": [
+    -0.009916666666666574,
+    -0.013416666666666636,
+    -0.006333333333333413
+   ],
+   "FT-CNN + classical heat decoder - FT network only": [
+    0.29266666666666674,
+    0.2845,
+    0.30100208333333345
+   ],
+   "FT-CNN + classical heat decoder - FT dual+SC": [
+    -0.006000000000000005,
+    -0.008833333333333252,
+    -0.0033333333333332993
+   ]
+  }
+ }
+}

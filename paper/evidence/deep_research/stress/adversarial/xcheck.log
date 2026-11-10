@@ -1,0 +1,29 @@
+(1) independent forward model vs stress_sim.generate (64 scenes, seed 4242, SNR 15)
+   to_ant max|diff| 6.67e-16
+   clean sev None : max|Y_mine - Y_stress| / max|Y| = 8.95e-16
+   M1    sev 0.1  : max|Y_mine - Y_stress| / max|Y| = 8.52e-16
+   M1    sev 0.3  : max|Y_mine - Y_stress| / max|Y| = 6.17e-16
+   M2    sev 0.05 : max|Y_mine - Y_stress| / max|Y| = 7.84e-16
+   M2    sev 0.2  : max|Y_mine - Y_stress| / max|Y| = 8.02e-16
+   M4    sev 4    : max|Y_mine - Y_stress| / max|Y| = 7.71e-15
+   M4    sev 3    : max|Y_mine - Y_stress| / max|Y| = 8.45e-15
+   M4    sev 2    : max|Y_mine - Y_stress| / max|Y| = 7.35e-15
+   M4    sev 1    : max|Y_mine - Y_stress| / max|Y| = 4.92e-15
+   M5    sev 4    : max|Y_mine - Y_stress| / max|Y| = 9.49e-16; distinct Re levels 449 (2^b = 16)
+   M5    sev 3    : max|Y_mine - Y_stress| / max|Y| = 9.32e-16; distinct Re levels 306 (2^b = 8)
+   M5    sev 2    : max|Y_mine - Y_stress| / max|Y| = 7.53e-16; distinct Re levels 208 (2^b = 4)
+   M5    sev 1    : max|Y_mine - Y_stress| / max|Y| = 1.11e-15; distinct Re levels 128 (2^b = 2)
+   M6    sev 10.0 : max|Y_mine - Y_stress| / max|Y| = 8.97e-16
+   M6    sev 30.0 : max|Y_mine - Y_stress| / max|Y| = 9.04e-16
+   M8    sev 2.0  : max|Y_mine - Y_stress| / max|Y| = 1.35e-13
+   M8    sev 0.5  : max|Y_mine - Y_stress| / max|Y| = 3.10e-14
+(1b) M4 quantised codebooks: my rounding vs stress_sim
+   b=3: W max|diff| 2.42e-15, F max|diff| 3.69e-15
+   b=2: W max|diff| 2.42e-15, F max|diff| 3.69e-15
+   b=1: W max|diff| 2.42e-15, F max|diff| 3.69e-15
+(1c) M8 far-field limit of my near-field steering (r = 1e8 m): max|a_nf - a_ff| = 2.68e-06
+(2) beamspace peak / RMS, ratio = max(|Re|,|Im|) / sqrt(mean|Y|^2 / 2) per scene, impairment-free L=3, 2000 scenes (seed 4243)
+   SNR  0: median 8.47, IQR [7.14, 10.10]; fraction of real components clipped by the 3-RMS AGC: 0.0115
+   SNR 15: median 12.19, IQR [10.60, 14.03]; fraction of real components clipped by the 3-RMS AGC: 0.0178
+(3) coupling convention: Hermitian Toeplitz instead of complex-symmetric (reciprocal), rho 0.3: relative change of Y
+   ||Y_herm - Y_sym|| / ||Y_sym - noise|| = 0.534

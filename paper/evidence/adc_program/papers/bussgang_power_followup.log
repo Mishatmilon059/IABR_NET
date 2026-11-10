@@ -1,0 +1,15 @@
+[    0.0s] F1 Fig. 2 setting (M 16, K 4, tau 20), BLMMSE NMSE (dB) vs pilot columns, 2000 channels per SNR
+[    0.4s]    adjacent 0,1,2,3       -10 dB:  -3.21    0 dB:  -7.23   10 dB:  -7.93   20 dB:  -7.99
+[    0.9s]    equispaced 0,5,10,15   -10 dB:  -3.21    0 dB:  -6.14   10 dB:  -5.23   20 dB:  -4.68
+[    1.3s]    mixed 0,3,7,12         -10 dB:  -3.24    0 dB:  -7.59   10 dB:  -8.87   20 dB:  -9.02
+[    1.7s]    pairs 0,1,10,11        -10 dB:  -3.23    0 dB:  -7.04   10 dB:  -7.48   20 dB:  -7.44
+[    6.0s] F2 15 dB, seed 12615, 1000 scenes: truth mean |u| = 0.641, fraction |u| > 0.9 = 0.286
+[   16.9s]    1-bit: LMMSE matrix diagonal |weight| max/min = 15.02, off-diagonal energy fraction of the matrix = 0.312
+[   16.9s]       Pd 0.1883  mean |u| of estimates 0.610  fraction |u| > 0.9 0.277  NOMP on raw quantised data
+[   16.9s]       Pd 0.0992  mean |u| of estimates 0.823  fraction |u| > 0.9 0.636  empirical LMMSE + NOMP   diff vs NOMP -0.0892 [-0.0995, -0.0793]
+[   16.9s]       Pd 0.0970  mean |u| of estimates 0.845  fraction |u| > 0.9 0.646  diagonal part of empirical LMMSE + NOMP   diff vs NOMP -0.0913 [-0.1020, -0.0807]
+[   28.0s]    2-bit: LMMSE matrix diagonal |weight| max/min = 14.34, off-diagonal energy fraction of the matrix = 0.179
+[   28.0s]       Pd 0.2780  mean |u| of estimates 0.623  fraction |u| > 0.9 0.297  NOMP on raw quantised data
+[   28.0s]       Pd 0.1587  mean |u| of estimates 0.806  fraction |u| > 0.9 0.582  empirical LMMSE + NOMP   diff vs NOMP -0.1193 [-0.1317, -0.1073]
+[   28.0s]       Pd 0.1573  mean |u| of estimates 0.818  fraction |u| > 0.9 0.605  diagonal part of empirical LMMSE + NOMP   diff vs NOMP -0.1207 [-0.1335, -0.1077]
+[   28.1s] done

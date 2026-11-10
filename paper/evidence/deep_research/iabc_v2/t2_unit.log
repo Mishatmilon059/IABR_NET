@@ -1,0 +1,8 @@
+Toeplitz L=1 SNR=60.0: phase MSE removed 100.0%, gain 100.0%
+Toeplitz L=1 SNR=25.0: phase MSE removed 98.4%, gain 98.9%
+Toeplitz L=3 SNR=60.0: phase MSE removed 54.6%, gain 73.8%
+Toeplitz L=3 SNR=25.0: phase MSE removed 54.2%, gain 73.7%
+apply_corr(true target): remaining row log-gain spread 3.020942482331556e-08  remaining row phase non-linear part 2.963959885859957e-08
+hybrid e_ALS (eA=0) vs SC open: 2.7556011916729517e-08  glob[0] (log10 snr_est) median 1.4056973 (true per-entry SNR 15 dB, signal/noise energy ratio ~ 10^1.5)
+refiner zero-init output max 0.0
+trunk_heat vs CNN heat max|d| 7.748603820800781e-07

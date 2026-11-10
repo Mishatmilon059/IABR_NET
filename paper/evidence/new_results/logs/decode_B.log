@@ -1,0 +1,8 @@
+T2_d1                  N=8000 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 127s
+T2_d2                  N=8000 L=[3] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 123s
+L1_snr0                N=500 L=[1] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 3s
+L1_snr15               N=500 L=[1] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 2s
+L2_snr0                N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 5s
+L2_snr15               N=500 L=[2] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 5s
+L4_snr0                N=500 L=[4] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 15s
+L4_snr15               N=500 L=[4] greedy recompute == cached NOMP: True (max abs diff 4.44e-16 rad) | 12s

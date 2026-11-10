@@ -1,0 +1,78 @@
+{
+ "official": {
+  "sc_on_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.088375,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.855125,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.97625
+  },
+  "sc_off_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.044375,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.57475,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.91875
+  },
+  "median_maxdiff_deg_sc_on": 0.028967591940179137,
+  "all_paths_ok_crosstab": {
+   "both": 3463,
+   "only_allneural": 36,
+   "only_classical": 45,
+   "neither": 4456
+  }
+ },
+ "T2_d1": {
+  "sc_on_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.088,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.863,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.97725
+  },
+  "sc_off_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.042125,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.579875,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.9165
+  },
+  "median_maxdiff_deg_sc_on": 0.027763651128282774,
+  "all_paths_ok_crosstab": {
+   "both": 3498,
+   "only_allneural": 46,
+   "only_classical": 37,
+   "neither": 4419
+  }
+ },
+ "T2_d2": {
+  "sc_on_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.09425,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.862375,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.97575
+  },
+  "sc_off_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.047,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.578125,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.9135
+  },
+  "median_maxdiff_deg_sc_on": 0.02909743057544302,
+  "all_paths_ok_crosstab": {
+   "both": 3364,
+   "only_allneural": 43,
+   "only_classical": 36,
+   "neither": 4557
+  }
+ },
+ "T2_d5": {
+  "sc_on_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.09925,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.8605,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.97625
+  },
+  "sc_off_vs_classical": {
+   "frac_scenes_maxdiff_lt_0.01deg": 0.04525,
+   "frac_scenes_maxdiff_lt_0.1deg": 0.55825,
+   "frac_scenes_maxdiff_lt_1.0deg": 0.911375
+  },
+  "median_maxdiff_deg_sc_on": 0.028920195541400413,
+  "all_paths_ok_crosstab": {
+   "both": 3247,
+   "only_allneural": 40,
+   "only_classical": 33,
+   "neither": 4680
+  }
+ }
+}

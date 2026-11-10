@@ -1,0 +1,245 @@
+--- clean SNR 15  (5s)
+    snr: 15
+    bits: None
+    pd_nomp: 0.929
+    det_rate_by_rank: [0.906, 0.876, 0.798]
+    n_detected_hist: [12, 35, 104, 349]
+    first_within1deg_strongest: 0.896
+    first_within1deg_any: 0.904
+    first_cell_dist_quantiles: [0.0055, 0.009, 0.0163, 0.0321]
+    n_bad_estimates: 210
+    bad_est_dist_frac: {'lt0p25': 0.9476190476190476, 'c0p25_1': 0.014285714285714285, 'c1_2': 0.009523809523809525, 'ge2': 0.02857142857142857}
+    frac_scenes_with_duplicate_estimates: 0.004
+    pd_oracle: 0.9383
+    frac_oracle_lower_residual: 0.24
+    pd_oracle_if_lower_residual: 0.9347
+    rel_residual_median_nomp_oracle: [0.0342, 0.0342]
+    fft_rel_value_at_truth_by_rank_median: [1.0, 0.6996, 0.3898]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.9153
+    frac_truth_paths_in_top6_localmax: 0.9347
+    frac_truth_paths_no_localmax_within_half_cell: 0.0067
+    n_localmax_median: 142.0
+--- b4 SNR 15  (2s)
+    snr: 15
+    bits: 4
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.7733
+    det_rate_by_rank: [0.698, 0.656, 0.46]
+    n_detected_hist: [45, 141, 176, 138]
+    first_within1deg_strongest: 0.702
+    first_within1deg_any: 0.742
+    first_cell_dist_quantiles: [0.0251, 0.0412, 0.0574, 0.073]
+    n_bad_estimates: 593
+    bad_est_dist_frac: {'lt0p25': 0.9258010118043845, 'c0p25_1': 0.016863406408094434, 'c1_2': 0.0016863406408094434, 'ge2': 0.05564924114671164}
+    frac_scenes_with_duplicate_estimates: 0.0
+    pd_oracle: 0.789
+    frac_oracle_lower_residual: 0.154
+    pd_oracle_if_lower_residual: 0.7757
+    rel_residual_median_nomp_oracle: [0.325, 0.325]
+    fft_rel_value_at_truth_by_rank_median: [1.0, 0.7233, 0.4296]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.9147
+    frac_truth_paths_in_top6_localmax: 0.9513
+    frac_truth_paths_no_localmax_within_half_cell: 0.0073
+    n_localmax_median: 136.0
+--- b3 SNR 15  (2s)
+    snr: 15
+    bits: 3
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.5037
+    det_rate_by_rank: [0.308, 0.286, 0.202]
+    n_detected_hist: [222, 171, 94, 13]
+    first_within1deg_strongest: 0.298
+    first_within1deg_any: 0.352
+    first_cell_dist_quantiles: [0.0761, 0.1124, 0.1453, 0.1775]
+    n_bad_estimates: 1102
+    bad_est_dist_frac: {'lt0p25': 0.8838475499092558, 'c0p25_1': 0.05807622504537205, 'c1_2': 0.006352087114337568, 'ge2': 0.05172413793103448}
+    frac_scenes_with_duplicate_estimates: 0.002
+    pd_oracle: 0.5383
+    frac_oracle_lower_residual: 0.082
+    pd_oracle_if_lower_residual: 0.5033
+    rel_residual_median_nomp_oracle: [0.6155, 0.6163]
+    fft_rel_value_at_truth_by_rank_median: [0.966, 0.7231, 0.4681]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.914
+    frac_truth_paths_in_top6_localmax: 0.946
+    frac_truth_paths_no_localmax_within_half_cell: 0.006
+    n_localmax_median: 136.0
+--- b2 SNR 15  (2s)
+    snr: 15
+    bits: 2
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.263
+    det_rate_by_rank: [0.062, 0.076, 0.054]
+    n_detected_hist: [411, 82, 7, 0]
+    first_within1deg_strongest: 0.052
+    first_within1deg_any: 0.096
+    first_cell_dist_quantiles: [0.143, 0.2086, 0.2555, 0.294]
+    n_bad_estimates: 1404
+    bad_est_dist_frac: {'lt0p25': 0.5918803418803419, 'c0p25_1': 0.3269230769230769, 'c1_2': 0.017094017094017096, 'ge2': 0.0641025641025641}
+    frac_scenes_with_duplicate_estimates: 0.002
+    pd_oracle: 0.3813
+    frac_oracle_lower_residual: 0.034
+    pd_oracle_if_lower_residual: 0.2633
+    rel_residual_median_nomp_oracle: [0.7819, 0.789]
+    fft_rel_value_at_truth_by_rank_median: [0.8395, 0.699, 0.4997]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.8573
+    frac_truth_paths_in_top6_localmax: 0.926
+    frac_truth_paths_no_localmax_within_half_cell: 0.0033
+    n_localmax_median: 137.0
+--- b1 SNR 15  (2s)
+    snr: 15
+    bits: 1
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.1787
+    det_rate_by_rank: [0.028, 0.036, 0.034]
+    n_detected_hist: [452, 47, 1, 0]
+    first_within1deg_strongest: 0.02
+    first_within1deg_any: 0.068
+    first_cell_dist_quantiles: [0.1858, 0.2597, 0.3217, 0.3666]
+    n_bad_estimates: 1451
+    bad_est_dist_frac: {'lt0p25': 0.2929014472777395, 'c0p25_1': 0.5851137146795313, 'c1_2': 0.022742935906271536, 'ge2': 0.09924190213645762}
+    frac_scenes_with_duplicate_estimates: 0.002
+    pd_oracle: 0.5747
+    frac_oracle_lower_residual: 0.004
+    pd_oracle_if_lower_residual: 0.1783
+    rel_residual_median_nomp_oracle: [0.8294, 0.876]
+    fft_rel_value_at_truth_by_rank_median: [0.6391, 0.6004, 0.4965]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.7553
+    frac_truth_paths_in_top6_localmax: 0.8493
+    frac_truth_paths_no_localmax_within_half_cell: 0.006
+    n_localmax_median: 137.0
+--- clean SNR 0  (2s)
+    snr: 0
+    bits: None
+    pd_nomp: 0.6897
+    det_rate_by_rank: [0.686, 0.57, 0.312]
+    n_detected_hist: [63, 174, 179, 84]
+    first_within1deg_strongest: 0.666
+    first_within1deg_any: 0.706
+    first_cell_dist_quantiles: [0.0228, 0.0379, 0.0583, 0.0864]
+    n_bad_estimates: 716
+    bad_est_dist_frac: {'lt0p25': 0.7723463687150838, 'c0p25_1': 0.046089385474860335, 'c1_2': 0.025139664804469275, 'ge2': 0.1564245810055866}
+    frac_scenes_with_duplicate_estimates: 0.002
+    pd_oracle: 0.744
+    frac_oracle_lower_residual: 0.112
+    pd_oracle_if_lower_residual: 0.6903
+    rel_residual_median_nomp_oracle: [0.5106, 0.514]
+    fft_rel_value_at_truth_by_rank_median: [1.0, 0.7072, 0.3896]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.8733
+    frac_truth_paths_in_top6_localmax: 0.9167
+    frac_truth_paths_no_localmax_within_half_cell: 0.018
+    n_localmax_median: 111.0
+--- b4 SNR 0  (2s)
+    snr: 0
+    bits: 4
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.663
+    det_rate_by_rank: [0.652, 0.536, 0.304]
+    n_detected_hist: [68, 185, 180, 67]
+    first_within1deg_strongest: 0.642
+    first_within1deg_any: 0.684
+    first_cell_dist_quantiles: [0.0252, 0.0415, 0.0666, 0.0978]
+    n_bad_estimates: 754
+    bad_est_dist_frac: {'lt0p25': 0.7586206896551724, 'c0p25_1': 0.05570291777188329, 'c1_2': 0.022546419098143235, 'ge2': 0.16312997347480107}
+    frac_scenes_with_duplicate_estimates: 0.006
+    pd_oracle: 0.726
+    frac_oracle_lower_residual: 0.096
+    pd_oracle_if_lower_residual: 0.664
+    rel_residual_median_nomp_oracle: [0.5713, 0.5717]
+    fft_rel_value_at_truth_by_rank_median: [1.0, 0.7199, 0.3959]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.866
+    frac_truth_paths_in_top6_localmax: 0.9127
+    frac_truth_paths_no_localmax_within_half_cell: 0.0227
+    n_localmax_median: 113.0
+--- b3 SNR 0  (2s)
+    snr: 0
+    bits: 3
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.588
+    det_rate_by_rank: [0.562, 0.45, 0.212]
+    n_detected_hist: [107, 210, 147, 36]
+    first_within1deg_strongest: 0.546
+    first_within1deg_any: 0.594
+    first_cell_dist_quantiles: [0.0388, 0.0597, 0.085, 0.1196]
+    n_bad_estimates: 888
+    bad_est_dist_frac: {'lt0p25': 0.7105855855855856, 'c0p25_1': 0.06756756756756757, 'c1_2': 0.02927927927927928, 'ge2': 0.19256756756756757}
+    frac_scenes_with_duplicate_estimates: 0.0
+    pd_oracle: 0.672
+    frac_oracle_lower_residual: 0.068
+    pd_oracle_if_lower_residual: 0.5893
+    rel_residual_median_nomp_oracle: [0.7253, 0.7282]
+    fft_rel_value_at_truth_by_rank_median: [1.0, 0.7376, 0.4233]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 3.0]
+    frac_truth_paths_in_top3_localmax: 0.85
+    frac_truth_paths_in_top6_localmax: 0.8933
+    frac_truth_paths_no_localmax_within_half_cell: 0.0233
+    n_localmax_median: 121.0
+--- b2 SNR 0  (2s)
+    snr: 0
+    bits: 2
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.3563
+    det_rate_by_rank: [0.234, 0.198, 0.07]
+    n_detected_hist: [292, 166, 41, 1]
+    first_within1deg_strongest: 0.226
+    first_within1deg_any: 0.302
+    first_cell_dist_quantiles: [0.0781, 0.1221, 0.1763, 0.2302]
+    n_bad_estimates: 1249
+    bad_est_dist_frac: {'lt0p25': 0.6076861489191353, 'c0p25_1': 0.08726981585268215, 'c1_2': 0.03282626100880705, 'ge2': 0.2722177742193755}
+    frac_scenes_with_duplicate_estimates: 0.002
+    pd_oracle: 0.5133
+    frac_oracle_lower_residual: 0.026
+    pd_oracle_if_lower_residual: 0.358
+    rel_residual_median_nomp_oracle: [0.8742, 0.8797]
+    fft_rel_value_at_truth_by_rank_median: [0.9511, 0.7323, 0.4739]
+    localmax_rank_of_truth_by_path_median: [1.0, 2.0, 5.0]
+    frac_truth_paths_in_top3_localmax: 0.754
+    frac_truth_paths_in_top6_localmax: 0.814
+    frac_truth_paths_no_localmax_within_half_cell: 0.0253
+    n_localmax_median: 124.0
+--- b1 SNR 0  (2s)
+    snr: 0
+    bits: 1
+    nomp_vs_stress_cache_maxdiff_rad: 0.0
+    adc_vs_independent_adc_maxdiff: 0.0
+    Y_equals_adc_of_clean: True
+    pd_nomp: 0.1687
+    det_rate_by_rank: [0.072, 0.056, 0.04]
+    n_detected_hist: [422, 72, 6, 0]
+    first_within1deg_strongest: 0.062
+    first_within1deg_any: 0.114
+    first_cell_dist_quantiles: [0.1592, 0.2317, 0.3168, 3.3914]
+    n_bad_estimates: 1416
+    bad_est_dist_frac: {'lt0p25': 0.2846045197740113, 'c0p25_1': 0.22175141242937854, 'c1_2': 0.057203389830508475, 'ge2': 0.4364406779661017}
+    frac_scenes_with_duplicate_estimates: 0.0
+    pd_oracle: 0.5117
+    frac_oracle_lower_residual: 0.012
+    pd_oracle_if_lower_residual: 0.1723
+    rel_residual_median_nomp_oracle: [0.9216, 0.9374]
+    fft_rel_value_at_truth_by_rank_median: [0.7779, 0.6795, 0.5435]
+    localmax_rank_of_truth_by_path_median: [1.0, 3.0, 11.0]
+    frac_truth_paths_in_top3_localmax: 0.5287
+    frac_truth_paths_in_top6_localmax: 0.6207
+    frac_truth_paths_no_localmax_within_half_cell: 0.0433
+    n_localmax_median: 124.5
+total 25s

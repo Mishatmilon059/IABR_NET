@@ -1,0 +1,24 @@
+N subset 2000 L values {3}
+snr  -10: residual/(256-6) at truth / sigma2 = 1.017; mean sum|x|^2 at truth 1.125
+snr   -5: residual/(256-6) at truth / sigma2 = 1.014; mean sum|x|^2 at truth 1.046
+snr    0: residual/(256-6) at truth / sigma2 = 1.008; mean sum|x|^2 at truth 0.988
+snr    5: residual/(256-6) at truth / sigma2 = 1.012; mean sum|x|^2 at truth 1.013
+snr   10: residual/(256-6) at truth / sigma2 = 1.019; mean sum|x|^2 at truth 0.950
+snr   15: residual/(256-6) at truth / sigma2 = 1.012; mean sum|x|^2 at truth 0.988
+snr   20: residual/(256-6) at truth / sigma2 = 1.020; mean sum|x|^2 at truth 0.979
+snr   25: residual/(256-6) at truth / sigma2 = 1.013; mean sum|x|^2 at truth 0.976
+high-SNR |x_k|^2 mean per stored slot (order of feat columns): [0.599 0.269 0.108]  -> sorted strongest first? 0.988
+|x|^2 overall mean (expect 1/L=0.333): 0.3257  var/mean^2 of |x|^2 (exp dist ->1): 0.96
+official truth (8000): min pairwise (psi,phi) distance min 30.010 deg (rule pi/6 = 30 deg); frac < 30 deg: 0.0000
+truth psi range deg 0.0 179.99
+snr  -10: NOMP solutions violating min-sep (<30 deg): 0.192; <15 deg: 0.040
+snr   -5: NOMP solutions violating min-sep (<30 deg): 0.108; <15 deg: 0.016
+snr    0: NOMP solutions violating min-sep (<30 deg): 0.056; <15 deg: 0.004
+snr    5: NOMP solutions violating min-sep (<30 deg): 0.020; <15 deg: 0.000
+snr   10: NOMP solutions violating min-sep (<30 deg): 0.012; <15 deg: 0.000
+snr   15: NOMP solutions violating min-sep (<30 deg): 0.012; <15 deg: 0.000
+snr   20: NOMP solutions violating min-sep (<30 deg): 0.000; <15 deg: 0.000
+snr   25: NOMP solutions violating min-sep (<30 deg): 0.004; <15 deg: 0.000
+nomp_greedy os4 rc3, 400 scenes: 1.4s; max |u diff| vs cache 8.88e-16
+cyclic 3 rounds, 400 scenes: 0.6s
+bayes terms 400: 0.07s

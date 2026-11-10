@@ -1,0 +1,15 @@
+device cpu steps 1500 batch 128
+params V3 4802 steps 1500 batch 64
+V3 from scratch, untrained         official 0.297 | T2_d5 0.298
+  [V3] step 150/1500 loss(avg last 50) 2.3462  157s
+  [V3] step 300/1500 loss(avg last 50) 2.3393  317s
+  [V3] step 450/1500 loss(avg last 50) 2.4664  484s
+  [V3] step 600/1500 loss(avg last 50) 2.4807  604s
+  [V3] step 750/1500 loss(avg last 50) 2.3562  726s
+  [V3] step 900/1500 loss(avg last 50) 2.3512  844s
+  [V3] step 1050/1500 loss(avg last 50) 2.4244  986s
+  [V3] step 1200/1500 loss(avg last 50) 2.4488  1100s
+  [V3] step 1350/1500 loss(avg last 50) 2.3895  1208s
+  [V3] step 1500/1500 loss(avg last 50) 2.3270  1318s
+V3 from scratch, trained           official 0.743 | T2_d5 0.734
+done

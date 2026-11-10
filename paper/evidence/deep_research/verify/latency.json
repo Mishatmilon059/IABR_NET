@@ -1,0 +1,79 @@
+{
+ "platform": "Windows-11-10.0.26200-SP0",
+ "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+ "python": "3.12.10",
+ "numpy": "2.3.5",
+ "torch": "2.7.1+cu118",
+ "torch_threads": 1,
+ "cnn_params": 191702,
+ "cpu_vs_cache": {
+  "heat": 0.0002810060977935791,
+  "Hc": 3.337992893648334e-06
+ },
+ "timings": {
+  "(a) NOMP greedy, mine | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 8.52985000165063,
+   "p10_ms": 5.007779996958561,
+   "p90_ms": 12.679400001070462,
+   "median_ms_per_scene": 8.52985000165063
+  },
+  "(a) NOMP greedy, mine | batch 256": {
+   "batch": 256,
+   "runs": 60,
+   "median_ms_per_call": 379.3348000035621,
+   "p10_ms": 308.72851999884006,
+   "p90_ms": 457.2303200009628,
+   "median_ms_per_scene": 1.4817765625139145
+  },
+  "(a) NOMP greedy, notebook nomp_greedy | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 11.694249998981832,
+   "p10_ms": 7.0798200024000835,
+   "p90_ms": 19.56887000487768,
+   "median_ms_per_scene": 11.694249998981832
+  },
+  "(a) NOMP greedy, notebook nomp_greedy | batch 256": {
+   "batch": 256,
+   "runs": 60,
+   "median_ms_per_call": 814.9192999990191,
+   "p10_ms": 671.3363200025924,
+   "p90_ms": 1093.6983200001123,
+   "median_ms_per_scene": 3.1832785156211685
+  },
+  "(c) CNN forward only | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 17.63080000091577,
+   "p10_ms": 15.412399995693704,
+   "p90_ms": 23.25202000065474,
+   "median_ms_per_scene": 17.63080000091577
+  },
+  "(c) CNN forward only | batch 256": {
+   "batch": 256,
+   "runs": 60,
+   "median_ms_per_call": 1111.35495000417,
+   "p10_ms": 996.2872400050401,
+   "p90_ms": 1304.8738399986178,
+   "median_ms_per_scene": 4.341230273453789
+  },
+  "(b) CNN forward + heat-seeded decode | batch 1": {
+   "batch": 1,
+   "runs": 60,
+   "median_ms_per_call": 24.70665000146255,
+   "p10_ms": 17.93434000283014,
+   "p90_ms": 33.02374000049895,
+   "median_ms_per_scene": 24.70665000146255
+  },
+  "(b) CNN forward + heat-seeded decode | batch 256": {
+   "batch": 256,
+   "runs": 60,
+   "median_ms_per_call": 2334.126749999996,
+   "p10_ms": 1757.484979993751,
+   "p90_ms": 2803.028909998102,
+   "median_ms_per_scene": 9.117682617187484
+  }
+ }
+}

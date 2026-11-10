@@ -1,0 +1,38 @@
+56 cached banks; skipped (truth angles not on this machine, cannot be scored): ['dldoa_test']
+official             N= 8000 L=[3] | NOMP 0.7581 IABC+NOMP 0.7499 | diff -0.0082 [-0.0096,-0.0069] below0 | strict diff -0.0082 [-0.0096,-0.0069] | cached pred__NOMP_no_network | 146s
+L10_snr0             N=  500 L=[10] | NOMP 0.4551 IABC+NOMP 0.4561 | diff +0.0010 [-0.0018,+0.0038] contains0 | strict diff +0.0010 [-0.0018,+0.0038] | cached pred__NOMP_no_network | 77s
+L10_snr15            N=  500 L=[10] | NOMP 0.8423 IABC+NOMP 0.8377 | diff -0.0046 [-0.0095,+0.0002] contains0 | strict diff -0.0046 [-0.0095,+0.0002] | cached pred__NOMP_no_network | 81s
+L1_snr0              N=  500 L=[1] | NOMP 0.8310 IABC+NOMP 0.8320 | diff +0.0010 [+0.0000,+0.0030] contains0 | strict diff +0.0010 [+0.0000,+0.0030] | cached pred__NOMP_no_network | 5s
+L1_snr15             N=  500 L=[1] | NOMP 0.9630 IABC+NOMP 0.9630 | diff +0.0000 [+0.0000,+0.0000] contains0 | strict diff +0.0000 [+0.0000,+0.0000] | cached pred__NOMP_no_network | 3s
+L2_snr0              N=  500 L=[2] | NOMP 0.7550 IABC+NOMP 0.7525 | diff -0.0025 [-0.0070,+0.0020] contains0 | strict diff -0.0025 [-0.0070,+0.0020] | cached pred__NOMP_no_network | 4s
+L2_snr15             N=  500 L=[2] | NOMP 0.9590 IABC+NOMP 0.9495 | diff -0.0095 [-0.0140,-0.0055] below0 | strict diff -0.0095 [-0.0140,-0.0055] | cached pred__NOMP_no_network | 5s
+L4_snr0              N=  500 L=[4] | NOMP 0.6482 IABC+NOMP 0.6500 | diff +0.0018 [-0.0028,+0.0067] contains0 | strict diff +0.0018 [-0.0028,+0.0067] | cached pred__NOMP_no_network | 10s
+L4_snr15             N=  500 L=[4] | NOMP 0.9290 IABC+NOMP 0.9197 | diff -0.0093 [-0.0145,-0.0047] below0 | strict diff -0.0093 [-0.0145,-0.0047] | cached pred__NOMP_no_network | 9s
+L5_snr0              N=  500 L=[5] | NOMP 0.6074 IABC+NOMP 0.6052 | diff -0.0022 [-0.0058,+0.0016] contains0 | strict diff -0.0022 [-0.0058,+0.0016] | cached pred__NOMP_no_network | 13s
+L5_snr15             N=  500 L=[5] | NOMP 0.9214 IABC+NOMP 0.9036 | diff -0.0178 [-0.0240,-0.0120] below0 | strict diff -0.0178 [-0.0240,-0.0120] | cached pred__NOMP_no_network | 14s
+L6_snr0              N=  500 L=[6] | NOMP 0.5667 IABC+NOMP 0.5637 | diff -0.0030 [-0.0067,+0.0003] contains0 | strict diff -0.0030 [-0.0067,+0.0003] | cached pred__NOMP_no_network | 20s
+L6_snr15             N=  500 L=[6] | NOMP 0.8960 IABC+NOMP 0.8858 | diff -0.0102 [-0.0160,-0.0045] below0 | strict diff -0.0102 [-0.0160,-0.0045] | cached pred__NOMP_no_network | 27s
+L7_snr0              N=  500 L=[7] | NOMP 0.5423 IABC+NOMP 0.5437 | diff +0.0014 [-0.0017,+0.0044] contains0 | strict diff +0.0014 [-0.0017,+0.0044] | cached pred__NOMP_no_network | 29s
+L7_snr15             N=  500 L=[7] | NOMP 0.8797 IABC+NOMP 0.8661 | diff -0.0136 [-0.0190,-0.0080] below0 | strict diff -0.0136 [-0.0190,-0.0080] | cached pred__NOMP_no_network | 37s
+L8_snr0              N=  500 L=[8] | NOMP 0.5019 IABC+NOMP 0.5019 | diff +0.0000 [-0.0031,+0.0033] contains0 | strict diff +0.0000 [-0.0031,+0.0033] | cached pred__NOMP_no_network | 36s
+L8_snr15             N=  500 L=[8] | NOMP 0.8651 IABC+NOMP 0.8548 | diff -0.0104 [-0.0156,-0.0054] below0 | strict diff -0.0104 [-0.0156,-0.0054] | cached pred__NOMP_no_network | 45s
+T2_d1                N= 8000 L=[3] | NOMP 0.7573 IABC+NOMP 0.7488 | diff -0.0085 [-0.0099,-0.0071] below0 | strict diff -0.0085 [-0.0099,-0.0071] | cached pred__NOMP_no_network | 171s
+Traceback (most recent call last):
+  File "D:\ai_ml_project\paper\evidence\deep_research\iabc\s4_banks.py", line 38, in <module>
+    src = 'cached pred__NOMP_no_network'; pr = C.load_preds(ref)
+                                               ^^^^^^^^^^^^^^^^^
+  File "D:\ai_ml_project/paper/evidence/new_results\common.py", line 42, in load_preds
+    z = np.load(path); return [(z['psi'][i, :z['n'][i]], z['phi'][i, :z['n'][i]]) for i in range(len(z['n']))]
+                                                         ~^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_npyio_impl.py", line 257, in __getitem__
+    return format.read_array(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_format_impl.py", line 869, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Milon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\numpy\lib\_format_impl.py", line 1013, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 998, in read
+    buf += data
+MemoryError

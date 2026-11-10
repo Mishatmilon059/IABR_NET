@@ -1,0 +1,41 @@
+{
+ "threads": 6,
+ "platform": "Windows-11-10.0.26200-SP0",
+ "python": "3.12.10",
+ "numpy": "2.3.5",
+ "scipy": "1.17.0",
+ "threadpool": [
+  {
+   "user_api": "blas",
+   "internal_api": "openblas",
+   "num_threads": 6,
+   "prefix": "libscipy_openblas",
+   "filepath": "C:\\Users\\Milon\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+   "version": "0.3.30",
+   "threading_layer": "pthreads",
+   "architecture": "SkylakeX"
+  },
+  {
+   "user_api": "blas",
+   "internal_api": "openblas",
+   "num_threads": 6,
+   "prefix": "libscipy_openblas",
+   "filepath": "C:\\Users\\Milon\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+   "version": "0.3.30",
+   "threading_layer": "pthreads",
+   "architecture": "SkylakeX"
+  }
+ ],
+ "greedy (os=4, rc=3)": {
+  "median_ms": 10.459399999945163,
+  "p5_ms": 6.693459999769402,
+  "p95_ms": 13.698009999325222,
+  "n_runs": 100
+ },
+ "greedy + selfcal (1.0, 5.0)": {
+  "median_ms": 15.914600000087376,
+  "p5_ms": 13.412204999303867,
+  "p95_ms": 19.971760000362337,
+  "n_runs": 100
+ }
+}

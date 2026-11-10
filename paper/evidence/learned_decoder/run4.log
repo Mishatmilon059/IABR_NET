@@ -1,0 +1,14 @@
+device cpu steps 1500 batch 128
+params V4 35074 steps 1500 batch 64
+  [V4] step 150/1500 loss(avg last 50) 2.4085  178s
+  [V4] step 300/1500 loss(avg last 50) 2.5389  340s
+  [V4] step 450/1500 loss(avg last 50) 2.3162  522s
+  [V4] step 600/1500 loss(avg last 50) 2.4259  709s
+  [V4] step 750/1500 loss(avg last 50) 2.5059  900s
+  [V4] step 900/1500 loss(avg last 50) 2.4155  1051s
+  [V4] step 1050/1500 loss(avg last 50) 2.4029  1221s
+  [V4] step 1200/1500 loss(avg last 50) 2.4595  1374s
+  [V4] step 1350/1500 loss(avg last 50) 2.3383  1524s
+  [V4] step 1500/1500 loss(avg last 50) 2.3776  1676s
+V4 bigger, trained                 official 0.738 | T2_d5 0.731
+done

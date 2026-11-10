@@ -1,0 +1,20 @@
+clean None         max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 18.2)
+M1    0.3          max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 22.4)
+M1    0.05         max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 18.3)
+M2    0.2          max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 15.1)
+M2    0.02         max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 18.1)
+M3    (45.0, 0.0)  max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 14.8)
+M3    (30.0, 4.0)  max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 16.8)
+M3    (0.0, 6.0)   max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 20.4)
+M6    30.0         max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 18.2)
+M6    5.0          max|synth - stress_sim.generate| = 0.00e+00  (max|Y| 18.2)
+mixed batch, block 0 (M1 0.3): max|diff| vs single-family = 0.00e+00
+mixed batch, block 1 (M2 0.2): max|diff| vs single-family = 0.00e+00
+mixed batch, block 2 (M3 (45.0, 0.0)): max|diff| vs single-family = 0.00e+00
+mixed batch, block 3 (M6 30.0): max|diff| vs single-family = 0.00e+00
+imp_batch(128): 0.072 s; shapes y (128, 2, 16, 16) heat (128, 32, 32) imp (128, 32, 2)
+family counts (0 orig, 1 M1, 2 M2, 3 M3, 6 M6): {0: 51, 1: 20, 2: 17, 3: 14, 6: 26} | mask sum 65
+fam 0: identifiable target max |phase| deg median 3.6 max 8.6; max |gain| dB median 0.98 max 3.44
+fam 3: identifiable target max |phase| deg median 24.7 max 50.4; max |gain| dB median 3.62 max 5.94
+fam 1/2/6 targets (masked) all zero: True
+determinism: same seed twice identical: True

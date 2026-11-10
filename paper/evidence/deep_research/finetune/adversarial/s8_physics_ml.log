@@ -1,0 +1,101 @@
+  M6_30_snr15 chunk 0 done [26s]
+  M6_30_snr15 chunk 200 done [53s]
+  M6_30_snr15 chunk 400 done [79s]
+  M6_30_snr15 chunk 600 done [109s]
+  M6_30_snr15 chunk 800 done [146s]
+=== M6_30_snr15 (n=1000, seed 9415) best classical PN-ML all starts 0.8353; without the physics estimator NOMP os8 rc6 0.7678 [146s; physics estimator 45 ms/scene, 6 threads, batch 200]
+   NOMP                                     Pd 0.7645 [0.7508,0.7782]
+   NOMP os8 rc6                             Pd 0.7678 [0.7547,0.7810]
+   NOMP+SC tuned                            Pd 0.7468 [0.7330,0.7607]
+   FFT-peak seeds+SC                        Pd 0.7435 [0.7295,0.7582]
+   multi-start K6                           Pd 0.7637 [0.7500,0.7773]
+   FT seeds on Ht+SC                        Pd 0.8098 [0.7977,0.8218]
+   PN-ML all starts                         Pd 0.8353 [0.8222,0.8472]
+   PN-ML from NOMP                          Pd 0.8130 [0.8002,0.8258]
+   PN-ML from learned seeds                 Pd 0.8720 [0.8613,0.8830]
+   PN-ML all starts + learned seeds         Pd 0.8802 [0.8702,0.8903]
+   PN-ML all starts (level x0.5)            Pd 0.8298 [0.8175,0.8417]
+   FT seeds on Ht+SC - PN-ML all starts                                   -0.0255 [-0.0373,-0.0130]*
+   FT seeds on Ht+SC - NOMP os8 rc6                                       +0.0420 [+0.0315,+0.0528]*
+   PN-ML all starts - NOMP os8 rc6                                        +0.0675 [+0.0578,+0.0772]*
+   PN-ML all starts (level x0.5) - NOMP os8 rc6                           +0.0620 [+0.0532,+0.0712]*
+   FT seeds on Ht+SC - PN-ML all starts (level x0.5)                      -0.0200 [-0.0317,-0.0082]*
+   PN-ML from learned seeds - PN-ML all starts                            +0.0367 [+0.0283,+0.0450]*
+   PN-ML all starts + learned seeds - PN-ML all starts                    +0.0448 [+0.0383,+0.0522]*
+   PN-ML all starts + learned seeds - FT seeds on Ht+SC                   +0.0703 [+0.0602,+0.0805]*
+  M2_0.2_snr15 chunk 0 done [169s]
+  M2_0.2_snr15 chunk 200 done [324s]
+  M2_0.2_snr15 chunk 400 done [463s]
+  M2_0.2_snr15 chunk 600 done [606s]
+  M2_0.2_snr15 chunk 800 done [769s]
+=== M2_0.2_snr15 (n=1000, seed 9415) best classical NOMP 0.6158; without the physics estimator NOMP 0.6158 [769s; physics estimator 239 ms/scene, 6 threads, batch 200]
+   NOMP                                     Pd 0.6158 [0.6008,0.6305]
+   NOMP os8 rc6                             Pd 0.6152 [0.6002,0.6298]
+   NOMP+SC tuned                            Pd 0.6123 [0.5973,0.6272]
+   FFT-peak seeds+SC                        Pd 0.5797 [0.5643,0.5947]
+   multi-start K6                           Pd 0.6153 [0.6002,0.6300]
+   FT seeds on Ht+SC                        Pd 0.6597 [0.6443,0.6730]
+   POS-MAP all starts                       Pd 0.6042 [0.5888,0.6192]
+   POS-MAP from NOMP                        Pd 0.6048 [0.5897,0.6200]
+   POS-MAP from learned seeds               Pd 0.6422 [0.6267,0.6565]
+   POS-MAP all starts + learned seeds       Pd 0.6333 [0.6175,0.6482]
+   POS-MAP full d (with ramp) all starts    Pd 0.6028 [0.5877,0.6175]
+   POS-MAP all starts (level x0.5)          Pd 0.6043 [0.5885,0.6197]
+   FT seeds on Ht+SC - NOMP                                               +0.0438 [+0.0357,+0.0522]*
+   POS-MAP all starts - NOMP                                              -0.0117 [-0.0200,-0.0035]*
+   POS-MAP all starts (level x0.5) - NOMP                                 -0.0115 [-0.0197,-0.0033]*
+   FT seeds on Ht+SC - POS-MAP all starts (level x0.5)                    +0.0553 [+0.0447,+0.0663]*
+   POS-MAP from learned seeds - POS-MAP all starts                        +0.0380 [+0.0303,+0.0455]*
+   POS-MAP all starts + learned seeds - POS-MAP all starts                +0.0292 [+0.0232,+0.0353]*
+   POS-MAP all starts + learned seeds - FT seeds on Ht+SC                 -0.0263 [-0.0362,-0.0162]*
+  M6_20_snr15 chunk 0 done [32s]
+  M6_20_snr15 chunk 200 done [63s]
+  M6_20_snr15 chunk 400 done [93s]
+  M6_20_snr15 chunk 600 done [129s]
+  M6_20_snr15 chunk 800 done [168s]
+=== M6_20_snr15 (n=1000, seed 9415) best classical PN-ML all starts 0.8937; without the physics estimator NOMP os8 rc6 0.8698 [169s; physics estimator 52 ms/scene, 6 threads, batch 200]
+   NOMP                                     Pd 0.8678 [0.8563,0.8783]
+   NOMP os8 rc6                             Pd 0.8698 [0.8585,0.8800]
+   NOMP+SC tuned                            Pd 0.8570 [0.8453,0.8680]
+   FFT-peak seeds+SC                        Pd 0.8193 [0.8058,0.8327]
+   multi-start K6                           Pd 0.8678 [0.8563,0.8783]
+   FT seeds on Ht+SC                        Pd 0.8867 [0.8760,0.8970]
+   PN-ML all starts                         Pd 0.8937 [0.8838,0.9038]
+   PN-ML from NOMP                          Pd 0.8877 [0.8775,0.8980]
+   PN-ML from learned seeds                 Pd 0.9140 [0.9052,0.9233]
+   PN-ML all starts + learned seeds         Pd 0.9230 [0.9148,0.9312]
+   PN-ML all starts (level x0.5)            Pd 0.8912 [0.8810,0.9013]
+   FT seeds on Ht+SC - PN-ML all starts                                   -0.0070 [-0.0170,+0.0027]
+   FT seeds on Ht+SC - NOMP os8 rc6                                       +0.0168 [+0.0083,+0.0257]*
+   PN-ML all starts - NOMP os8 rc6                                        +0.0238 [+0.0170,+0.0312]*
+   PN-ML all starts (level x0.5) - NOMP os8 rc6                           +0.0213 [+0.0148,+0.0280]*
+   FT seeds on Ht+SC - PN-ML all starts (level x0.5)                      -0.0045 [-0.0142,+0.0048]
+   PN-ML from learned seeds - PN-ML all starts                            +0.0203 [+0.0130,+0.0275]*
+   PN-ML all starts + learned seeds - PN-ML all starts                    +0.0293 [+0.0237,+0.0353]*
+   PN-ML all starts + learned seeds - FT seeds on Ht+SC                   +0.0363 [+0.0288,+0.0445]*
+  M6_30_snr0 chunk 0 done [37s]
+  M6_30_snr0 chunk 200 done [74s]
+  M6_30_snr0 chunk 400 done [113s]
+  M6_30_snr0 chunk 600 done [151s]
+  M6_30_snr0 chunk 800 done [188s]
+=== M6_30_snr0 (n=1000, seed 9425) best classical PN-ML all starts 0.6175; without the physics estimator NOMP+SC tuned 0.5915 [189s; physics estimator 61 ms/scene, 6 threads, batch 200]
+   NOMP                                     Pd 0.5895 [0.5740,0.6037]
+   NOMP os8 rc6                             Pd 0.5908 [0.5757,0.6050]
+   NOMP+SC tuned                            Pd 0.5915 [0.5765,0.6058]
+   FFT-peak seeds+SC                        Pd 0.5878 [0.5735,0.6015]
+   multi-start K6                           Pd 0.5893 [0.5740,0.6037]
+   FT seeds on Ht+SC                        Pd 0.6067 [0.5912,0.6205]
+   PN-ML all starts                         Pd 0.6175 [0.6028,0.6318]
+   PN-ML from NOMP                          Pd 0.6053 [0.5910,0.6198]
+   PN-ML from learned seeds                 Pd 0.6267 [0.6123,0.6408]
+   PN-ML all starts + learned seeds         Pd 0.6297 [0.6157,0.6437]
+   PN-ML all starts (level x0.5)            Pd 0.6213 [0.6068,0.6352]
+   FT seeds on Ht+SC - PN-ML all starts                                   -0.0108 [-0.0205,-0.0015]*
+   FT seeds on Ht+SC - NOMP+SC tuned                                      +0.0152 [+0.0085,+0.0223]*
+   PN-ML all starts - NOMP+SC tuned                                       +0.0260 [+0.0170,+0.0352]*
+   PN-ML all starts (level x0.5) - NOMP+SC tuned                          +0.0298 [+0.0223,+0.0377]*
+   FT seeds on Ht+SC - PN-ML all starts (level x0.5)                      -0.0147 [-0.0230,-0.0060]*
+   PN-ML from learned seeds - PN-ML all starts                            +0.0092 [+0.0035,+0.0150]*
+   PN-ML all starts + learned seeds - PN-ML all starts                    +0.0122 [+0.0078,+0.0163]*
+   PN-ML all starts + learned seeds - FT seeds on Ht+SC                   +0.0230 [+0.0143,+0.0318]*
+done

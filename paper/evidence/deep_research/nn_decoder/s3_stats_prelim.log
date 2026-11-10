@@ -1,0 +1,145 @@
+official               N= 8000 L=[3] AN-SC 0.7508 AN-noSC 0.7457 | IABR-Net 0.7503 | IABR-v2 0.7551 | NOMP-only 0.7581 | U-Net 0.7366 | network 0.4507 | d[U-Net] +0.0142 [+0.0108, +0.0176] | d[NOMP-only] -0.0073 [-0.0091, -0.0056] | d[IABR-Net] +0.0005 [-0.0002, +0.0011]
+T2_d1                  N= 8000 L=[3] AN-SC 0.7500 AN-noSC 0.7445 | IABR-Net 0.7493 | IABR-v2 0.7543 | NOMP-only 0.7573 | U-Net 0.7359 | d[U-Net] +0.0141 [+0.0108, +0.0174] | d[NOMP-only] -0.0073 [-0.0089, -0.0056] | d[IABR-Net] +0.0007 [-0.0000, +0.0015]
+T2_d2                  N= 8000 L=[3] AN-SC 0.7430 AN-noSC 0.7372 | IABR-Net 0.7422 | IABR-v2 0.7482 | NOMP-only 0.7515 | U-Net 0.7335 | d[U-Net] +0.0095 [+0.0061, +0.0130] | d[NOMP-only] -0.0085 [-0.0102, -0.0069] | d[IABR-Net] +0.0008 [-0.0000, +0.0015]
+T2_d5                  N= 8000 L=[3] AN-SC 0.7417 AN-noSC 0.7363 | IABR-Net 0.7412 | IABR-v2 0.7452 | NOMP-only 0.7468 | U-Net 0.7277 | network 0.4478 | d[U-Net] +0.0140 [+0.0107, +0.0172] | d[NOMP-only] -0.0051 [-0.0068, -0.0034] | d[IABR-Net] +0.0004 [-0.0003, +0.0012]
+L10_snr0               N=  500 L=[10] AN-SC 0.4493 AN-noSC 0.4481 | IABR-Net 0.4477 | IABR-v2 0.4566 | NOMP-only 0.4551 | U-Net 0.4210 | d[U-Net] +0.0283 [+0.0122, +0.0443] | d[NOMP-only] -0.0058 [-0.0123, +0.0005] | d[IABR-Net] +0.0016 [-0.0003, +0.0036]
+L10_snr15              N=  500 L=[10] AN-SC 0.8029 AN-noSC 0.8017 | IABR-Net 0.8022 | IABR-v2 0.8378 | NOMP-only 0.8423 | U-Net 0.7941 | d[U-Net] +0.0088 [-0.0022, +0.0192] | d[NOMP-only] -0.0394 [-0.0471, -0.0321] | d[IABR-Net] +0.0007 [-0.0021, +0.0037]
+L1_snr0                N=  500 L=[1] AN-SC 0.8340 AN-noSC 0.8340 | IABR-Net 0.8330 | IABR-v2 0.8320 | NOMP-only 0.8310 | U-Net 0.8020 | d[U-Net] +0.0320 [+0.0160, +0.0480] | d[NOMP-only] +0.0030 [-0.0020, +0.0080] | d[IABR-Net] +0.0010 [-0.0040, +0.0050]
+L1_snr15               N=  500 L=[1] AN-SC 0.9640 AN-noSC 0.9640 | IABR-Net 0.9640 | IABR-v2 0.9640 | NOMP-only 0.9630 | U-Net 0.9550 | d[U-Net] +0.0090 [-0.0010, +0.0180] | d[NOMP-only] +0.0010 [-0.0030, +0.0060] | d[IABR-Net] +0.0000 [-0.0040, +0.0040]
+L2_snr0                N=  500 L=[2] AN-SC 0.7495 AN-noSC 0.7475 | IABR-Net 0.7490 | IABR-v2 0.7530 | NOMP-only 0.7550 | U-Net 0.7361 | d[U-Net] +0.0134 [-0.0041, +0.0306] | d[NOMP-only] -0.0055 [-0.0125, +0.0005] | d[IABR-Net] +0.0005 [-0.0015, +0.0025]
+L2_snr15               N=  500 L=[2] AN-SC 0.9525 AN-noSC 0.9455 | IABR-Net 0.9510 | IABR-v2 0.9535 | NOMP-only 0.9590 | U-Net 0.9479 | d[U-Net] +0.0046 [-0.0052, +0.0143] | d[NOMP-only] -0.0065 [-0.0120, -0.0015] | d[IABR-Net] +0.0015 [-0.0015, +0.0050]
+L4_snr0                N=  500 L=[4] AN-SC 0.6435 AN-noSC 0.6395 | IABR-Net 0.6422 | IABR-v2 0.6508 | NOMP-only 0.6482 | U-Net 0.6250 | d[U-Net] +0.0185 [+0.0022, +0.0341] | d[NOMP-only] -0.0048 [-0.0115, +0.0018] | d[IABR-Net] +0.0012 [-0.0015, +0.0043]
+L4_snr15               N=  500 L=[4] AN-SC 0.9163 AN-noSC 0.9107 | IABR-Net 0.9165 | IABR-v2 0.9255 | NOMP-only 0.9290 | U-Net 0.9106 | d[U-Net] +0.0056 [-0.0043, +0.0155] | d[NOMP-only] -0.0128 [-0.0195, -0.0060] | d[IABR-Net] -0.0002 [-0.0035, +0.0025]
+L5_snr0                N=  500 L=[5] AN-SC 0.6034 AN-noSC 0.6020 | IABR-Net 0.6026 | IABR-v2 0.6054 | NOMP-only 0.6074 | U-Net 0.5841 | d[U-Net] +0.0193 [+0.0053, +0.0331] | d[NOMP-only] -0.0040 [-0.0106, +0.0022] | d[IABR-Net] +0.0008 [-0.0022, +0.0038]
+L5_snr15               N=  500 L=[5] AN-SC 0.9008 AN-noSC 0.8934 | IABR-Net 0.9000 | IABR-v2 0.9134 | NOMP-only 0.9214 | U-Net 0.8937 | d[U-Net] +0.0071 [-0.0045, +0.0181] | d[NOMP-only] -0.0206 [-0.0288, -0.0126] | d[IABR-Net] +0.0008 [-0.0020, +0.0040]
+L6_snr0                N=  500 L=[6] AN-SC 0.5592 AN-noSC 0.5592 | IABR-Net 0.5583 | IABR-v2 0.5652 | NOMP-only 0.5667 | U-Net 0.5459 | d[U-Net] +0.0132 [-0.0017, +0.0282] | d[NOMP-only] -0.0075 [-0.0142, -0.0010] | d[IABR-Net] +0.0008 [-0.0022, +0.0038]
+L6_snr15               N=  500 L=[6] AN-SC 0.8750 AN-noSC 0.8665 | IABR-Net 0.8768 | IABR-v2 0.8945 | NOMP-only 0.8960 | U-Net 0.8598 | d[U-Net] +0.0152 [+0.0036, +0.0266] | d[NOMP-only] -0.0210 [-0.0292, -0.0135] | d[IABR-Net] -0.0018 [-0.0052, +0.0013]
+L7_snr0                N=  500 L=[7] AN-SC 0.5369 AN-noSC 0.5371 | IABR-Net 0.5367 | IABR-v2 0.5441 | NOMP-only 0.5423 | U-Net 0.5151 | d[U-Net] +0.0217 [+0.0088, +0.0347] | d[NOMP-only] -0.0054 [-0.0117, +0.0007] | d[IABR-Net] +0.0001 [-0.0020, +0.0023]
+L7_snr15               N=  500 L=[7] AN-SC 0.8494 AN-noSC 0.8411 | IABR-Net 0.8489 | IABR-v2 0.8716 | NOMP-only 0.8797 | U-Net 0.8407 | d[U-Net] +0.0088 [-0.0039, +0.0209] | d[NOMP-only] -0.0303 [-0.0390, -0.0223] | d[IABR-Net] +0.0006 [-0.0019, +0.0030]
+L8_snr0                N=  500 L=[8] AN-SC 0.4966 AN-noSC 0.4964 | IABR-Net 0.4983 | IABR-v2 0.5028 | NOMP-only 0.5019 | U-Net 0.4746 | network 0.4422 | d[U-Net] +0.0220 [+0.0083, +0.0364] | d[NOMP-only] -0.0052 [-0.0111, +0.0006] | d[IABR-Net] -0.0016 [-0.0042, +0.0009]
+L8_snr15               N=  500 L=[8] AN-SC 0.8349 AN-noSC 0.8275 | IABR-Net 0.8343 | IABR-v2 0.8628 | NOMP-only 0.8651 | U-Net 0.8230 | network 0.4689 | d[U-Net] +0.0119 [-0.0002, +0.0232] | d[NOMP-only] -0.0302 [-0.0383, -0.0224] | d[IABR-Net] +0.0006 [-0.0026, +0.0045]
+gain_g0.5_snr0         N=  500 L=[3] AN-SC 0.7017 AN-noSC 0.6990 | IABR-Net 0.7020 | IABR-v2 0.7070 | NOMP-only 0.7047 | U-Net 0.6794 | d[U-Net] +0.0222 [+0.0060, +0.0374] | d[NOMP-only] -0.0030 [-0.0100, +0.0037] | d[IABR-Net] -0.0003 [-0.0030, +0.0020]
+gain_g0.5_snr15        N=  500 L=[3] AN-SC 0.9300 AN-noSC 0.9173 | IABR-Net 0.9307 | IABR-v2 0.9350 | NOMP-only 0.9393 | U-Net 0.9199 | d[U-Net] +0.0101 [-0.0002, +0.0199] | d[NOMP-only] -0.0093 [-0.0160, -0.0027] | d[IABR-Net] -0.0007 [-0.0033, +0.0020]
+gain_g1_snr0           N=  500 L=[3] AN-SC 0.7033 AN-noSC 0.7030 | IABR-Net 0.7027 | IABR-v2 0.7080 | NOMP-only 0.7083 | U-Net 0.6982 | d[U-Net] +0.0051 [-0.0098, +0.0213] | d[NOMP-only] -0.0050 [-0.0120, +0.0013] | d[IABR-Net] +0.0007 [-0.0020, +0.0040]
+gain_g1_snr15          N=  500 L=[3] AN-SC 0.9297 AN-noSC 0.9247 | IABR-Net 0.9297 | IABR-v2 0.9340 | NOMP-only 0.9350 | U-Net 0.9220 | d[U-Net] +0.0077 [-0.0029, +0.0178] | d[NOMP-only] -0.0053 [-0.0127, +0.0017] | d[IABR-Net] +0.0000 [-0.0027, +0.0027]
+gain_g2_snr0           N=  500 L=[3] AN-SC 0.7103 AN-noSC 0.7117 | IABR-Net 0.7103 | IABR-v2 0.7147 | NOMP-only 0.7143 | U-Net 0.6819 | network 0.5490 | d[U-Net] +0.0284 [+0.0118, +0.0447] | d[NOMP-only] -0.0040 [-0.0113, +0.0033] | d[IABR-Net] +0.0000 [-0.0023, +0.0020]
+gain_g2_snr15          N=  500 L=[3] AN-SC 0.9200 AN-noSC 0.9043 | IABR-Net 0.9173 | IABR-v2 0.9217 | NOMP-only 0.9167 | U-Net 0.8855 | d[U-Net] +0.0345 [+0.0237, +0.0459] | d[NOMP-only] +0.0033 [-0.0053, +0.0117] | d[IABR-Net] +0.0027 [+0.0000, +0.0060]
+gain_g4_snr0           N=  500 L=[3] AN-SC 0.6850 AN-noSC 0.6853 | IABR-Net 0.6843 | IABR-v2 0.6927 | NOMP-only 0.6893 | U-Net 0.6688 | d[U-Net] +0.0162 [+0.0004, +0.0321] | d[NOMP-only] -0.0043 [-0.0127, +0.0037] | d[IABR-Net] +0.0007 [-0.0017, +0.0033]
+gain_g4_snr15          N=  500 L=[3] AN-SC 0.9100 AN-noSC 0.8847 | IABR-Net 0.9110 | IABR-v2 0.9123 | NOMP-only 0.8697 | U-Net 0.8126 | network 0.4780 | d[U-Net] +0.0974 [+0.0817, +0.1130] | d[NOMP-only] +0.0403 [+0.0293, +0.0513] | d[IABR-Net] -0.0010 [-0.0043, +0.0023]
+oodphase_d10_snr0      N=  500 L=[3] AN-SC 0.6907 AN-noSC 0.6907 | IABR-Net 0.6910 | IABR-v2 0.6957 | NOMP-only 0.6947 | U-Net 0.6936 | d[U-Net] -0.0029 [-0.0195, +0.0138] | d[NOMP-only] -0.0040 [-0.0110, +0.0030] | d[IABR-Net] -0.0003 [-0.0030, +0.0027]
+oodphase_d10_snr15     N=  500 L=[3] AN-SC 0.9093 AN-noSC 0.8990 | IABR-Net 0.9117 | IABR-v2 0.9140 | NOMP-only 0.9127 | U-Net 0.8888 | d[U-Net] +0.0206 [+0.0088, +0.0315] | d[NOMP-only] -0.0033 [-0.0113, +0.0040] | d[IABR-Net] -0.0023 [-0.0063, +0.0013]
+oodphase_d15_snr0      N=  500 L=[3] AN-SC 0.6717 AN-noSC 0.6703 | IABR-Net 0.6683 | IABR-v2 0.6763 | NOMP-only 0.6750 | U-Net 0.6659 | d[U-Net] +0.0057 [-0.0098, +0.0214] | d[NOMP-only] -0.0033 [-0.0097, +0.0027] | d[IABR-Net] +0.0033 [+0.0000, +0.0073]
+oodphase_d15_snr15     N=  500 L=[3] AN-SC 0.8653 AN-noSC 0.8523 | IABR-Net 0.8667 | IABR-v2 0.8693 | NOMP-only 0.8633 | U-Net 0.8454 | network 0.4917 | d[U-Net] +0.0200 [+0.0076, +0.0327] | d[NOMP-only] +0.0020 [-0.0070, +0.0113] | d[IABR-Net] -0.0013 [-0.0037, +0.0010]
+phase_d0_snr0          N=  500 L=[3] AN-SC 0.6807 AN-noSC 0.6800 | IABR-Net 0.6803 | IABR-v2 0.6837 | NOMP-only 0.6817 | U-Net 0.6784 | network 0.5487 | d[U-Net] +0.0023 [-0.0150, +0.0198] | d[NOMP-only] -0.0010 [-0.0077, +0.0050] | d[IABR-Net] +0.0003 [-0.0027, +0.0040]
+phase_d0_snr15         N=  500 L=[3] AN-SC 0.9383 AN-noSC 0.9290 | IABR-Net 0.9370 | IABR-v2 0.9413 | NOMP-only 0.9497 | U-Net 0.9344 | network 0.4370 | d[U-Net] +0.0040 [-0.0071, +0.0150] | d[NOMP-only] -0.0113 [-0.0163, -0.0067] | d[IABR-Net] +0.0013 [-0.0013, +0.0043]
+phase_d1_snr0          N=  500 L=[3] AN-SC 0.6847 AN-noSC 0.6817 | IABR-Net 0.6840 | IABR-v2 0.6870 | NOMP-only 0.6900 | U-Net 0.6774 | d[U-Net] +0.0073 [-0.0097, +0.0242] | d[NOMP-only] -0.0053 [-0.0110, +0.0007] | d[IABR-Net] +0.0007 [-0.0017, +0.0033]
+phase_d1_snr15         N=  500 L=[3] AN-SC 0.9263 AN-noSC 0.9197 | IABR-Net 0.9257 | IABR-v2 0.9353 | NOMP-only 0.9417 | U-Net 0.9223 | d[U-Net] +0.0040 [-0.0081, +0.0163] | d[NOMP-only] -0.0153 [-0.0227, -0.0083] | d[IABR-Net] +0.0007 [-0.0020, +0.0033]
+phase_d2_snr0          N=  500 L=[3] AN-SC 0.6983 AN-noSC 0.6977 | IABR-Net 0.6983 | IABR-v2 0.7033 | NOMP-only 0.7077 | U-Net 0.6774 | d[U-Net] +0.0209 [+0.0063, +0.0364] | d[NOMP-only] -0.0093 [-0.0157, -0.0037] | d[IABR-Net] +0.0000 [-0.0023, +0.0027]
+phase_d2_snr15         N=  500 L=[3] AN-SC 0.9283 AN-noSC 0.9160 | IABR-Net 0.9270 | IABR-v2 0.9310 | NOMP-only 0.9393 | U-Net 0.9217 | d[U-Net] +0.0067 [-0.0044, +0.0180] | d[NOMP-only] -0.0110 [-0.0167, -0.0057] | d[IABR-Net] +0.0013 [-0.0003, +0.0033]
+phase_d5_snr0          N=  500 L=[3] AN-SC 0.7107 AN-noSC 0.7107 | IABR-Net 0.7100 | IABR-v2 0.7140 | NOMP-only 0.7153 | U-Net 0.6948 | d[U-Net] +0.0159 [-0.0005, +0.0327] | d[NOMP-only] -0.0047 [-0.0113, +0.0013] | d[IABR-Net] +0.0007 [-0.0017, +0.0037]
+phase_d5_snr15         N=  500 L=[3] AN-SC 0.9177 AN-noSC 0.9110 | IABR-Net 0.9143 | IABR-v2 0.9220 | NOMP-only 0.9330 | U-Net 0.9119 | d[U-Net] +0.0057 [-0.0055, +0.0168] | d[NOMP-only] -0.0153 [-0.0227, -0.0077] | d[IABR-Net] +0.0033 [+0.0007, +0.0063]
+sep_10deg_snr15        N=  500 L=[2] AN-SC 0.9815 AN-noSC 0.9775 | IABR-Net 0.9820 | IABR-v2 0.9955 | NOMP-only 0.9955 | U-Net 0.9725 | d[U-Net] +0.0090 [-0.0034, +0.0208] | d[NOMP-only] -0.0140 [-0.0240, -0.0055] | d[IABR-Net] -0.0005 [-0.0030, +0.0020]
+sep_1deg_snr15         N=  500 L=[2] AN-SC 0.4645 AN-noSC 0.4650 | IABR-Net 0.4700 | IABR-v2 0.4795 | NOMP-only 0.4990 | U-Net 0.3214 | d[U-Net] +0.1431 [-0.0492, +0.3162] | d[NOMP-only] -0.0345 [-0.0450, -0.0245] | d[IABR-Net] -0.0055 [-0.0095, -0.0020]
+sep_20deg_snr15        N=  500 L=[2] AN-SC 0.9960 AN-noSC 0.9955 | IABR-Net 0.9960 | IABR-v2 0.9960 | NOMP-only 0.9950 | U-Net 0.9955 | d[U-Net] +0.0005 [-0.0040, +0.0051] | d[NOMP-only] +0.0010 [+0.0000, +0.0025] | d[IABR-Net] +0.0000 [+0.0000, +0.0000]
+sep_2deg_snr15         N=  500 L=[2] AN-SC 0.3400 AN-noSC 0.3375 | IABR-Net 0.3415 | IABR-v2 0.4550 | NOMP-only 0.5880 | U-Net 0.2917 | network 0.2885 | d[U-Net] +0.0483 [-0.0275, +0.1301] | d[NOMP-only] -0.2480 [-0.2760, -0.2205] | d[IABR-Net] -0.0015 [-0.0095, +0.0060]
+sep_30deg_snr15        N=  500 L=[2] AN-SC 0.9955 AN-noSC 0.9950 | IABR-Net 0.9945 | IABR-v2 0.9955 | NOMP-only 0.9950 | U-Net 0.9960 | d[U-Net] -0.0005 [-0.0035, +0.0021] | d[NOMP-only] +0.0005 [+0.0000, +0.0015] | d[IABR-Net] +0.0010 [+0.0000, +0.0030]
+sep_3deg_snr15         N=  500 L=[2] AN-SC 0.3070 AN-noSC 0.2835 | IABR-Net 0.2990 | IABR-v2 0.5485 | NOMP-only 0.7115 | U-Net 0.5426 | d[U-Net] -0.2356 [-0.3066, -0.1651] | d[NOMP-only] -0.4045 [-0.4310, -0.3775] | d[IABR-Net] +0.0080 [-0.0035, +0.0195]
+sep_5deg_snr15         N=  500 L=[2] AN-SC 0.5520 AN-noSC 0.4995 | IABR-Net 0.5280 | IABR-v2 0.8595 | NOMP-only 0.8970 | U-Net 0.8693 | network 0.4435 | d[U-Net] -0.3173 [-0.3554, -0.2785] | d[NOMP-only] -0.3450 [-0.3760, -0.3140] | d[IABR-Net] +0.0240 [+0.0110, +0.0375]
+tail_snr-20            N=  500 L=[3] AN-SC 0.0313 AN-noSC 0.0317 | IABR-Net 0.0310 | IABR-v2 0.0317 | NOMP-only 0.0303 | U-Net 0.0240 | d[U-Net] +0.0073 [-0.0001, +0.0149] | d[NOMP-only] +0.0010 [-0.0033, +0.0053] | d[IABR-Net] +0.0003 [-0.0007, +0.0013]
+tail_snr-25            N=  500 L=[3] AN-SC 0.0207 AN-noSC 0.0220 | IABR-Net 0.0207 | IABR-v2 0.0193 | NOMP-only 0.0200 | U-Net 0.0247 | d[U-Net] -0.0040 [-0.0110, +0.0030] | d[NOMP-only] +0.0007 [-0.0037, +0.0050] | d[IABR-Net] +0.0000 [-0.0010, +0.0010]
+tail_snr30             N=  500 L=[3] AN-SC 0.9693 AN-noSC 0.9537 | IABR-Net 0.9680 | IABR-v2 0.9743 | NOMP-only 0.9813 | U-Net 0.9582 | d[U-Net] +0.0111 [+0.0007, +0.0205] | d[NOMP-only] -0.0120 [-0.0173, -0.0070] | d[IABR-Net] +0.0013 [-0.0020, +0.0057]
+tail_snr35             N=  500 L=[3] AN-SC 0.9783 AN-noSC 0.9527 | IABR-Net 0.9760 | IABR-v2 0.9833 | NOMP-only 0.9893 | U-Net 0.9643 | d[U-Net] +0.0140 [+0.0064, +0.0218] | d[NOMP-only] -0.0110 [-0.0173, -0.0047] | d[IABR-Net] +0.0023 [-0.0003, +0.0053]
+tune_L6                N=  300 L=[6] AN-SC 0.7167 AN-noSC 0.7072 | IABR-Net 0.7147 | d[IABR-Net] +0.0019 [-0.0006, +0.0047]
+tune_clean             N=  600 L=[3] AN-SC 0.7922 AN-noSC 0.7828 | IABR-Net 0.7922 | d[IABR-Net] +0.0000 [-0.0025, +0.0025]
+tune_d5                N=  300 L=[3] AN-SC 0.8106 AN-noSC 0.8050 | IABR-Net 0.8117 | d[IABR-Net] -0.0011 [-0.0050, +0.0028]
+tune_g3                N=  300 L=[3] AN-SC 0.8067 AN-noSC 0.7972 | IABR-Net 0.8050 | d[IABR-Net] +0.0017 [-0.0022, +0.0072]
+
+Bank counts (95% CI of the paired difference above 0 / below 0 / containing 0):
+  L=3 test banks                             all-neural (SC on) - U-Net                                 pd_paper  above 14 below  0 contains0 14   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr0', 'gain_g2_snr0', 'gain_g2_snr15', 'gain_g4_snr0', 'gain_g4_snr15', 'oodphase_d10_snr15', 'oodphase_d15_snr15', 'phase_d2_snr0', 'tail_snr30', 'tail_snr35']
+  L=3 test banks                             all-neural (SC on) - U-Net                                 pd_strict above 26 below  0 contains0  2   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr0', 'gain_g0.5_snr15', 'gain_g1_snr0', 'gain_g1_snr15', 'gain_g2_snr0', 'gain_g2_snr15', 'gain_g4_snr0', 'gain_g4_snr15', 'oodphase_d10_snr0', 'oodphase_d10_snr15', 'oodphase_d15_snr0', 'oodphase_d15_snr15', 'phase_d0_snr0', 'phase_d0_snr15', 'phase_d1_snr0', 'phase_d1_snr15', 'phase_d2_snr0', 'phase_d2_snr15', 'phase_d5_snr0', 'phase_d5_snr15', 'tail_snr30', 'tail_snr35']
+  L=3 test banks                             all-neural (SC on) - NOMP-only                             pd_paper  above  1 below 12 contains0 15   above=['gain_g4_snr15']
+  L=3 test banks                             all-neural (SC on) - NOMP-only                             pd_strict above  1 below 12 contains0 15   above=['gain_g4_snr15']
+  L=3 test banks                             all-neural (SC on) - IABR-Net classical heat decoder       pd_paper  above  1 below  0 contains0 27   above=['phase_d5_snr15']
+  L=3 test banks                             all-neural (SC on) - IABR-Net classical heat decoder       pd_strict above  1 below  0 contains0 27   above=['phase_d5_snr15']
+  L=3 test banks                             all-neural (SC off) - U-Net                                pd_paper  above 10 below  1 contains0 17   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr0', 'gain_g2_snr0', 'gain_g2_snr15', 'gain_g4_snr0', 'gain_g4_snr15', 'phase_d2_snr0']
+  L=3 test banks                             all-neural (SC off) - U-Net                                pd_strict above 24 below  0 contains0  4   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr0', 'gain_g0.5_snr15', 'gain_g1_snr0', 'gain_g1_snr15', 'gain_g2_snr0', 'gain_g2_snr15', 'gain_g4_snr0', 'gain_g4_snr15', 'oodphase_d10_snr0', 'oodphase_d10_snr15', 'oodphase_d15_snr0', 'phase_d0_snr0', 'phase_d0_snr15', 'phase_d1_snr0', 'phase_d1_snr15', 'phase_d2_snr0', 'phase_d2_snr15', 'phase_d5_snr0', 'phase_d5_snr15', 'tail_snr30']
+  L=3 test banks                             all-neural (SC off) - NOMP-only                            pd_paper  above  1 below 17 contains0 10   above=['gain_g4_snr15']
+  L=3 test banks                             all-neural (SC off) - NOMP-only                            pd_strict above  1 below 17 contains0 10   above=['gain_g4_snr15']
+  L=3 test banks                             all-neural (SC off) - IABR-Net classical heat decoder      pd_paper  above  0 below 14 contains0 14   above=[]
+  L=3 test banks                             all-neural (SC off) - IABR-Net classical heat decoder      pd_strict above  0 below 14 contains0 14   above=[]
+  L=3 test banks                             all-neural (SC on) - all-neural (SC off)                   pd_paper  above 15 below  1 contains0 12   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr15', 'gain_g2_snr15', 'gain_g4_snr15', 'oodphase_d10_snr15', 'oodphase_d15_snr15', 'phase_d0_snr15', 'phase_d1_snr0', 'phase_d1_snr15', 'phase_d2_snr15', 'tail_snr30', 'tail_snr35']
+  L=3 test banks                             all-neural (SC on) - all-neural (SC off)                   pd_strict above 15 below  1 contains0 12   above=['official', 'T2_d1', 'T2_d2', 'T2_d5', 'gain_g0.5_snr15', 'gain_g2_snr15', 'gain_g4_snr15', 'oodphase_d10_snr15', 'oodphase_d15_snr15', 'phase_d0_snr15', 'phase_d1_snr0', 'phase_d1_snr15', 'phase_d2_snr15', 'tail_snr30', 'tail_snr35']
+  L!=3 test banks                            all-neural (SC on) - U-Net                                 pd_paper  above  7 below  2 contains0 14   above=['L10_snr0', 'L1_snr0', 'L4_snr0', 'L5_snr0', 'L6_snr15', 'L7_snr0', 'L8_snr0']
+  L!=3 test banks                            all-neural (SC on) - U-Net                                 pd_strict above 21 below  0 contains0  2   above=['L10_snr0', 'L10_snr15', 'L1_snr0', 'L2_snr0', 'L2_snr15', 'L4_snr0', 'L4_snr15', 'L5_snr0', 'L5_snr15', 'L6_snr0', 'L6_snr15', 'L7_snr0', 'L7_snr15', 'L8_snr0', 'L8_snr15', 'sep_10deg_snr15', 'sep_1deg_snr15', 'sep_20deg_snr15', 'sep_2deg_snr15', 'sep_30deg_snr15', 'sep_3deg_snr15']
+  L!=3 test banks                            all-neural (SC on) - NOMP-only                             pd_paper  above  0 below 13 contains0 10   above=[]
+  L!=3 test banks                            all-neural (SC on) - NOMP-only                             pd_strict above  0 below 13 contains0 10   above=[]
+  L!=3 test banks                            all-neural (SC on) - IABR-Net classical heat decoder       pd_paper  above  1 below  1 contains0 21   above=['sep_5deg_snr15']
+  L!=3 test banks                            all-neural (SC on) - IABR-Net classical heat decoder       pd_strict above  1 below  1 contains0 21   above=['sep_5deg_snr15']
+  L!=3 test banks                            all-neural (SC off) - U-Net                                pd_paper  above  5 below  2 contains0 16   above=['L10_snr0', 'L1_snr0', 'L5_snr0', 'L7_snr0', 'L8_snr0']
+  L!=3 test banks                            all-neural (SC off) - U-Net                                pd_strict above 20 below  1 contains0  2   above=['L10_snr0', 'L10_snr15', 'L1_snr0', 'L2_snr0', 'L4_snr0', 'L4_snr15', 'L5_snr0', 'L5_snr15', 'L6_snr0', 'L6_snr15', 'L7_snr0', 'L7_snr15', 'L8_snr0', 'L8_snr15', 'sep_10deg_snr15', 'sep_1deg_snr15', 'sep_20deg_snr15', 'sep_2deg_snr15', 'sep_30deg_snr15', 'sep_3deg_snr15']
+  L!=3 test banks                            all-neural (SC off) - NOMP-only                            pd_paper  above  0 below 16 contains0  7   above=[]
+  L!=3 test banks                            all-neural (SC off) - NOMP-only                            pd_strict above  0 below 16 contains0  7   above=[]
+  L!=3 test banks                            all-neural (SC off) - IABR-Net classical heat decoder      pd_paper  above  0 below  8 contains0 15   above=[]
+  L!=3 test banks                            all-neural (SC off) - IABR-Net classical heat decoder      pd_strict above  0 below  8 contains0 15   above=[]
+  L!=3 test banks                            all-neural (SC on) - all-neural (SC off)                   pd_paper  above  9 below  0 contains0 14   above=['L2_snr15', 'L4_snr0', 'L5_snr15', 'L6_snr15', 'L7_snr15', 'L8_snr15', 'sep_10deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15']
+  L!=3 test banks                            all-neural (SC on) - all-neural (SC off)                   pd_strict above  9 below  0 contains0 14   above=['L2_snr15', 'L4_snr0', 'L5_snr15', 'L6_snr15', 'L7_snr15', 'L8_snr15', 'sep_10deg_snr15', 'sep_3deg_snr15', 'sep_5deg_snr15']
+  tuning banks (used to tune other stages)   all-neural (SC on) - IABR-Net classical heat decoder       pd_paper  above  0 below  0 contains0  4   above=[]
+  tuning banks (used to tune other stages)   all-neural (SC on) - IABR-Net classical heat decoder       pd_strict above  0 below  0 contains0  4   above=[]
+  tuning banks (used to tune other stages)   all-neural (SC off) - IABR-Net classical heat decoder      pd_paper  above  0 below  4 contains0  0   above=[]
+  tuning banks (used to tune other stages)   all-neural (SC off) - IABR-Net classical heat decoder      pd_strict above  0 below  4 contains0  0   above=[]
+  tuning banks (used to tune other stages)   all-neural (SC on) - all-neural (SC off)                   pd_paper  above  4 below  0 contains0  0   above=['tune_L6', 'tune_clean', 'tune_d5', 'tune_g3']
+  tuning banks (used to tune other stages)   all-neural (SC on) - all-neural (SC off)                   pd_strict above  4 below  0 contains0  0   above=['tune_L6', 'tune_clean', 'tune_d5', 'tune_g3']
+
+#### official: paper-style Pd per SNR (U-Net strict Pd in parentheses)
+
+| SNR dB | all-neural (SC on) | all-neural (SC off) | IABR-Net classical heat decoder | IABR-v2 dual | NOMP-only | U-Net | network only | all-neural (SC on) - NOMP [95% CI] | all-neural (SC on) - U-Net [95% CI] |
+|---|---|---|---|---|---|---|---|---|---|
+| -10 | 0.2613 | 0.2613 | 0.2602 | 0.2630 | 0.2618 | 0.2225 (0.2027) | 0.2517 | -0.0005 [-0.0062, +0.0050] | +0.0389 [+0.0272, +0.0511] |
+| -5 | 0.5038 | 0.5032 | 0.5042 | 0.5067 | 0.5063 | 0.4708 (0.4143) | 0.4548 | -0.0025 [-0.0070, +0.0020] | +0.0330 [+0.0213, +0.0446] |
+| 0 | 0.6858 | 0.6870 | 0.6855 | 0.6915 | 0.6907 | 0.6788 (0.5967) | 0.5537 | -0.0048 [-0.0098, -0.0002] | +0.0070 [-0.0046, +0.0184] |
+| 5 | 0.8153 | 0.8137 | 0.8142 | 0.8187 | 0.8198 | 0.8129 (0.7478) | 0.5407 | -0.0045 [-0.0088, -0.0002] | +0.0025 [-0.0071, +0.0126] |
+| 10 | 0.8882 | 0.8837 | 0.8878 | 0.8955 | 0.8993 | 0.8885 (0.8325) | 0.5027 | -0.0112 [-0.0167, -0.0057] | -0.0003 [-0.0097, +0.0086] |
+| 15 | 0.9360 | 0.9285 | 0.9355 | 0.9390 | 0.9448 | 0.9244 (0.9032) | 0.4508 | -0.0088 [-0.0132, -0.0043] | +0.0116 [+0.0044, +0.0186] |
+| 20 | 0.9532 | 0.9407 | 0.9512 | 0.9582 | 0.9662 | 0.9440 (0.9280) | 0.4278 | -0.0130 [-0.0175, -0.0088] | +0.0091 [+0.0024, +0.0160] |
+| 25 | 0.9625 | 0.9477 | 0.9640 | 0.9687 | 0.9758 | 0.9508 (0.9270) | 0.4235 | -0.0133 [-0.0183, -0.0087] | +0.0117 [+0.0044, +0.0193] |
+
+#### T2_d1: paper-style Pd per SNR (U-Net strict Pd in parentheses)
+
+| SNR dB | all-neural (SC on) | all-neural (SC off) | IABR-Net classical heat decoder | IABR-v2 dual | NOMP-only | U-Net | all-neural (SC on) - NOMP [95% CI] | all-neural (SC on) - U-Net [95% CI] |
+|---|---|---|---|---|---|---|---|---|
+| -10 | 0.2565 | 0.2555 | 0.2562 | 0.2580 | 0.2572 | 0.2157 (0.2017) | -0.0007 [-0.0055, +0.0043] | +0.0408 [+0.0302, +0.0516] |
+| -5 | 0.4998 | 0.5018 | 0.5000 | 0.5073 | 0.5077 | 0.4595 (0.4085) | -0.0078 [-0.0127, -0.0032] | +0.0403 [+0.0286, +0.0518] |
+| 0 | 0.6855 | 0.6842 | 0.6848 | 0.6900 | 0.6898 | 0.6765 (0.5953) | -0.0043 [-0.0092, +0.0003] | +0.0090 [-0.0017, +0.0198] |
+| 5 | 0.8153 | 0.8170 | 0.8152 | 0.8205 | 0.8247 | 0.8221 (0.7563) | -0.0093 [-0.0147, -0.0040] | -0.0068 [-0.0168, +0.0039] |
+| 10 | 0.8883 | 0.8825 | 0.8880 | 0.8888 | 0.8933 | 0.8764 (0.8440) | -0.0050 [-0.0100, +0.0000] | +0.0119 [+0.0040, +0.0197] |
+| 15 | 0.9393 | 0.9278 | 0.9385 | 0.9425 | 0.9472 | 0.9298 (0.9122) | -0.0078 [-0.0125, -0.0035] | +0.0095 [+0.0025, +0.0164] |
+| 20 | 0.9540 | 0.9383 | 0.9522 | 0.9598 | 0.9637 | 0.9518 (0.9357) | -0.0097 [-0.0150, -0.0050] | +0.0022 [-0.0044, +0.0087] |
+| 25 | 0.9615 | 0.9490 | 0.9598 | 0.9675 | 0.9748 | 0.9555 (0.9297) | -0.0133 [-0.0180, -0.0090] | +0.0060 [-0.0018, +0.0134] |
+
+#### T2_d2: paper-style Pd per SNR (U-Net strict Pd in parentheses)
+
+| SNR dB | all-neural (SC on) | all-neural (SC off) | IABR-Net classical heat decoder | IABR-v2 dual | NOMP-only | U-Net | all-neural (SC on) - NOMP [95% CI] | all-neural (SC on) - U-Net [95% CI] |
+|---|---|---|---|---|---|---|---|---|
+| -10 | 0.2500 | 0.2502 | 0.2510 | 0.2543 | 0.2553 | 0.2164 (0.2030) | -0.0053 [-0.0098, -0.0005] | +0.0336 [+0.0235, +0.0441] |
+| -5 | 0.4878 | 0.4873 | 0.4865 | 0.4903 | 0.4887 | 0.4557 (0.4028) | -0.0008 [-0.0058, +0.0040] | +0.0321 [+0.0195, +0.0434] |
+| 0 | 0.6780 | 0.6772 | 0.6778 | 0.6855 | 0.6870 | 0.6816 (0.5937) | -0.0090 [-0.0138, -0.0043] | -0.0036 [-0.0161, +0.0081] |
+| 5 | 0.8190 | 0.8190 | 0.8192 | 0.8232 | 0.8270 | 0.8186 (0.7392) | -0.0080 [-0.0128, -0.0033] | +0.0004 [-0.0101, +0.0109] |
+| 10 | 0.8820 | 0.8787 | 0.8820 | 0.8893 | 0.8960 | 0.8886 (0.8442) | -0.0140 [-0.0197, -0.0083] | -0.0066 [-0.0156, +0.0019] |
+| 15 | 0.9262 | 0.9162 | 0.9245 | 0.9300 | 0.9380 | 0.9191 (0.8952) | -0.0118 [-0.0167, -0.0072] | +0.0071 [-0.0010, +0.0149] |
+| 20 | 0.9428 | 0.9285 | 0.9400 | 0.9485 | 0.9510 | 0.9389 (0.9088) | -0.0082 [-0.0128, -0.0037] | +0.0040 [-0.0041, +0.0116] |
+| 25 | 0.9582 | 0.9410 | 0.9570 | 0.9645 | 0.9692 | 0.9493 (0.9293) | -0.0110 [-0.0153, -0.0070] | +0.0089 [+0.0013, +0.0160] |
+
+#### T2_d5: paper-style Pd per SNR (U-Net strict Pd in parentheses)
+
+| SNR dB | all-neural (SC on) | all-neural (SC off) | IABR-Net classical heat decoder | IABR-v2 dual | NOMP-only | U-Net | network only | all-neural (SC on) - NOMP [95% CI] | all-neural (SC on) - U-Net [95% CI] |
+|---|---|---|---|---|---|---|---|---|---|
+| -10 | 0.2540 | 0.2535 | 0.2542 | 0.2582 | 0.2583 | 0.2201 (0.2052) | 0.2498 | -0.0043 [-0.0095, +0.0005] | +0.0339 [+0.0237, +0.0444] |
+| -5 | 0.4847 | 0.4855 | 0.4848 | 0.4873 | 0.4867 | 0.4587 (0.4123) | 0.4452 | -0.0020 [-0.0067, +0.0025] | +0.0260 [+0.0133, +0.0388] |
+| 0 | 0.6953 | 0.6950 | 0.6942 | 0.6972 | 0.6992 | 0.6795 (0.6082) | 0.5618 | -0.0038 [-0.0085, +0.0012] | +0.0158 [+0.0044, +0.0275] |
+| 5 | 0.8183 | 0.8143 | 0.8185 | 0.8237 | 0.8237 | 0.8111 (0.7583) | 0.5477 | -0.0053 [-0.0102, -0.0003] | +0.0073 [-0.0016, +0.0163] |
+| 10 | 0.8813 | 0.8793 | 0.8798 | 0.8857 | 0.8925 | 0.8848 (0.8503) | 0.4913 | -0.0112 [-0.0163, -0.0060] | -0.0035 [-0.0117, +0.0046] |
+| 15 | 0.9163 | 0.9080 | 0.9150 | 0.9183 | 0.9238 | 0.9136 (0.8898) | 0.4485 | -0.0075 [-0.0127, -0.0025] | +0.0027 [-0.0050, +0.0100] |
+| 20 | 0.9392 | 0.9242 | 0.9390 | 0.9417 | 0.9417 | 0.9235 (0.9097) | 0.4290 | -0.0025 [-0.0073, +0.0025] | +0.0156 [+0.0082, +0.0232] |
+| 25 | 0.9443 | 0.9308 | 0.9445 | 0.9493 | 0.9488 | 0.9304 (0.9230) | 0.4092 | -0.0045 [-0.0092, +0.0002] | +0.0139 [+0.0067, +0.0207] |
+
+done

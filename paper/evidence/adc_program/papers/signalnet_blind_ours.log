@@ -1,0 +1,7 @@
+blind (input-independent) predictor on our geometry: 4000 scenes (L=3, U[0,pi]^2, min sep pi/6); selection on 2000, evaluation on 2000
+   random set 02        Pd_paper 0.0187 (SE 0.0012) | Pd_strict 0.0187 | RMSE on hits 0.581 deg | hits 225 of 12000 angle components | selection-half Pd 0.0208
+   3 x centre (90,90)   Pd_paper 0.0124 (SE 0.0010) | Pd_strict 0.0124 | RMSE on hits 0.593 deg | hits 149 of 12000 angle components | selection-half Pd 0.0114
+   spread triangle      Pd_paper 0.0192 (SE 0.0012) | Pd_strict 0.0192 | RMSE on hits 0.586 deg | hits 230 of 12000 angle components | selection-half Pd 0.0173
+   analytic RMSE on hits of any blind guess (error ~ U[-1,1] deg given |err|<=1): 0.577 deg
+   note: Pd and RMSE are SNR-independent for a blind predictor, so the same floor applies to every SNR cell.
+time 6.0 s

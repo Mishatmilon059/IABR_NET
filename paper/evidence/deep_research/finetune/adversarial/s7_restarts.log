@@ -1,0 +1,10 @@
+  b1_snr15 chunk 0 done [248s]
+  b1_snr15 chunk 200 done [464s]
+  b1_snr15 chunk 400 done [657s]
+  b1_snr15 chunk 600 done [850s]
+  b1_snr15 chunk 800 done [1046s]
+=== b1_snr15: ML wide search 0.5542, ML (all starts) 0.5402, ML from FT network seeds 0.5720, FT network only 0.4190, ML from truth 0.6255
+   ML wide search - ML (all starts)                   +0.0140 [+0.0087,+0.0197]*
+   ML from FT network seeds - ML wide search          +0.0178 [+0.0095,+0.0265]*
+   ML wide search - FT network only                   +0.1352 [+0.1203,+0.1508]*
+done

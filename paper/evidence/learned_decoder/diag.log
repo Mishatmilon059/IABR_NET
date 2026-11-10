@@ -1,0 +1,22 @@
+samples 2000
+A  classical (heat init)           Pd 0.742   [5s]
+B  10x more iterations             Pd 0.742   samples whose u moved >0.05 deg: 1.5%
+C1 start AT the true angles        Pd 0.812
+C2 true + random half-cell offset  Pd 0.784
+
+samples with at least one of 6 components wrong (>1 deg): 1186 of 2000 (59.3%)
+  objective-limited (estimate fits data as well/better than the TRUTH): 1143  (96% of failures)
+  optimiser/init failure (the truth fits the data better):            43  (4% of failures)
+  of the optimiser/init failures, recovered by starting at the truth:   3
+
+per SNR:  Pd(A)  fail%  objective-limited%  optimiser/init%   mean residual E_est / E_true
+   -10   0.253  100.0   100.0                0.0          0.966
+    -5   0.496   94.8    93.2                1.6          0.981
+     0   0.699   83.6    82.0                1.6          0.986
+     5   0.823   63.6    62.8                0.8          0.988
+    10   0.869   48.0    44.4                3.6          0.987
+    15   0.915   38.8    36.0                2.8          0.987
+    20   0.933   27.2    24.0                3.2          0.984
+    25   0.947   18.4    14.8                3.6          0.983
+
+components with error >90 deg (fold errors): 419   of all wrong components: 3100

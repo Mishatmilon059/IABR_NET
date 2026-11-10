@@ -1,0 +1,42 @@
+{
+ "rerun": {
+  "learned_with_sc": {
+   "official": 0.7465,
+   "T2_d5": 0.7393333333333334,
+   "gain_g4_snr15": 0.9096666666666667,
+   "oodphase_d15_snr15": 0.8676666666666667
+  },
+  "learned_no_sc": {
+   "official": 0.7436666666666666,
+   "T2_d5": 0.734,
+   "gain_g4_snr15": 0.8826666666666667,
+   "oodphase_d15_snr15": 0.8553333333333334
+  }
+ },
+ "results5": {
+  "learned_no_sc": {
+   "official": 0.7436666666666666,
+   "T2_d5": 0.734,
+   "gain_g4_snr15": 0.8826666666666667,
+   "oodphase_d15_snr15": 0.8553333333333334
+  },
+  "learned_with_sc": {
+   "official": 0.7465,
+   "T2_d5": 0.7393333333333334,
+   "gain_g4_snr15": 0.9096666666666667,
+   "oodphase_d15_snr15": 0.8676666666666667
+  },
+  "classical newton+cyclic": {
+   "official": 0.7416666666666667,
+   "T2_d5": 0.7335833333333333,
+   "gain_g4_snr15": 0.8863333333333334,
+   "oodphase_d15_snr15": 0.856
+  },
+  "classical newton+cyclic+selfcal": {
+   "official": 0.7448333333333333,
+   "T2_d5": 0.7385833333333334,
+   "gain_g4_snr15": 0.9096666666666666,
+   "oodphase_d15_snr15": 0.8683333333333335
+  }
+ }
+}

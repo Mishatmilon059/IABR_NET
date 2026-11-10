@@ -1,0 +1,10 @@
+clean, all SNR: IABC adds phase RMS 0.540 deg, gain RMS 0.288 dB (N=1600)
+  SNR   -10: phase 0.107 deg, gain 0.108 dB | SC tuned adds 0.000 deg / 0.000 dB
+  SNR    -5: phase 0.169 deg, gain 0.151 dB | SC tuned adds 0.000 deg / 0.000 dB
+  SNR    +0: phase 0.307 deg, gain 0.243 dB | SC tuned adds 1.997 deg / 0.296 dB
+  SNR    +5: phase 0.545 deg, gain 0.302 dB | SC tuned adds 4.728 deg / 0.744 dB
+  SNR   +10: phase 0.706 deg, gain 0.355 dB | SC tuned adds 3.553 deg / 0.560 dB
+  SNR   +15: phase 0.728 deg, gain 0.334 dB | SC tuned adds 2.127 deg / 0.332 dB
+  SNR   +20: phase 0.680 deg, gain 0.333 dB | SC tuned adds 1.211 deg / 0.189 dB
+  SNR   +25: phase 0.643 deg, gain 0.360 dB | SC tuned adds 0.733 deg / 0.115 dB
+mean of per-scene RMS (the metric of the original report): phase 0.444 deg, gain 0.205 dB

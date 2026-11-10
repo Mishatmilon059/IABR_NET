@@ -1,0 +1,102 @@
+ResNet port: 466,321 parameters (+3,072 BN buffers)
+check transposed-conv padding: max |mine - TF definition| 0.00e+00; naive PyTorch padding=2,output_padding=1 differs by 7.98e+00
+  official chunk 0-400 done, 83s
+  official chunk 400-800 done, 180s
+  official chunk 800-1200 done, 282s
+  official chunk 1200-1600 done, 392s
+  official chunk 1600-2000 done, 544s
+  official chunk 2000-2400 done, 699s
+  official chunk 2400-2800 done, 843s
+  official chunk 2800-3200 done, 967s
+  official chunk 3200-3600 done, 1081s
+  official chunk 3600-4000 done, 1194s
+  official chunk 4000-4400 done, 1306s
+  official chunk 4400-4800 done, 1423s
+  official chunk 4800-5200 done, 1536s
+  official chunk 5200-5600 done, 1646s
+  official chunk 5600-6000 done, 1759s
+  official chunk 6000-6400 done, 1869s
+  official chunk 6400-6800 done, 1983s
+  official chunk 6800-7200 done, 2094s
+  official chunk 7200-7600 done, 2206s
+  official chunk 7600-8000 done, 2318s
+official: ResNet port mean Pd paper-style 0.7103, strict 0.6728, RMSE 0.3762, dropped 481  (2362s)
+   SNR -10: Pd published (repo pkl) 0.2043 ours 0.2040 diff -0.0004 | RMSE published 0.5532 ours 0.5526
+   SNR  -5: Pd published (repo pkl) 0.4366 ours 0.4366 diff +0.0000 | RMSE published 0.5118 ours 0.5117
+   SNR   0: Pd published (repo pkl) 0.6396 ours 0.6393 diff -0.0004 | RMSE published 0.4581 ours 0.4578
+   SNR   5: Pd published (repo pkl) 0.7790 ours 0.7789 diff -0.0002 | RMSE published 0.3920 ours 0.3918
+   SNR  10: Pd published (repo pkl) 0.8623 ours 0.8623 diff +0.0000 | RMSE published 0.3256 ours 0.3255
+   SNR  15: Pd published (repo pkl) 0.8987 ours 0.8989 diff +0.0002 | RMSE published 0.2792 ours 0.2794
+   SNR  20: Pd published (repo pkl) 0.9250 ours 0.9253 diff +0.0003 | RMSE published 0.2528 ours 0.2534
+   SNR  25: Pd published (repo pkl) 0.9378 ours 0.9376 diff -0.0002 | RMSE published 0.2377 ours 0.2373
+   validation vs authors repo pickle: max |d Pd| 0.0004 -> PASS (threshold 0.01, as for the U-Net port check)
+  T2_d5 chunk 0-400 done, 117s
+  T2_d5 chunk 400-800 done, 220s
+  T2_d5 chunk 800-1200 done, 321s
+  T2_d5 chunk 1200-1600 done, 417s
+  T2_d5 chunk 1600-2000 done, 497s
+  T2_d5 chunk 2000-2400 done, 580s
+  T2_d5 chunk 2400-2800 done, 660s
+  T2_d5 chunk 2800-3200 done, 742s
+  T2_d5 chunk 3200-3600 done, 823s
+  T2_d5 chunk 3600-4000 done, 902s
+  T2_d5 chunk 4000-4400 done, 982s
+  T2_d5 chunk 4400-4800 done, 1063s
+  T2_d5 chunk 4800-5200 done, 1143s
+  T2_d5 chunk 5200-5600 done, 1222s
+  T2_d5 chunk 5600-6000 done, 1302s
+  T2_d5 chunk 6000-6400 done, 1382s
+  T2_d5 chunk 6400-6800 done, 1463s
+  T2_d5 chunk 6800-7200 done, 1544s
+  T2_d5 chunk 7200-7600 done, 1626s
+  T2_d5 chunk 7600-8000 done, 1709s
+T2_d5: ResNet port mean Pd paper-style 0.7020, strict 0.6720, RMSE 0.3871, dropped 388  (1734s)
+   T2_d5 SNR 0: Pd 0.6452 RMSE 0.4558
+   T2_d5 SNR 20: Pd 0.9054 RMSE 0.2810
+  T2_d1 chunk 0-400 done, 81s
+  T2_d1 chunk 400-800 done, 164s
+  T2_d1 chunk 800-1200 done, 245s
+  T2_d1 chunk 1200-1600 done, 326s
+  T2_d1 chunk 1600-2000 done, 407s
+  T2_d1 chunk 2000-2400 done, 488s
+  T2_d1 chunk 2400-2800 done, 571s
+  T2_d1 chunk 2800-3200 done, 653s
+  T2_d1 chunk 3200-3600 done, 734s
+  T2_d1 chunk 3600-4000 done, 817s
+  T2_d1 chunk 4000-4400 done, 897s
+  T2_d1 chunk 4400-4800 done, 980s
+  T2_d1 chunk 4800-5200 done, 1061s
+  T2_d1 chunk 5200-5600 done, 1143s
+  T2_d1 chunk 5600-6000 done, 1225s
+  T2_d1 chunk 6000-6400 done, 1306s
+  T2_d1 chunk 6400-6800 done, 1388s
+  T2_d1 chunk 6800-7200 done, 1470s
+  T2_d1 chunk 7200-7600 done, 1551s
+  T2_d1 chunk 7600-8000 done, 1632s
+T2_d1: ResNet port mean Pd paper-style 0.7115, strict 0.6763, RMSE 0.3758, dropped 460  (1656s)
+   T2_d1 SNR 0: Pd 0.6350 RMSE 0.4480
+   T2_d1 SNR 20: Pd 0.9326 RMSE 0.2543
+  T2_d2 chunk 0-400 done, 84s
+  T2_d2 chunk 400-800 done, 165s
+  T2_d2 chunk 800-1200 done, 246s
+  T2_d2 chunk 1200-1600 done, 326s
+  T2_d2 chunk 1600-2000 done, 408s
+  T2_d2 chunk 2000-2400 done, 489s
+  T2_d2 chunk 2400-2800 done, 569s
+  T2_d2 chunk 2800-3200 done, 653s
+  T2_d2 chunk 3200-3600 done, 742s
+  T2_d2 chunk 3600-4000 done, 831s
+  T2_d2 chunk 4000-4400 done, 914s
+  T2_d2 chunk 4400-4800 done, 995s
+  T2_d2 chunk 4800-5200 done, 1076s
+  T2_d2 chunk 5200-5600 done, 1156s
+  T2_d2 chunk 5600-6000 done, 1239s
+  T2_d2 chunk 6000-6400 done, 1323s
+  T2_d2 chunk 6400-6800 done, 1403s
+  T2_d2 chunk 6800-7200 done, 1485s
+  T2_d2 chunk 7200-7600 done, 1568s
+  T2_d2 chunk 7600-8000 done, 1650s
+T2_d2: ResNet port mean Pd paper-style 0.7105, strict 0.6710, RMSE 0.3791, dropped 502  (1675s)
+   T2_d2 SNR 0: Pd 0.6392 RMSE 0.4536
+   T2_d2 SNR 20: Pd 0.9205 RMSE 0.2595
+done

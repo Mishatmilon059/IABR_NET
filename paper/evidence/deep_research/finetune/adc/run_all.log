@@ -1,0 +1,10 @@
+run m5
+m5 exit 0
+run clean
+clean exit 0
+run fresh
+fresh exit 0
+run official
+official exit 0
+latency exit 0
+ALL DONE

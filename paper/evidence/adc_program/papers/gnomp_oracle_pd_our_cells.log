@@ -1,0 +1,14 @@
+tau_th (N = 256, P_FA = 0.01) = 20.291
+cell | beta | Pd path1 | Pd path2 | Pd path3 | mean Pd over paths | mean prod Pd (all 3 detected, upper bound) | median beta per path
+1-bit/15 dB | beta=1 (on-grid best case) | 0.996 | 0.994 | 0.953 | 0.981 | 0.945 | 0.612 0.618 0.618
+1-bit/15 dB | beta=actual nearest-bin | 0.996 | 0.991 | 0.928 | 0.972 | 0.919 | 0.612 0.618 0.618
+2-bit/15 dB | beta=1 (on-grid best case) | 0.999 | 0.994 | 0.957 | 0.984 | 0.951 | 0.612 0.616 0.620
+2-bit/15 dB | beta=actual nearest-bin | 0.999 | 0.992 | 0.934 | 0.975 | 0.927 | 0.612 0.616 0.620
+3-bit/15 dB | beta=1 (on-grid best case) | 1.000 | 0.994 | 0.943 | 0.979 | 0.939 | 0.616 0.623 0.620
+3-bit/15 dB | beta=actual nearest-bin | 1.000 | 0.992 | 0.925 | 0.972 | 0.920 | 0.616 0.623 0.620
+1-bit/0 dB | beta=1 (on-grid best case) | 0.985 | 0.885 | 0.558 | 0.809 | 0.537 | 0.612 0.623 0.607
+1-bit/0 dB | beta=actual nearest-bin | 0.952 | 0.760 | 0.391 | 0.701 | 0.349 | 0.612 0.623 0.607
+2-bit/0 dB | beta=1 (on-grid best case) | 0.994 | 0.915 | 0.584 | 0.831 | 0.572 | 0.601 0.606 0.614
+2-bit/0 dB | beta=actual nearest-bin | 0.964 | 0.781 | 0.418 | 0.721 | 0.381 | 0.601 0.606 0.614
+3-bit/0 dB | beta=1 (on-grid best case) | 0.998 | 0.928 | 0.583 | 0.837 | 0.573 | 0.650 0.611 0.626
+3-bit/0 dB | beta=actual nearest-bin | 0.981 | 0.814 | 0.417 | 0.737 | 0.382 | 0.650 0.611 0.626

@@ -1,0 +1,4 @@
+b1_snr15: pool(12 LM) lowest-NLL Pd 0.5608 oracle 0.6100 H1:0.541 H2:0.532 H3:0.529 H4:0.460 H5:0.522 H6:0.382 [15.7s]
+b2_snr15: pool(12 LM) lowest-NLL Pd 0.6700 oracle 0.7125 H1:0.662 H2:0.652 H3:0.619 H4:0.532 H5:0.563 H6:0.463 [11.9s]
+b1_snr0: pool(12 LM) lowest-NLL Pd 0.2858 oracle 0.3317 H1:0.292 H2:0.293 H3:0.293 H4:0.283 H5:0.292 H6:0.252 [11.4s]
+b2_snr0: pool(12 LM) lowest-NLL Pd 0.4658 oracle 0.4892 H1:0.460 H2:0.458 H3:0.454 H4:0.454 H5:0.461 H6:0.379 [8.3s]

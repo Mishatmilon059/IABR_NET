@@ -1,0 +1,10 @@
+{
+ "written": "2026-10-15T10:25:13",
+ "note": "written by a3_test.py before its first test computation",
+ "test_seeds": "9300..9307 (+[s,1],[s,3]); official bank",
+ "proto_seeds": "9340..9347 (a0_proto)",
+ "unit_seeds": "9350-9352 (a2_unit)",
+ "crb_seeds": "9330-9332 (a1_crb_check)",
+ "classical_constants": "SC tuned (1,2,4) from stress/adversarial; EB-ML none; gates 5/10 dB fixed after a0_proto",
+ "rule": "paired bootstrap 2000 within SNR, seed 0; claim needs 95% CI excluding 0"
+}

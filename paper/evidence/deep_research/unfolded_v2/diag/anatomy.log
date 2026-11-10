@@ -1,0 +1,37 @@
+NOMP (cached, os4 rc3) failure anatomy, official bank, 8000 scenes, 1000 per SNR
+snr | Pd | scenes with 0/1/2/3 paths correct | wrong paths: bias(<=3deg) / outlier | outlier types: missed / spurious-est / doubled | endfire share of bias
+ -10 | 0.2618 | 0.618 0.326 0.054 0.002 | 603/1957 | 1723/1723/0 | 0.224 (all paths 0.377) | missed->spurious median 59.5 deg
+  -5 | 0.5063 | 0.280 0.433 0.232 0.055 | 778/1160 | 955/955/0 | 0.353 (all paths 0.366) | missed->spurious median 68.4 deg
+   0 | 0.6907 | 0.103 0.332 0.405 0.160 | 709/669 | 501/501/0 | 0.515 (all paths 0.368) | missed->spurious median 90.2 deg
+   5 | 0.8198 | 0.014 0.186 0.436 0.364 | 470/380 | 278/278/0 | 0.689 (all paths 0.376) | missed->spurious median 126.3 deg
+  10 | 0.8993 | 0.007 0.072 0.338 0.583 | 300/203 | 160/158/2 | 0.82 (all paths 0.364) | missed->spurious median 171.8 deg
+  15 | 0.9448 | 0.000 0.027 0.238 0.735 | 165/127 | 99/98/1 | 0.903 (all paths 0.370) | missed->spurious median 175.5 deg
+  20 | 0.9662 | 0.001 0.020 0.133 0.846 | 87/89 | 75/75/0 | 0.931 (all paths 0.375) | missed->spurious median 176.6 deg
+  25 | 0.9758 | 0.000 0.013 0.098 0.889 | 57/67 | 60/60/0 | 0.965 (all paths 0.376) | missed->spurious median 177.4 deg
+
+Objective on scenes where NOMP has < 3 paths correct: frac where reference has LOWER residual (search loss) / HIGHER MAP score / higher marginal lik.
+ -10 bad= 998 | truth: res-lower 0.000 MAP-higher 0.200 mll-higher 0.000 | oracle-seeded: res-lower 0.009 MAP-higher 0.244 | NOMP violates sep: all 0.176 bad 0.176
+  -5 bad= 945 | truth: res-lower 0.001 MAP-higher 0.147 mll-higher 0.003 | oracle-seeded: res-lower 0.047 MAP-higher 0.365 | NOMP violates sep: all 0.105 bad 0.111
+   0 bad= 840 | truth: res-lower 0.001 MAP-higher 0.089 mll-higher 0.002 | oracle-seeded: res-lower 0.085 MAP-higher 0.473 | NOMP violates sep: all 0.045 bad 0.052
+   5 bad= 636 | truth: res-lower 0.016 MAP-higher 0.104 mll-higher 0.016 | oracle-seeded: res-lower 0.116 MAP-higher 0.469 | NOMP violates sep: all 0.036 bad 0.049
+  10 bad= 417 | truth: res-lower 0.046 MAP-higher 0.115 mll-higher 0.046 | oracle-seeded: res-lower 0.245 MAP-higher 0.549 | NOMP violates sep: all 0.019 bad 0.043
+  15 bad= 265 | truth: res-lower 0.038 MAP-higher 0.125 mll-higher 0.042 | oracle-seeded: res-lower 0.249 MAP-higher 0.555 | NOMP violates sep: all 0.008 bad 0.026
+  20 bad= 154 | truth: res-lower 0.104 MAP-higher 0.175 mll-higher 0.110 | oracle-seeded: res-lower 0.364 MAP-higher 0.610 | NOMP violates sep: all 0.005 bad 0.032
+  25 bad= 111 | truth: res-lower 0.234 MAP-higher 0.279 mll-higher 0.234 | oracle-seeded: res-lower 0.495 MAP-higher 0.712 | NOMP violates sep: all 0.003 bad 0.027
+
+Pd if choosing between NOMP and the oracle-seeded optimum by objective (upper bound for a perfect search under that objective):
+nomp               mean 0.7581 | -10:0.2618 -5:0.5063 0:0.6907 5:0.8198 10:0.8993 15:0.9448 20:0.9662 25:0.9758
+oracle_seeded      mean 0.8261 | -10:0.5655 -5:0.6363 0:0.7400 5:0.8452 10:0.9143 15:0.9490 20:0.9743 25:0.9843
+pick_by_res        mean 0.7632 | -10:0.2630 -5:0.5083 0:0.6942 5:0.8265 10:0.9083 15:0.9478 20:0.9737 25:0.9840
+pick_by_mll        mean 0.7634 | -10:0.2632 -5:0.5083 0:0.6947 5:0.8268 10:0.9085 15:0.9480 20:0.9737 25:0.9840
+pick_by_map        mean 0.7756 | -10:0.3243 -5:0.5342 0:0.7032 5:0.8292 10:0.9095 15:0.9472 20:0.9732 25:0.9842
+
+Wrong paths in the (u,v) domain: frac within 0.25 DFT bin of the truth (precision / endfire-limited) | of which endfire mirror (angle err > 90 deg, u=+-pi alias) | frac > 1 bin away (true outliers)
+ -10 | close 0.321 | mirror 0.018 | far 0.594
+  -5 | close 0.568 | mirror 0.049 | far 0.384
+   0 | close 0.744 | mirror 0.086 | far 0.223
+   5 | close 0.831 | mirror 0.131 | far 0.141
+  10 | close 0.873 | mirror 0.173 | far 0.103
+  15 | close 0.932 | mirror 0.247 | far 0.048
+  20 | close 0.926 | mirror 0.341 | far 0.034
+  25 | close 0.944 | mirror 0.379 | far 0.016

@@ -1,0 +1,13 @@
+{
+ "NOMP": 0.0020545323689778647,
+ "consistent NOMP": 0.03883282343546549,
+ "CNN read-out": 0.004016101360321045,
+ "ML starts only (13, no EM)": 0.08600451548894246,
+ "ML starts only (13 + EM)": 0.14302436510721842,
+ "ML known sigma LM only": 0.16172313690185547,
+ "ML wrong/fixed sigma LM only (13 starts)": 0.13435792922973633,
+ "hybrid LM only (CNN seeds)": 0.015202005704243978,
+ "ML known sigma TOTAL": 0.30474750200907386,
+ "ML wrong/fixed sigma TOTAL": 0.22036244471867877,
+ "hybrid TOTAL (CNN + one LM)": 0.019218107064565025
+}

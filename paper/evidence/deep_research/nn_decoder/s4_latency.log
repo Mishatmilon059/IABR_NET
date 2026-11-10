@@ -1,0 +1,17 @@
+device cpu steps 1500 batch 128
+CPU single-thread all-neural (fresh CNN forward) vs s2 predictions, 256 scenes: median |d| 0.00e+00 deg, scenes with max |d| < 0.01 deg: 1.0000, max 0.000 deg
+NOMP greedy, verify nomp_mine                              batch   1: median      4.80 ms/call (p10 4.62, p90 5.08, 60 runs) -> 4.802 ms/scene
+NOMP greedy, verify nomp_mine                              batch 256: median    194.68 ms/call (p10 184.51, p90 283.64, 40 runs) -> 0.760 ms/scene
+NOMP greedy, notebook nomp_greedy                          batch   1: median      6.89 ms/call (p10 6.47, p90 7.57, 60 runs) -> 6.888 ms/scene
+NOMP greedy, notebook nomp_greedy                          batch 256: median    378.71 ms/call (p10 367.58, p90 423.51, 40 runs) -> 1.479 ms/scene
+CNN forward only                                           batch   1: median      5.88 ms/call (p10 5.60, p90 6.48, 60 runs) -> 5.880 ms/scene
+CNN forward only                                           batch 256: median    550.65 ms/call (p10 537.17, p90 598.90, 40 runs) -> 2.151 ms/scene
+CNN + classical heat-seeded decoder (IABR-Net classical)   batch   1: median     12.27 ms/call (p10 11.97, p90 12.84, 60 runs) -> 12.273 ms/scene
+CNN + classical heat-seeded decoder (IABR-Net classical)   batch 256: median    993.82 ms/call (p10 967.77, p90 1092.23, 40 runs) -> 3.882 ms/scene
+CNN + learned decoder SC on (all-neural)                   batch   1: median    101.41 ms/call (p10 99.76, p90 109.71, 60 runs) -> 101.406 ms/scene
+CNN + learned decoder SC on (all-neural)                   batch 256: median   2083.66 ms/call (p10 2063.34, p90 2229.65, 40 runs) -> 8.139 ms/scene
+CNN + learned decoder SC off (all-neural)                  batch   1: median     53.02 ms/call (p10 51.77, p90 60.57, 60 runs) -> 53.023 ms/scene
+CNN + learned decoder SC off (all-neural)                  batch 256: median   1426.54 ms/call (p10 1411.28, p90 1525.28, 40 runs) -> 5.572 ms/scene
+learned decoder alone, SC on                               batch   1: median     97.50 ms/call (p10 93.96, p90 126.56, 60 runs) -> 97.496 ms/scene
+learned decoder alone, SC on                               batch 256: median   1565.14 ms/call (p10 1533.27, p90 1767.50, 40 runs) -> 6.114 ms/scene
+done

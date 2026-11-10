@@ -1,0 +1,10 @@
+tools/
+*.exe
+*.zip
+*.npz
+*.pt
+cache/
+cells/
+cells_n6/
+__pycache__/
+*.pyc
